@@ -343,9 +343,9 @@ body
 	  transition: all 0.2s linear;
 	}
 
-	/*.right-page .container .menu nav li:hover{
-	  background: pink;
-	}*/
+	.right-page .container .menu nav li:hover{
+	  background: white;
+	}
 
 	.right-page .container .menu nav li:hover a{
 	  color: pink;
