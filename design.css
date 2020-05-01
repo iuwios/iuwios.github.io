@@ -16,13 +16,35 @@ body
 	
 
 }
-.page-container
+.left-page
 {
-	width: 1268px;
+	width: 634px;
 	height: 792px;
 	background-color: white;
 	position: absolute;
+
 	left: calc((1440px - 1268px) / 2);
+	top: 0px;
+
+}
+
+/*.left-page:before
+{
+	content: '';
+  	border-left: 10px solid grey;
+  	height: 100%;
+  	position: absolute;
+  	top: 0;
+
+}*/
+
+.right-page
+{
+	width: 634px;
+	height: 792px;
+	background-color: white;
+	position: absolute;
+	right: calc((1440px - 1268px) / 2);
 	top: 0px;
 	/*margin-left: 86px;
 	margin-right: 86px;*/
@@ -30,13 +52,13 @@ body
 	
 }
 
-.page-container:before {
+.right-page:before {
   content: '';
   border-left: 1px solid grey;
   height: 100%;
   position: absolute;
-  left: 50%;
   top: 0;
+  left: 0;
   
 }
 
@@ -163,6 +185,110 @@ body
 	margin-top: 14px;
 	width: 260px;
 	height: 50px;
+
+}
+
+@media screen and (max-width: 480px){
+	.contain{
+	width: 100%;
+	min-width: 100%;
+	height: 300px;
+    border: 3px solid blue;
+    top: 0;
+    left: 0;
+    
+	}
+
+	.btn_left
+{
+	position: relative;
+	top: 396px;
+	left: 39px;
+	display: none;
+	
+}
+
+.btn_right
+{
+	position: relative;
+	float: right;
+	top: 396px;
+	right: 39px;
+	display: none;
+
+	
+}
+	.right-page
+	{
+
+	max-width: 320px;
+    margin: auto;
+    text-align: left;
+	background-color: white;
+	position: absolute;
+	top: 0px;
+	right: 0;
+	left: 0;
+	display: none;
+
+}
+.main-txt
+{
+	position: absolute;
+	width: 248px;
+	height: 186px;
+	top: 166px;
+	right: 36px;
+	display: none;
+}
+
+.main-txt h1
+{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 22px;
+	text-align: center;
+	font-color: rgb(38, 38, 38);
+	display: none;
+}
+
+.nd
+{
+	font-family: Crimson Pro;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 22px;
+	display: none;
+
+	/*color: #000;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 1px;*/
+
+	color: white;
+	text-shadow: #000 0px 0px 1.1px,   #000 0px 0px 1.1px,   #000 0px 0px 1.1px,
+             #000 0px 0px 1.1px,   #000 0px 0px 1.1px,   #000 0px 0px 1.1px;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.left-page
+{
+	display: none;	
+}
+
+.right-page:before {
+  position: absolute;
+  display: none;
+}
+.nav-container
+{
+	max-width: 480px;
+	margin: 0 auto;
+	display: none;
+	
+}
 
 }
 
