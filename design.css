@@ -16,6 +16,10 @@ body
 	
 
 }
+.contain .slide-down
+{
+	display: none;
+}
 .left-page
 {
 	width: 634px;
@@ -192,10 +196,11 @@ body
 	.contain{
 	width: 100%;
 	min-width: 100%;
-	height: 300px;
-    border: 3px solid blue;
+	height: 568px;
     top: 0;
     left: 0;
+    margin-top: 0;
+    margin-right: 0;
     
 	}
 
@@ -221,7 +226,8 @@ body
 	.right-page
 	{
 
-	max-width: 320px;
+	max-width: 100%;
+	height: 568px;
     margin: auto;
     text-align: left;
 	background-color: white;
@@ -229,17 +235,18 @@ body
 	top: 0px;
 	right: 0;
 	left: 0;
-	display: none;
+	
 
 }
 .main-txt
 {
 	position: absolute;
-	width: 248px;
+	width: 100%;
 	height: 186px;
 	top: 166px;
-	right: 36px;
-	display: none;
+	margin: 0 auto;
+	right: auto;
+	
 }
 
 .main-txt h1
@@ -250,7 +257,6 @@ body
 	line-height: 22px;
 	text-align: center;
 	font-color: rgb(38, 38, 38);
-	display: none;
 }
 
 .nd
@@ -260,7 +266,6 @@ body
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 22px;
-	display: none;
 
 	/*color: #000;
 	-webkit-text-fill-color: transparent;
@@ -270,6 +275,12 @@ body
 	text-shadow: #000 0px 0px 1.1px,   #000 0px 0px 1.1px,   #000 0px 0px 1.1px,
              #000 0px 0px 1.1px,   #000 0px 0px 1.1px,   #000 0px 0px 1.1px;
 	-webkit-font-smoothing: antialiased;
+}
+
+.contain .slide-down
+{
+	display: block;
+	position: absolute;
 }
 
 
