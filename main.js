@@ -25,3 +25,10 @@ function recognition(){
 	document.getElementById("example").style.color='white';
 	document.getElementById("intro").style.color='white';
 }
+
+$(document).ready(function(){
+		  	$(".hamburger_btn").click(function(){
+			  $(this).toggleClass("active");
+			  $(".menu").toggleClass("active");
+			});
+		});

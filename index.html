@@ -12,22 +12,41 @@
   </head>
 
   <body>
+
     <div class="contain">
-      <a href="#" class="slide-down" id="slide-down" onclick="slide-down()">
-        <img src="slide-down.png" alt="slide-down"></a>
 
       <a href="#" class="btn_left" id="left" onclick="left()">
         <img src="left.png" alt="left"></a>
-
       <a href="#" class="btn_right" id="left" onclick="right()">
         <img src="right.png" alt="right"></a>
-    <div class="left-page">
-    </div>
-    <div class="right-page">
-      <div class="main-txt">
-        <h1>The benefits of <br> Crimson Pro <span class="nd">&</span> Variable Fonts</h1>
+
+      <div class="left-page">
       </div>
-    </div>
+      <div class="right-page">
+
+        <!-- <a href="#" class="slide-down" id="slide-down" onclick="slide-down()"> -->
+        <div class="container">
+          <div class="hamburger_btn">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+
+          <div class="menu">
+            <nav>
+              <li><a href="#">Intro</a></li>
+              <li><a href="#">Design</a></li>
+              <li><a href="#">Example</a></li>
+              <li><a href="#">Recognition</a></li>
+            </nav>
+          </div>
+        </div>
+
+        <div class="main-txt">
+          <h1>The benefits of <br> Crimson Pro <span class="nd">&</span> Variable Fonts</h1>
+        </div>
+
+      </div>
     </div>
 
     <div class="nav-container">
@@ -47,6 +66,14 @@
       </nav>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js">
+        $(document).ready(function(){
+          $(".hamburger_btn").click(function(){
+          $(this).toggleClass("active");
+          $(".menu").toggleClass("active");
+        });
+      });
+    </script>
     <script src="main.js"> </script>
   </body>
 
