@@ -914,9 +914,11 @@ body
   top: 0;
   left: 0;
 }
-
 /* Mobile */
 @media screen and (max-width: max-width: 1024px){
+}
+/* Mobile */
+@media screen and (max-width: max-width: 480px){
 
 	.contain
 	{
