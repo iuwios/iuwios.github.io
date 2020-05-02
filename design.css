@@ -12,8 +12,6 @@ body
 .contain
 {
 	position: relative;
-	max-width: 1440px;
-	max-height: 792px;
 	height: 57.85vw; 
 	background-color: black;
 	margin: 0 auto;
@@ -145,7 +143,6 @@ body
 .nav-container
 {
 	
-	max-width: 1440px;
 	height: calc(62.5vw * 0.0744);
 	margin: 0 auto;
 	
