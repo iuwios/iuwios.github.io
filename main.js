@@ -138,3 +138,80 @@ function left(){
 
 }
 
+function wght()
+			{
+				document.getElementById("smile").className = 'weight_animation';
+				document.getElementById("wght").style.background = 'black';
+				document.getElementById("wght").style.color = 'white';
+
+				document.getElementById("slnt").style.background = 'white';
+				document.getElementById("slnt").style.color = 'black';
+				document.getElementById("wdth").style.background = 'white';
+				document.getElementById("wdth").style.color = 'black';
+				document.getElementById("ital").style.background = 'white';
+				document.getElementById("ital").style.color = 'black';
+				document.getElementById("opsz").style.background = 'white';
+				document.getElementById("opsz").style.color = 'black';
+			}
+			function wdth()
+			{
+				document.getElementById("smile").className = 'width_animation';
+				document.getElementById("wdth").style.background = 'black';
+				document.getElementById("wdth").style.color = 'white';
+
+				document.getElementById("slnt").style.background = 'white';
+				document.getElementById("slnt").style.color = 'black';
+				document.getElementById("wght").style.background = 'white';
+				document.getElementById("wght").style.color = 'black';
+				document.getElementById("ital").style.background = 'white';
+				document.getElementById("ital").style.color = 'black';
+				document.getElementById("opsz").style.background = 'white';
+				document.getElementById("opsz").style.color = 'black';
+			}
+
+			function slnt()
+			{
+				document.getElementById("smile").className = 'slant_animation';
+				document.getElementById("slnt").style.background = 'black';
+				document.getElementById("slnt").style.color = 'white';
+
+				document.getElementById("wght").style.background = 'white';
+				document.getElementById("wght").style.color = 'black';
+				document.getElementById("wdth").style.background = 'white';
+				document.getElementById("wdth").style.color = 'black';
+				document.getElementById("ital").style.background = 'white';
+				document.getElementById("ital").style.color = 'black';
+				document.getElementById("opsz").style.background = 'white';
+				document.getElementById("opsz").style.color = 'black';
+			}
+			function ital()
+			{
+				document.getElementById("smile").className = 'italic_animation';
+				document.getElementById("ital").style.background = 'black';
+				document.getElementById("ital").style.color = 'white';
+
+				document.getElementById("slnt").style.background = 'white';
+				document.getElementById("slnt").style.color = 'black';
+				document.getElementById("wdth").style.background = 'white';
+				document.getElementById("wdth").style.color = 'black';
+				document.getElementById("wght").style.background = 'white';
+				document.getElementById("wght").style.color = 'black';
+				document.getElementById("opsz").style.background = 'white';
+				document.getElementById("opsz").style.color = 'black';
+			}
+			function opsz()
+			{
+				document.getElementById("smile").className = 'optical_animation';
+				document.getElementById("opsz").style.background = 'black';
+				document.getElementById("opsz").style.color = 'white';
+
+				document.getElementById("slnt").style.background = 'white';
+				document.getElementById("slnt").style.color = 'black';
+				document.getElementById("wdth").style.background = 'white';
+				document.getElementById("wdth").style.color = 'black';
+				document.getElementById("ital").style.background = 'white';
+				document.getElementById("ital").style.color = 'black';
+				document.getElementById("wght").style.background = 'white';
+				document.getElementById("wght").style.color = 'black';
+			}
+
