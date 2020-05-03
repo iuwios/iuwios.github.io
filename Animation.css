@@ -1,0 +1,81 @@
+.italic_animation
+{
+	-webkit-animation-name: italAnimation;
+	-webkit-animation-duration:1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+	
+}
+
+@-webkit-keyframes italAnimation {
+  from {
+    -webkit-transform: skewX(0deg);
+    -moz-transform: skewX(0deg);
+    -o-transform: skewX(0deg);
+    transform: skewX(0deg);
+  }
+  to {
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -o-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+  }
+}
+
+.width_animation
+{
+	-webkit-animation-name: widthAnimation;
+	-webkit-animation-duration:1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;	
+}
+
+@-webkit-keyframes widthAnimation {
+  from {
+  	-webkit-transform:scale(1,1);
+  }
+  to {
+  	-webkit-transform:scale(1.2,1); 
+  }
+}
+
+.weight_animation
+{
+	font-family: Roboto;
+
+
+
+	
+	transition: font-weight 0.4s ease-in-out;
+	
+	font-weight: 500;
+}
+
+
+.slant_animation
+{
+	-webkit-animation-name: slantAnimation;
+	-webkit-animation-duration:1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;	
+}
+
+@-webkit-keyframes slantAnimation {
+  from {
+  	-webkit-transform:rotate(0deg);
+  }
+  to {
+  	-webkit-transform:rotate(20deg); 
+  }
+}
+
+
+
+/*.O-text {
+  /*font-stretch: var(--text-width);
+  font-style: oblique var(--text-slant);
+  font-weight: var(--text-weight);*/
+  
+  /*"wdth" var(--text-width), "slnt" var(--text-slant);
+}*/
+
