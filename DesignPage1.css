@@ -36,7 +36,7 @@
 .Design-right-page-1 h1
 {
 	position: absolute;
-	width: calc((100vw / 1440) * 42);
+	width: calc((100vw / 1440) * 45);
 	height: calc((100vw / 1440) * 22);
 	top: calc((100vw / 1440) * 314.77);
 	left: calc((100vw / 1440) * 294.74);;
@@ -58,13 +58,11 @@
 	top: calc((100vw / 1440) * 342.66);
 	left: calc((100vw / 1440) * 242.24);
 	margin: 0;
-	font-family: Crimson Pro;
 	font-style: normal;
 	font-weight: 900;
 	font-size: calc((100vw / 1440) * 48);
 	line-height: calc((100vw / 1440) * 53);
 	border-top: calc((100vw / 1440) * 1.5) solid #FFBFF1;
-
 	color: #FFBFF1;
 }
 

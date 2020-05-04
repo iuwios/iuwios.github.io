@@ -273,3 +273,92 @@ sliderr.oninput = function() {
 		var d = document.getElementById("rr");
 		d.style.setProperty('--text-weight', this.value);
 }
+
+
+function xs()
+{
+	document.getElementById("the-text").style.setProperty('--text-size', 60);
+	document.getElementById("xs").style.background='black';
+	document.getElementById("xs").style.color='#FEC0F0';
+
+	document.getElementById("m").style.background='white';
+	document.getElementById("m").style.color='black';
+	document.getElementById("l").style.background='white';
+	document.getElementById("l").style.color='black';
+	document.getElementById("xl").style.background='white';
+	document.getElementById("xl").style.color='black';
+	document.getElementById("s").style.background='white';
+	document.getElementById("s").style.color='black';
+	
+}
+
+function s()
+{
+	document.getElementById("the-text").style.setProperty('--text-size', 120);
+	document.getElementById("s").style.background='black';
+	document.getElementById("s").style.color='#FEC0F0';
+
+	document.getElementById("m").style.background='white';
+	document.getElementById("m").style.color='black';
+	document.getElementById("l").style.background='white';
+	document.getElementById("l").style.color='black';
+	document.getElementById("xl").style.background='white';
+	document.getElementById("xl").style.color='black';
+	document.getElementById("xs").style.background='white';
+	document.getElementById("xs").style.color='black';
+}
+function m()
+{
+	document.getElementById("the-text").style.setProperty('--text-size', 180);
+	document.getElementById("m").style.background='black';
+	document.getElementById("m").style.color='#FEC0F0';
+
+	document.getElementById("l").style.background='white';
+	document.getElementById("l").style.color='black';
+	document.getElementById("xs").style.background='white';
+	document.getElementById("xs").style.color='black';
+	document.getElementById("xl").style.background='white';
+	document.getElementById("xl").style.color='black';
+	document.getElementById("s").style.background='white';
+	document.getElementById("s").style.color='black';
+	
+}
+function l()
+{
+	document.getElementById("the-text").style.setProperty('--text-size', 240);
+	document.getElementById("l").style.background='black';
+	document.getElementById("l").style.color='#FEC0F0';
+
+	document.getElementById("m").style.background='white';
+	document.getElementById("m").style.color='black';
+	document.getElementById("xs").style.background='white';
+	document.getElementById("xs").style.color='black';
+	document.getElementById("xl").style.background='white';
+	document.getElementById("xl").style.color='black';
+	document.getElementById("s").style.background='white';
+	document.getElementById("s").style.color='black';
+}
+function xl()
+{
+	document.getElementById("the-text").style.setProperty('--text-size', 300);
+	document.getElementById("xl").style.background='black';
+	document.getElementById("xl").style.color='#FEC0F0';
+
+	document.getElementById("m").style.background='white';
+	document.getElementById("m").style.color='black';
+	document.getElementById("xs").style.background='white';
+	document.getElementById("xs").style.color='black';
+	document.getElementById("l").style.background='white';
+	document.getElementById("l").style.color='black';
+	document.getElementById("s").style.background='white';
+	document.getElementById("s").style.color='black';
+}
+
+
+var slider_pg3 = document.getElementById("slider-pg3");
+
+slider_pg3.oninput = function() 
+{
+		var d = document.getElementById("many-lines");
+		d.style.setProperty('--text-weight-small', this.value);
+}
