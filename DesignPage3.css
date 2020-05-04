@@ -1,3 +1,4 @@
+/*Left Page*/
 .Design-left-page-3
 {
 	display: none;
@@ -9,6 +10,7 @@
 	top: calc(57.85vw * 0.04922);
 }
 
+/*Right Page*/
 .Design-right-page-3
 {
 	display: none;
@@ -29,3 +31,5 @@
 	  left: 0;
   
 }
+
+/* Left */

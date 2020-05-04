@@ -13,6 +13,7 @@ function intro(){
 
 	num=0;
 
+
 }
 
 function design(){
