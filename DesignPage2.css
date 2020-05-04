@@ -318,7 +318,8 @@
 	position: absolute;
 	margin: 0;
 	width: calc((100vw / 1440) * 544);
-	height: calc((100vw / 1440) * 585);
+	height: calc((100vw / 1440) * 600);
+
 	top: calc((100vw / 1440) * 112);
 	right: calc((100vw / 1440) * 55);
 	font-weight: var(--text-weight-small);
@@ -326,56 +327,69 @@
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: clip;
+
 }
 
 .first
 {
 	font-size: calc((100vw / 1440) * 81);
+	line-height: calc((100vw / 1440) * 97);
 }
 .second
 {
-	font-size: calc((100vw / 1440) * 74.25);
+	font-size: calc((100vw / 1440) * 72);
+	line-height: calc((100vw / 1440) * (72 / 81) * 97);
 }
 .third
 {
-	font-size: calc((100vw / 1440) * 67.5);
+	font-size: calc((100vw / 1440) * 60);
+	line-height: calc((100vw / 1440) * (60 / 81) * 97);
 }
 .fourth
 {
-	font-size: calc((100vw / 1440) * 60.75);
+	font-size: calc((100vw / 1440) * 48);
+	line-height: calc((100vw / 1440) * (48 / 81) * 97);
 }
 
 .fifth
 {
-	font-size: calc((100vw / 1440) * 54);
+	font-size: calc((100vw / 1440) * 36);
+	line-height: calc((100vw / 1440) * (36 / 81) * 97);
 }
 .sixth
 {
-	font-size: calc((100vw / 1440) * 47.25);
+	font-size: calc((100vw / 1440) * 32);
+	line-height: calc((100vw / 1440) * (32 / 81) * 97);
 }
 .seventh
 {
-	font-size: calc((100vw / 1440) * 40.5);
+	font-size: calc((100vw / 1440) * 28);
+	line-height: calc((100vw / 1440) * (28 / 81) * 97);
 }
 .eighth
 {
-	font-size: calc((100vw / 1440) * 33.75);
+	font-size: calc((100vw / 1440) * 24);
+	line-height: calc((100vw / 1440) * (24 / 81) * 97);
 }
 .ninth
 {
-	font-size: calc((100vw / 1440) * 27);
+	font-size: calc((100vw / 1440) * 20);
+	line-height: calc((100vw / 1440) * (20 / 81) * 97);
 }
 .tenth
 {
-	font-size: calc((100vw / 1440) * 20.25);
+	font-size: calc((100vw / 1440) * 18);
+	line-height: calc((100vw / 1440) * (18 / 81) * 97);
 }
 .eleventh
 {
-	font-size: calc((100vw / 1440) * 13.5);
+	font-size: calc((100vw / 1440) * 16);
+	line-height: calc((100vw / 1440) * (16 / 81) * 97);
 }
 .twelfth
 {
-	font-size: calc((100vw / 1440) * 6.75);
+	font-size: calc((100vw / 1440) * 14);
+	line-height: calc((100vw / 1440) * (14 / 81) * 97);
 }
 
 
