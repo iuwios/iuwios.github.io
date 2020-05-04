@@ -1,0 +1,31 @@
+.Design-left-page-3
+{
+	display: none;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
+	background-color: green;
+	position: absolute;
+	left: 5.972vw;
+	top: calc(57.85vw * 0.04922);
+}
+
+.Design-right-page-3
+{
+	display: none;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
+	background-color: green;
+	position: absolute;
+	right: 5.972vw;
+	top: calc(57.85vw * 0.04922);
+}
+
+.Design-right-page-3:before {
+	  content: '';
+	  border-left: 1px solid black;
+	  height: 100%;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+  
+}
