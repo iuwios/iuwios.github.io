@@ -3,7 +3,7 @@
 
 .Intro-right-page-2
 {
-	display: block;
+	display: none;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
 	background-color: white;
@@ -16,7 +16,7 @@
 /* INTRO page 2 LEFT */
 .Intro-left-page-2
 {
-	display: block;
+	display: none;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
 	background-color: white;
@@ -61,7 +61,6 @@
 	margin: 0;
 	top: calc((100vw / 1440) * 59);
 	right: calc((100vw / 1440) * 81);
-	
 	
 }
 .OY5
@@ -157,8 +156,7 @@
 	border-radius: 80px;
 	-webkit-appearance: none;  /* 13 */
   	appearance: none;
-  	background: grey;
-  	opacity: 0.5;
+  	background: #BBBDBF;
 
 }
 
@@ -167,9 +165,9 @@
 	  appearance: none;
 	  width: calc((100vw / 1440) * 15);
 	  height: calc((100vw / 1440) * 15);
-	  border-radius: 50px;
+	  border-radius: 100px;
 	  background: radial-gradient(139.98% 139.65% at 50% -15.59%, #FFFFFF 31.47%, #000000 90.53%);
-	  border: calc((100vw / 1440) * 0.5)px solid grey;
+	  border: calc((100vw / 1440) * 1) solid #BBBDBF;
 }
 
 
@@ -334,7 +332,7 @@
 .main-circle h4
 {
 	position: absolute;
-	font-family: Roboto;
+	font-family: Roboto VF;
 	width: calc((100vw / 1440) * 234);
 	height: calc((100vw / 1440) * 246);
 	font-style: normal;

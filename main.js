@@ -201,7 +201,7 @@ function ital()
 }
 function opsz()
 {
-	document.getElementById("smile").className = 'optical_animation';
+	document.getElementById("smile").className = 'opticalsize_animation';
 	document.getElementById("opsz").style.background = 'black';
 	document.getElementById("opsz").style.color = 'white';
 
@@ -240,37 +240,36 @@ slider.oninput = function() {
 }
 
 sliderY.oninput = function() {
-		output.innerHTML = slider.value;
+		outputY.innerHTML = sliderY.value;
 		a = "wght" + this.value;
 		var d = document.getElementById("YY");
 		d.style.setProperty('--text-weight', this.value);
 }
 
 slider5.oninput = function() {
-		output.innerHTML = slider.value;
+		output5.innerHTML = slider5.value;
 		a = "wght" + this.value;
 		var d = document.getElementById("FVFV");
 		d.style.setProperty('--text-weight', this.value);
 }
 
 slidert.oninput = function() {
-		output.innerHTML = slider.value;
+		outputt.innerHTML = slidert.value;
 		a = "wght" + this.value;
 		var d = document.getElementById("tt");
 		d.style.setProperty('--text-weight', this.value);
 }
 
 slidere.oninput = function() {
-		output.innerHTML = slider.value;
+		outpute.innerHTML = slidere.value;
 		a = "wght" + this.value;
 		var d = document.getElementById("ee");
 		d.style.setProperty('--text-weight', this.value);
 }
 
 sliderr.oninput = function() {
-		output.innerHTML = slider.value;
+		outputr.innerHTML = sliderr.value;
 		a = "wght" + this.value;
 		var d = document.getElementById("rr");
 		d.style.setProperty('--text-weight', this.value);
 }
-

@@ -1,3 +1,11 @@
+/* Load the variable font */
+@font-face {
+  font-family: 'Roboto VF';
+  src: url('Roboto[ital,wdth,wght].ttf') format('truetype');
+  font-stretch: 75% 100%;
+  font-style: oblique 0deg 12deg;
+  font-weight: 100 900;
+}
 * {
 	box-sizing: border-box;
 }
@@ -31,7 +39,7 @@ body
 
 .Intro-left-page-1
 {
-	display: none;
+	display: block;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
 	background-color: white;
@@ -54,7 +62,7 @@ body
 
 .Intro-right-page-1
 {
-	display: none;
+	display: block;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
 	background-color: white;
@@ -217,40 +225,6 @@ body
 }
 
 
-/* Design page 1 Left */
-.Design-left-page-1
-{
-	display: none;
-	width: 44.028vw;
-	height: calc(57.85vw * 0.95078);
-	background-color: green;
-	position: absolute;
-	left: 5.972vw;
-	top: calc(57.85vw * 0.04922);
-}
-
-
-/* LEFT*/
-.Design-right-page-1
-{
-	display: none;
-	width: 44.028vw;
-	height: calc(57.85vw * 0.95078);
-	background-color: green;
-	position: absolute;
-	right: 5.972vw;
-	top: calc(57.85vw * 0.04922);
-}
-
-.Design-right-page-1:before {
-  content: '';
-  border-left: 1px solid black;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-}
 
 .Design-left-page-2
 {

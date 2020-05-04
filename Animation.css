@@ -1,7 +1,7 @@
 .italic_animation
 {
 	-webkit-animation-name: italAnimation;
-	-webkit-animation-duration:1s;
+	-webkit-animation-duration:2s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-fill-mode: forwards;
 	
@@ -9,46 +9,47 @@
 
 @-webkit-keyframes italAnimation {
   from {
-    -webkit-transform: skewX(0deg);
-    -moz-transform: skewX(0deg);
-    -o-transform: skewX(0deg);
-    transform: skewX(0deg);
+    font-variation-settings: "wght" 100, "ital" 1;
   }
   to {
-    -webkit-transform: skewX(-10deg);
-    -moz-transform: skewX(-10deg);
-    -o-transform: skewX(-10deg);
-    transform: skewX(-10deg);
+
+    font-variation-settings: "wght" 900, "ital" 1;
+
   }
 }
 
 .width_animation
 {
 	-webkit-animation-name: widthAnimation;
-	-webkit-animation-duration:1s;
+	-webkit-animation-duration:1.5s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-fill-mode: forwards;	
 }
 
 @-webkit-keyframes widthAnimation {
   from {
-  	-webkit-transform:scale(1,1);
+  	font-variation-settings: "wdth" 75;
   }
   to {
-  	-webkit-transform:scale(1.2,1); 
+  	font-variation-settings: "wdth" 100;
   }
 }
 
 .weight_animation
 {
-	font-family: Roboto;
+	-webkit-animation-name: weightAnimation;
+  -webkit-animation-duration:2s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;  
+}
 
-
-
-	
-	transition: font-weight 0.4s ease-in-out;
-	
-	font-weight: 500;
+@-webkit-keyframes weightAnimation {
+  from {
+    font-variation-settings: "wght" 100;
+  }
+  to {
+    font-variation-settings: "wght" 900;
+  }
 }
 
 
@@ -62,20 +63,35 @@
 
 @-webkit-keyframes slantAnimation {
   from {
-  	-webkit-transform:rotate(0deg);
+    -webkit-transform: skewX(0deg);
+    -moz-transform: skewX(0deg);
+    -o-transform: skewX(0deg);
+    transform: skewX(0deg);
   }
   to {
-  	-webkit-transform:rotate(20deg); 
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
   }
 }
 
-
-
-/*.O-text {
-  /*font-stretch: var(--text-width);
-  font-style: oblique var(--text-slant);
-  font-weight: var(--text-weight);*/
+.opticalsize_animation
+{
+  -webkit-animation-name: opticalsizeAnimation;
+  -webkit-animation-duration:1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
   
-  /*"wdth" var(--text-width), "slnt" var(--text-slant);
-}*/
+}
 
+@-webkit-keyframes opticalsizeAnimation {
+  from {
+    font-variation-settings: "wdth" 75, "wght" 100;
+  }
+  to {
+
+    font-variation-settings: "wdth" 100, "wght" 200;
+
+  }
+}

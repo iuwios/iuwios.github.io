@@ -1,0 +1,75 @@
+/* Design page 1 Left */
+.Design-left-page-1
+{
+	display: none;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
+	background-color: #FFBFF1;;
+	position: absolute;
+	left: 5.972vw;
+	top: calc(57.85vw * 0.04922);
+}
+
+
+/* Design page 1 Right*/
+.Design-right-page-1
+{
+	display: none;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
+	background: radial-gradient(113.79% 107.74% at 1.8% 51.22%, #000000 0%, #000000 85.19%, #FFBFF1 100%);
+	position: absolute;
+	right: 5.972vw;
+	top: calc(57.85vw * 0.04922);
+}
+
+.Design-right-page-1:before {
+  content: '';
+  border-left: 1px solid black;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+
+.Design-right-page-1 h1
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 42);
+	height: calc((100vw / 1440) * 22);
+	top: calc((100vw / 1440) * 314.77);
+	left: calc((100vw / 1440) * 294.74);;
+	font-family: Crimson Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: calc((100vw / 1440) * 20);
+	line-height: calc((100vw / 1440) * 22);
+	letter-spacing: calc((100vw / 1440) * -0.294);
+	margin: 0;
+	color: #FFBFF1;
+}
+
+.Design-right-page-1 h2
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 147);
+	height: calc((100vw / 1440) * 53);
+	top: calc((100vw / 1440) * 342.66);
+	left: calc((100vw / 1440) * 242.24);
+	margin: 0;
+	font-family: Crimson Pro;
+	font-style: normal;
+	font-weight: 900;
+	font-size: calc((100vw / 1440) * 48);
+	line-height: calc((100vw / 1440) * 53);
+	border-top: calc((100vw / 1440) * 1.5) solid #FFBFF1;
+
+	color: #FFBFF1;
+}
+
+
+/* Right */
+
+
+
