@@ -4,7 +4,7 @@
 	display: none;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
-	background-color: green;
+	background-color: white;
 	position: absolute;
 	left: 5.972vw;
 	top: calc(57.85vw * 0.04922);
@@ -16,7 +16,7 @@
 	display: none;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
-	background-color: green;
+	background-color: white;
 	position: absolute;
 	right: 5.972vw;
 	top: calc(57.85vw * 0.04922);
@@ -33,3 +33,198 @@
 }
 
 /* Left */
+
+.Design-left-page-3 h1
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 497);
+	height: calc((100vw / 1440) * 25);
+	top: calc((100vw / 1440) * 26);
+	left: calc((100vw / 1440) * 72);
+	font-style: normal;
+	font-weight: 300;
+	font-size: calc((100vw / 1440) * 16);
+	line-height: 130%;
+	text-transform: lowercase;
+	margin: 0;
+}
+
+.word_inside h2
+{
+	position: absolute;
+	margin: 0;
+	color: white;
+	left: calc((100vw / 1440) * 153);
+	top: calc((100vw / 1440) * 123);
+	padding: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: calc((100vw / 1440) * 48);
+}
+.water
+{
+	position: absolute;	
+	width: calc((100vw / 1440) * 404);
+	height: calc((100vw / 1440) * 567);
+	margin: 0;
+	top: calc((100vw / 1440) * 53);
+	left: calc((100vw / 1440) * 72);
+}
+
+.water .alpha-P
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 404);
+	height: calc((100vw / 1440) * 567);
+	margin: 0;
+	
+}
+
+.water .box
+{
+	content: '';
+	position: absolute;	
+	width: calc((100vw / 1440) * 240);
+	height: calc((100vw / 1440) * 310);
+	border: 1px solid white;
+	margin: 0;
+	top: calc((100vw / 1440) * 20);
+	left: calc((100vw / 1440) * 110);
+	border-bottom-right-radius: 100px;
+	border-top-right-radius: 60px;
+
+	background-image: url(wave.png);
+	background-repeat: repeat-x;
+	background-size: calc((100vw / 1440) * 500) calc((100vw / 1440) * 310);
+	background-position: left 0px top calc((100vw / 1440) * 210);
+	animation: wave 12s linear infinite;
+
+}
+
+/*animation for wave*/
+@keyframes wave
+{
+	0%
+	{
+		background-position: left 0px top calc((100vw / 1440) * 280);
+
+	}
+	
+	50%
+	{
+
+		background-position: left calc((100vw / 1440) * 2760) top 0px;	
+	}
+
+}
+
+
+.Design-left-page-3 .design-bt-line
+{
+	position: absolute;
+	margin: 0;
+	border-top: calc((100vw / 1440) * 1) solid black;
+	width: calc((100vw / 1440) * 526);
+	top: calc((100vw / 1440) * 675);
+	left: calc((100vw / 1440) * 72);
+}
+
+.Design-left-page-3 h3
+{
+	position: absolute;
+	margin: 0;
+	height: calc((100vw / 1440) * 52);
+	width: calc((100vw / 1440) * 526);
+	top: calc((100vw / 1440) * 693);
+	left: calc((100vw / 1440) * 72);
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: calc((100vw / 1440) * 24);
+	line-height: 130%;
+}
+
+
+/*Right*/
+
+.Design-right-page-3 h1
+{
+	width: calc((100vw / 1440) * 526);
+	height: calc((100vw / 1440) * 25);
+	position: absolute;
+	font-style: normal;
+	font-weight: 300;
+	font-size: calc((100vw / 1440) * 16);
+	line-height: 130%;
+	margin: 0;
+	top: calc((100vw / 1440) * 26);
+	right: calc((100vw / 1440) * 72);
+	text-align: right;
+	text-transform: lowercase;
+
+}
+
+.Design-right-page-3 .top-letter
+{
+	width: calc((100vw / 1440) * 471.98);
+	height: calc((100vw / 1440) * 704);
+	position: absolute;
+	margin: 0;
+	top: calc((100vw / 1440) * -4);
+	right: calc((100vw / 1440) * 72);
+}
+
+.Design-right-page-3 .weights
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 78);
+	height: calc((100vw / 1440) * 727);
+	margin: 0;
+	top: calc((100vw / 1440) * 9);
+	right: calc((100vw / 1440) * 520);
+}
+
+.Design-right-page-3 .bottom-letters
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 457);
+	height: calc((100vw / 1440) * 15.32);
+	margin: 0;
+	top: calc((100vw / 1440) * 715);
+	right: calc((100vw / 1440) * 72);
+}
+
+.Design-right-page-3 .mboot
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 456);
+	height: calc((100vw / 1440) * 28);
+	margin: 0;
+	top: calc((100vw / 1440) * 712);
+	right: calc((100vw / 1440) * 72);
+}
+
+.Design-right-page-3 .mouse
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 90.2);
+	height: calc((100vw / 1440) * 54.21);
+	margin: 0;
+	top: calc((100vw / 1440) * 529);
+	right: calc((100vw / 1440) * 379);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
