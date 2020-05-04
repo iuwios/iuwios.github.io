@@ -2,6 +2,11 @@
 	box-sizing: border-box;
 }
 
+:root {
+  --text-weight: 900;
+
+}
+
 body 
 {
 	font-family: Crimson Pro;
@@ -743,7 +748,6 @@ body
 	  color: pink;
 	}
 
-	
 
 	.Intro-right-page-1 .hamburger_btn.active{
 	  trasform: rotate(90deg);

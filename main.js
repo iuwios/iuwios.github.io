@@ -217,17 +217,60 @@ function opsz()
 
 var slider = document.getElementById("slider-O");
 var output = document.getElementById("txt-OO");
-var txt = document.getElementById("OO");
 
+var sliderY = document.getElementById("slider-Y");
+var outputY = document.getElementById("txt-YY");
 
+var slider5 = document.getElementById("slider-FVFV");
+var output5 = document.getElementById("txt-FVFV");
 
+var slidert = document.getElementById("slider-t");
+var outputt = document.getElementById("txt-tt");
+
+var slidere = document.getElementById("slider-e");
+var outpute = document.getElementById("txt-ee");
+
+var sliderr = document.getElementById("slider-r");
+var outputr = document.getElementById("txt-rr");
 
 slider.oninput = function() {
 		output.innerHTML = slider.value;
-		a = "wght" + this.value;
-		//alert(a);
 		var d = document.getElementById("OO");
+		d.style.setProperty('--text-weight', this.value);
+}
 
+sliderY.oninput = function() {
+		output.innerHTML = slider.value;
+		a = "wght" + this.value;
+		var d = document.getElementById("YY");
+		d.style.setProperty('--text-weight', this.value);
+}
+
+slider5.oninput = function() {
+		output.innerHTML = slider.value;
+		a = "wght" + this.value;
+		var d = document.getElementById("FVFV");
+		d.style.setProperty('--text-weight', this.value);
+}
+
+slidert.oninput = function() {
+		output.innerHTML = slider.value;
+		a = "wght" + this.value;
+		var d = document.getElementById("tt");
+		d.style.setProperty('--text-weight', this.value);
+}
+
+slidere.oninput = function() {
+		output.innerHTML = slider.value;
+		a = "wght" + this.value;
+		var d = document.getElementById("ee");
+		d.style.setProperty('--text-weight', this.value);
+}
+
+sliderr.oninput = function() {
+		output.innerHTML = slider.value;
+		a = "wght" + this.value;
+		var d = document.getElementById("rr");
 		d.style.setProperty('--text-weight', this.value);
 }
 
