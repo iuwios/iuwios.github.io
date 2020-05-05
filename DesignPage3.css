@@ -180,7 +180,7 @@
 	width: calc((100vw / 1440) * 78);
 	height: calc((100vw / 1440) * 727);
 	margin: 0;
-	top: calc((100vw / 1440) * 26);
+	top: calc((100vw / 1440) * 24);
 	right: calc((100vw / 1440) * 520);
 }
 
@@ -200,7 +200,7 @@
 	width: calc((100vw / 1440) * 456);
 	height: calc((100vw / 1440) * 28);
 	margin: 0;
-	top: calc((100vw / 1440) * 728);
+	top: calc((100vw / 1440) * 726);
 	right: calc((100vw / 1440) * 72);
 }
 
