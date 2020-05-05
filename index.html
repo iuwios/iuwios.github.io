@@ -7,13 +7,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,577;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,577;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Welcome</title>
+    <title>Crimson Pro Google Fonts</title>
     <link rel="stylesheet" href="design.css" />
     <link rel="stylesheet" href="Animation.css" />
     <link rel="stylesheet" href="IntroPage2.css" />
     <link rel="stylesheet" href="DesignPage1.css" />
     <link rel="stylesheet" href="DesignPage2.css" />
     <link rel="stylesheet" href="DesignPage3.css" />
+    <link rel="stylesheet" href="DesignPage4.css" />
      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -254,7 +255,30 @@
         </div>
 
         <div class="Design-left-page-4" id="pg">
-          <h2>Design 4</h2>
+          <h1>9</h1>
+          <div class="drink-container">
+            <input type="text" class="drink-text" id="drink-text" value="Drink\nme">
+            <ul class="color-container">
+              <li class="circle_red" onmouseover="color_red()" onmouseout="color_normal()"></li>
+              <li class="circle_yellow" onmouseover="color_yellow()" onmouseout="color_normal()"/></li>
+              <li class="circle_blue" onmouseover="color_blue()" onmouseout="color_normal()"></li>
+              <li class="circle_brown" onmouseover="color_brown()" onmouseout="color_normal()"/></li>
+              <li class="circle_pink" onmouseover="color_pink()" onmouseout="color_normal()"></li>
+              <li class="circle_black" onmouseover="color_green()" onmouseout="color_normal()"/></li>
+              <li class="circle_white" onmouseover="color_white()" onmouseout="color_normal()"></li>
+            </ul>
+            <div class="weight-text">Weight Axis</div>
+            <input type="range" min="200" max="900" value="900" class="slider-deisgn4" id="slider-design4">
+            <h2 class="d4-design" id="d4-design">900</h2>
+            <div class="weight-text">Weight Axis</div>
+            <ul class="d4-size-containter">
+              <li class="xs" id="xs" onclick="xs()" >XS</li>
+              <li class="s" id="s" onclick="s()">S</li>
+              <li class="m" id="m" onclick="m()">M</li>
+              <li class="l" id="l" onclick="l()">L</li>
+              <li class="xl" id="xl" onclick="xl()">XL</li> 
+            </ul>
+          </div>
       </div>
 
         <div class="Design-right-page-4" id="pg">

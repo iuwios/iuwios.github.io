@@ -90,8 +90,8 @@
 .O h4
 {
 	position: absolute;
-	top: calc((100vw / 1440) * -73);
-	right: calc((100vw / 1440) * -25);
+	top: calc((100vw / 1440) * var(--astr-margin-top));
+	right: calc((100vw / 1440) * var(--astr-margin-right));
 	margin: 0;
 	font-weight: 900;
 	font-size: calc((100vw / 1440) * 380);
@@ -104,11 +104,11 @@
 .Y h4
 {
 	position: absolute;
-	top: calc((100vw / 1440) * -134);
+	top: calc((100vw / 1440) * -126);
 	right: calc((100vw / 1440) * -20);
 	margin: 0;
 	font-weight: 900;
-	font-size: calc((100vw / 1440) * 310);
+	font-size: calc((100vw / 1440) * 295);
 	font-weight: var(--text-weight);
 	font-variation-settings: "wght" var(--text-weight);
 

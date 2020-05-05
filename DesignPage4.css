@@ -1,0 +1,73 @@
+/*Design Page 4 Left */
+.Design-left-page-4
+{
+	display: none;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
+	background-color: white;
+	position: absolute;
+	left: 5.972vw;
+	top: calc(57.85vw * 0.04922);
+}
+
+/*Design Page 4 Right */
+.Design-right-page-4
+{
+	display: none;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
+	background-color: green;
+	position: absolute;
+	right: 5.972vw;
+	top: calc(57.85vw * 0.04922);
+}
+
+.Design-right-page-4:before {
+	content: '';
+	border-left: 1px solid black;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+  
+}
+
+.Design-left-page-4 h1
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 497);
+	height: calc((100vw / 1440) * 25);
+	top: calc((100vw / 1440) * 26);
+	left: calc((100vw / 1440) * 72);
+	font-style: normal;
+	font-weight: 300;
+	font-size: calc((100vw / 1440) * var(--header-top-size));
+	line-height: 130%;
+	text-transform: lowercase;
+	margin: 0;
+}
+
+.Design-left-page-4 .drink-container
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 526);
+	height: calc((100vw / 1440) * 349);
+	top: calc((100vw / 1440) * 85);
+	left: calc((100vw / 1440) * 72);
+	margin: 0;
+}
+
+.Design-left-page-4 .drink-text
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 526);
+	height: calc((100vw / 1440) * 671);
+	top: 0;
+	left: 0;
+	margin: 0;
+	font-style: italic;
+	font-weight: calc((100vw / 1440) * var(--text-weight));
+	font-size: calc((100vw / 1440) * 671);
+	line-height: 200px;
+
+}

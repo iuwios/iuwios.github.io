@@ -238,6 +238,9 @@ slider.oninput = function() {
 		output.innerHTML = slider.value;
 		var d = document.getElementById("OO");
 		d.style.setProperty('--text-weight', this.value);
+
+		var right = (this.value / 900) * -25;
+		d.style.setProperty('--astr-margin-right', right);
 }
 
 sliderY.oninput = function() {
