@@ -90,22 +90,22 @@
 .O h4
 {
 	position: absolute;
-	top: calc((100vw / 1440) * -90);
-	right: calc((100vw / 1440) * -35);
+	top: calc((100vw / 1440) * -73);
+	right: calc((100vw / 1440) * -25);
 	margin: 0;
 	font-weight: 900;
-	font-size: calc((100vw / 1440) * 310);
+	font-size: calc((100vw / 1440) * 380);
 	font-weight: var(--text-weight);
 	font-variation-settings: "wght" var(--text-weight);
-	-webkit-transform:scale(0.82,1);
+	/*-webkit-transform:scale(0.82,1);*/
 
 }
 
 .Y h4
 {
 	position: absolute;
-	top: calc((100vw / 1440) * -90);
-	right: calc((100vw / 1440) * -25);
+	top: calc((100vw / 1440) * -134);
+	right: calc((100vw / 1440) * -20);
 	margin: 0;
 	font-weight: 900;
 	font-size: calc((100vw / 1440) * 310);
@@ -138,7 +138,7 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: calc((100vw / 1440) * 16);
-	top: calc((100vw / 1440) * 223);
+	top: calc((100vw / 1440) * 228);
 	margin: 0;
 }
 
@@ -150,7 +150,7 @@
 	z-index: 1;
 	width: calc((100vw / 1440) * 133.92);
 	height: calc((100vw / 1440) * 5);
-	top: calc((100vw / 1440) * 210);
+	top: calc((100vw / 1440) * 220);
 	left: 0;
 	margin: 0;
 	border-radius: 80px;

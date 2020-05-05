@@ -1,7 +1,7 @@
 /*Left Page*/
 .Design-left-page-3
 {
-	display: none;
+	display: block;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
 	background-color: white;
@@ -13,7 +13,7 @@
 /*Right Page*/
 .Design-right-page-3
 {
-	display: none;
+	display: block;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
 	background-color: white;
@@ -90,8 +90,8 @@
 	margin: 0;
 	top: calc((100vw / 1440) * 20);
 	left: calc((100vw / 1440) * 110);
-	border-bottom-right-radius: 100px;
-	border-top-right-radius: 60px;
+	border-bottom-right-radius: calc((100vw / 1440) * 100);
+	border-top-right-radius: calc((100vw / 1440) * 60);
 
 	background-image: url(wave.png);
 	background-repeat: repeat-x;
@@ -170,8 +170,8 @@
 	height: calc((100vw / 1440) * 704);
 	position: absolute;
 	margin: 0;
-	top: calc((100vw / 1440) * -4);
-	right: calc((100vw / 1440) * 72);
+	top: calc((100vw / 1440) * 13);
+	right: calc((100vw / 1440) * 56);
 }
 
 .Design-right-page-3 .weights
@@ -180,11 +180,11 @@
 	width: calc((100vw / 1440) * 78);
 	height: calc((100vw / 1440) * 727);
 	margin: 0;
-	top: calc((100vw / 1440) * 9);
+	top: calc((100vw / 1440) * 26);
 	right: calc((100vw / 1440) * 520);
 }
 
-.Design-right-page-3 .bottom-letters
+/*.Design-right-page-3 .bottom-letters
 {
 	position: absolute;
 	width: calc((100vw / 1440) * 457);
@@ -192,7 +192,7 @@
 	margin: 0;
 	top: calc((100vw / 1440) * 715);
 	right: calc((100vw / 1440) * 72);
-}
+}*/
 
 .Design-right-page-3 .mboot
 {
@@ -200,7 +200,7 @@
 	width: calc((100vw / 1440) * 456);
 	height: calc((100vw / 1440) * 28);
 	margin: 0;
-	top: calc((100vw / 1440) * 712);
+	top: calc((100vw / 1440) * 728);
 	right: calc((100vw / 1440) * 72);
 }
 
