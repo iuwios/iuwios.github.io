@@ -41,7 +41,7 @@ body
 
 .Intro-left-page-1
 {
-	display: none;
+	display: block;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
 	background-color: white;
@@ -62,7 +62,7 @@ body
 
 .Intro-right-page-1
 {
-	display: none;
+	display: block;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
 	background-color: white;

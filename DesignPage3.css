@@ -1,7 +1,7 @@
 /*Left Page*/
 .Design-left-page-3
 {
-	display: block;
+	display: none;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
 	background-color: white;
@@ -13,7 +13,7 @@
 /*Right Page*/
 .Design-right-page-3
 {
-	display: block;
+	display: none;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
 	background-color: white;
