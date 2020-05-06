@@ -73,6 +73,7 @@
 	text-align: center;
 	overflow:hidden;
 	line-height: calc((100vw / 1440) * var(--init-line-height));
+	outline: none !important;
 	color: red;
 	border: none;
 	resize: none;
