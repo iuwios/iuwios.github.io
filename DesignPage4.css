@@ -62,7 +62,7 @@
 	font-family: Crimson Pro;
 	position: absolute;
 	width: calc((100vw / 1440) * 526);
-	height: calc((100vw / 1440) * 325);
+	height: calc((100vw / 1440) * 415);
 	top: 0;
 	left: 0;
 	margin: 0;
@@ -77,6 +77,7 @@
 	color: red;
 	border: none;
 	resize: none;
+
 }
 
 .triangle-container
@@ -149,6 +150,7 @@
 	top: 0;
 	margin-right: calc((100vw / 1440) * 41.44);
 	border: calc((100vw / 1440) * 1) solid #231F20;
+	cursor: pointer;
 }
 
 .color-container .circle_yellow
@@ -161,6 +163,7 @@
 	top: 0;
 	margin-right: calc((100vw / 1440) * 41.44);
 	border: calc((100vw / 1440) * 1) solid black;
+	cursor: pointer;
 }
 
 .color-container .circle_blue
@@ -173,6 +176,7 @@
 	top: 0;
 	margin-right: calc((100vw / 1440) * 41.44);
 	border: calc((100vw / 1440) * 1) solid black;
+	cursor: pointer;
 }
 
 .color-container .circle_brown
@@ -185,6 +189,7 @@
 	top: 0;
 	margin-right: calc((100vw / 1440) * 41.44);
 	border: calc((100vw / 1440) * 1) solid black;
+	cursor: pointer;
 }
 
 .color-container .circle_pink
@@ -197,6 +202,7 @@
 	top: 0;
 	margin-right: calc((100vw / 1440) * 41.44);
 	border: calc((100vw / 1440) * 1) solid black;
+	cursor: pointer;
 }
 
 .color-container .circle_black
@@ -209,6 +215,7 @@
 	top: 0;
 	margin-right: calc((100vw / 1440) * 41.44);
 	border: calc((100vw / 1440) * 1) solid black;
+	cursor: pointer;
 }
 
 
@@ -222,6 +229,7 @@
 	top: 0;
 	margin-right: calc((100vw / 1440) * 41.44);
 	border: calc((100vw / 1440) * 1) solid black;
+	cursor: pointer;
 }
 
 .color-container .circle_white
@@ -234,6 +242,7 @@
 	top: 0;
 	margin-right: 0;
 	border: calc((100vw / 1440) * 1) solid black;
+	cursor: pointer;
 }
 
 .color-container .circle_white:hover
