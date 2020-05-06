@@ -366,3 +366,266 @@ slider_pg3.oninput = function()
 		var d = document.getElementById("many-lines");
 		d.style.setProperty('--text-weight-small', this.value);
 }
+
+
+var elems = document.getElementById("triangle-containerz").getElementsByTagName("img");
+function color_red()
+{
+	document.getElementById("drink-text").style.color='red';
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle1') {
+            elems[i].style.visibility = 'visible'; 
+            document.getElementById("drink-text").style.textShadow = "none";   
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+	
+	document.getElementById("triangle1").style.visibility='visible';
+}
+
+function color_yellow()
+{
+	document.getElementById("drink-text").style.color='#FFEB00';
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle2') {
+            elems[i].style.visibility = 'visible';   
+            document.getElementById("drink-text").style.textShadow = "none"; 
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+
+}
+
+function color_blue()
+{
+	document.getElementById("drink-text").style.color='#70CCF7';
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle3') {
+            elems[i].style.visibility = 'visible';  
+            document.getElementById("drink-text").style.textShadow = "none";  
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+}
+
+
+function color_brown()
+{
+	document.getElementById("drink-text").style.color='#D7B089';
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle4') {
+            elems[i].style.visibility = 'visible';   
+            document.getElementById("drink-text").style.textShadow = "none"; 
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+}
+
+function color_pink()
+{
+	document.getElementById("drink-text").style.color='#FFC0EF';
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle5') {
+            elems[i].style.visibility = 'visible';   
+            document.getElementById("drink-text").style.textShadow = "none"; 
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+}
+
+function color_black()
+{
+	document.getElementById("drink-text").style.color='black';
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle6') {
+            elems[i].style.visibility = 'visible';  
+            document.getElementById("drink-text").style.textShadow = "none";  
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+}
+
+function color_green()
+{
+	document.getElementById("drink-text").style.color='#3EB449';
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle7') {
+            elems[i].style.visibility = 'visible';
+            document.getElementById("drink-text").style.textShadow = "none";
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+}
+
+/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+function color_white()
+{
+	document.getElementById("drink-text").style.color='white';
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle8') {
+            elems[i].style.visibility = 'visible';
+            document.getElementById("drink-text").style.textShadow =  "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black";  
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+}
+
+
+function d4click_roman(){
+	document.getElementById("drink-text").style.fontStyle='normal';
+	document.getElementById("roman").style.background='red';
+	document.getElementById("roman").style.color='white';
+
+	document.getElementById("italic").style.color='black';
+	document.getElementById("italic").style.background='white';
+}
+
+function d4click_italic(){
+	document.getElementById("drink-text").style.fontStyle='italic';
+	document.getElementById("italic").style.background='red';
+	document.getElementById("italic").style.color='white';
+
+	document.getElementById("roman").style.color='black';
+	document.getElementById("roman").style.background='white';
+}
+
+var d4_size_elems = document.getElementById("d4-size-containers").getElementsByTagName("li");
+
+function d4xs()
+{
+	document.getElementById("drink-text").style.setProperty("--init-line-height", 30);
+	document.getElementById("drink-text").style.setProperty("--text-size-L", 30);
+
+	for (var i = 0; i<d4_size_elems.length; i++) {
+        if (d4_size_elems[i].className == 'd4xs') {
+        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+            d4_size_elems[i].style.backgroundColor='red';
+            d4_size_elems[i].style.color='white';
+        }
+        else {
+
+            d4_size_elems[i].style.backgroundColor='white';
+            d4_size_elems[i].style.color='black';
+            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+        }
+    }
+}
+
+function d4s()
+{
+	document.getElementById("drink-text").style.setProperty("--text-size-L", 60);
+	document.getElementById("drink-text").style.setProperty("--init-line-height", 60);
+
+	for (var i = 0; i<d4_size_elems.length; i++) {
+        if (d4_size_elems[i].className == 'd4s') {
+        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+            d4_size_elems[i].style.backgroundColor='red';
+            d4_size_elems[i].style.color='white';
+        }
+        else {
+
+            d4_size_elems[i].style.backgroundColor='white';
+            d4_size_elems[i].style.color='black';
+            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+        }
+    }
+}
+
+function d4m()
+{
+	document.getElementById("drink-text").style.setProperty("--text-size-L", 120);
+	document.getElementById("drink-text").style.setProperty("--init-line-height", 108);
+
+	for (var i = 0; i<d4_size_elems.length; i++) {
+        if (d4_size_elems[i].className == 'd4m') {
+        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+            d4_size_elems[i].style.backgroundColor='red';
+            d4_size_elems[i].style.color='white';
+        }
+        else {
+
+            d4_size_elems[i].style.backgroundColor='white';
+            d4_size_elems[i].style.color='black';
+            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+        }
+    }
+}
+
+function d4l()
+{
+	document.getElementById("drink-text").style.setProperty("--text-size-L", 180);
+	document.getElementById("drink-text").style.setProperty("--init-line-height", 140);
+
+	for (var i = 0; i<d4_size_elems.length; i++) {
+        if (d4_size_elems[i].className == 'd4l') {
+        	d4_size_elems[i].style.setProperty("--init-border-colorL", "#231F20");
+            d4_size_elems[i].style.backgroundColor='red';
+            d4_size_elems[i].style.color='white';
+        }
+        else {
+
+            d4_size_elems[i].style.backgroundColor='white';
+            d4_size_elems[i].style.color='black';
+            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+        }
+    }
+}
+
+function d4xl()
+{
+	document.getElementById("drink-text").style.setProperty("--text-size-L", 195);
+	document.getElementById("drink-text").style.setProperty("--init-line-height", 170);
+
+	for (var i = 0; i<d4_size_elems.length; i++) {
+        if (d4_size_elems[i].className == 'd4xl') {
+        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+            d4_size_elems[i].style.backgroundColor='red';
+            d4_size_elems[i].style.color='white';
+        }
+        else {
+
+            d4_size_elems[i].style.backgroundColor='white';
+            d4_size_elems[i].style.color='black';
+            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+        }
+    }
+
+
+}
+
+var sliderd4 = document.getElementById("design-slider");
+var outputd4 = document.getElementById("d-weighttxt");
+
+sliderd4.oninput = function() {
+		outputd4.innerHTML = sliderd4.value;
+		var d = document.getElementById("drink-text");
+		d.style.setProperty('--text-weight', this.value);
+}
+
+
+
+
+
+
+
+

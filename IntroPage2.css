@@ -378,9 +378,7 @@
 	list-style: none;
 	font-style: normal;
 	font-weight: normal;
-
 	margin-right: calc((100vw / 1440) * 12.52);
-
 	font-size: calc((100vw / 1440) * 20);
 	letter-spacing: calc((100vw / 1440) * (-0.5));
 	text-align: center;
