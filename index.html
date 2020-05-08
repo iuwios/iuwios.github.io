@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,577;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,577;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
     <title>Crimson Pro Google Fonts</title>
     <link rel="stylesheet" href="design.css" />
     <link rel="stylesheet" href="Animation.css" />
@@ -16,8 +18,12 @@
     <link rel="stylesheet" href="DesignPage3.css" />
     <link rel="stylesheet" href="DesignPage4.css" />
     <link rel="stylesheet" href="DesignPage5.css" />
-
-     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="DesignPage6.css" />
+    <link rel="stylesheet" href="DesignPage7.css" />
+    <link rel="stylesheet" href="ExamplePage1.css" />
+    <link rel="stylesheet" href="ExamplePage2.css" />
+    <link rel="stylesheet" href="ExamplePage3.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
         $(document).ready(function(){
           $(".hamburger_btn").click(function(){
@@ -259,22 +265,22 @@
           <div class="drink-container">
             <textarea class="drink-text" id="drink-text">Drink&#10;me</textarea>
             <ul class="color-container">
-              <li class="circle_red" onclick="color_red()" ></li>
-              <li class="circle_yellow" onclick="color_yellow()"></li>
-              <li class="circle_blue" onclick="color_blue()"></li>
-              <li class="circle_brown" onclick="color_brown()"></li>
-              <li class="circle_pink" onclick="color_pink()"></li>
-              <li class="circle_black" onclick="color_black()"></li>
-              <li class="circle_green" onclick="color_green()"></li>
-              <li class="circle_white" onclick="color_white()"></li>
+              <li class="circle_red" id="circle_red" onclick="color_red()" ></li>
+              <li class="circle_yellow" id="circle_yellow" onclick="color_yellow()"></li>
+              <li class="circle_blue" id="circle_blue" onclick="color_blue()"></li>
+              <li class="circle_brown" id="circle_brown" onclick="color_brown()"></li>
+              <li class="circle_pink" id="circle_pink" onclick="color_pink()"></li>
+              <li class="circle_black" id="circle_black" onclick="color_black()"></li>
+              <li class="circle_green" id="circle_green" onclick="color_green()"></li>
+              <li class="circle_white" id="circle_white" onclick="color_white()"></li>
             </ul>
-            <div class="weight-text">Weight Axis</div>
+            <div class="weight-text" id="weight-text">Weight Axis</div>
             <input type="range" min="200" max="900" value="900" class="design-slider" id="design-slider">
             <ul class="container-normal-italic">
               <li class="roman" id="roman" onclick="d4click_roman()"/>Roman</li>
               <li class="italic" id="italic" onclick="d4click_italic()">Italic</li>
             </ul>
-            <div class="size-text">Size</div>
+            <div class="size-text" id="size-text">Size</div>
             <img src="dotted.svg" alt="dotted" class="dotted">
             <img src="dotted.svg" alt="dotted2" class="dotted2">
             <div class="horizontal-line"></div>
@@ -321,9 +327,9 @@
         <div class="Design-right-page-4" id="pg">
           <img src="aaa.svg" alt="aaa" class="aaa" id="aaa">
           
-          <h2>Weight</h2>
+          <h2 id="weight-unlimited">Weight</h2>
          
-          <h3>With unlimited options along this axis, designers can<br>tweak Crimson Pro to get the exact look and feel they<br>want. They can create custom styles, name them, and<br>save those instances to use throughout the design. 
+          <h3 id="with-unlimited">With unlimited options along this axis, designers can<br>tweak Crimson Pro to get the exact look and feel they<br>want. They can create custom styles, name them, and<br>save those instances to use throughout the design. 
           </h3>
           <div class="container">
             <div class="hamburger_btn">
@@ -345,9 +351,9 @@
 
         <div class="Design-left-page-5" id="pg">
           <h1>9</h1>
-          <div class="d5-regular" id="d5-regular">Regular</div>
-          <div class="d5-italic" id="d5-italic">Italic</div>
-          <div class="Alphabet-Container">
+          <div class="d5-regular" id="d5-regular" onclick="d5regular()">Regular</div>
+          <div class="d5-italic" id="d5-italic" onclick="d5italic()">Italic</div>
+          <div class="Alphabet-Container" id="Alphabet-Container">
             <ul class="ABCD" id="UpperAlphabet">
               <li>A</li>
               <li>B</li>
@@ -407,6 +413,34 @@
           <img src="plate.svg" alt="plate" class="plate">
           <textarea class="eat-me" id="eat-me">"EAT ME"</textarea>
 
+          <div class="special-character-container" id="special-character-container">
+          <ul class="Hash" id="Hash">
+            <li>₤</li>
+            <li>&</li>
+            <li>$</li>
+            <li>€</li>
+            <li>#</li>
+          </ul>
+
+          <ul class="addmult" id="addmult">
+            <li>+</li>
+            <li>÷</li>
+            <li>×</li>
+            <li>=</li>
+            <li>*</li>
+          </ul>
+
+          <ul class="question" id="question">
+            <li>?</li>
+            <li>%</li>
+            <li>!</li>
+            <li><</li>
+            <li>[</li>
+            <li>]</li>
+          </ul>
+
+        </div>
+
           <div class="container">
             <div class="hamburger_btn">
               <div class="one"></div>
@@ -426,10 +460,80 @@
         </div>
 
         <div class="Design-left-page-6" id="pg">
-          <h2>Design 6</h2>
-      </div>
+          <h1>13</h1>
+          <div class="d6-regular" id="d6-regular" onclick="d6regular()">Regular</div>
+          <div class="d6-italic" id="d6-italic" onclick="d6italic()">Italic</div>
+          <div class="lowercase-container" id="lowercase-container">
+             <ul class="abcd01" id="abcd">
+              <li>a</li>
+              <li>b</li>
+              <li>c</li>
+              <li>d</li>
+              <li>0</li>
+              <li>1</li>
+            </ul>
+
+            <ul class="efgh23" id="efgh23">
+              <li>e</li>
+              <li>f</li>
+              <li>g</li>
+              <li>h</li>
+              <li>2</li>
+              <li>3</li>
+            </ul>
+
+            <ul class="ijk45" id="ijk45">
+              <li>i</li>
+              <li>j</li>
+              <li>k</li>
+              <li>4</li>
+              <li>5</li>
+            </ul>
+
+            <ul class="lmn67" id="lmn67">
+              <li>l</li>
+              <li>m</li>
+              <li>n</li>
+              <li>6</li>
+              <li>7</li>
+            </ul>
+
+            <ul class="opqr89" id="opqr89">
+              <li>o</li>
+              <li>p</li>
+              <li>q</li>
+              <li>r</li>
+              <li>8</li>
+              <li>9</li>
+            </ul>
+
+            <ul class="st" id="st">
+              <li>s</li>
+              <li>t</li>
+            </ul>
+
+            <ul class="uvw" id="uvw">
+              <li>u</li>
+              <li>v</li>
+              <li>w</li>
+            </ul>
+
+            <ul class="xyz" id="xyz">
+              <li>x</li>
+              <li>y</li>
+              <li>z</li>
+            </ul>
+
+          </div>
+
+
+        </div>
+
 
         <div class="Design-right-page-6" id="pg">
+          <h1>design</h1>
+          <textarea class="text-nocake" id="text-nocake">“So she set to&#10;work, and very&#10;soon finished off&#10;the cake”</textarea>
+          <img src="nocake.svg" alt="nocake" class="nocake">
           <div class="container">
             <div class="hamburger_btn">
               <div class="one"></div>
@@ -448,11 +552,129 @@
           </div>
         </div>
 
-        <div class="Example-left-page-1" id="pg">
-          <h2>Example 1</h2>
+
+
+      <div class="Design-left-page-7" id="pg">
+          <h1>15</h1>
+          <h2>Looking to use <span>Crimson Pro</span><br>in your language?</h2>
+      
+        <div class="language-container" id="language-container">
+           <ul class="AEIR" id="AEIR">
+              <li id="AFRIKAANS">AFRIKAANS</li>
+              <li id="ENGLISH">ENGLISH</li>
+              <li id="ITALIAN">Italian</li>
+              <li id="ROMANIAN">Romanian</li>
+           </ul>
+           <ul class="AELS" id="AELS">
+              <li id="ALBANIAN">ALBANIAN</li>
+              <li id="ESTONIAN">Estonian</li>
+              <li id="LATVIAN">Latvian</li>
+              <li id="SLOVAK">Slovak</li>
+           </ul>
+           <ul class="CFLS" id="CFLS">
+              <li id="CATALAN">Catalan</li>
+              <li id="FINNISH">Finnish</li>
+              <li id="LITHUANIAN">Lithuanian</li>
+              <li id="SLOVENIAN">Slovenian</li>
+           </ul>
+           <ul class="CFMS" id="CFMS">
+              <li id="CROATIAN">Croatian</li>
+              <li id="FRENCH">French</li>
+              <li id="MALTESE">Maltese</li>
+              <li id="SPANISH">Spanish</li>
+           </ul>
+           <ul class="CGNS" id="CGNS">
+              <li id="GERMAN">German</li>
+              <li id="NORWEGIAN">Norwegian</li>
+              <li id="MALTESE">Maltese</li>
+              <li id="SWEDISH">Swedish</li>
+           </ul>
+           <ul class="DHPT" id="DHPT">
+              <li id="DANISH">Danish</li>
+              <li id="HUNGARIAN">Hungarian</li>
+              <li id="POLISH">Polish</li>
+              <li id="TURKISH">Turkish</li>
+           </ul>
+           <ul class="DCPV" id="DCPV">
+              <li id="DUTCH">Dutch</li>
+              <li id="ICELANDIC">Icelandic</li>
+              <li id="PORTUGUESE">Portuguese</li>
+              <li id="VIETNAMESE">Vietnamese</li>
+           </ul>
+
+        </div>
+      </div>
+
+        <div class="Design-right-page-7" id="pg">
+          <h1>preview</h1>
+          <div class="d7-border"></div>
+
+          <div class="custom-select">
+            <select>
+              <option value="0">ENGLISH</option>
+              <option value="1">AFRIKAANS</option>
+              <option value="2">ITALIAN</option>
+              <option value="3">ROMANIAN</option>
+              <option value="4">ALBANIAN</option>
+              <option value="5">LATVIAN</option>
+              <option value="6">SLOVAK</option>
+              <option value="7">CATALAN</option>
+              <option value="8">FINNISH</option>
+              <option value="9">LITHUANIAN</option>
+              <option value="10">SLOVENIAN</option>
+              <option value="11">CROATIAN</option>
+              <option value="12">FRENCH</option>
+              <option value="13">MALTESE</option>
+              <option value="14">SPANISH</option>
+              <option value="15">CZECH</option>
+              <option value="16">GERMAN</option>
+              <option value="17">NORWEGIAN</option>
+              <option value="18">SWEDISH</option>
+              <option value="19">DANISH</option>
+              <option value="20">HUNGARIAN</option>
+              <option value="21">POLISH</option>
+              <option value="22">TURKISH</option>
+              <option value="23">DUTCH</option>
+              <option value="24">ICELANDIC</option>
+              <option value="25">PORTUGUESE</option>
+              <option value="26">VIETNAMESE</option>
+            </select>
+          </div>
+
+          <div class="p7title">ALICE'S ADVENTURE IN WONDERLAND</div>
+          <div class="p7chapter">Chapter II</div>
+          <div class="p7paragraph">“Curiouser and curiouser!” cried Alice (she was so much surprised that for the moment she quite forgot how to speak good English). “Now  I’m opening out like the largest telescope that ever was! Good-by, feet! Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I shall be a great deal too far off to trouble myself about you.”
+          <br><br>
+         Just at this moment her head struck against the roof of the hall; in fact, she was now rather more than nine feet high, and she at once took up the little golden key and hurried off to the garden door.
+          <br><br>
+          Poor Alice! It was as much as she could do, lying down on one side, to look through into the garden with one eye; but to get through was more hopeless than ever. She sat down and began to cry again. 
+          </div>
+          
+          <div class="container">
+            <div class="hamburger_btn">
+              <div class="one"></div>
+              <div class="two"></div>
+              <div class="three"></div>
+            </div>
+
+            <div class="menu">
+              <nav>
+                <li><a href="#">Intro</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Example</a></li>
+                <li><a href="#">Recognition</a></li>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+
+       <div class="Example-left-page-1" id="pg">
       </div>
 
         <div class="Example-right-page-1" id="pg">
+          <h1>Part 2</h1>
+          <h2>Example</h2>
           <div class="container">
             <div class="hamburger_btn">
               <div class="one"></div>
@@ -472,8 +694,33 @@
         </div>
 
         <div class="Example-left-page-2" id="pg">
-          <h2>Example 2</h2>
-      </div>
+          <img src="newspaper.svg" alt="newspaper" class="newspaper" id="newspaper">
+          <h1>THE CRIMSON PRO DAILY</h1>
+          <div class="date-container">
+            <ul class="date-wrapper">
+              <li>NO.53210</li>
+              <li>TUESDAY, JANUARY 07, 2020</li>
+              <li>$3.00</li>
+            </ul>
+          </div>
+          <img src="Example2-1.png" alt="Example2-1" class="Example2-1" id="Example2-1">
+          <img src="Example2-2.png" alt="Example2-2" class="Example2-2" id="Example2-2">
+          <div class="header-1">Genius, Genocide Denier Or Both?</div>
+          <div class="snippet-1">Peter Handke, the Austrian author who was awarded this year's Nobel Prize in Literature, has been accused of falsifying history and praising war criminals.</div>
+          <div class="author-1">By ALEX MARSHALL and CHRISTOPHER F. SCHUETZE</div>
+          <div class="example-line-1"></div>
+          <div class="example-line-2"></div>
+          <div class="example-line-3"></div>
+          <div class="example-line-4"></div>
+          <div class="example-line-5"></div>
+          <div class="long-line"></div>
+          <div class="header-2" id="header-2">Up for Sale: Pop Culture Mementos</div>
+          <div class="author-2">By GEORGE GENE GUSTINES</div>
+          <div class="MadTea">MAD TEA</div>
+          <img src="outside.svg" alt="outside" class="outside" id="outside">
+          <img src="inside.svg" alt="inside" class="inside" id="inside">
+
+        </div>
 
         <div class="Example-right-page-2" id="pg">
           <div class="container">
@@ -495,8 +742,53 @@
         </div>
 
         <div class="Example-left-page-3" id="pg">
-          <h2>Example 3</h2>
-      </div>
+          <div class="LastPage">
+            <div class="Example3-line1"></div>
+            <div class="Example3-line2"></div>
+            <div class="Example3-line3"></div>
+            <div class="Example3-line4"></div>
+            <div class="book-title">BOOK TITLE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</div>
+            <div class="book-overview">OVERVIEW &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
+            <div class="book-characters">CHARACATERS :</div>
+            <div class="book-story">STORY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
+            <div class="h-1">Dog's Adventure in vortex</div>
+            <div class="h-2">This is a book about a dog and her ball, who get stuck in a mystical vortex full of daemons and panthers.</div>
+            <div class="h-3">Dog</div>
+            <div class="h-4">Ballerina</div>
+            <div class="h-5">Spunky, pixie dream girl. Loves to bark orders.</div>
+            <div class="h-6">Born a basketball, dreams of becoming a wrecking ball</div>
+            <div class="h-7">Chapter-1</div>
+            <div class="h-8">A wonderful serenity has taken possession of<br>my entire seoul, like these sweet mornings<br>of sprink which I enjoy with my whole heart.<br>I am alone, and feel the charm of existence<br>in this spot, which was created for the bliss of<br>souls like mine. I am so happy, my dear friend,<br>so absorbed in the exquisite sense of mere<br>tranquil existence, that I neglect my talents.</div>
+            <div class="h-9">Manuscript</div>
+          </div>
+        
+          <div class="tweak-box-container">
+            <h1>Type Playground</h1>
+            <div class="text-weight-container">
+              <h2>Weight Axis</h2>
+              <h3>This axis changes the thickness of the text by<br>increasing or decreasing the boldness</h3>
+            </div>
+            <div class="h-weight">Weight : </div>
+            <div class="h-size">Size : </div>
+            <div class="weight-val"></div>
+            <div class="size-val"></div>
+            <input type="range" min="200" max="900" value="200" class="example-slider-weight" id="example-slider-weight">
+            <input type="range" min="1" max="200" value="1" class="example-slider-size" id="example-slider-size">
+            <label class="container">Drawing
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">Italics
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">Custom Text
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>    
+
+          </div>
+        </div>
 
         <div class="Example-right-page-3" id="pg">
           <div class="container">
@@ -517,51 +809,6 @@
           </div>
         </div>
 
-        <div class="Example-left-page-4" id="pg">
-          <h2>Example 4</h2>
-      </div>
-
-        <div class="Example-right-page-4" id="pg">
-          <div class="container">
-            <div class="hamburger_btn">
-              <div class="one"></div>
-              <div class="two"></div>
-              <div class="three"></div>
-            </div>
-
-            <div class="menu">
-              <nav>
-                <li><a href="#">Intro</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Example</a></li>
-                <li><a href="#">Recognition</a></li>
-              </nav>
-            </div>
-          </div>
-        </div>
-
-        <div class="Example-left-page-5" id="pg">
-          <h2>Example 5</h2>
-      </div>
-
-        <div class="Example-right-page-5" id="pg">
-          <div class="container">
-            <div class="hamburger_btn">
-              <div class="one"></div>
-              <div class="two"></div>
-              <div class="three"></div>
-            </div>
-
-            <div class="menu">
-              <nav>
-                <li><a href="#">Intro</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Example</a></li>
-                <li><a href="#">Recognition</a></li>
-              </nav>
-            </div>
-          </div>
-        </div>
 
         <div class="Recognition-left-page-1" id="pg">
           <h2>Recognition 1</h2>

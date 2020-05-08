@@ -1,0 +1,342 @@
+.Example-left-page-2
+{
+	display: none;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
+	background-color: black;
+	position: absolute;
+	left: 5.972vw;
+	top: calc(57.85vw * 0.04922);
+}
+
+.Example-right-page-2
+{
+	display: none;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
+	background-color: black;
+	position: absolute;
+	right: 5.972vw;
+	top: calc(57.85vw * 0.04922);
+}
+
+
+.Example-right-page-2:before {
+	content: '';
+	border-left: 1px solid black;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*Left*/
+
+.Example-left-page-2 .newspaper
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc((100vw / 1440) * 1189);
+	height: calc((100vw / 1440) * 803);
+	top: 0;
+	left: calc((100vw / 1440) * 50);
+	z-index: 10;
+}
+
+.Example-left-page-2 h1
+{
+
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc((100vw / 1440) * 1130);
+	height: calc((100vw / 1440) * 67);
+	top: calc((100vw / 1440) * 60);
+	left: calc((100vw / 1440) * 75);
+	text-align: center;
+	z-index: 11;
+
+	font-style: normal;
+	font-weight: 900;
+	font-size: calc((100vw / 1440) * 60);
+	line-height: calc((100vw / 1440) * 67);
+
+}
+
+.Example-left-page-2 .date-container
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc((100vw / 1440) * 1064.52);
+	height: calc((100vw / 1440) * 28.5);
+	top: calc((100vw / 1440) * 127);
+	left: calc((100vw / 1440) * 110);
+	z-index: 11;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: calc((100vw / 1440) * 16);
+	line-height: calc((100vw / 1440) * 25);
+
+	border-top: calc((100vw / 1440) * 0.5) solid black;
+	border-bottom: calc((100vw / 1440) * 1) solid black;
+}
+
+.date-container .date-wrapper
+{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
+}
+
+.date-wrapper li
+{
+	margin-right: calc((100vw / 1440) * 382);
+}
+
+
+.date-container li:nth-of-type(3)
+{
+	margin-right: 0;
+}
+
+.Example-left-page-2 .Example2-1
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc((100vw / 1440) * 703.68);
+	height: calc((100vw / 1440) * 322.63);
+	top: calc((100vw / 1440) * 175);
+	left: calc((100vw / 1440) * 110);
+	z-index: 11;
+}
+
+.Example-left-page-2 .header-1
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc((100vw / 1440) * 336);
+	height: calc((100vw / 1440) * 90);
+	top: calc((100vw / 1440) * 168);
+	left: calc((100vw / 1440) * 830);
+	z-index: 11;
+
+	font-style: italic;
+	text-align: center;
+	font-weight: 600;
+	font-size: calc((100vw / 1440) * 48);
+	line-height: calc((100vw / 1440) * 53);
+
+}
+
+.Example-left-page-2 .example-line-1
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc((100vw / 1440) * 162.48);
+	border-top: calc((100vw / 1440) * 0.5) solid #231F20;
+
+	top: calc((100vw / 1440) * 295);
+	left: calc((100vw / 1440) * 920);
+	z-index: 11;
+}
+
+.Example-left-page-2 .author-1
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc((100vw / 1440) * 336);
+	height: calc((100vw / 1440) * 60);
+
+	top: calc((100vw / 1440) * 313);
+	left: calc((100vw / 1440) * 830);
+
+	font-style: italic;
+	font-weight: 300;
+	font-size: calc((100vw / 1440) * 24);
+	line-height: calc((100vw / 1440) * 27);
+	text-align: center;
+	z-index: 11;
+}
+
+.Example-left-page-2 .snippet-1
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc((100vw / 1440) * 322.58);
+	height: calc((100vw / 1440) * 94);
+
+	top: calc((100vw / 1440) * 412);
+	left: calc((100vw / 1440) * 838);
+
+	font-style: normal;
+	font-weight: 250;
+	font-size: calc((100vw / 1440) * 20);
+	line-height: calc((100vw / 1440) * 22);
+	z-index: 11;
+
+}
+
+
+.Example-left-page-2 .example-line-2
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc((100vw / 1440) * 162.48);
+	border: calc((100vw / 1440) * 0.5) solid #231F20;
+
+	top: calc((100vw / 1440) * 390);
+	left: calc((100vw / 1440) * 920);
+	z-index: 11;
+}
+
+.Example-left-page-2 .example-line-3
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc((100vw / 1440) * 703.68);
+	border: calc((100vw / 1440) * 0.5) solid #231F20;
+
+	top: calc((100vw / 1440) * 523);
+	left: calc((100vw / 1440) * 110);
+	z-index: 11;
+}
+
+.Example-left-page-2 .Example2-2
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc((100vw / 1440) * 342.84);
+	height: calc((100vw / 1440) * 222.13);
+
+	top: calc((100vw / 1440) * 550);
+	left: calc((100vw / 1440) * 473);
+	z-index: 11;
+}
+
+
+.Example-left-page-2 .header-2
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	height: calc((100vw / 1440) * 165);
+	width: calc((100vw / 1440) * 309);
+
+	top: calc((100vw / 1440) * 537);
+	left: calc((100vw / 1440) * 110);
+	z-index: 11;
+
+	text-align: center;
+
+	font-style: italic;
+	font-weight: 600;
+	font-size: calc((100vw / 1440) * 48);
+	line-height: calc((100vw / 1440) * 53);
+}
+
+.Example-left-page-2 .example-line-4
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc((100vw / 1440) * 162.48);
+	border: calc((100vw / 1440) * 0.5) solid #231F20;
+
+	top: calc((100vw / 1440) * 715);
+	left: calc((100vw / 1440) * 180);
+	z-index: 11;
+}
+
+.Example-left-page-2 .example-line-5
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc((100vw / 1440) * 162.48);
+	border: calc((100vw / 1440) * 0.5) solid #231F20;
+
+	top: calc((100vw / 1440) * 760);
+	left: calc((100vw / 1440) * 180);
+	z-index: 11;
+}
+
+.Example-left-page-2 .author-2
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	height: calc((100vw / 1440) * 46.55);
+	width: calc((100vw / 1440) * 290);
+
+	top: calc((100vw / 1440) * 715);
+	left: calc((100vw / 1440) * 110);
+	z-index: 11;
+
+	text-align: center;
+
+	font-style: italic;
+	font-weight: 300;
+	font-size: calc((100vw / 1440) * 24);
+	line-height: calc((100vw / 1440) * 42);
+}
+
+.Example-left-page-2 .outside
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	height: calc((100vw / 1440) * 221);
+	width: calc((100vw / 1440) * 344);
+
+	top: calc((100vw / 1440) * 555);
+	left: calc((100vw / 1440) * 840);
+	z-index: 11;
+}
+
+.Example-left-page-2 .inside
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	height: calc((100vw / 1440) * 174);
+	width: calc((100vw / 1440) * 287);
+
+	top: calc((100vw / 1440) * 600);
+	left: calc((100vw / 1440) * 870);
+	z-index: 11;
+}
+
+.Example-left-page-2 .MadTea
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	height: calc((100vw / 1440) * 185);
+	width: calc((100vw / 1440) * 214);
+
+	top: calc((100vw / 1440) * 588);
+	left: calc((100vw / 1440) * 910);
+
+	font-style: normal;
+	text-align: center;
+	font-weight: 900;
+	font-size: calc((100vw / 1440) * 96);
+	line-height: calc((100vw / 1440) * 107);
+	z-index: 11;
+}
+
+
+
