@@ -44,6 +44,7 @@ body
 	height: 57.85vw; 
 	background-color: black;
 	margin: 0 auto;
+	top: calc(57.85vw * 0.95078);
 }
 
 .container
@@ -169,9 +170,12 @@ display: none;
 
 .nav-container
 {
+	position: absolute;
 
 	height: calc(62.5vw * 0.0744);
 	margin: 0 auto;
+	top: calc((100vw / 1440) * 1625);
+	left: 0;
 
 }
 
@@ -180,6 +184,7 @@ display: none;
 {
 	position: relative;
 	display: flex;
+	top:0;
 
 }
 .nav-pages li
@@ -237,36 +242,162 @@ display: none;
 
 }
 
-.Recognition-left-page-1
-{
-	display: none;
-	width: 44.028vw;
-	height: calc(57.85vw * 0.95078);
-	background-color: yellow;
-	position: absolute;
-	left: 5.972vw;
-	top: calc(57.85vw * 0.04922);
+
+/* Created with http://boockup.marco.land */
+@-webkit-keyframes rotatingAnimationX {
+  0%{
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+}
+@keyframes rotatingAnimationX {
+  0%{
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+}
+@-webkit-keyframes rotatingAnimationY {
+  0%{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+@keyframes rotatingAnimationY {
+  0%{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+@-webkit-keyframes rotatingAnimationZ {
+  0%{
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+@keyframes rotatingAnimationZ {
+  0%{
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
 }
 
-.Recognition-right-page-1
-{
-	display: none;
-	width: 44.028vw;
-	height: calc(57.85vw * 0.95078);
-	background-color: yellow;
-	position: absolute;
-	right: 5.972vw;
-	top: calc(57.85vw * 0.04922);
+.book {
+  position: absolute;
+  left: calc(57vw / 2);
+  top: 0;
+  width: 44.028vw;
+  height: calc(57.85vw * 0.95078);
+  overflow: hidden;
+  -webkit-perspective: calc((100vw / 1440) * 1200);
+  perspective: calc((100vw / 1440) * 1200);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.book > div {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.boockup {
+  -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+.book-container {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-animation: 10s rotatingAnimationY linear infinite;
+  animation: 10s rotatingAnimationY linear infinite;
+}
+.book-container > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center center;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+.book-top, .book-bottom, .book-side-right {
+  background-size: auto auto;
+  background-repeat: repeat;
+  background-position: top left;
+}
+.book-front {
+  background-image: url('book-cover.jpg');
+  width: calc((100vw / 1440) * 400);
+  height: calc((100vw / 1440) * 540);
+  -webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(0,0,0) rotateY(0deg);
+  transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(0,0,0) rotateY(0deg);
+}
+.book-side-left {
+  background-image: url('book-spine.jpg');
+  width: calc((100vw / 1440) * 58);
+  height: calc((100vw / 1440) * 540);
+  -webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(calc((100vw / 1440) * -29), 0, calc((100vw / 1440) * -29)) rotateY(-90deg);
+  transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(calc((100vw / 1440) * -29), 0, calc((100vw / 1440) * -29)) rotateY(-90deg);
+}
+.book-side-right {
+  background-image: url('book-side.jpg');
+  width: calc((100vw / 1440) * 58);
+  height: calc((100vw / 1440) * 540);
+  -webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(calc((100vw / 1440) * 371), 0px,calc((100vw / 1440) * -29)) rotateY(90deg);
+  transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(calc((100vw / 1440) * 371), 0px,calc((100vw / 1440) * -29)) rotateY(90deg);
+}
+/*.book-top {
+  background-image: url('../images/book-top.jpg');
+  background-position: bottom right;
+  width: calc((100vw / 1440) * 400);
+  height: calc((100vw / 1440) * 58);
+  -webkit-transform: translate3d(calc((100vw / 1440) * -200), calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(0px, calc((100vw / 1440) * -29), calc((100vw / 1440) * -29)) rotateX(90deg);
+  transform: translate3d(calc((100vw / 1440) * -200), calc((100vw / 1440) * -279) ,calc((100vw / 1440) * 29)) translate3d(0px, calc((100vw / 1440) * -29), calc((100vw / 1440) * -29)) rotateX(90deg);
+}*/
+.book-bottom {
+  background-image: url('book-top.jpg');
+  width: calc((100vw / 1440) * 400);
+  height: calc((100vw / 1440) * 58);
+  -webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * -29)) translate3d(0px, calc((100vw / 1440) * 511), calc((100vw / 1440) * -29)) rotateX(-90deg);
+  transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(0px, calc((100vw / 1440) * 511), calc((100vw / 1440) * -29)) rotateX(-90deg);
+}
+.book-back {
+  background-image: url('book-back.jpg');
+  width: calc((100vw / 1440) * 400);
+  height: calc((100vw / 1440) * 540);
+  -webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(0,0, calc((100vw / 1440) * -58)) rotateY(180deg);
+  transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(0,0, calc((100vw / 1440) * -58)) rotateY(180deg);
 }
 
-.Recognition-right-page-1:before {
-	content: '';
-	border-left: 1px solid black;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
+
+
 /* Mobile */
 @media screen and (max-width: 480px){
 

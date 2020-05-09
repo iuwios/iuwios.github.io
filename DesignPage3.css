@@ -201,7 +201,7 @@
 	height: calc((100vw / 1440) * 28);
 	margin: 0;
 	top: calc((100vw / 1440) * 726);
-	right: calc((100vw / 1440) * 72);
+	right: calc((100vw / 1440) * 65);
 }
 
 .Design-right-page-3 .mouse
@@ -210,10 +210,49 @@
 	width: calc((100vw / 1440) * 90.2);
 	height: calc((100vw / 1440) * 54.21);
 	margin: 0;
-	top: calc((100vw / 1440) * 529);
-	right: calc((100vw / 1440) * 379);
+	top: calc((100vw / 1440) * 545);
+	right: calc((100vw / 1440) * 371);
 }
 
+.Design-right-page-3 .mushroom
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 189);
+	height: calc((100vw / 1440) * 179);
+	margin: 0;
+	top: calc((100vw / 1440) * 60);
+	right: calc((100vw / 1440) * 115);
+}
+
+.Design-right-page-3 .dodo
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 51);
+	height: calc((100vw / 1440) * 54.21);
+	margin: 0;
+	top: calc((100vw / 1440) * 712);
+	right: calc((100vw / 1440) * 419);
+}
+
+.Design-right-page-3 .cake1
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 70);
+	height: calc((100vw / 1440) * 34);
+	margin: 0;
+	top: calc((100vw / 1440) * 626);
+	right: calc((100vw / 1440) * 131);
+}
+
+.Design-right-page-3 .bottom-letters
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 420);
+	height: calc((100vw / 1440) * 79);
+	margin: 0;
+	top: calc((100vw / 1440) * 699);
+	right: calc((100vw / 1440) * 71);
+}
 
 
 

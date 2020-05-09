@@ -1,0 +1,81 @@
+.Recognition-left-page-1
+{
+	display: none;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
+	background-color: #D7B089;
+	position: absolute;
+	left: 5.972vw;
+	top: calc(57.85vw * 0.04922);
+}
+
+.Recognition-right-page-1
+{
+	display: none;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
+	background-color: #D7B089;
+	position: absolute;
+	right: 5.972vw;
+	top: calc(57.85vw * 0.04922);
+}
+
+.Recognition-right-page-1:before {
+	content: '';
+	border-left: 1px solid black;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/* Left */
+.Recognition-left-page-1 h1
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 497);
+	height: calc((100vw / 1440) * 25);
+	top: calc((100vw / 1440) * 26);
+	left: calc((100vw / 1440) * 72);
+	font-style: normal;
+	font-weight: 300;
+	font-size: calc((100vw / 1440) * var(--header-top-size));
+	line-height: 130%;
+	text-transform: lowercase;
+	margin: 0;
+}
+
+.Recognition-left-page-1 .jacques
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 526);
+	height: calc((100vw / 1440) * 339);
+	top: calc((100vw / 1440) * 479);
+	left: calc((100vw / 1440) * 72);
+}
+
+
+/* Right */
+.Recognition-right-page-1 h2
+{
+	width: calc((100vw / 1440) * 526);
+	height: calc((100vw / 1440) * 25);
+	position: absolute;
+	font-style: normal;
+	font-weight: 300;
+	font-size: calc((100vw / 1440) * 16);
+	line-height: 130%;
+	margin: 0;
+	top: calc((100vw / 1440) * 26);
+	right: calc((100vw / 1440) * 72);
+	text-align: right;
+	text-transform: lowercase;
+}
+
+.Recognition-right-page-1 .sebastian
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 526);
+	height: calc((100vw / 1440) * 339);
+	top: calc((100vw / 1440) * 479);
+	left: calc((100vw / 1440) * 72);
+}

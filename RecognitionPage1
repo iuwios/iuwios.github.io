@@ -1,0 +1,30 @@
+.Recognition-left-page-1
+{
+	display: none;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
+	background-color: yellow;
+	position: absolute;
+	left: 5.972vw;
+	top: calc(57.85vw * 0.04922);
+}
+
+.Recognition-right-page-1
+{
+	display: none;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
+	background-color: yellow;
+	position: absolute;
+	right: 5.972vw;
+	top: calc(57.85vw * 0.04922);
+}
+
+.Recognition-right-page-1:before {
+	content: '';
+	border-left: 1px solid black;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
