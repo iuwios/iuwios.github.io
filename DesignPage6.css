@@ -212,6 +212,7 @@
 .ijk45 li:nth-of-type(1)
 {
 	margin-right: calc((100vw / 1440) * 41);
+	/*margin-right: calc((100vw / 1440) * 41);*/
 }
 
 .ijk45 li:nth-of-type(2)
@@ -256,6 +257,7 @@
 .lmn67 li:nth-of-type(1)
 {
 	margin-right: calc((100vw / 1440) * 85);
+	/*margin-right: calc((100vw / 1440) * 85);*/
 }
 
 .lmn67 li:nth-of-type(2)

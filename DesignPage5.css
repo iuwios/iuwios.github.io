@@ -144,7 +144,7 @@
 	margin: 0;
 	padding: 0;
 	width: calc((100vw / 1440) * 505);
-	height: calc((100vw / 1440) * 714);
+	height: calc((100vw / 1440) * 120);
 	top: calc((100vw / 1440) * 84);
 	left: 0;
 
@@ -184,7 +184,7 @@
 	margin: 0;
 	padding: 0;
 	width: calc((100vw / 1440) * 505);
-	height: calc((100vw / 1440) * 714);
+	height: calc((100vw / 1440) * 120);
 	top: calc((100vw / 1440) * 168);
 	left: 0;
 
@@ -220,7 +220,7 @@
 	margin: 0;
 	padding: 0;
 	width: calc((100vw / 1440) * 505);
-	height: calc((100vw / 1440) * 714);
+	height: calc((100vw / 1440) * 120);
 	top: calc((100vw / 1440) * 252);
 	left: 0;
 
@@ -256,7 +256,7 @@
 	margin: 0;
 	padding: 0;
 	width: calc((100vw / 1440) * 505);
-	height: calc((100vw / 1440) * 714);
+	height: calc((100vw / 1440) * 120);
 	top: calc((100vw / 1440) * 336);
 	left: 0;
 
@@ -288,7 +288,7 @@
 	margin: 0;
 	padding: 0;
 	width: calc((100vw / 1440) * 505);
-	height: calc((100vw / 1440) * 714);
+	height: calc((100vw / 1440) * 120);
 	top: calc((100vw / 1440) * 420);
 	left: 0;
 
@@ -329,7 +329,7 @@
 	margin: 0;
 	padding: 0;
 	width: calc((100vw / 1440) * 505);
-	height: calc((100vw / 1440) * 714);
+	height: calc((100vw / 1440) * 120);
 	top: calc((100vw / 1440) * 504);
 	left: 0;
 
@@ -365,7 +365,7 @@
 	margin: 0;
 	padding: 0;
 	width: calc((100vw / 1440) * 505);
-	height: calc((100vw / 1440) * 714);
+	height: calc((100vw / 1440) * 120);
 	top: calc((100vw / 1440) * 588);
 	left: 0;
 
