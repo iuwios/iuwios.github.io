@@ -217,10 +217,10 @@
 .Design-right-page-3 .mushroom
 {
 	position: absolute;
-	width: calc((100vw / 1440) * 189);
-	height: calc((100vw / 1440) * 179);
+	width: calc((100vw / 1440) * 180);
+	height: calc((100vw / 1440) * 170);
 	margin: 0;
-	top: calc((100vw / 1440) * 60);
+	top: calc((100vw / 1440) * 58);
 	right: calc((100vw / 1440) * 115);
 }
 
