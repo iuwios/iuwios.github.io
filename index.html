@@ -742,6 +742,8 @@
         </div>
 
         <div class="Example-left-page-3" id="pg">
+          <div class="title-manuscript">Type a Manuscript</div>
+          <textarea class="dark-mode" id="dark-mode">*Click on the texts to tweak the story.&#10;Try out Dark Mode with Variable Fonts</textarea>
           <div class="LastPage">
             <div class="Example3-line1"></div>
             <div class="Example3-line2"></div>
@@ -751,41 +753,61 @@
             <div class="book-overview">OVERVIEW &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
             <div class="book-characters">CHARACATERS :</div>
             <div class="book-story">STORY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
-            <div class="h-1">Dog's Adventure in vortex</div>
-            <div class="h-2">This is a book about a dog and her ball, who get stuck in a mystical vortex full of daemons and panthers.</div>
-            <div class="h-3">Dog</div>
-            <div class="h-4">Ballerina</div>
-            <div class="h-5">Spunky, pixie dream girl. Loves to bark orders.</div>
-            <div class="h-6">Born a basketball, dreams of becoming a wrecking ball</div>
-            <div class="h-7">Chapter-1</div>
-            <div class="h-8">A wonderful serenity has taken possession of<br>my entire seoul, like these sweet mornings<br>of sprink which I enjoy with my whole heart.<br>I am alone, and feel the charm of existence<br>in this spot, which was created for the bliss of<br>souls like mine. I am so happy, my dear friend,<br>so absorbed in the exquisite sense of mere<br>tranquil existence, that I neglect my talents.</div>
+            <textarea class="h-1" id="book-title">Dog's Adventure in vortex</textarea>
+            <textarea class="h-2" id="book-overview">This is a book about a dog and her ball, who get stuck in a mystical vortex full of daemons and panthers.</textarea>
+            <textarea class="h-3" id="book-character-1">Dog</textarea>
+            <textarea class="h-4" id="book-character-2">Ballerina</textarea>
+            <textarea class="h-5" id="book-character-1-txt">Spunky, pixie dream girl. Loves to bark orders.</textarea>
+            <textarea class="h-6" id="book-character-2-txt">Born a basketball, dreams of becoming a wrecking ball</textarea>
+            <textarea class="h-7" id="book-chapter">Chapter-1</textarea>
+            <textarea class="h-8" id="book-chapter-txt">A wonderful serenity has taken possession of my entire seoul, like these sweet mornings of sprink which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</textarea>
             <div class="h-9">Manuscript</div>
           </div>
         
-          <div class="tweak-box-container">
+          <div class="tweak-box-container" id="tweak-box-container">
+            <div class="tweak-box-containerheader" id="tweak-box-containerheader"></div>
             <h1>Type Playground</h1>
             <div class="text-weight-container">
               <h2>Weight Axis</h2>
               <h3>This axis changes the thickness of the text by<br>increasing or decreasing the boldness</h3>
             </div>
-            <div class="h-weight">Weight : </div>
-            <div class="h-size">Size : </div>
+            
             <div class="weight-val"></div>
             <div class="size-val"></div>
-            <input type="range" min="200" max="900" value="200" class="example-slider-weight" id="example-slider-weight">
-            <input type="range" min="1" max="200" value="1" class="example-slider-size" id="example-slider-size">
-            <label class="container">Drawing
-              <input type="checkbox" checked="checked">
+
+            <div class="weight-slider-container">
+              <div class="value_text" id="e3-value-weight">400</div>
+              <div class="slider-elements">Weight : </div>
+              <input type="range" min="200" max="900" value="400" class="slider-changes" id="e3-example-slider-weight">
+            </div>
+
+            <div class="size-slider-container">
+              <div class="value_text" id="e3-value-size">20</div>
+              <div class="slider-elements">Size : </div>
+              <input type="range" min="1" max="200" value="20" class="slider-changes" id="e3-example-slider-size">
+            </div>
+
+            <div class="lineheight-slider-container">
+              <div class="value_text" id="e3-value-lineheight">28</div>
+              <div class="slider-elements">Line Height : </div>
+              <input type="range" min="1" max="200" value="28" class="slider-changes" id="e3-example-slider-lineheight">
+            </div>
+            
+            <!--checked="checked"-->
+            <div class="checkbox-container">
+              <label class="box-container">Drawing
+              <input type="checkbox" id="checkbox_drawing">
               <span class="checkmark"></span>
             </label>
-            <label class="container">Italics
-              <input type="checkbox">
+            <label class="box-container">Italics
+              <input type="checkbox" id="checkbox_ital" checked="checked">
               <span class="checkmark"></span>
             </label>
-            <label class="container">Custom Text
-              <input type="checkbox">
+            <label class="box-container">Custom Text
+              <input type="checkbox" id="checkbox_custom">
               <span class="checkmark"></span>
-            </label>    
+            </label>  
+            </div>  
 
           </div>
         </div>

@@ -878,6 +878,9 @@ for(var k=0; k<only_tag.length; k++){
 
 }
 
+
+
+
 var url = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?q=fashion&api-key=oObWA9Y4w0O3UeN7RevglXHX4MdXzw74';
 
 function setup()
@@ -892,7 +895,353 @@ function gotData(data)
 }
 
 
+var slider_e3_weight = document.getElementById("e3-example-slider-weight");
+var output_e3_weight = document.getElementById("e3-value-weight");
+var slider_e3_size = document.getElementById("e3-example-slider-size");
+var output_e3_size = document.getElementById("e3-value-size");
+var slider_e3_lineheight = document.getElementById("e3-example-slider-lineheight");
+var output_e3_lineheight = document.getElementById("e3-value-lineheight");
+var dark_mode = document.getElementById("dark-mode");
 
+var checkbox_ital = document.getElementById("checkbox_ital");
+
+var book_overview = document.getElementById("book-overview");
+var book_title = document.getElementById("book-title");
+var book_character_1 = document.getElementById("book-character-1");
+var book_character_2 = document.getElementById("book-character-2");
+var book_character_1_txt = document.getElementById("book-character-1-txt");
+var book_character_2_txt = document.getElementById("book-character-2-txt");
+var book_chapter = document.getElementById("book-chapter");
+var book_chapter_txt = document.getElementById("book-chapter-txt");
+
+var curr_txtbox = "book-title";
+
+checkbox_ital.onclick = function() {
+	if(checkbox_ital.checked == true){
+		document.getElementById(curr_txtbox).style.fontStyle = 'italic';
+	}
+	else{
+		document.getElementById(curr_txtbox).style.fontStyle = 'normal';
+	}
+}
+
+slider_e3_weight.oninput = function() {
+	output_e3_weight.innerHTML = slider_e3_weight.value;
+	//alert(curr_txtbox);
+	var d = document.getElementById(curr_txtbox);
+	d.style.setProperty('--e3-text-weight', this.value);
+
+}
+
+slider_e3_size.oninput = function() 
+{
+	output_e3_size.innerHTML = slider_e3_size.value;
+	var d = document.getElementById(curr_txtbox);
+	d.style.setProperty('--e3-text-size', this.value);
+}
+
+slider_e3_lineheight.oninput = function() 
+{
+	output_e3_lineheight.innerHTML = slider_e3_lineheight.value;
+	var d = document.getElementById(curr_txtbox);
+	d.style.setProperty('--e3-text-lineheight', this.value);
+}
+
+book_overview.onclick = function()
+{
+	curr_txtbox = book_overview.id;
+	var styles_applied = window.getComputedStyle(book_overview);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+book_title.onclick = function()
+{
+	curr_txtbox = book_title.id;
+	var styles_applied = window.getComputedStyle(book_title);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+book_character_1.onclick = function()
+{
+	curr_txtbox = book_character_1.id;
+	var styles_applied = window.getComputedStyle(book_character_1);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+book_character_1_txt.onclick = function()
+{
+	curr_txtbox = book_character_1_txt.id;
+	var styles_applied = window.getComputedStyle(book_character_1_txt);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+book_character_2.onclick = function()
+{
+	curr_txtbox = book_character_2.id;
+	var styles_applied = window.getComputedStyle(book_character_2);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+book_character_2_txt.onclick = function()
+{
+	curr_txtbox = book_character_2_txt.id;
+	var styles_applied = window.getComputedStyle(book_character_2_txt);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+book_chapter.onclick = function()
+{
+	curr_txtbox = book_chapter.id;
+	var styles_applied = window.getComputedStyle(book_chapter);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+book_chapter_txt.onclick = function()
+{
+	curr_txtbox = book_chapter_txt.id;
+	var styles_applied = window.getComputedStyle(book_chapter_txt);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+dark_mode.onclick = function()
+{
+	curr_txtbox = dark_mode.id;
+	var styles_applied = window.getComputedStyle(dark_mode);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+// Make the DIV element draggable:
+dragElement(document.getElementById("tweak-box-container"));
+
+function dragElement(elmnt) {
+	var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+	if (document.getElementById(elmnt.id + "header")) {
+	// if present, the header is where you move the DIV from:
+	document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+	} else {
+	// otherwise, move the DIV from anywhere inside the DIV: 
+	elmnt.onmousedown = dragMouseDown;
+ }
+
+  function dragMouseDown(e) {
+	e = e || window.event;
+	e.preventDefault();
+	// get the mouse cursor position at startup:
+	pos3 = e.clientX;
+	pos4 = e.clientY;
+	document.onmouseup = closeDragElement;
+	// call a function whenever the cursor moves:
+	document.onmousemove = elementDrag;
+	}
+
+	function elementDrag(e) {
+	e = e || window.event;
+	e.preventDefault();
+	// calculate the new cursor position:
+	pos1 = pos3 - e.clientX;
+	pos2 = pos4 - e.clientY;
+	pos3 = e.clientX;
+	pos4 = e.clientY;
+	// set the element's new position:
+	elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+	elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+	// stop moving when mouse button is released:
+	document.onmouseup = null;
+	document.onmousemove = null;
+	}
+}
 
 
 
