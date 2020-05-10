@@ -410,6 +410,11 @@ display: none;
 	--init-margin-left: 55;
 }
 
+.book
+{
+	display: none;
+
+}
 .contain
 {
 	width: 100vw;

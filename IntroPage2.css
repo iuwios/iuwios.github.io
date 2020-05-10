@@ -20,7 +20,7 @@
 	width: 44.028vw;
 	height: calc((100vw / var(--init-width)) * 792);
 	background-color: white;
-	position: absolute;
+	position: absolute; 
 	left: 5.972vw;
 	top: calc(57.85vw * 0.04922);
 	margin: 0;
