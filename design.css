@@ -13,6 +13,8 @@
 
 :root {
 	--init-width: 1440;
+	--init-margin-right: 81;
+	--init-margin-left: 72;
 
 	--init-border-color: white;
 	--init-line-height: 140;
@@ -403,7 +405,9 @@ display: none;
 /* Mobile */
 @media screen and (max-width: 480px){
 	:root{
-	--init-width:634;
+	--init-width: 634;
+	--init-margin-right: 60;
+	--init-margin-left: 55;
 }
 
 .contain
