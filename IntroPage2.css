@@ -519,8 +519,16 @@
 	position: absolute;
 	display: block;
 	width: 100vw;
-	right: calc((100vw / var(--init-width)) * 0.85);
+	left:0;
+	right:0;
 	top: calc((100vw / var(--init-width)) * 792 * 2 + 20px);
+}
+
+.Intro-right-page-2:before
+{
+
+	display: none;
+
 }
 
 }
