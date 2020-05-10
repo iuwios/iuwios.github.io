@@ -426,7 +426,7 @@ display: none;
 	max-width: 100%;
 	display: block;
 	width: 100vw;
-	height: calc((790 / 634) * 100vw);
+	height: calc((100vw / var(--init-width)) * 792);
     text-align: left;
 	margin: 0;
 	top: 0;
