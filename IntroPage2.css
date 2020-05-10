@@ -519,7 +519,7 @@
 	position: absolute;
 	display: block;
 	width: 100vw;
-	right: 0;
+	right: calc((100vw / var(--init-width)) * 0.85);
 	top: calc((100vw / var(--init-width)) * 792 * 2 + 20px);
 }
 
