@@ -376,6 +376,24 @@ slider_pg3.oninput = function()
 var elems = document.getElementById("triangle-containerz").getElementsByTagName("img");
 function color_red()
 {
+	if(night_mode==true){
+		elms[10].style.backgroundColor = 'white';
+	    elms[11].style.backgroundColor = 'white';
+	    document.getElementById('circle_yellow').style.border='1px solid black';
+	    document.getElementById('circle_blue').style.border='1px solid black';
+	    document.getElementById('circle_brown').style.border='1px solid black';
+	    document.getElementById('circle_pink').style.border='1px solid black';
+	    document.getElementById('circle_black').style.border='1px solid black';
+	    document.getElementById('circle_green').style.border='1px solid black';
+	    document.getElementById('circle_white').style.border='1px solid black';
+	    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
+	    document.getElementById('weight-text').style.color='black';
+	    document.getElementById('size-text').style.color='black';
+	    document.getElementById('d-weighttxt').style.color='black';
+	    document.getElementById('weight-unlimited').style.color='black';
+	    document.getElementById('with-unlimited').style.color='black';
+	    night_mode = false;
+	}
 	document.getElementById("drink-text").style.color='red';
 	cur_color = '#EB0000';
 	black_white = "#FFFFFF";
@@ -398,6 +416,24 @@ function color_red()
 
 function color_yellow()
 {
+	if(night_mode==true){
+		elms[10].style.backgroundColor = 'white';
+	    elms[11].style.backgroundColor = 'white';
+	    document.getElementById('circle_yellow').style.border='1px solid black';
+	    document.getElementById('circle_blue').style.border='1px solid black';
+	    document.getElementById('circle_brown').style.border='1px solid black';
+	    document.getElementById('circle_pink').style.border='1px solid black';
+	    document.getElementById('circle_black').style.border='1px solid black';
+	    document.getElementById('circle_green').style.border='1px solid black';
+	    document.getElementById('circle_white').style.border='1px solid black';
+	    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
+	    document.getElementById('weight-text').style.color='black';
+	    document.getElementById('size-text').style.color='black';
+	    document.getElementById('d-weighttxt').style.color='black';
+	    document.getElementById('weight-unlimited').style.color='black';
+	    document.getElementById('with-unlimited').style.color='black';
+	    night_mode = false;
+	}
 	document.getElementById("drink-text").style.color='#FFEB00';
 	cur_color='#FFEB00';
 	black_white = "#FFFFFF";
@@ -419,6 +455,24 @@ function color_yellow()
 
 function color_blue()
 {
+	if(night_mode==true){
+		elms[10].style.backgroundColor = 'white';
+	    elms[11].style.backgroundColor = 'white';
+	    document.getElementById('circle_yellow').style.border='1px solid black';
+	    document.getElementById('circle_blue').style.border='1px solid black';
+	    document.getElementById('circle_brown').style.border='1px solid black';
+	    document.getElementById('circle_pink').style.border='1px solid black';
+	    document.getElementById('circle_black').style.border='1px solid black';
+	    document.getElementById('circle_green').style.border='1px solid black';
+	    document.getElementById('circle_white').style.border='1px solid black';
+	    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
+	    document.getElementById('weight-text').style.color='black';
+	    document.getElementById('size-text').style.color='black';
+	    document.getElementById('d-weighttxt').style.color='black';
+	    document.getElementById('weight-unlimited').style.color='black';
+	    document.getElementById('with-unlimited').style.color='black';
+	    night_mode = false;
+	}
 	cur_color='#70CCF7';
 	document.getElementById("drink-text").style.color='#70CCF7';
 	document.getElementById(cur_element).style.backgroundColor=cur_color;
@@ -440,6 +494,24 @@ function color_blue()
 
 function color_brown()
 {
+	if(night_mode==true){
+		elms[10].style.backgroundColor = 'white';
+	    elms[11].style.backgroundColor = 'white';
+	    document.getElementById('circle_yellow').style.border='1px solid black';
+	    document.getElementById('circle_blue').style.border='1px solid black';
+	    document.getElementById('circle_brown').style.border='1px solid black';
+	    document.getElementById('circle_pink').style.border='1px solid black';
+	    document.getElementById('circle_black').style.border='1px solid black';
+	    document.getElementById('circle_green').style.border='1px solid black';
+	    document.getElementById('circle_white').style.border='1px solid black';
+	    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
+	    document.getElementById('weight-text').style.color='black';
+	    document.getElementById('size-text').style.color='black';
+	    document.getElementById('d-weighttxt').style.color='black';
+	    document.getElementById('weight-unlimited').style.color='black';
+	    document.getElementById('with-unlimited').style.color='black';
+	    night_mode = false;
+	}
 	cur_color='#D7B089';
 	document.getElementById("drink-text").style.color='#D7B089';
 	document.getElementById(cur_element).style.backgroundColor=cur_color;
@@ -460,6 +532,24 @@ function color_brown()
 
 function color_pink()
 {
+	if(night_mode==true){
+		elms[10].style.backgroundColor = 'white';
+	    elms[11].style.backgroundColor = 'white';
+	    document.getElementById('circle_yellow').style.border='1px solid black';
+	    document.getElementById('circle_blue').style.border='1px solid black';
+	    document.getElementById('circle_brown').style.border='1px solid black';
+	    document.getElementById('circle_pink').style.border='1px solid black';
+	    document.getElementById('circle_black').style.border='1px solid black';
+	    document.getElementById('circle_green').style.border='1px solid black';
+	    document.getElementById('circle_white').style.border='1px solid black';
+	    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
+	    document.getElementById('weight-text').style.color='black';
+	    document.getElementById('size-text').style.color='black';
+	    document.getElementById('d-weighttxt').style.color='black';
+	    document.getElementById('weight-unlimited').style.color='black';
+	    document.getElementById('with-unlimited').style.color='black';
+	    night_mode = false;
+	}
 	cur_color='#FFC0EF';
 	document.getElementById("drink-text").style.color='#FFC0EF';
 	document.getElementById(cur_element).style.backgroundColor=cur_color;
@@ -480,6 +570,24 @@ function color_pink()
 
 function color_black()
 {
+	if(night_mode==true){
+		elms[10].style.backgroundColor = 'white';
+	    elms[11].style.backgroundColor = 'white';
+	    document.getElementById('circle_yellow').style.border='1px solid black';
+	    document.getElementById('circle_blue').style.border='1px solid black';
+	    document.getElementById('circle_brown').style.border='1px solid black';
+	    document.getElementById('circle_pink').style.border='1px solid black';
+	    document.getElementById('circle_black').style.border='1px solid black';
+	    document.getElementById('circle_green').style.border='1px solid black';
+	    document.getElementById('circle_white').style.border='1px solid black';
+	    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
+	    document.getElementById('weight-text').style.color='black';
+	    document.getElementById('size-text').style.color='black';
+	    document.getElementById('d-weighttxt').style.color='black';
+	    document.getElementById('weight-unlimited').style.color='black';
+	    document.getElementById('with-unlimited').style.color='black';
+	    night_mode = false;
+	}
 	cur_color='#000000';
 	document.getElementById("drink-text").style.color='black';
 	document.getElementById(cur_element).style.backgroundColor=cur_color;
@@ -500,6 +608,24 @@ function color_black()
 
 function color_green()
 {
+	if(night_mode==true){
+		elms[10].style.backgroundColor = 'white';
+	    elms[11].style.backgroundColor = 'white';
+	    document.getElementById('circle_yellow').style.border='1px solid black';
+	    document.getElementById('circle_blue').style.border='1px solid black';
+	    document.getElementById('circle_brown').style.border='1px solid black';
+	    document.getElementById('circle_pink').style.border='1px solid black';
+	    document.getElementById('circle_black').style.border='1px solid black';
+	    document.getElementById('circle_green').style.border='1px solid black';
+	    document.getElementById('circle_white').style.border='1px solid black';
+	    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
+	    document.getElementById('weight-text').style.color='black';
+	    document.getElementById('size-text').style.color='black';
+	    document.getElementById('d-weighttxt').style.color='black';
+	    document.getElementById('weight-unlimited').style.color='black';
+	    document.getElementById('with-unlimited').style.color='black';
+	    night_mode = false;
+	}
 	cur_color='#3EB449';
 	document.getElementById("drink-text").style.color='#3EB449';
 	document.getElementById(cur_element).style.backgroundColor=cur_color;
@@ -526,12 +652,12 @@ function color_white()
 	document.getElementById(cur_element).style.backgroundColor=cur_color;
 	black_white = "#000000";
 	document.getElementById(cur_element).style.color=black_white;
-	document.getElementById("roman").style.backgroundColor='#000000';
+	/*document.getElementById("roman").style.backgroundColor='#000000';
 	document.getElementById("roman").style.color='#FFFFFF';
 	document.getElementById("italic").style.backgroundColor='#000000';
 	document.getElementById("italic").style.color='#FFFFFF';
 	document.getElementById(rom_ital).style.backgroundColor='#FFFFFF';
-	document.getElementById(rom_ital).style.color='#000000';
+	document.getElementById(rom_ital).style.color='#000000';*/
 	for (var i = 0; i<elems.length; i++) {
         if (elems[i].className == 'triangle8') {
             elems[i].style.visibility = 'visible';
@@ -877,9 +1003,6 @@ for(var k=0; k<only_tag.length; k++){
     });
 
 }
-
-
-
 
 var url = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?q=fashion&api-key=oObWA9Y4w0O3UeN7RevglXHX4MdXzw74';
 
