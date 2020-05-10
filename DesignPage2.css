@@ -295,6 +295,7 @@
 	margin: 0;
 	border-radius: 80px;
 	-webkit-appearance: none;  /* 13 */
+	-ms-appearance:none;
   	appearance: none;
   	background: #BBBDBF;
   	outline: none !important;
@@ -304,6 +305,18 @@
 .slider-pg3::-webkit-slider-thumb
  {
 	-webkit-appearance: none;
+	appearance: none;
+	width: calc((100vw / 1440) * 15);
+	height: calc((100vw / 1440) * 15);
+	border-radius: 100px;
+	background: radial-gradient(139.98% 139.65% at 50% -15.59%, #FFFFFF 31.47%, #000000 90.53%);
+	border: calc((100vw / 1440) * 1) solid #BBBDBF;
+	outline: none !important;
+}
+
+.slider-pg3::-ms-track
+ {
+	-ms-appearance: none;
 	appearance: none;
 	width: calc((100vw / 1440) * 15);
 	height: calc((100vw / 1440) * 15);

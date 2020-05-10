@@ -664,6 +664,7 @@
 	margin: 0;
 	border-radius: 80px;
 	-webkit-appearance: none;  /* 13 */
+	-ms-appearance: none; 
   	appearance: none;
   	background: black;
   	outline: none !important;
@@ -681,5 +682,15 @@
 	outline: none !important;
 }
 
+.slider-changes::-ms-track {
+	-ms-appearance: none;
+	appearance: none;
+	width: calc((100vw / 1440) * 15);
+	height: calc((100vw / 1440) * 15);
+	border-radius: 100px;
+	background: black;
+	border: calc((100vw / 1440) * 1) solid white;
+	outline: none !important;
+}
 
 

@@ -155,6 +155,7 @@
 	margin: 0;
 	border-radius: 80px;
 	-webkit-appearance: none;  /* 13 */
+	-ms-appearance: none;
   	appearance: none;
   	background: #BBBDBF;
   	outline: none !important;
@@ -172,11 +173,21 @@
 	  outline: none !important;
 }
 
+.slider-2::-ms-track {
+	  -ms-appearance: none;
+	  appearance: none;
+	  width: calc((100vw / var(--init-width)) * 15);
+	  height: calc((100vw / var(--init-width)) * 15);
+	  border-radius: 100px;
+	  background: radial-gradient(139.98% 139.65% at 50% -15.59%, #FFFFFF 31.47%, #000000 90.53%);
+	  border: calc((100vw / var(--init-width)) * 1) solid #BBBDBF;
+	  outline: none !important;
+}
+
 
 
 .contain-ter
 {
-
 	width: calc((100vw / var(--init-width)) * 506.46);
 	height: calc((100vw / var(--init-width)) * 270);
 	position: absolute;
@@ -509,7 +520,6 @@
 	display: block;
 	width: 100vw;
 	right: 0;
-	left: 0;
 	top: calc((100vw / var(--init-width)) * 792 * 2 + 20px);
 }
 
