@@ -173,7 +173,7 @@
 	  outline: none !important;
 }
 
-.slider-2::-ms-track {
+.slider-2::-ms-thumb {
 	  -ms-appearance: none;
 	  appearance: none;
 	  width: calc((100vw / var(--init-width)) * 15);

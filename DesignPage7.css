@@ -420,7 +420,7 @@
 
 .select-items div:hover, .same-as-selected {
   background-color: white;
-  border: 1px solid black;
+  border: calc((100vw / 1440) * 1) solid black;
 }
 
 .d7-border
@@ -436,15 +436,25 @@
   border: 1px solid black;
 }
 
+.p7text-container
+{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: calc((100vw / 1440) * 534);
+  height: calc((100vw / 1440) * 590);
+  top: calc((100vw / 1440) * 154.35);
+  right: calc((100vw / 1440) * 72);
+}
+
 .p7title
 {
 	position: absolute;
 	margin: 0;
 	padding: 0;
-	width: calc((100vw / 1440) * 442);
+	width: calc((100vw / 1440) * 534);
 	height: calc((100vw / 1440) * 100);
-	top: calc((100vw / 1440) * 154.35);
-	right: calc((100vw / 1440) * 113.15);
+	right: 0;
 
 	font-style: normal;
 	font-weight: bold;
@@ -459,11 +469,12 @@
 	position: absolute;
 	margin: 0;
 	padding: 0;
-	width: calc((100vw / 1440) * 164);
+	width: calc((100vw / 1440) * 534);
 	height: calc((100vw / 1440) * 40);
-	top: calc((100vw / 1440) * 263.38);
-	right: calc((100vw / 1440) * 251.78);
+	top: calc((100vw / 1440) * 110);
+	right: 0;
 
+	text-align: center;
 	font-style: italic;
 	font-weight: 900;
 	font-size: calc((100vw / 1440) * 36);
@@ -479,15 +490,14 @@
 	margin: 0;
 	padding: 0;
 	width: calc((100vw / 1440) * 534);
-	height: calc((100vw / 1440) * 387);
-	top: calc((100vw / 1440) * 363);
-	right: calc((100vw / 1440) * 72);
+	height: calc((100vw / 1440) * 410);
+	top: calc((100vw / 1440) * 180);
+	right: 0;
 
 	font-style: normal;
 	font-weight: normal;
 	font-size: calc((100vw / 1440) * 18);
 	line-height: calc((100vw / 1440) * 30);
-		
 }
 
 

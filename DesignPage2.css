@@ -82,8 +82,9 @@
 
 .text-container .the-text
 {
+	position: absolute;
 	font-family: Crimson Pro;
-	width: calc((100vw / var(--init-width)) * 525.78);
+	width: calc((100vw / var(--init-width)) * 525);
 	height: calc((100vw / var(--init-width)) * 350);
 	position: absolute;
 	margin: 0;

@@ -842,9 +842,9 @@ var outputd4 = document.getElementById("d-weighttxt");
 
 sliderd4.oninput = function()
 {
-		outputd4.innerHTML = sliderd4.value;
-		var d = document.getElementById("drink-text");
-		d.style.setProperty('--text-weight', this.value);
+	outputd4.innerHTML = sliderd4.value;
+	var d = document.getElementById("drink-text");
+	d.style.setProperty('--text-weight', this.value);
 }
 
 
@@ -892,7 +892,8 @@ function d6regular()
 
 
 
-
+var cur_language = "title-english";
+var cur_language_left = "ENGLISH";
 var x, i, j, selElmnt, a, b, c;
 /* Look for any elements with the class "custom-select": */
 x = document.getElementsByClassName("custom-select");
@@ -921,16 +922,135 @@ for (i = 0; i < x.length; i++) {
        	//alert(this.parentNode.innerHTML);
         for (i = 0; i < s.length; i++) {
           if (s.options[i].innerHTML == this.innerHTML) {
+          document.getElementById(cur_language).style.display = "none";
+          document.getElementById(cur_language_left).style.backgroundColor='white';
+	  	  document.getElementById(cur_language_left).style.color='black';
           	switch(s.options[i].innerHTML){
           		case "ENGLISH":
-          			alert("English title change");
+          			cur_language_left = "ENGLISH";
+          			cur_language = "title-english";
           			break;
           		case "AFRIKAANS":
-          			alert("AFRIKAANS title changed");
+          			cur_language = "title-afrikaans";
+          			cur_language_left = "AFRIKAANS";
           			break;
+          		case "ITALIAN":
+          			cur_language_left = "ITALIAN";
+          			cur_language = "title-italian";
+          			break;
+          		case "ROMANIAN":
+          			cur_language = "title-afrikaans";
+          			cur_language_left = "ROMANIAN";
+          			break;
+          		case "ALBANIAN":
+          			cur_language_left = "ALBANIAN";
+          			cur_language = "title-albanian";
+          			break;
+          		case "ESTONIAN":
+          			cur_language = "title-estonian";
+          			cur_language_left = "ESTONIAN";
+          			break;
+          		case "LATVIAN":
+          			cur_language_left = "LATVIAN";
+          			cur_language = "title-latvian";
+          			break;
+          		case "SLOVAK":
+          			cur_language = "title-slovak";
+          			cur_language_left = "SLOVAK";
+          			break;
+
+
+				case "CATALAN":
+		  			cur_language_left = "CATALAN";
+		  			cur_language = "title-catalan";
+		  			break;
+		  		case "FINNISH":
+		  			cur_language_left = "FINNISH";
+	          		cur_language = "title-finnish";
+		  			break;
+				case "LITHUANIAN":
+					cur_language = "title-lithuanian";
+	      			cur_language_left = "LITHUANIAN";
+	      			break;
+	      		case "SLOVENIAN":
+	      			cur_language = "title-slovenian";
+	      			cur_language_left = "SLOVENIAN";
+	      			break;
+	      		case "CROATIAN":
+	      			cur_language = "title-croatian";
+	      			cur_language_left = "CROATIAN";
+	      			break;
+	      		case "FRENCH":
+	      			cur_language = "title-french";
+	      			cur_language_left = "FRENCH";
+	      			break;
+	      		case "MALTESE":
+	      			cur_language = "title-maltese";
+	      			cur_language_left = "MALTESE";
+	      			break;
+	      		case "SPANISH":
+	      			cur_language = "title-spanish";
+	      			cur_language_left = "SPANISH";
+	      			break;
+
+		      	case "GERMAN":
+		  			cur_language_left = "GERMAN";
+		  			cur_language = "title-german";
+		  			break;
+		  		case "NORWEGIAN":
+		  			cur_language_left = "NORWEGIAN";
+	          		cur_language = "title-norwegian";
+		  			break;
+				case "CZECH":
+					cur_language = "title-czech";
+	      			cur_language_left = "CZECH";
+	      			break;
+	      		case "SWEDISH":
+	      			cur_language = "title-swedish";
+	      			cur_language_left = "SWEDISH";
+	      			break;
+	      		case "DANISH":
+	      			cur_language = "title-danish";
+	      			cur_language_left = "DANISH";
+	      			break;
+	      		case "HUNGARIAN":
+	      			cur_language = "title-hungarian";
+	      			cur_language_left = "HUNGARIAN";
+	      			break;
+	      		case "POLISH":
+	      			cur_language = "title-polish";
+	      			cur_language_left = "POLISH";
+	      			break;
+	      		case "TURKISH":
+	      			cur_language = "title-turkish";
+	      			cur_language_left = "TURKISH";
+	      			break;
+
+
+	      		case "DUTCH":
+	      			cur_language = "title-danish";
+	      			cur_language_left = "DUTCH";
+	      			break;
+	      		case "ICELANDIC":
+	      			cur_language = "title-icelandic";
+	      			cur_language_left = "ICELANDIC";
+	      			break;
+	      		case "PORTUGUESE":
+	      			cur_language = "title-portuguese";
+	      			cur_language_left = "PORTUGUESE";
+	      			break;
+	      		case "VIETNAMESE":
+	      			cur_language = "title-vietnamese";
+	      			cur_language_left = "VIETNAMESE";
+	      			break;
+
           		default:
           			break;
           	}
+          	document.getElementById(cur_language).style.display = "block";
+          	document.getElementsByClassName("select-selected")[0].innerHTML=cur_language_left;
+		  	document.getElementById(cur_language_left).style.backgroundColor='black';
+		  	document.getElementById(cur_language_left).style.color='white';
          
             s.selectedIndex = i;
             h.innerHTML = this.innerHTML;
@@ -981,7 +1101,6 @@ function closeAllSelect(elmnt) {
 /* If the user clicks anywhere outside the select box,
 then close all select boxes: */
 document.addEventListener("click", closeAllSelect);
-
 var p7elements,o;
 
 p7elements=document.getElementById("language-container");
@@ -989,17 +1108,134 @@ var only_tag = p7elements.getElementsByTagName("li");
 
 for(var k=0; k<only_tag.length; k++){
     only_tag[k].addEventListener("click", function(e) {
-    	//alert(this.innerHTML);
+    	document.getElementById(cur_language_left).style.backgroundColor='white';
+	  	document.getElementById(cur_language_left).style.color='black';
+	  	document.getElementById(cur_language).style.display = "none";
 		switch(this.innerHTML){
 	  		case "ENGLISH":
-	  			alert("English title change");
+	  			cur_language_left = "ENGLISH";
+	  			cur_language = "title-english";
 	  			break;
 	  		case "AFRIKAANS":
-	  			alert("AFRIKAANS title changed");
+	  			cur_language_left = "AFRIKAANS";
+          		cur_language = "title-afrikaans";
 	  			break;
+			case "ITALIAN":
+				cur_language = "title-italian";
+      			cur_language_left = "ITALIAN";
+      			break;
+      		case "ROMANIAN":
+      			cur_language = "title-romanian";
+      			cur_language_left = "ROMANIAN";
+      			break;
+      		case "ALBANIAN":
+      			cur_language = "title-albanian";
+      			cur_language_left = "ALBANIAN";
+      			break;
+      		case "ESTONIAN":
+      			cur_language = "title-estonian";
+      			cur_language_left = "ESTONIAN";
+      			break;
+      		case "LATVIAN":
+      			cur_language = "title-latvian";
+      			cur_language_left = "LATVIAN";
+      			break;
+      		case "SLOVAK":
+      			cur_language = "title-slovak";
+      			cur_language_left = "SLOVAK";
+      			break;
+
+			case "CATALAN":
+	  			cur_language_left = "CATALAN";
+	  			cur_language = "title-catalan";
+	  			break;
+	  		case "FINNISH":
+	  			cur_language_left = "FINNISH";
+          		cur_language = "title-finnish";
+	  			break;
+			case "LITHUANIAN":
+				cur_language = "title-lithuanian";
+      			cur_language_left = "LITHUANIAN";
+      			break;
+      		case "SLOVENIAN":
+      			cur_language = "title-slovenian";
+      			cur_language_left = "SLOVENIAN";
+      			break;
+      		case "CROATIAN":
+      			cur_language = "title-croatian";
+      			cur_language_left = "CROATIAN";
+      			break;
+      		case "FRENCH":
+      			cur_language = "title-french";
+      			cur_language_left = "FRENCH";
+      			break;
+      		case "MALTESE":
+      			cur_language = "title-maltese";
+      			cur_language_left = "MALTESE";
+      			break;
+      		case "SPANISH":
+      			cur_language = "title-spanish";
+      			cur_language_left = "SPANISH";
+      			break;
+
+      		case "GERMAN":
+	  			cur_language_left = "GERMAN";
+	  			cur_language = "title-german";
+	  			break;
+	  		case "NORWEGIAN":
+	  			cur_language_left = "NORWEGIAN";
+          		cur_language = "title-norwegian";
+	  			break;
+			case "CZECH":
+				cur_language = "title-czech";
+      			cur_language_left = "CZECH";
+      			break;
+      		case "SWEDISH":
+      			cur_language = "title-swedish";
+      			cur_language_left = "SWEDISH";
+      			break;
+      		case "DANISH":
+      			cur_language = "title-danish";
+      			cur_language_left = "DANISH";
+      			break;
+      		case "HUNGARIAN":
+      			cur_language = "title-hungarian";
+      			cur_language_left = "HUNGARIAN";
+      			break;
+      		case "POLISH":
+      			cur_language = "title-polish";
+      			cur_language_left = "POLISH";
+      			break;
+      		case "TURKISH":
+      			cur_language = "title-turkish";
+      			cur_language_left = "TURKISH";
+      			break;
+
+
+      		case "DUTCH":
+      			cur_language = "title-danish";
+      			cur_language_left = "DUTCH";
+      			break;
+      		case "ICELANDIC":
+      			cur_language = "title-icelandic";
+      			cur_language_left = "ICELANDIC";
+      			break;
+      		case "PORTUGUESE":
+      			cur_language = "title-portuguese";
+      			cur_language_left = "PORTUGUESE";
+      			break;
+      		case "VIETNAMESE":
+      			cur_language = "title-vietnamese";
+      			cur_language_left = "VIETNAMESE";
+      			break;
+
 	  		default:
 	  			break;
 	  		}
+	  	document.getElementsByClassName("select-selected")[0].innerHTML=cur_language_left;
+	  	document.getElementById(cur_language_left).style.backgroundColor='black';
+	  	document.getElementById(cur_language_left).style.color='white';
+	  	document.getElementById(cur_language).style.display = "block";
     });
 
 }
