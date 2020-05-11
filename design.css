@@ -15,6 +15,7 @@
 	--init-width: 1440;
 	--init-margin-right: 81;
 	--init-margin-left: 72;
+	--init-d2-rabbit-height: 565;
 
 	--init-border-color: white;
 	--init-line-height: 140;
@@ -412,6 +413,7 @@ display: none;
 	--init-width: 634;
 	--init-margin-right: 60;
 	--init-margin-left: 55;
+	--init-d2-rabbit-height: 600;
 }
 
 .book

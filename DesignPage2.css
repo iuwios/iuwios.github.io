@@ -264,7 +264,6 @@
 	right: calc((100vw / var(--init-width)) * 72);
 	text-align: right;
 	text-transform: lowercase;
-
 }
 
 .Design-right-page-2 h2
@@ -281,7 +280,6 @@
 	font-weight: bold;
 	font-size: calc((100vw / var(--init-width)) * 24);
 	line-height: 120%;
-
 }
 
 .slider-pg3
@@ -331,7 +329,7 @@
 	position: absolute;
 	margin: 0;
 	width: calc((100vw / var(--init-width)) * 544);
-	height: calc((100vw / var(--init-width)) * 565);
+	height: calc((100vw / var(--init-width)) * var(--init-d2-rabbit-height));
 
 	top: calc((100vw / var(--init-width)) * 112);
 	right: calc((100vw / var(--init-width)) * 55);
