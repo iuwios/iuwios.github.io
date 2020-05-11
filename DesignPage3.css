@@ -98,7 +98,6 @@
 	background-size: calc((100vw / var(--init-width)) * 500) calc((100vw / var(--init-width)) * 310);
 	background-position: left 0px top calc((100vw / var(--init-width)) * 210);
 	animation: wave 12s linear infinite;
-
 }
 
 /*animation for wave*/
@@ -126,7 +125,7 @@
 	border-top: calc((100vw / var(--init-width)) * 1) solid black;
 	width: calc((100vw / var(--init-width)) * 526);
 	top: calc((100vw / var(--init-width)) * 675);
-	left: calc((100vw / var(--init-width)) * 72);
+	left: calc((100vw / var(--init-width)) * var(--init-margin-left));
 }
 
 .Design-left-page-3 h3
@@ -136,7 +135,7 @@
 	height: calc((100vw / var(--init-width)) * 52);
 	width: calc((100vw / var(--init-width)) * 526);
 	top: calc((100vw / var(--init-width)) * 693);
-	left: calc((100vw / var(--init-width)) * 72);
+	left: calc((100vw / var(--init-width)) * var(--init-margin-left));
 
 	font-style: normal;
 	font-weight: normal;
