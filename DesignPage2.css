@@ -228,7 +228,7 @@
 	position: absolute;
 	width: calc((100vw / var(--init-width)) * 526.87);
 	top: calc((100vw / var(--init-width)) * 669.71);
-	left: calc((100vw / var(--init-width)) * 72);
+	left: calc((100vw / var(--init-width)) * var(--init-margin-left));
 	border-top: calc((100vw / var(--init-width)) * 1) solid #595959;
 	margin: 0;
 }
