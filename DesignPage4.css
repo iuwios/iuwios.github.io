@@ -54,8 +54,6 @@
 	top: calc((100vw / var(--init-width)) * 85);
 	left: calc((100vw / var(--init-width)) * var(--init-margin-left));
 	margin: 0;
-
-	border: 1px solid blue;
 }
 
 .drink-text
@@ -78,8 +76,6 @@
 	color: red;
 	border: none;
 	resize: none;
-
-	border: 1px solid red;
 
 }
 
@@ -507,7 +503,6 @@
 	top: calc((100vw / var(--init-width)) * 80);
 	right: calc((100vw / var(--init-width)) * var(--init-margin-left));
 	z-index: 10;
-
 }
 
 .Design-right-page-4 h1
@@ -561,7 +556,7 @@
 	/*var(--init-margin-right)*/
 }
 
-/*@media screen and (max-width: 480px){
+@media screen and (max-width: 480px){
 .Design-left-page-4
 {
 	display: block;
@@ -586,7 +581,7 @@
 	display: none;
 }
 
-}*/
+}
 
 
 
