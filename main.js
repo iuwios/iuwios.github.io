@@ -377,22 +377,7 @@ var elems = document.getElementById("triangle-containerz").getElementsByTagName(
 function color_red()
 {
 	if(night_mode==true){
-		elms[10].style.backgroundColor = 'white';
-	    elms[11].style.backgroundColor = 'white';
-	    document.getElementById('circle_yellow').style.border='1px solid black';
-	    document.getElementById('circle_blue').style.border='1px solid black';
-	    document.getElementById('circle_brown').style.border='1px solid black';
-	    document.getElementById('circle_pink').style.border='1px solid black';
-	    document.getElementById('circle_black').style.border='1px solid black';
-	    document.getElementById('circle_green').style.border='1px solid black';
-	    document.getElementById('circle_white').style.border='1px solid black';
-	    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
-	    document.getElementById('weight-text').style.color='black';
-	    document.getElementById('size-text').style.color='black';
-	    document.getElementById('d-weighttxt').style.color='black';
-	    document.getElementById('weight-unlimited').style.color='black';
-	    document.getElementById('with-unlimited').style.color='black';
-	    night_mode = false;
+		change_night();
 	}
 	document.getElementById("drink-text").style.color='red';
 	cur_color = '#EB0000';
@@ -417,22 +402,7 @@ function color_red()
 function color_yellow()
 {
 	if(night_mode==true){
-		elms[10].style.backgroundColor = 'white';
-	    elms[11].style.backgroundColor = 'white';
-	    document.getElementById('circle_yellow').style.border='1px solid black';
-	    document.getElementById('circle_blue').style.border='1px solid black';
-	    document.getElementById('circle_brown').style.border='1px solid black';
-	    document.getElementById('circle_pink').style.border='1px solid black';
-	    document.getElementById('circle_black').style.border='1px solid black';
-	    document.getElementById('circle_green').style.border='1px solid black';
-	    document.getElementById('circle_white').style.border='1px solid black';
-	    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
-	    document.getElementById('weight-text').style.color='black';
-	    document.getElementById('size-text').style.color='black';
-	    document.getElementById('d-weighttxt').style.color='black';
-	    document.getElementById('weight-unlimited').style.color='black';
-	    document.getElementById('with-unlimited').style.color='black';
-	    night_mode = false;
+		change_night();
 	}
 	document.getElementById("drink-text").style.color='#FFEB00';
 	cur_color='#FFEB00';
@@ -456,22 +426,7 @@ function color_yellow()
 function color_blue()
 {
 	if(night_mode==true){
-		elms[10].style.backgroundColor = 'white';
-	    elms[11].style.backgroundColor = 'white';
-	    document.getElementById('circle_yellow').style.border='1px solid black';
-	    document.getElementById('circle_blue').style.border='1px solid black';
-	    document.getElementById('circle_brown').style.border='1px solid black';
-	    document.getElementById('circle_pink').style.border='1px solid black';
-	    document.getElementById('circle_black').style.border='1px solid black';
-	    document.getElementById('circle_green').style.border='1px solid black';
-	    document.getElementById('circle_white').style.border='1px solid black';
-	    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
-	    document.getElementById('weight-text').style.color='black';
-	    document.getElementById('size-text').style.color='black';
-	    document.getElementById('d-weighttxt').style.color='black';
-	    document.getElementById('weight-unlimited').style.color='black';
-	    document.getElementById('with-unlimited').style.color='black';
-	    night_mode = false;
+		change_night();
 	}
 	cur_color='#70CCF7';
 	document.getElementById("drink-text").style.color='#70CCF7';
@@ -495,22 +450,7 @@ function color_blue()
 function color_brown()
 {
 	if(night_mode==true){
-		elms[10].style.backgroundColor = 'white';
-	    elms[11].style.backgroundColor = 'white';
-	    document.getElementById('circle_yellow').style.border='1px solid black';
-	    document.getElementById('circle_blue').style.border='1px solid black';
-	    document.getElementById('circle_brown').style.border='1px solid black';
-	    document.getElementById('circle_pink').style.border='1px solid black';
-	    document.getElementById('circle_black').style.border='1px solid black';
-	    document.getElementById('circle_green').style.border='1px solid black';
-	    document.getElementById('circle_white').style.border='1px solid black';
-	    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
-	    document.getElementById('weight-text').style.color='black';
-	    document.getElementById('size-text').style.color='black';
-	    document.getElementById('d-weighttxt').style.color='black';
-	    document.getElementById('weight-unlimited').style.color='black';
-	    document.getElementById('with-unlimited').style.color='black';
-	    night_mode = false;
+		change_night();
 	}
 	cur_color='#D7B089';
 	document.getElementById("drink-text").style.color='#D7B089';
@@ -533,22 +473,7 @@ function color_brown()
 function color_pink()
 {
 	if(night_mode==true){
-		elms[10].style.backgroundColor = 'white';
-	    elms[11].style.backgroundColor = 'white';
-	    document.getElementById('circle_yellow').style.border='1px solid black';
-	    document.getElementById('circle_blue').style.border='1px solid black';
-	    document.getElementById('circle_brown').style.border='1px solid black';
-	    document.getElementById('circle_pink').style.border='1px solid black';
-	    document.getElementById('circle_black').style.border='1px solid black';
-	    document.getElementById('circle_green').style.border='1px solid black';
-	    document.getElementById('circle_white').style.border='1px solid black';
-	    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
-	    document.getElementById('weight-text').style.color='black';
-	    document.getElementById('size-text').style.color='black';
-	    document.getElementById('d-weighttxt').style.color='black';
-	    document.getElementById('weight-unlimited').style.color='black';
-	    document.getElementById('with-unlimited').style.color='black';
-	    night_mode = false;
+		change_night();
 	}
 	cur_color='#FFC0EF';
 	document.getElementById("drink-text").style.color='#FFC0EF';
@@ -571,22 +496,7 @@ function color_pink()
 function color_black()
 {
 	if(night_mode==true){
-		elms[10].style.backgroundColor = 'white';
-	    elms[11].style.backgroundColor = 'white';
-	    document.getElementById('circle_yellow').style.border='1px solid black';
-	    document.getElementById('circle_blue').style.border='1px solid black';
-	    document.getElementById('circle_brown').style.border='1px solid black';
-	    document.getElementById('circle_pink').style.border='1px solid black';
-	    document.getElementById('circle_black').style.border='1px solid black';
-	    document.getElementById('circle_green').style.border='1px solid black';
-	    document.getElementById('circle_white').style.border='1px solid black';
-	    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
-	    document.getElementById('weight-text').style.color='black';
-	    document.getElementById('size-text').style.color='black';
-	    document.getElementById('d-weighttxt').style.color='black';
-	    document.getElementById('weight-unlimited').style.color='black';
-	    document.getElementById('with-unlimited').style.color='black';
-	    night_mode = false;
+		change_night();
 	}
 	cur_color='#000000';
 	document.getElementById("drink-text").style.color='black';
@@ -609,22 +519,7 @@ function color_black()
 function color_green()
 {
 	if(night_mode==true){
-		elms[10].style.backgroundColor = 'white';
-	    elms[11].style.backgroundColor = 'white';
-	    document.getElementById('circle_yellow').style.border='1px solid black';
-	    document.getElementById('circle_blue').style.border='1px solid black';
-	    document.getElementById('circle_brown').style.border='1px solid black';
-	    document.getElementById('circle_pink').style.border='1px solid black';
-	    document.getElementById('circle_black').style.border='1px solid black';
-	    document.getElementById('circle_green').style.border='1px solid black';
-	    document.getElementById('circle_white').style.border='1px solid black';
-	    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
-	    document.getElementById('weight-text').style.color='black';
-	    document.getElementById('size-text').style.color='black';
-	    document.getElementById('d-weighttxt').style.color='black';
-	    document.getElementById('weight-unlimited').style.color='black';
-	    document.getElementById('with-unlimited').style.color='black';
-	    night_mode = false;
+		change_night();
 	}
 	cur_color='#3EB449';
 	document.getElementById("drink-text").style.color='#3EB449';
@@ -644,6 +539,42 @@ function color_green()
     }
 }
 
+function change_night()
+{
+	elms[10].style.backgroundColor = 'white';
+    elms[11].style.backgroundColor = 'white';
+    document.getElementById('circle_yellow').style.border='1px solid black';
+    document.getElementById('circle_blue').style.border='1px solid black';
+    document.getElementById('circle_brown').style.border='1px solid black';
+    document.getElementById('circle_pink').style.border='1px solid black';
+    document.getElementById('circle_black').style.border='1px solid black';
+    document.getElementById('circle_green').style.border='1px solid black';
+    document.getElementById('circle_white').style.border='1px solid black';
+    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
+    document.getElementById('weight-text').style.color='black';
+    document.getElementById('size-text').style.color='black';
+    document.getElementById('d-weighttxt').style.color='black';
+    document.getElementById('weight-unlimited').style.color='black';
+    document.getElementById('with-unlimited').style.color='black';
+
+    document.getElementById('d4_xs').style.backgroundColor='white';
+    document.getElementById('d4_s').style.backgroundColor='white';
+    document.getElementById('d4_m').style.backgroundColor='white';
+    document.getElementById('d4_l').style.backgroundColor='white';
+    document.getElementById('d4_xl').style.backgroundColor='white';
+    document.getElementById('d4_xs').style.color='black';
+    document.getElementById('d4_s').style.color='black';
+    document.getElementById('d4_m').style.color='black';
+    document.getElementById('d4_l').style.color='black';
+    document.getElementById('d4_xl').style.color='black';
+
+    document.getElementById("italic").style.color='black';
+	document.getElementById("italic").style.backgroundColor='#FFFFFF';
+	document.getElementById("roman").style.color='black';
+	document.getElementById("roman").style.background='white';
+    night_mode = false;
+
+}
 /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 function color_white()
 {
@@ -652,12 +583,21 @@ function color_white()
 	document.getElementById(cur_element).style.backgroundColor=cur_color;
 	black_white = "#000000";
 	document.getElementById(cur_element).style.color=black_white;
-	/*document.getElementById("roman").style.backgroundColor='#000000';
-	document.getElementById("roman").style.color='#FFFFFF';
-	document.getElementById("italic").style.backgroundColor='#000000';
-	document.getElementById("italic").style.color='#FFFFFF';
-	document.getElementById(rom_ital).style.backgroundColor='#FFFFFF';
-	document.getElementById(rom_ital).style.color='#000000';*/
+
+
+	if(rom_ital=='roman'){
+		document.getElementById("roman").style.color='black';
+		document.getElementById("roman").style.backgroundColor='#FFFFFF';
+		document.getElementById("italic").style.color='white';
+		document.getElementById("italic").style.background='black';
+	}
+	else{
+		document.getElementById("italic").style.color='black';
+		document.getElementById("italic").style.backgroundColor='#FFFFFF';
+		document.getElementById("roman").style.color='white';
+		document.getElementById("roman").style.background='black';
+	}
+
 	for (var i = 0; i<elems.length; i++) {
         if (elems[i].className == 'triangle8') {
             elems[i].style.visibility = 'visible';
@@ -676,6 +616,21 @@ function color_white()
     document.getElementById('circle_black').style.border='1px solid white';
     document.getElementById('circle_green').style.border='1px solid white';
     document.getElementById('circle_white').style.border='1px solid white';
+
+    document.getElementById('d4_xs').style.backgroundColor='black';
+    document.getElementById('d4_s').style.backgroundColor='black';
+    document.getElementById('d4_m').style.backgroundColor='black';
+    document.getElementById('d4_l').style.backgroundColor='black';
+    document.getElementById('d4_xl').style.backgroundColor='black';
+    document.getElementById('d4_xs').style.color='white';
+    document.getElementById('d4_s').style.color='white';
+    document.getElementById('d4_m').style.color='white';
+    document.getElementById('d4_l').style.color='white';
+    document.getElementById('d4_xl').style.color='white';
+
+    document.getElementById(cur_element).style.backgroundColor=cur_color;
+    document.getElementById(cur_element).style.color='black';
+
     document.getElementById('drink-text').style.backgroundColor='black';
     document.getElementById('weight-text').style.color='white';
     document.getElementById('size-text').style.color='white';
@@ -693,16 +648,18 @@ function d4click_roman()
 	rom_ital='roman';
 	document.getElementById("drink-text").style.fontStyle='normal';
 	if(cur_color=='#FFFFFF'){
-		document.getElementById("roman").style.color='#FFFFFF';
-		document.getElementById("roman").style.backgroundColor='black';
+		document.getElementById("roman").style.color='black';
+		document.getElementById("roman").style.backgroundColor='#FFFFFF';
+		document.getElementById("italic").style.color='white';
+		document.getElementById("italic").style.background='black';
 	}
 	else{
 		document.getElementById("roman").style.color='white';
 		document.getElementById("roman").style.backgroundColor=cur_color;
+		document.getElementById("italic").style.color='black';
+		document.getElementById("italic").style.background='white';
 	}
 
-	document.getElementById("italic").style.color='black';
-	document.getElementById("italic").style.background='white';
 }
 
 function d4click_italic()
@@ -710,18 +667,19 @@ function d4click_italic()
 	rom_ital='italic';
 	document.getElementById("drink-text").style.fontStyle='italic';
 	if(cur_color=='#FFFFFF'){
-		document.getElementById("italic").style.color='#FFFFFF';
-		document.getElementById("italic").style.backgroundColor='black';
+		document.getElementById("italic").style.color='black';
+		document.getElementById("italic").style.backgroundColor='#FFFFFF';
+		document.getElementById("roman").style.color='white';
+		document.getElementById("roman").style.background='black';
 		
 	}
 	else{
 		document.getElementById("italic").style.color='white';
 		document.getElementById("italic").style.backgroundColor=cur_color;
+		document.getElementById("roman").style.color='black';
+		document.getElementById("roman").style.background='white';
 	}
 
-
-	document.getElementById("roman").style.color='black';
-	document.getElementById("roman").style.background='white';
 }
 
 var d4_size_elems = document.getElementById("d4-size-containers").getElementsByTagName("li");
@@ -732,20 +690,40 @@ function d4xs()
 	document.getElementById("drink-text").style.setProperty("--text-size-L", 30);
 	cur_element="d4_xs";
 
-	for (var i = 0; i<d4_size_elems.length; i++) {
-        if (d4_size_elems[i].className == 'd4xs') {
-        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
-            d4_size_elems[i].style.backgroundColor=cur_color;
-            d4_size_elems[i].style.color=black_white;
-        }
-        else {
+	if(night_mode){
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4xs') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+	            d4_size_elems[i].style.backgroundColor='black';
+	            d4_size_elems[i].style.color='white';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
 
-            d4_size_elems[i].style.backgroundColor='white';
-            d4_size_elems[i].style.color='black';
-            d4_size_elems[i].style.setProperty("--init-border-color", "white");
-            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
-        }
-    }
+		}
+	}
+
+	else{
+		for (var i = 0; i<d4_size_elems.length; i++) {
+		    if (d4_size_elems[i].className == 'd4xs') {
+		    	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+		        d4_size_elems[i].style.backgroundColor=cur_color;
+		        d4_size_elems[i].style.color=black_white;
+		    }
+		    else {
+		        d4_size_elems[i].style.backgroundColor='white';
+		        d4_size_elems[i].style.color='black';
+		        d4_size_elems[i].style.setProperty("--init-border-color", "white");
+		        d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+		    }
+		}
+
+	}
+
 }
 
 function d4s()
@@ -754,20 +732,41 @@ function d4s()
 	document.getElementById("drink-text").style.setProperty("--init-line-height", 60);
 	cur_element="d4_s";
 
-	for (var i = 0; i<d4_size_elems.length; i++) {
-        if (d4_size_elems[i].className == 'd4s') {
-        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
-            d4_size_elems[i].style.backgroundColor=cur_color;
-            d4_size_elems[i].style.color=black_white;
-        }
-        else {
+	if(night_mode){
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4s') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+	            d4_size_elems[i].style.backgroundColor='black';
+	            d4_size_elems[i].style.color='white';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
 
-            d4_size_elems[i].style.backgroundColor='white';
-            d4_size_elems[i].style.color='black';
-            d4_size_elems[i].style.setProperty("--init-border-color", "white");
-            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
-        }
-    }
+		}
+	}
+	else{
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4s') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+
+	            d4_size_elems[i].style.backgroundColor='white';
+	            d4_size_elems[i].style.color='black';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
+	    }
+
+	}
+
+	
 }
 
 function d4m()
@@ -776,20 +775,40 @@ function d4m()
 	document.getElementById("drink-text").style.setProperty("--init-line-height", 108);
 	cur_element="d4_m";
 
-	for (var i = 0; i<d4_size_elems.length; i++) {
-        if (d4_size_elems[i].className == 'd4m') {
-        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
-            d4_size_elems[i].style.backgroundColor=cur_color;
-            d4_size_elems[i].style.color=black_white;
-        }
-        else {
+	if(night_mode){
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4m') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+	            d4_size_elems[i].style.backgroundColor='black';
+	            d4_size_elems[i].style.color='white';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
 
-            d4_size_elems[i].style.backgroundColor='white';
-            d4_size_elems[i].style.color='black';
-            d4_size_elems[i].style.setProperty("--init-border-color", "white");
-            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
-        }
-    }
+		}
+	}
+
+	else{
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4m') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+
+	            d4_size_elems[i].style.backgroundColor='white';
+	            d4_size_elems[i].style.color='black';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
+	    }
+
+	}
 }
 
 function d4l()
@@ -798,19 +817,39 @@ function d4l()
 	document.getElementById("drink-text").style.setProperty("--init-line-height", 140);
 	cur_element="d4_l";
 
-	for (var i = 0; i<d4_size_elems.length; i++) {
-        if (d4_size_elems[i].className == 'd4l') {
-        	d4_size_elems[i].style.setProperty("--init-border-colorL", "#231F20");
-            d4_size_elems[i].style.backgroundColor=cur_color;
-            d4_size_elems[i].style.color=black_white;
-        }
-        else {
+	if(night_mode){
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4l') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+	            d4_size_elems[i].style.backgroundColor='black';
+	            d4_size_elems[i].style.color='white';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
 
-            d4_size_elems[i].style.backgroundColor='white';
-            d4_size_elems[i].style.color='black';
-            d4_size_elems[i].style.setProperty("--init-border-color", "white");
-        }
-    }
+		}
+	}
+	else{
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4l') {
+	        	d4_size_elems[i].style.setProperty("--init-border-colorL", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+
+	            d4_size_elems[i].style.backgroundColor='white';
+	            d4_size_elems[i].style.color='black';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	        }
+	    }
+
+	}
+
 }
 
 function d4xl()
@@ -819,20 +858,40 @@ function d4xl()
 	document.getElementById("drink-text").style.setProperty("--init-line-height", 170);
 	cur_element="d4_xl";
 
-	for (var i = 0; i<d4_size_elems.length; i++) {
-        if (d4_size_elems[i].className == 'd4xl') {
-        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
-            d4_size_elems[i].style.backgroundColor=cur_color;
-            d4_size_elems[i].style.color=black_white;
-        }
-        else {
 
-            d4_size_elems[i].style.backgroundColor='white';
-            d4_size_elems[i].style.color='black';
-            d4_size_elems[i].style.setProperty("--init-border-color", "white");
-            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
-        }
-    }
+	if(night_mode){
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4xl') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+	            d4_size_elems[i].style.backgroundColor='black';
+	            d4_size_elems[i].style.color='white';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
+
+		}
+	}
+	else{
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4xl') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+
+	            d4_size_elems[i].style.backgroundColor='white';
+	            d4_size_elems[i].style.color='black';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
+	    }
+
+	}
 
 
 }
@@ -988,8 +1047,6 @@ for (i = 0; i < x.length; i++) {
           			cur_title = "p7-slovak";
           			cur_chapter = "p72-slovak";
           			break;
-
-
 				case "CATALAN":
 		  			cur_language_left = "CATALAN";
 		  			cur_language = "title-catalan";
@@ -1046,7 +1103,6 @@ for (i = 0; i < x.length; i++) {
 	      			cur_title = "p7-spanish";
           			cur_chapter = "p72-spanish";
 	      			break;
-
 		      	case "GERMAN":
 		  			cur_language_left = "GERMAN";
 		  			cur_language = "title-german";
@@ -1103,8 +1159,6 @@ for (i = 0; i < x.length; i++) {
 	      			cur_title = "p7-turkish";
           			cur_chapter = "p72-turkish";
 	      			break;
-
-
 	      		case "DUTCH":
 	      			cur_language = "title-danish";
 	      			cur_language_left = "DUTCH";
@@ -1200,7 +1254,6 @@ var only_tag = p7elements.getElementsByTagName("li");
 for(var k=0; k<only_tag.length; k++){
     only_tag[k].addEventListener("click", function(e) {
     	document.getElementById(cur_language_left).style.backgroundColor='transparent';
-	  	//document.getElementById(cur_language_left).style.color='black';
 	  	document.getElementById(cur_language).style.display = "none";
 		switch(this.innerHTML){
   			case "ENGLISH":
@@ -1259,8 +1312,6 @@ for(var k=0; k<only_tag.length; k++){
           			cur_title = "p7-slovak";
           			cur_chapter = "p72-slovak";
           			break;
-
-
 				case "CATALAN":
 		  			cur_language_left = "CATALAN";
 		  			cur_language = "title-catalan";
@@ -1317,7 +1368,6 @@ for(var k=0; k<only_tag.length; k++){
 	      			cur_title = "p7-spanish";
           			cur_chapter = "p72-spanish";
 	      			break;
-
 		      	case "GERMAN":
 		  			cur_language_left = "GERMAN";
 		  			cur_language = "title-german";
@@ -1374,8 +1424,6 @@ for(var k=0; k<only_tag.length; k++){
 	      			cur_title = "p7-turkish";
           			cur_chapter = "p72-turkish";
 	      			break;
-
-
 	      		case "DUTCH":
 	      			cur_language = "title-danish";
 	      			cur_language_left = "DUTCH";
@@ -1426,124 +1474,118 @@ for(var k=0; k<only_tag.length; k++){
     	
 		switch(this.innerHTML){
   			case "ENGLISH":
-          			cur_language_lefts = "ENGLISH";
-          			//cur_language = "title-english";
-          			hover_color = "#70CCF7";
-          			break;
-          		case "AFRIKAANS":
-          			cur_language_lefts = "AFRIKAANS";
-          			hover_color = "#FFC0EF";
-          			break;
-          		case "ITALIAN":
-          			cur_language_lefts = "ITALIAN";
-          			hover_color = '#3eb549';
-          			break;
-          		case "ROMANIAN":
-          			cur_language_lefts = "ROMANIAN";
-          			hover_color = "#70CCF7";
-          			break;
-          		case "ALBANIAN":
-          			cur_language_lefts = "ALBANIAN";
-          			hover_color = '#ddd9d6';
-          			break;
-          		case "ESTONIAN":
-          			cur_language_lefts = "ESTONIAN";
-          			hover_color = '#3eb549';
-          			break;
-          		case "LATVIAN":
-          			cur_language_lefts = "LATVIAN";
-          			hover_color = '#ffff00';
-          			break;
-          		case "SLOVAK":
-          			cur_language_lefts = "SLOVAK";
-          			hover_color = '#ddd9d6';
-          			break;
-
-
-				case "CATALAN":
-		  			cur_language_lefts = "CATALAN";
-		  			hover_color = '#ffff00';
-		  			break;
-		  		case "FINNISH":
-		  			cur_language_lefts = "FINNISH";
-	          		hover_color = '#ddd9d6';
-		  			break;
-				case "LITHUANIAN":
-	      			cur_language_lefts = "LITHUANIAN";
-	      			hover_color = "#FFC0EF";
-	      			break;
-	      		case "SLOVENIAN":
-	      			cur_language_lefts = "SLOVENIAN";
-	      			hover_color = "#70CCF7";
-	      			break;
-	      		case "CROATIAN":
-	      			cur_language_lefts = "CROATIAN";
-	      			hover_color = '#3eb549';
-	      			break;
-	      		case "FRENCH":
-	      			cur_language_lefts = "FRENCH";
-	      			hover_color = "#70CCF7";
-	      			break;
-	      		case "MALTESE":
-	      			cur_language_lefts = "MALTESE";
-	      			hover_color = '#d7b089';
-	      			break;
-	      		case "SPANISH":
-	      			cur_language_lefts = "SPANISH";
-	      			hover_color = '#ffff00';
-	      			break;
-
-		      	case "GERMAN":
-		  			cur_language_lefts = "GERMAN";
-		  			hover_color = '#3eb549';
-		  			break;
-		  		case "NORWEGIAN":
-		  			cur_language_lefts = "NORWEGIAN";
-	          		hover_color = "#70CCF7";
-		  			break;
-				case "CZECH":
-	      			cur_language_lefts = "CZECH";
-	      			hover_color = "#FFC0EF";
-	      			break;
-	      		case "SWEDISH":
-	      			cur_language_lefts = "SWEDISH";
-	      			hover_color = '#3eb549';
-	      			break;
-	      		case "DANISH":
-	      			cur_language_lefts = "DANISH";
-	      			hover_color = '#ffff00';
-	      			break;
-	      		case "HUNGARIAN":
-	      			cur_language_lefts = "HUNGARIAN";
-	      			hover_color = '#d7b089';
-	      			break;
-	      		case "POLISH":
-	      			cur_language_lefts = "POLISH";
-	      			hover_color = '#ddd9d6';
-	      			break;
-	      		case "TURKISH":
-	      			cur_language_lefts = "TURKISH";
-	      			hover_color = "#FFC0EF";
-	      			break;
-
-
-	      		case "DUTCH":
-	      			cur_language_lefts = "DUTCH";
-	      			hover_color = "#70CCF7";
-	      			break;
-	      		case "ICELANDIC":
-	      			cur_language_lefts = "ICELANDIC";
-	      			hover_color = "#FFC0EF";
-	      			break;
-	      		case "PORTUGUESE":
-	      			cur_language_lefts = "PORTUGUESE";
-	      			hover_color = '#ffff00';
-	      			break;
-	      		case "VIETNAMESE":
-	      			cur_language_lefts = "VIETNAMESE";
-	      			hover_color = '#d7b089';
-	      			break;
-
+      			cur_language_lefts = "ENGLISH";
+      			//cur_language = "title-english";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "AFRIKAANS":
+      			cur_language_lefts = "AFRIKAANS";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "ITALIAN":
+      			cur_language_lefts = "ITALIAN";
+      			hover_color = '#3eb549';
+      			break;
+      		case "ROMANIAN":
+      			cur_language_lefts = "ROMANIAN";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "ALBANIAN":
+      			cur_language_lefts = "ALBANIAN";
+      			hover_color = '#ddd9d6';
+      			break;
+      		case "ESTONIAN":
+      			cur_language_lefts = "ESTONIAN";
+      			hover_color = '#3eb549';
+      			break;
+      		case "LATVIAN":
+      			cur_language_lefts = "LATVIAN";
+      			hover_color = '#ffff00';
+      			break;
+      		case "SLOVAK":
+      			cur_language_lefts = "SLOVAK";
+      			hover_color = '#ddd9d6';
+      			break;
+			case "CATALAN":
+	  			cur_language_lefts = "CATALAN";
+	  			hover_color = '#ffff00';
+	  			break;
+	  		case "FINNISH":
+	  			cur_language_lefts = "FINNISH";
+          		hover_color = '#ddd9d6';
+	  			break;
+			case "LITHUANIAN":
+      			cur_language_lefts = "LITHUANIAN";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "SLOVENIAN":
+      			cur_language_lefts = "SLOVENIAN";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "CROATIAN":
+      			cur_language_lefts = "CROATIAN";
+      			hover_color = '#3eb549';
+      			break;
+      		case "FRENCH":
+      			cur_language_lefts = "FRENCH";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "MALTESE":
+      			cur_language_lefts = "MALTESE";
+      			hover_color = '#d7b089';
+      			break;
+      		case "SPANISH":
+      			cur_language_lefts = "SPANISH";
+      			hover_color = '#ffff00';
+      			break;
+	      	case "GERMAN":
+	  			cur_language_lefts = "GERMAN";
+	  			hover_color = '#3eb549';
+	  			break;
+	  		case "NORWEGIAN":
+	  			cur_language_lefts = "NORWEGIAN";
+          		hover_color = "#70CCF7";
+	  			break;
+			case "CZECH":
+      			cur_language_lefts = "CZECH";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "SWEDISH":
+      			cur_language_lefts = "SWEDISH";
+      			hover_color = '#3eb549';
+      			break;
+      		case "DANISH":
+      			cur_language_lefts = "DANISH";
+      			hover_color = '#ffff00';
+      			break;
+      		case "HUNGARIAN":
+      			cur_language_lefts = "HUNGARIAN";
+      			hover_color = '#d7b089';
+      			break;
+      		case "POLISH":
+      			cur_language_lefts = "POLISH";
+      			hover_color = '#ddd9d6';
+      			break;
+      		case "TURKISH":
+      			cur_language_lefts = "TURKISH";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "DUTCH":
+      			cur_language_lefts = "DUTCH";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "ICELANDIC":
+      			cur_language_lefts = "ICELANDIC";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "PORTUGUESE":
+      			cur_language_lefts = "PORTUGUESE";
+      			hover_color = '#ffff00';
+      			break;
+      		case "VIETNAMESE":
+      			cur_language_lefts = "VIETNAMESE";
+      			hover_color = '#d7b089';
+      			break;
 	  		default:
 	  			break;
 	  		}
@@ -1559,125 +1601,118 @@ for(var k=0; k<only_tag.length; k++){
     	
 		switch(this.innerHTML){
   			case "ENGLISH":
-          			cur_language_lefts = "ENGLISH";
-          			//cur_language = "title-english";
-          			hover_color = "#70CCF7";
-
-          			break;
-          		case "AFRIKAANS":
-          			cur_language_lefts = "AFRIKAANS";
-          			hover_color = "#FFC0EF";
-          			break;
-          		case "ITALIAN":
-          			cur_language_lefts = "ITALIAN";
-          			hover_color = '#3eb549';
-          			break;
-          		case "ROMANIAN":
-          			cur_language_lefts = "ROMANIAN";
-          			hover_color = "#70CCF7";
-          			break;
-          		case "ALBANIAN":
-          			cur_language_lefts = "ALBANIAN";
-          			hover_color = '#ddd9d6';
-          			break;
-          		case "ESTONIAN":
-          			cur_language_lefts = "ESTONIAN";
-          			hover_color = '#3eb549';
-          			break;
-          		case "LATVIAN":
-          			cur_language_lefts = "LATVIAN";
-          			hover_color = '#ffff00';
-          			break;
-          		case "SLOVAK":
-          			cur_language_lefts = "SLOVAK";
-          			hover_color = '#ddd9d6';
-          			break;
-
-
-				case "CATALAN":
-		  			cur_language_lefts = "CATALAN";
-		  			hover_color = '#ffff00';
-		  			break;
-		  		case "FINNISH":
-		  			cur_language_lefts = "FINNISH";
-	          		hover_color = '#ddd9d6';
-		  			break;
-				case "LITHUANIAN":
-	      			cur_language_lefts = "LITHUANIAN";
-	      			hover_color = "#FFC0EF";
-	      			break;
-	      		case "SLOVENIAN":
-	      			cur_language_lefts = "SLOVENIAN";
-	      			hover_color = "#70CCF7";
-	      			break;
-	      		case "CROATIAN":
-	      			cur_language_lefts = "CROATIAN";
-	      			hover_color = '#3eb549';
-	      			break;
-	      		case "FRENCH":
-	      			cur_language_lefts = "FRENCH";
-	      			hover_color = "#70CCF7";
-	      			break;
-	      		case "MALTESE":
-	      			cur_language_lefts = "MALTESE";
-	      			hover_color = '#d7b089';
-	      			break;
-	      		case "SPANISH":
-	      			cur_language_lefts = "SPANISH";
-	      			hover_color = '#ffff00';
-	      			break;
-
-		      	case "GERMAN":
-		  			cur_language_lefts = "GERMAN";
-		  			hover_color = '#3eb549';
-		  			break;
-		  		case "NORWEGIAN":
-		  			cur_language_lefts = "NORWEGIAN";
-	          		hover_color = "#70CCF7";
-		  			break;
-				case "CZECH":
-	      			cur_language_lefts = "CZECH";
-	      			hover_color = "#FFC0EF";
-	      			break;
-	      		case "SWEDISH":
-	      			cur_language_lefts = "SWEDISH";
-	      			hover_color = '#3eb549';
-	      			break;
-	      		case "DANISH":
-	      			cur_language_lefts = "DANISH";
-	      			hover_color = '#ffff00';
-	      			break;
-	      		case "HUNGARIAN":
-	      			cur_language_lefts = "HUNGARIAN";
-	      			hover_color = '#d7b089';
-	      			break;
-	      		case "POLISH":
-	      			cur_language_lefts = "POLISH";
-	      			hover_color = '#ddd9d6';
-	      			break;
-	      		case "TURKISH":
-	      			cur_language_lefts = "TURKISH";
-	      			hover_color = "#FFC0EF";
-	      			break;
-
-
-	      		case "DUTCH":
-	      			cur_language_lefts = "DUTCH";
-	      			hover_color = "#70CCF7";
-	      			break;
-	      		case "ICELANDIC":
-	      			cur_language_lefts = "ICELANDIC";
-	      			hover_color = "#FFC0EF";
-	      			break;
-	      		case "PORTUGUESE":
-	      			cur_language_lefts = "PORTUGUESE";
-	      			hover_color = '#ffff00';
-	      			break;
-	      		case "VIETNAMESE":
-	      			cur_language_lefts = "VIETNAMESE";
-	      			hover_color = '#d7b089';
-	      			break;
-
+      			cur_language_lefts = "ENGLISH";
+      			//cur_language = "title-english";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "AFRIKAANS":
+      			cur_language_lefts = "AFRIKAANS";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "ITALIAN":
+      			cur_language_lefts = "ITALIAN";
+      			hover_color = '#3eb549';
+      			break;
+      		case "ROMANIAN":
+      			cur_language_lefts = "ROMANIAN";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "ALBANIAN":
+      			cur_language_lefts = "ALBANIAN";
+      			hover_color = '#ddd9d6';
+      			break;
+      		case "ESTONIAN":
+      			cur_language_lefts = "ESTONIAN";
+      			hover_color = '#3eb549';
+      			break;
+      		case "LATVIAN":
+      			cur_language_lefts = "LATVIAN";
+      			hover_color = '#ffff00';
+      			break;
+      		case "SLOVAK":
+      			cur_language_lefts = "SLOVAK";
+      			hover_color = '#ddd9d6';
+      			break;
+			case "CATALAN":
+	  			cur_language_lefts = "CATALAN";
+	  			hover_color = '#ffff00';
+	  			break;
+	  		case "FINNISH":
+	  			cur_language_lefts = "FINNISH";
+          		hover_color = '#ddd9d6';
+	  			break;
+			case "LITHUANIAN":
+      			cur_language_lefts = "LITHUANIAN";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "SLOVENIAN":
+      			cur_language_lefts = "SLOVENIAN";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "CROATIAN":
+      			cur_language_lefts = "CROATIAN";
+      			hover_color = '#3eb549';
+      			break;
+      		case "FRENCH":
+      			cur_language_lefts = "FRENCH";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "MALTESE":
+      			cur_language_lefts = "MALTESE";
+      			hover_color = '#d7b089';
+      			break;
+      		case "SPANISH":
+      			cur_language_lefts = "SPANISH";
+      			hover_color = '#ffff00';
+      			break;
+	      	case "GERMAN":
+	  			cur_language_lefts = "GERMAN";
+	  			hover_color = '#3eb549';
+	  			break;
+	  		case "NORWEGIAN":
+	  			cur_language_lefts = "NORWEGIAN";
+          		hover_color = "#70CCF7";
+	  			break;
+			case "CZECH":
+      			cur_language_lefts = "CZECH";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "SWEDISH":
+      			cur_language_lefts = "SWEDISH";
+      			hover_color = '#3eb549';
+      			break;
+      		case "DANISH":
+      			cur_language_lefts = "DANISH";
+      			hover_color = '#ffff00';
+      			break;
+      		case "HUNGARIAN":
+      			cur_language_lefts = "HUNGARIAN";
+      			hover_color = '#d7b089';
+      			break;
+      		case "POLISH":
+      			cur_language_lefts = "POLISH";
+      			hover_color = '#ddd9d6';
+      			break;
+      		case "TURKISH":
+      			cur_language_lefts = "TURKISH";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "DUTCH":
+      			cur_language_lefts = "DUTCH";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "ICELANDIC":
+      			cur_language_lefts = "ICELANDIC";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "PORTUGUESE":
+      			cur_language_lefts = "PORTUGUESE";
+      			hover_color = '#ffff00';
+      			break;
+      		case "VIETNAMESE":
+      			cur_language_lefts = "VIETNAMESE";
+      			hover_color = '#d7b089';
+      			break;
 	  		default:
 	  			break;
 	  		}
@@ -2058,6 +2093,7 @@ var img = $('.book');
 
 var offset = img.offset();
 var mouseDown = false;
+
 function mouse(evt) {
     if(mouseDown ==true){
     var center_x = (offset.left) + (img.width() / 2);
