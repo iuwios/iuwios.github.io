@@ -1,7 +1,7 @@
 /* Load the variable font */
 @font-face{
 	font-family: 'Roboto VF';
-	src: url('Roboto[ital,wdth,wght].ttf') format('truetype');
+	src: url('../fonts/Roboto[ital,wdth,wght].ttf') format('truetype');
 	font-stretch: 75% 100%;
 	font-style: oblique 0deg 12deg;
 	font-weight: 100 900;
@@ -311,7 +311,7 @@ display: none;
 }
 .book-front 
 {
-	background-image: url('book-cover.jpg');
+	background-image: url('../images/book-cover.jpg');
 	width: calc((100vw / 1440) * 400);
 	height: calc((100vw / 1440) * 540);
 	-webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 14)) translate3d(0,0,0) rotateY(0deg);
@@ -319,7 +319,7 @@ display: none;
 }
 .book-side-left 
 {
-  background-image: url('book-spine.jpg');
+  background-image: url('../images/book-spine.jpg');
   width: calc((100vw / 1440) * 30);
   height: calc((100vw / 1440) * 540);
   -webkit-transform: translate3d(calc((100vw / 1440) * -187) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(calc((100vw / 1440) * -29), 0, calc((100vw / 1440) * -29)) rotateY(-90deg);
@@ -327,7 +327,7 @@ display: none;
 }
 .book-side-right 
 {
-	background-image: url('book-side.jpg');
+	background-image: url('../images/book-side.jpg');
 	width: calc((100vw / 1440) * 30);
 	height: calc((100vw / 1440) * 540);
 	-webkit-transform: translate3d(calc((100vw / 1440) * -185) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(calc((100vw / 1440) * 371), 0px,calc((100vw / 1440) * -29)) rotateY(90deg);
@@ -343,14 +343,14 @@ display: none;
 }*/
 .book-bottom 
 {
-	background-image: url('book-top.jpg');
+	background-image: url('../images/book-top.jpg');
 	width: calc((100vw / 1440) * 400);
 	height: calc((100vw / 1440) * 30);
 	-webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -255) ,calc((100vw / 1440) * -29)) translate3d(0px, calc((100vw / 1440) * 511), calc((100vw / 1440) * -29)) rotateX(-90deg);
 	transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -255) ,calc((100vw / 1440) * 29)) translate3d(0px, calc((100vw / 1440) * 511), calc((100vw / 1440) * -29)) rotateX(-90deg);
 }
 .book-back {
-	background-image: url('book-back.jpg');
+	background-image: url('../images/book-back.jpg');
 	width: calc((100vw / 1440) * 400);
 	height: calc((100vw / 1440) * 540);
 	-webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 44)) translate3d(0,0, calc((100vw / 1440) * -58)) rotateY(180deg);

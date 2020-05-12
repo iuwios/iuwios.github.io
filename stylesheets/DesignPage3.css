@@ -93,7 +93,7 @@
 	border-bottom-right-radius: calc((100vw / var(--init-width)) * 100);
 	border-top-right-radius: calc((100vw / var(--init-width)) * 60);
 
-	background-image: url(wave.png);
+	background-image: url(../images/wave.png);
 	background-repeat: repeat-x;
 	background-size: calc((100vw / var(--init-width)) * 500) calc((100vw / var(--init-width)) * 310);
 	background-position: left 0px top calc((100vw / var(--init-width)) * 210);
