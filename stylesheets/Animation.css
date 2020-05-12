@@ -11,11 +11,11 @@
 
 @-webkit-keyframes italAnimation {
   from {
-    font-style: "normal";
+    font-variation-settings: "GRAD" -1;
   }
   to {
 
-    font-style:  "italic";
+    font-variation-settings: "GRAD" 1;
 
   }
 }
@@ -59,8 +59,8 @@
 {
 	-webkit-animation-name: slantAnimation;
 	-webkit-animation-duration:2s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-fill-mode: forwards;	
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;	
 }
 
 @-webkit-keyframes slantAnimation {
