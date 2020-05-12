@@ -352,7 +352,7 @@
 	font-size: calc((100vw / var(--init-width)) * 210);
 	line-height: calc((100vw / var(--init-width)) * 246);
 	margin: 0;
-	top: calc((100vw / var(--init-width)) * 26);
+	top: calc((100vw / var(--init-width)) * 18);
 	left: calc((100vw / var(--init-width)) * 45);
 
 }

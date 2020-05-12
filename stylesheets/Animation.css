@@ -1,3 +1,5 @@
+/* Roboto Flex Animations */
+/* Intro page 2 */
 .italic_animation
 {
 	-webkit-animation-name: italAnimation;
@@ -9,11 +11,11 @@
 
 @-webkit-keyframes italAnimation {
   from {
-    font-variation-settings: "wght" 100, "ital" 1;
+    font-style: "normal";
   }
   to {
 
-    font-variation-settings: "wght" 900, "ital" 1;
+    font-style:  "italic";
 
   }
 }
@@ -21,17 +23,17 @@
 .width_animation
 {
 	-webkit-animation-name: widthAnimation;
-	-webkit-animation-duration:1.5s;
+	-webkit-animation-duration:2s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-fill-mode: forwards;	
 }
 
 @-webkit-keyframes widthAnimation {
   from {
-  	font-variation-settings: "wdth" 75;
+  	font-variation-settings: "wdth" 50;
   }
   to {
-  	font-variation-settings: "wdth" 100;
+  	font-variation-settings: "wdth" 125;
   }
 }
 
@@ -48,7 +50,7 @@
     font-variation-settings: "wght" 100;
   }
   to {
-    font-variation-settings: "wght" 900;
+    font-variation-settings: "wght" 1000;
   }
 }
 
@@ -56,30 +58,26 @@
 .slant_animation
 {
 	-webkit-animation-name: slantAnimation;
-	-webkit-animation-duration:1s;
+	-webkit-animation-duration:2s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-fill-mode: forwards;	
 }
 
 @-webkit-keyframes slantAnimation {
   from {
-    -webkit-transform: skewX(0deg);
-    -moz-transform: skewX(0deg);
-    -o-transform: skewX(0deg);
-    transform: skewX(0deg);
+    font-variation-settings: "slnt" 0;
   }
   to {
-    -webkit-transform: skewX(-20deg);
-    -moz-transform: skewX(-20deg);
-    -o-transform: skewX(-20deg);
-    transform: skewX(-20deg);
+
+    font-variation-settings: "slnt" -10;
+
   }
 }
 
 .opticalsize_animation
 {
   -webkit-animation-name: opticalsizeAnimation;
-  -webkit-animation-duration:1s;
+  -webkit-animation-duration:2s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-fill-mode: forwards;
   
@@ -87,11 +85,11 @@
 
 @-webkit-keyframes opticalsizeAnimation {
   from {
-    font-variation-settings: "wdth" 75, "wght" 100;
+    font-variation-settings: "opsz" 144;
   }
   to {
 
-    font-variation-settings: "wdth" 100, "wght" 200;
+    font-variation-settings: "opsz" 8;
 
   }
 }
