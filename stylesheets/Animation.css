@@ -4,8 +4,8 @@
 {
 	-webkit-animation-name: italAnimation;
 	-webkit-animation-duration:2s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
 	
 }
 
@@ -24,8 +24,8 @@
 {
 	-webkit-animation-name: widthAnimation;
 	-webkit-animation-duration:2s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-fill-mode: forwards;	
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;	
 }
 
 @-webkit-keyframes widthAnimation {
@@ -50,7 +50,7 @@
     font-variation-settings: "wght" 100;
   }
   to {
-    font-variation-settings: "wght" 1000;
+    font-variation-settings: "wght" 700;
   }
 }
 
@@ -78,14 +78,14 @@
 {
   -webkit-animation-name: opticalsizeAnimation;
   -webkit-animation-duration:2s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
   
 }
 
 @-webkit-keyframes opticalsizeAnimation {
   from {
-    font-variation-settings: "opsz" 144;
+    font-variation-settings: "opsz" 100;
   }
   to {
 
