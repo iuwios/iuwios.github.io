@@ -416,12 +416,12 @@
 
 .Design-right-page-5 .cake
 {
-	width: calc((100vw / var(--init-width)) * 478.84);
-	height: calc((100vw / var(--init-width)) * 301.5);
+	width: calc((100vw / var(--init-width)) * 510.84);
+	height: calc((100vw / var(--init-width)) * 320);
 	position: absolute;
 	margin: 0;
 	top: calc((100vw / var(--init-width)) * 82);
-	right: calc((100vw / var(--init-width)) * 86);
+	right: calc((100vw / var(--init-width)) * 84);
 	text-align: right;
 }
 
@@ -439,12 +439,12 @@
 .Design-right-page-5 .eat-me
 {
 	font-family: Crimson Pro;
-	width: calc((100vw / var(--init-width)) * 415);
+	width: calc((100vw / var(--init-width)) * 413);
 	height: calc((100vw / var(--init-width)) * 84);
 	position: absolute;
 	margin: 0;
 	top: calc((100vw / var(--init-width)) * 151);
-	right: calc((100vw / var(--init-width)) * 127);
+	right: calc((100vw / var(--init-width)) * 133);
 
 	font-style: normal;
 	font-weight: normal;
