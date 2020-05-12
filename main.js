@@ -2050,6 +2050,7 @@ function dragElement(elmnt) {
 	}
 }
 
+dragElement(document.getElementById("book"));
 
 
 

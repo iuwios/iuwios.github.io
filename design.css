@@ -249,26 +249,7 @@ display: none;
 
 
 /* Created with http://boockup.marco.land */
-@-webkit-keyframes rotatingAnimationX {
-  0%{
-    -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
-  }
-  100% {
-    -webkit-transform: rotateX(360deg);
-            transform: rotateX(360deg);
-  }
-}
-@keyframes rotatingAnimationX {
-  0%{
-    -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
-  }
-  100% {
-    -webkit-transform: rotateX(360deg);
-            transform: rotateX(360deg);
-  }
-}
+
 @-webkit-keyframes rotatingAnimationY {
   0%{
     -webkit-transform: rotateY(0deg);
@@ -279,36 +260,7 @@ display: none;
             transform: rotateY(360deg);
   }
 }
-@keyframes rotatingAnimationY {
-  0%{
-    -webkit-transform: rotateY(0deg);
-            transform: rotateY(0deg);
-  }
-  100% {
-    -webkit-transform: rotateY(360deg);
-            transform: rotateY(360deg);
-  }
-}
-@-webkit-keyframes rotatingAnimationZ {
-  0%{
-    -webkit-transform: rotateZ(0deg);
-            transform: rotateZ(0deg);
-  }
-  100% {
-    -webkit-transform: rotateZ(360deg);
-            transform: rotateZ(360deg);
-  }
-}
-@keyframes rotatingAnimationZ {
-  0%{
-    -webkit-transform: rotateZ(0deg);
-            transform: rotateZ(0deg);
-  }
-  100% {
-    -webkit-transform: rotateZ(360deg);
-            transform: rotateZ(360deg);
-  }
-}
+
 
 .book {
 	position: absolute;
@@ -340,8 +292,8 @@ display: none;
 .book-container {
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	-webkit-animation: 10s rotatingAnimationY linear infinite;
-	animation: 10s rotatingAnimationY linear infinite;
+	-webkit-animation: 13s rotatingAnimationY linear infinite;
+	animation: 13s rotatingAnimationY linear infinite;
 }
 .book-container > div {
 	position: absolute;
@@ -402,7 +354,7 @@ display: none;
 	width: calc((100vw / 1440) * 400);
 	height: calc((100vw / 1440) * 540);
 	-webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 44)) translate3d(0,0, calc((100vw / 1440) * -58)) rotateY(180deg);
-	transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 44)) translate3d(0,0, calc((100vw / 1440) * -58)) rotateY(180deg);
+	transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 4ㅊ)) translate3d(0,0, calc((100vw / 1440) * -58)) rotateY(180deg);
 }
 
 
