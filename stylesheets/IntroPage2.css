@@ -348,7 +348,7 @@
 	width: calc((100vw / var(--init-width)) * 234);
 	height: calc((100vw / var(--init-width)) * 246);
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 450;
 	font-size: calc((100vw / var(--init-width)) * 230);
 	line-height: calc((100vw / var(--init-width)) * 246);
 	margin: 0;
