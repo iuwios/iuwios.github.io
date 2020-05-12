@@ -894,6 +894,12 @@ function d6regular()
 
 var cur_language = "title-english";
 var cur_language_left = "ENGLISH";
+var cur_color = "#70CCF7";
+var cur_title = "p7-english";
+var cur_chapter = "p72-english";
+/*#FFC0EF
+#70CCF7
+#FFEB00*/
 var x, i, j, selElmnt, a, b, c;
 /* Look for any elements with the class "custom-select": */
 x = document.getElementsByClassName("custom-select");
@@ -924,124 +930,208 @@ for (i = 0; i < x.length; i++) {
           if (s.options[i].innerHTML == this.innerHTML) {
           document.getElementById(cur_language).style.display = "none";
           document.getElementById(cur_language_left).style.backgroundColor='white';
-	  	  document.getElementById(cur_language_left).style.color='black';
+	  	  //document.getElementById(cur_language_left).style.color='black';
           	switch(s.options[i].innerHTML){
           		case "ENGLISH":
           			cur_language_left = "ENGLISH";
           			cur_language = "title-english";
+          			cur_color = "#70CCF7";
+          			cur_title = "p7-english";
+          			cur_chapter = "p72-english";
           			break;
           		case "AFRIKAANS":
           			cur_language = "title-afrikaans";
           			cur_language_left = "AFRIKAANS";
+          			cur_color = "#FFC0EF";
+          			cur_title = "p7-afrikaans";
+          			cur_chapter = "p72-afrikaans";
           			break;
           		case "ITALIAN":
           			cur_language_left = "ITALIAN";
           			cur_language = "title-italian";
+          			cur_color = '#3eb549';
+          			cur_title = "p7-italian";
+          			cur_chapter = "p72-italian";
           			break;
           		case "ROMANIAN":
-          			cur_language = "title-afrikaans";
+          			cur_language = "title-romanian";
           			cur_language_left = "ROMANIAN";
+          			cur_color = "#70CCF7";
+          			cur_title = "p7-romanian";
+          			cur_chapter = "p72-romanian";
           			break;
           		case "ALBANIAN":
           			cur_language_left = "ALBANIAN";
           			cur_language = "title-albanian";
+          			cur_color = '#ddd9d6';
+          			cur_title = "p7-albanian";
+          			cur_chapter = "p72-albanian";
           			break;
           		case "ESTONIAN":
           			cur_language = "title-estonian";
           			cur_language_left = "ESTONIAN";
+          			cur_color = '#3eb549';
+          			cur_title = "p7-estonian";
+          			cur_chapter = "p72-estonian";
           			break;
           		case "LATVIAN":
           			cur_language_left = "LATVIAN";
           			cur_language = "title-latvian";
+          			cur_color = '#ffff00';
+          			cur_title = "p7-latvian";
+          			cur_chapter = "p72-latvian";
           			break;
           		case "SLOVAK":
           			cur_language = "title-slovak";
           			cur_language_left = "SLOVAK";
+          			cur_color = '#ddd9d6';
+          			cur_title = "p7-slovak";
+          			cur_chapter = "p72-slovak";
           			break;
 
 
 				case "CATALAN":
 		  			cur_language_left = "CATALAN";
 		  			cur_language = "title-catalan";
+		  			cur_color = '#ffff00';
+		  			cur_title = "p7-catalan";
+          			cur_chapter = "p72-catalan";
 		  			break;
 		  		case "FINNISH":
 		  			cur_language_left = "FINNISH";
 	          		cur_language = "title-finnish";
+	          		cur_color = '#ddd9d6';
+	          		cur_title = "p7-finnish";
+          			cur_chapter = "p72-finnish";
 		  			break;
 				case "LITHUANIAN":
 					cur_language = "title-lithuanian";
 	      			cur_language_left = "LITHUANIAN";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-lithuanian";
+          			cur_chapter = "p72-lithuanian";
 	      			break;
 	      		case "SLOVENIAN":
 	      			cur_language = "title-slovenian";
 	      			cur_language_left = "SLOVENIAN";
+	      			cur_color = "#70CCF7";
+	      			cur_title = "p7-slovenian";
+          			cur_chapter = "p72-slovenian";
 	      			break;
 	      		case "CROATIAN":
 	      			cur_language = "title-croatian";
 	      			cur_language_left = "CROATIAN";
+	      			cur_color = '#3eb549';
+	      			cur_title = "p7-croatian";
+          			cur_chapter = "p72-croatian";
 	      			break;
 	      		case "FRENCH":
 	      			cur_language = "title-french";
 	      			cur_language_left = "FRENCH";
+	      			cur_color = "#70CCF7";
+	      			cur_title = "p7-french";
+          			cur_chapter = "p72-french";
 	      			break;
 	      		case "MALTESE":
 	      			cur_language = "title-maltese";
 	      			cur_language_left = "MALTESE";
+	      			cur_color = '#d7b089';
+	      			cur_title = "p7-maltese";
+          			cur_chapter = "p72-maltese";
 	      			break;
 	      		case "SPANISH":
 	      			cur_language = "title-spanish";
 	      			cur_language_left = "SPANISH";
+	      			cur_color = '#ffff00';
+	      			cur_title = "p7-spanish";
+          			cur_chapter = "p72-spanish";
 	      			break;
 
 		      	case "GERMAN":
 		  			cur_language_left = "GERMAN";
 		  			cur_language = "title-german";
+		  			cur_color = '#3eb549';
+		  			cur_title = "p7-german";
+          			cur_chapter = "p72-german";
 		  			break;
 		  		case "NORWEGIAN":
 		  			cur_language_left = "NORWEGIAN";
 	          		cur_language = "title-norwegian";
+	          		cur_color = "#70CCF7";
+	          		cur_title = "p7-norwegian";
+          			cur_chapter = "p72-norwegian";
 		  			break;
 				case "CZECH":
 					cur_language = "title-czech";
 	      			cur_language_left = "CZECH";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-czech";
+          			cur_chapter = "p72-czech";
 	      			break;
 	      		case "SWEDISH":
 	      			cur_language = "title-swedish";
 	      			cur_language_left = "SWEDISH";
+	      			cur_color = '#3eb549';
+	      			cur_title = "p7-swedish";
+          			cur_chapter = "p72-swedish";
 	      			break;
 	      		case "DANISH":
 	      			cur_language = "title-danish";
 	      			cur_language_left = "DANISH";
+	      			cur_color = '#ffff00';
+	      			cur_title = "p7-danish";
+          			cur_chapter = "p72-danish";
 	      			break;
 	      		case "HUNGARIAN":
 	      			cur_language = "title-hungarian";
 	      			cur_language_left = "HUNGARIAN";
+	      			cur_color = '#d7b089';
+	      			cur_title = "p7-hungarian";
+          			cur_chapter = "p72-hungarian";
 	      			break;
 	      		case "POLISH":
 	      			cur_language = "title-polish";
 	      			cur_language_left = "POLISH";
+	      			cur_color = '#ddd9d6';
+	      			cur_title = "p7-polish";
+          			cur_chapter = "p72-polish";
 	      			break;
 	      		case "TURKISH":
 	      			cur_language = "title-turkish";
 	      			cur_language_left = "TURKISH";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-turkish";
+          			cur_chapter = "p72-turkish";
 	      			break;
 
 
 	      		case "DUTCH":
 	      			cur_language = "title-danish";
 	      			cur_language_left = "DUTCH";
+	      			cur_color = "#70CCF7";
+	      			cur_title = "p7-danish";
+          			cur_chapter = "p72-danish";
 	      			break;
 	      		case "ICELANDIC":
 	      			cur_language = "title-icelandic";
 	      			cur_language_left = "ICELANDIC";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-icelandic";
+          			cur_chapter = "p72-icelandic";
 	      			break;
 	      		case "PORTUGUESE":
 	      			cur_language = "title-portuguese";
 	      			cur_language_left = "PORTUGUESE";
+	      			cur_color = '#ffff00';
+	      			cur_title = "p7-portuguese";
+          			cur_chapter = "p72-portuguese";
 	      			break;
 	      		case "VIETNAMESE":
 	      			cur_language = "title-vietnamese";
 	      			cur_language_left = "VIETNAMESE";
+	      			cur_color = '#d7b089';
+	      			cur_title = "p7-vietnamese";
+          			cur_chapter = "p72-vietnamese";
 	      			break;
 
           		default:
@@ -1049,8 +1139,9 @@ for (i = 0; i < x.length; i++) {
           	}
           	document.getElementById(cur_language).style.display = "block";
           	document.getElementsByClassName("select-selected")[0].innerHTML=cur_language_left;
-		  	document.getElementById(cur_language_left).style.backgroundColor='black';
-		  	document.getElementById(cur_language_left).style.color='white';
+		  	document.getElementById(cur_language_left).style.backgroundColor=cur_color;
+		  	document.getElementById(cur_title).style.color=cur_color;
+	  		document.getElementById(cur_chapter).style.color=cur_color;
          
             s.selectedIndex = i;
             h.innerHTML = this.innerHTML;
@@ -1108,135 +1199,492 @@ var only_tag = p7elements.getElementsByTagName("li");
 
 for(var k=0; k<only_tag.length; k++){
     only_tag[k].addEventListener("click", function(e) {
-    	document.getElementById(cur_language_left).style.backgroundColor='white';
-	  	document.getElementById(cur_language_left).style.color='black';
+    	document.getElementById(cur_language_left).style.backgroundColor='transparent';
+	  	//document.getElementById(cur_language_left).style.color='black';
 	  	document.getElementById(cur_language).style.display = "none";
 		switch(this.innerHTML){
-	  		case "ENGLISH":
-	  			cur_language_left = "ENGLISH";
-	  			cur_language = "title-english";
-	  			break;
-	  		case "AFRIKAANS":
-	  			cur_language_left = "AFRIKAANS";
-          		cur_language = "title-afrikaans";
-	  			break;
-			case "ITALIAN":
-				cur_language = "title-italian";
-      			cur_language_left = "ITALIAN";
-      			break;
-      		case "ROMANIAN":
-      			cur_language = "title-romanian";
-      			cur_language_left = "ROMANIAN";
-      			break;
-      		case "ALBANIAN":
-      			cur_language = "title-albanian";
-      			cur_language_left = "ALBANIAN";
-      			break;
-      		case "ESTONIAN":
-      			cur_language = "title-estonian";
-      			cur_language_left = "ESTONIAN";
-      			break;
-      		case "LATVIAN":
-      			cur_language = "title-latvian";
-      			cur_language_left = "LATVIAN";
-      			break;
-      		case "SLOVAK":
-      			cur_language = "title-slovak";
-      			cur_language_left = "SLOVAK";
-      			break;
-
-			case "CATALAN":
-	  			cur_language_left = "CATALAN";
-	  			cur_language = "title-catalan";
-	  			break;
-	  		case "FINNISH":
-	  			cur_language_left = "FINNISH";
-          		cur_language = "title-finnish";
-	  			break;
-			case "LITHUANIAN":
-				cur_language = "title-lithuanian";
-      			cur_language_left = "LITHUANIAN";
-      			break;
-      		case "SLOVENIAN":
-      			cur_language = "title-slovenian";
-      			cur_language_left = "SLOVENIAN";
-      			break;
-      		case "CROATIAN":
-      			cur_language = "title-croatian";
-      			cur_language_left = "CROATIAN";
-      			break;
-      		case "FRENCH":
-      			cur_language = "title-french";
-      			cur_language_left = "FRENCH";
-      			break;
-      		case "MALTESE":
-      			cur_language = "title-maltese";
-      			cur_language_left = "MALTESE";
-      			break;
-      		case "SPANISH":
-      			cur_language = "title-spanish";
-      			cur_language_left = "SPANISH";
-      			break;
-
-      		case "GERMAN":
-	  			cur_language_left = "GERMAN";
-	  			cur_language = "title-german";
-	  			break;
-	  		case "NORWEGIAN":
-	  			cur_language_left = "NORWEGIAN";
-          		cur_language = "title-norwegian";
-	  			break;
-			case "CZECH":
-				cur_language = "title-czech";
-      			cur_language_left = "CZECH";
-      			break;
-      		case "SWEDISH":
-      			cur_language = "title-swedish";
-      			cur_language_left = "SWEDISH";
-      			break;
-      		case "DANISH":
-      			cur_language = "title-danish";
-      			cur_language_left = "DANISH";
-      			break;
-      		case "HUNGARIAN":
-      			cur_language = "title-hungarian";
-      			cur_language_left = "HUNGARIAN";
-      			break;
-      		case "POLISH":
-      			cur_language = "title-polish";
-      			cur_language_left = "POLISH";
-      			break;
-      		case "TURKISH":
-      			cur_language = "title-turkish";
-      			cur_language_left = "TURKISH";
-      			break;
+  			case "ENGLISH":
+          			cur_language_left = "ENGLISH";
+          			cur_language = "title-english";
+          			cur_color = "#70CCF7";
+          			cur_title = "p7-english";
+          			cur_chapter = "p72-english";
+          			break;
+          		case "AFRIKAANS":
+          			cur_language = "title-afrikaans";
+          			cur_language_left = "AFRIKAANS";
+          			cur_color = "#FFC0EF";
+          			cur_title = "p7-afrikaans";
+          			cur_chapter = "p72-afrikaans";
+          			break;
+          		case "ITALIAN":
+          			cur_language_left = "ITALIAN";
+          			cur_language = "title-italian";
+          			cur_color = '#3eb549';
+          			cur_title = "p7-italian";
+          			cur_chapter = "p72-italian";
+          			break;
+          		case "ROMANIAN":
+          			cur_language = "title-romanian";
+          			cur_language_left = "ROMANIAN";
+          			cur_color = "#70CCF7";
+          			cur_title = "p7-romanian";
+          			cur_chapter = "p72-romanian";
+          			break;
+          		case "ALBANIAN":
+          			cur_language_left = "ALBANIAN";
+          			cur_language = "title-albanian";
+          			cur_color = '#ddd9d6';
+          			cur_title = "p7-albanian";
+          			cur_chapter = "p72-albanian";
+          			break;
+          		case "ESTONIAN":
+          			cur_language = "title-estonian";
+          			cur_language_left = "ESTONIAN";
+          			cur_color = '#3eb549';
+          			cur_title = "p7-estonian";
+          			cur_chapter = "p72-estonian";
+          			break;
+          		case "LATVIAN":
+          			cur_language_left = "LATVIAN";
+          			cur_language = "title-latvian";
+          			cur_color = '#ffff00';
+          			cur_title = "p7-latvian";
+          			cur_chapter = "p72-latvian";
+          			break;
+          		case "SLOVAK":
+          			cur_language = "title-slovak";
+          			cur_language_left = "SLOVAK";
+          			cur_color = '#ddd9d6';
+          			cur_title = "p7-slovak";
+          			cur_chapter = "p72-slovak";
+          			break;
 
 
-      		case "DUTCH":
-      			cur_language = "title-danish";
-      			cur_language_left = "DUTCH";
-      			break;
-      		case "ICELANDIC":
-      			cur_language = "title-icelandic";
-      			cur_language_left = "ICELANDIC";
-      			break;
-      		case "PORTUGUESE":
-      			cur_language = "title-portuguese";
-      			cur_language_left = "PORTUGUESE";
-      			break;
-      		case "VIETNAMESE":
-      			cur_language = "title-vietnamese";
-      			cur_language_left = "VIETNAMESE";
-      			break;
+				case "CATALAN":
+		  			cur_language_left = "CATALAN";
+		  			cur_language = "title-catalan";
+		  			cur_color = '#ffff00';
+		  			cur_title = "p7-catalan";
+          			cur_chapter = "p72-catalan";
+		  			break;
+		  		case "FINNISH":
+		  			cur_language_left = "FINNISH";
+	          		cur_language = "title-finnish";
+	          		cur_color = '#ddd9d6';
+	          		cur_title = "p7-finnish";
+          			cur_chapter = "p72-finnish";
+		  			break;
+				case "LITHUANIAN":
+					cur_language = "title-lithuanian";
+	      			cur_language_left = "LITHUANIAN";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-lithuanian";
+          			cur_chapter = "p72-lithuanian";
+	      			break;
+	      		case "SLOVENIAN":
+	      			cur_language = "title-slovenian";
+	      			cur_language_left = "SLOVENIAN";
+	      			cur_color = "#70CCF7";
+	      			cur_title = "p7-slovenian";
+          			cur_chapter = "p72-slovenian";
+	      			break;
+	      		case "CROATIAN":
+	      			cur_language = "title-croatian";
+	      			cur_language_left = "CROATIAN";
+	      			cur_color = '#3eb549';
+	      			cur_title = "p7-croatian";
+          			cur_chapter = "p72-croatian";
+	      			break;
+	      		case "FRENCH":
+	      			cur_language = "title-french";
+	      			cur_language_left = "FRENCH";
+	      			cur_color = "#70CCF7";
+	      			cur_title = "p7-french";
+          			cur_chapter = "p72-french";
+	      			break;
+	      		case "MALTESE":
+	      			cur_language = "title-maltese";
+	      			cur_language_left = "MALTESE";
+	      			cur_color = '#d7b089';
+	      			cur_title = "p7-maltese";
+          			cur_chapter = "p72-maltese";
+	      			break;
+	      		case "SPANISH":
+	      			cur_language = "title-spanish";
+	      			cur_language_left = "SPANISH";
+	      			cur_color = '#ffff00';
+	      			cur_title = "p7-spanish";
+          			cur_chapter = "p72-spanish";
+	      			break;
+
+		      	case "GERMAN":
+		  			cur_language_left = "GERMAN";
+		  			cur_language = "title-german";
+		  			cur_color = '#3eb549';
+		  			cur_title = "p7-german";
+          			cur_chapter = "p72-german";
+		  			break;
+		  		case "NORWEGIAN":
+		  			cur_language_left = "NORWEGIAN";
+	          		cur_language = "title-norwegian";
+	          		cur_color = "#70CCF7";
+	          		cur_title = "p7-norwegian";
+          			cur_chapter = "p72-norwegian";
+		  			break;
+				case "CZECH":
+					cur_language = "title-czech";
+	      			cur_language_left = "CZECH";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-czech";
+          			cur_chapter = "p72-czech";
+	      			break;
+	      		case "SWEDISH":
+	      			cur_language = "title-swedish";
+	      			cur_language_left = "SWEDISH";
+	      			cur_color = '#3eb549';
+	      			cur_title = "p7-swedish";
+          			cur_chapter = "p72-swedish";
+	      			break;
+	      		case "DANISH":
+	      			cur_language = "title-danish";
+	      			cur_language_left = "DANISH";
+	      			cur_color = '#ffff00';
+	      			cur_title = "p7-danish";
+          			cur_chapter = "p72-danish";
+	      			break;
+	      		case "HUNGARIAN":
+	      			cur_language = "title-hungarian";
+	      			cur_language_left = "HUNGARIAN";
+	      			cur_color = '#d7b089';
+	      			cur_title = "p7-hungarian";
+          			cur_chapter = "p72-hungarian";
+	      			break;
+	      		case "POLISH":
+	      			cur_language = "title-polish";
+	      			cur_language_left = "POLISH";
+	      			cur_color = '#ddd9d6';
+	      			cur_title = "p7-polish";
+          			cur_chapter = "p72-polish";
+	      			break;
+	      		case "TURKISH":
+	      			cur_language = "title-turkish";
+	      			cur_language_left = "TURKISH";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-turkish";
+          			cur_chapter = "p72-turkish";
+	      			break;
+
+
+	      		case "DUTCH":
+	      			cur_language = "title-danish";
+	      			cur_language_left = "DUTCH";
+	      			cur_color = "#70CCF7";
+	      			cur_title = "p7-danish";
+          			cur_chapter = "p72-danish";
+	      			break;
+	      		case "ICELANDIC":
+	      			cur_language = "title-icelandic";
+	      			cur_language_left = "ICELANDIC";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-icelandic";
+          			cur_chapter = "p72-icelandic";
+	      			break;
+	      		case "PORTUGUESE":
+	      			cur_language = "title-portuguese";
+	      			cur_language_left = "PORTUGUESE";
+	      			cur_color = '#ffff00';
+	      			cur_title = "p7-portuguese";
+          			cur_chapter = "p72-portuguese";
+	      			break;
+	      		case "VIETNAMESE":
+	      			cur_language = "title-vietnamese";
+	      			cur_language_left = "VIETNAMESE";
+	      			cur_color = '#d7b089';
+	      			cur_title = "p7-vietnamese";
+          			cur_chapter = "p72-vietnamese";
+	      			break;
 
 	  		default:
 	  			break;
 	  		}
 	  	document.getElementsByClassName("select-selected")[0].innerHTML=cur_language_left;
-	  	document.getElementById(cur_language_left).style.backgroundColor='black';
-	  	document.getElementById(cur_language_left).style.color='white';
+	  	document.getElementById(cur_language_left).style.backgroundColor=cur_color;
+	  	//document.getElementById(cur_language_left).style.color='white';
 	  	document.getElementById(cur_language).style.display = "block";
+	  	document.getElementById(cur_title).style.color=cur_color;
+	  	document.getElementById(cur_chapter).style.color=cur_color;
     });
+
+}
+
+
+var hover_color = "#70CCF7";
+cur_language_lefts = "ENGLISH";
+for(var k=0; k<only_tag.length; k++){
+    only_tag[k].addEventListener("mouseover", function(e) {
+    	
+		switch(this.innerHTML){
+  			case "ENGLISH":
+          			cur_language_lefts = "ENGLISH";
+          			//cur_language = "title-english";
+          			hover_color = "#70CCF7";
+          			break;
+          		case "AFRIKAANS":
+          			cur_language_lefts = "AFRIKAANS";
+          			hover_color = "#FFC0EF";
+          			break;
+          		case "ITALIAN":
+          			cur_language_lefts = "ITALIAN";
+          			hover_color = '#3eb549';
+          			break;
+          		case "ROMANIAN":
+          			cur_language_lefts = "ROMANIAN";
+          			hover_color = "#70CCF7";
+          			break;
+          		case "ALBANIAN":
+          			cur_language_lefts = "ALBANIAN";
+          			hover_color = '#ddd9d6';
+          			break;
+          		case "ESTONIAN":
+          			cur_language_lefts = "ESTONIAN";
+          			hover_color = '#3eb549';
+          			break;
+          		case "LATVIAN":
+          			cur_language_lefts = "LATVIAN";
+          			hover_color = '#ffff00';
+          			break;
+          		case "SLOVAK":
+          			cur_language_lefts = "SLOVAK";
+          			hover_color = '#ddd9d6';
+          			break;
+
+
+				case "CATALAN":
+		  			cur_language_lefts = "CATALAN";
+		  			hover_color = '#ffff00';
+		  			break;
+		  		case "FINNISH":
+		  			cur_language_lefts = "FINNISH";
+	          		hover_color = '#ddd9d6';
+		  			break;
+				case "LITHUANIAN":
+	      			cur_language_lefts = "LITHUANIAN";
+	      			hover_color = "#FFC0EF";
+	      			break;
+	      		case "SLOVENIAN":
+	      			cur_language_lefts = "SLOVENIAN";
+	      			hover_color = "#70CCF7";
+	      			break;
+	      		case "CROATIAN":
+	      			cur_language_lefts = "CROATIAN";
+	      			hover_color = '#3eb549';
+	      			break;
+	      		case "FRENCH":
+	      			cur_language_lefts = "FRENCH";
+	      			hover_color = "#70CCF7";
+	      			break;
+	      		case "MALTESE":
+	      			cur_language_lefts = "MALTESE";
+	      			hover_color = '#d7b089';
+	      			break;
+	      		case "SPANISH":
+	      			cur_language_lefts = "SPANISH";
+	      			hover_color = '#ffff00';
+	      			break;
+
+		      	case "GERMAN":
+		  			cur_language_lefts = "GERMAN";
+		  			hover_color = '#3eb549';
+		  			break;
+		  		case "NORWEGIAN":
+		  			cur_language_lefts = "NORWEGIAN";
+	          		hover_color = "#70CCF7";
+		  			break;
+				case "CZECH":
+	      			cur_language_lefts = "CZECH";
+	      			hover_color = "#FFC0EF";
+	      			break;
+	      		case "SWEDISH":
+	      			cur_language_lefts = "SWEDISH";
+	      			hover_color = '#3eb549';
+	      			break;
+	      		case "DANISH":
+	      			cur_language_lefts = "DANISH";
+	      			hover_color = '#ffff00';
+	      			break;
+	      		case "HUNGARIAN":
+	      			cur_language_lefts = "HUNGARIAN";
+	      			hover_color = '#d7b089';
+	      			break;
+	      		case "POLISH":
+	      			cur_language_lefts = "POLISH";
+	      			hover_color = '#ddd9d6';
+	      			break;
+	      		case "TURKISH":
+	      			cur_language_lefts = "TURKISH";
+	      			hover_color = "#FFC0EF";
+	      			break;
+
+
+	      		case "DUTCH":
+	      			cur_language_lefts = "DUTCH";
+	      			hover_color = "#70CCF7";
+	      			break;
+	      		case "ICELANDIC":
+	      			cur_language_lefts = "ICELANDIC";
+	      			hover_color = "#FFC0EF";
+	      			break;
+	      		case "PORTUGUESE":
+	      			cur_language_lefts = "PORTUGUESE";
+	      			hover_color = '#ffff00';
+	      			break;
+	      		case "VIETNAMESE":
+	      			cur_language_lefts = "VIETNAMESE";
+	      			hover_color = '#d7b089';
+	      			break;
+
+	  		default:
+	  			break;
+	  		}
+	  		document.getElementById(cur_language_lefts).style.backgroundColor=hover_color;
+	  		document.getElementById(cur_language_lefts).style.opacity="0.4";
+	   });
+
+}
+
+
+for(var k=0; k<only_tag.length; k++){
+    only_tag[k].addEventListener("mouseout", function(e) {
+    	
+		switch(this.innerHTML){
+  			case "ENGLISH":
+          			cur_language_lefts = "ENGLISH";
+          			//cur_language = "title-english";
+          			hover_color = "#70CCF7";
+
+          			break;
+          		case "AFRIKAANS":
+          			cur_language_lefts = "AFRIKAANS";
+          			hover_color = "#FFC0EF";
+          			break;
+          		case "ITALIAN":
+          			cur_language_lefts = "ITALIAN";
+          			hover_color = '#3eb549';
+          			break;
+          		case "ROMANIAN":
+          			cur_language_lefts = "ROMANIAN";
+          			hover_color = "#70CCF7";
+          			break;
+          		case "ALBANIAN":
+          			cur_language_lefts = "ALBANIAN";
+          			hover_color = '#ddd9d6';
+          			break;
+          		case "ESTONIAN":
+          			cur_language_lefts = "ESTONIAN";
+          			hover_color = '#3eb549';
+          			break;
+          		case "LATVIAN":
+          			cur_language_lefts = "LATVIAN";
+          			hover_color = '#ffff00';
+          			break;
+          		case "SLOVAK":
+          			cur_language_lefts = "SLOVAK";
+          			hover_color = '#ddd9d6';
+          			break;
+
+
+				case "CATALAN":
+		  			cur_language_lefts = "CATALAN";
+		  			hover_color = '#ffff00';
+		  			break;
+		  		case "FINNISH":
+		  			cur_language_lefts = "FINNISH";
+	          		hover_color = '#ddd9d6';
+		  			break;
+				case "LITHUANIAN":
+	      			cur_language_lefts = "LITHUANIAN";
+	      			hover_color = "#FFC0EF";
+	      			break;
+	      		case "SLOVENIAN":
+	      			cur_language_lefts = "SLOVENIAN";
+	      			hover_color = "#70CCF7";
+	      			break;
+	      		case "CROATIAN":
+	      			cur_language_lefts = "CROATIAN";
+	      			hover_color = '#3eb549';
+	      			break;
+	      		case "FRENCH":
+	      			cur_language_lefts = "FRENCH";
+	      			hover_color = "#70CCF7";
+	      			break;
+	      		case "MALTESE":
+	      			cur_language_lefts = "MALTESE";
+	      			hover_color = '#d7b089';
+	      			break;
+	      		case "SPANISH":
+	      			cur_language_lefts = "SPANISH";
+	      			hover_color = '#ffff00';
+	      			break;
+
+		      	case "GERMAN":
+		  			cur_language_lefts = "GERMAN";
+		  			hover_color = '#3eb549';
+		  			break;
+		  		case "NORWEGIAN":
+		  			cur_language_lefts = "NORWEGIAN";
+	          		hover_color = "#70CCF7";
+		  			break;
+				case "CZECH":
+	      			cur_language_lefts = "CZECH";
+	      			hover_color = "#FFC0EF";
+	      			break;
+	      		case "SWEDISH":
+	      			cur_language_lefts = "SWEDISH";
+	      			hover_color = '#3eb549';
+	      			break;
+	      		case "DANISH":
+	      			cur_language_lefts = "DANISH";
+	      			hover_color = '#ffff00';
+	      			break;
+	      		case "HUNGARIAN":
+	      			cur_language_lefts = "HUNGARIAN";
+	      			hover_color = '#d7b089';
+	      			break;
+	      		case "POLISH":
+	      			cur_language_lefts = "POLISH";
+	      			hover_color = '#ddd9d6';
+	      			break;
+	      		case "TURKISH":
+	      			cur_language_lefts = "TURKISH";
+	      			hover_color = "#FFC0EF";
+	      			break;
+
+
+	      		case "DUTCH":
+	      			cur_language_lefts = "DUTCH";
+	      			hover_color = "#70CCF7";
+	      			break;
+	      		case "ICELANDIC":
+	      			cur_language_lefts = "ICELANDIC";
+	      			hover_color = "#FFC0EF";
+	      			break;
+	      		case "PORTUGUESE":
+	      			cur_language_lefts = "PORTUGUESE";
+	      			hover_color = '#ffff00';
+	      			break;
+	      		case "VIETNAMESE":
+	      			cur_language_lefts = "VIETNAMESE";
+	      			hover_color = '#d7b089';
+	      			break;
+
+	  		default:
+	  			break;
+	  		}
+	  		document.getElementById(cur_language_lefts).style.backgroundColor='white';
+	  		document.getElementById(cur_language_lefts).style.opacity="1";
+	  		document.getElementById(cur_language_left).style.backgroundColor=cur_color;
+	   });
 
 }
 
