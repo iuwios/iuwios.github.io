@@ -362,24 +362,24 @@ display: none;
 	background-image: url('book-cover.jpg');
 	width: calc((100vw / 1440) * 400);
 	height: calc((100vw / 1440) * 540);
-	-webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(0,0,0) rotateY(0deg);
-	transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(0,0,0) rotateY(0deg);
+	-webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 14)) translate3d(0,0,0) rotateY(0deg);
+	transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 14)) translate3d(0,0,0) rotateY(0deg);
 }
 .book-side-left 
 {
   background-image: url('book-spine.jpg');
-  width: calc((100vw / 1440) * 58);
+  width: calc((100vw / 1440) * 30);
   height: calc((100vw / 1440) * 540);
-  -webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(calc((100vw / 1440) * -29), 0, calc((100vw / 1440) * -29)) rotateY(-90deg);
-  transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(calc((100vw / 1440) * -29), 0, calc((100vw / 1440) * -29)) rotateY(-90deg);
+  -webkit-transform: translate3d(calc((100vw / 1440) * -187) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(calc((100vw / 1440) * -29), 0, calc((100vw / 1440) * -29)) rotateY(-90deg);
+  transform: translate3d(calc((100vw / 1440) * -187) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(calc((100vw / 1440) * -29), 0, calc((100vw / 1440) * -29)) rotateY(-90deg);
 }
 .book-side-right 
 {
 	background-image: url('book-side.jpg');
-	width: calc((100vw / 1440) * 58);
+	width: calc((100vw / 1440) * 30);
 	height: calc((100vw / 1440) * 540);
-	-webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(calc((100vw / 1440) * 371), 0px,calc((100vw / 1440) * -29)) rotateY(90deg);
-	transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(calc((100vw / 1440) * 371), 0px,calc((100vw / 1440) * -29)) rotateY(90deg);
+	-webkit-transform: translate3d(calc((100vw / 1440) * -185) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(calc((100vw / 1440) * 371), 0px,calc((100vw / 1440) * -29)) rotateY(90deg);
+	transform: translate3d(calc((100vw / 1440) * -185) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(calc((100vw / 1440) * 371), 0px,calc((100vw / 1440) * -29)) rotateY(90deg);
 }
 /*.book-top {
   background-image: url('../images/book-top.jpg');
@@ -393,16 +393,16 @@ display: none;
 {
 	background-image: url('book-top.jpg');
 	width: calc((100vw / 1440) * 400);
-	height: calc((100vw / 1440) * 58);
-	-webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * -29)) translate3d(0px, calc((100vw / 1440) * 511), calc((100vw / 1440) * -29)) rotateX(-90deg);
-	transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(0px, calc((100vw / 1440) * 511), calc((100vw / 1440) * -29)) rotateX(-90deg);
+	height: calc((100vw / 1440) * 30);
+	-webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -255) ,calc((100vw / 1440) * -29)) translate3d(0px, calc((100vw / 1440) * 511), calc((100vw / 1440) * -29)) rotateX(-90deg);
+	transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -255) ,calc((100vw / 1440) * 29)) translate3d(0px, calc((100vw / 1440) * 511), calc((100vw / 1440) * -29)) rotateX(-90deg);
 }
 .book-back {
 	background-image: url('book-back.jpg');
 	width: calc((100vw / 1440) * 400);
 	height: calc((100vw / 1440) * 540);
-	-webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(0,0, calc((100vw / 1440) * -58)) rotateY(180deg);
-	transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 29)) translate3d(0,0, calc((100vw / 1440) * -58)) rotateY(180deg);
+	-webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 44)) translate3d(0,0, calc((100vw / 1440) * -58)) rotateY(180deg);
+	transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 44)) translate3d(0,0, calc((100vw / 1440) * -58)) rotateY(180deg);
 }
 
 
