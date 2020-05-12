@@ -2116,6 +2116,3 @@ img.mousedown(function (e) {
 $(document).mouseup(function (e) {
     mouseDown = false;
 })
-
-
-
