@@ -953,7 +953,7 @@ function d6regular()
 
 var cur_language = "title-english";
 var cur_language_left = "ENGLISH";
-var cur_color = "#70CCF7";
+var cur_color = "#3eb549";
 var cur_title = "p7-english";
 var cur_chapter = "p72-english";
 /*#FFC0EF
@@ -994,7 +994,7 @@ for (i = 0; i < x.length; i++) {
           		case "ENGLISH":
           			cur_language_left = "ENGLISH";
           			cur_language = "title-english";
-          			cur_color = "#70CCF7";
+          			cur_color = "#3eb549";
           			cur_title = "p7-english";
           			cur_chapter = "p72-english";
           			break;
@@ -1008,7 +1008,7 @@ for (i = 0; i < x.length; i++) {
           		case "ITALIAN":
           			cur_language_left = "ITALIAN";
           			cur_language = "title-italian";
-          			cur_color = '#3eb549';
+          			cur_color = '#ffff00';
           			cur_title = "p7-italian";
           			cur_chapter = "p72-italian";
           			break;
@@ -1029,14 +1029,14 @@ for (i = 0; i < x.length; i++) {
           		case "ESTONIAN":
           			cur_language = "title-estonian";
           			cur_language_left = "ESTONIAN";
-          			cur_color = '#3eb549';
+          			cur_color = '#d7b089';
           			cur_title = "p7-estonian";
           			cur_chapter = "p72-estonian";
           			break;
           		case "LATVIAN":
           			cur_language_left = "LATVIAN";
           			cur_language = "title-latvian";
-          			cur_color = '#ffff00';
+          			cur_color = '#3eb549';
           			cur_title = "p7-latvian";
           			cur_chapter = "p72-latvian";
           			break;
@@ -1259,7 +1259,7 @@ for(var k=0; k<only_tag.length; k++){
   			case "ENGLISH":
           			cur_language_left = "ENGLISH";
           			cur_language = "title-english";
-          			cur_color = "#70CCF7";
+          			cur_color = "#3eb549";
           			cur_title = "p7-english";
           			cur_chapter = "p72-english";
           			break;
@@ -1273,7 +1273,7 @@ for(var k=0; k<only_tag.length; k++){
           		case "ITALIAN":
           			cur_language_left = "ITALIAN";
           			cur_language = "title-italian";
-          			cur_color = '#3eb549';
+          			cur_color = '#ffff00';
           			cur_title = "p7-italian";
           			cur_chapter = "p72-italian";
           			break;
@@ -1294,14 +1294,14 @@ for(var k=0; k<only_tag.length; k++){
           		case "ESTONIAN":
           			cur_language = "title-estonian";
           			cur_language_left = "ESTONIAN";
-          			cur_color = '#3eb549';
+          			cur_color = '#d7b089';
           			cur_title = "p7-estonian";
           			cur_chapter = "p72-estonian";
           			break;
           		case "LATVIAN":
           			cur_language_left = "LATVIAN";
           			cur_language = "title-latvian";
-          			cur_color = '#ffff00';
+          			cur_color = '#3eb549';
           			cur_title = "p7-latvian";
           			cur_chapter = "p72-latvian";
           			break;
@@ -1467,7 +1467,7 @@ for(var k=0; k<only_tag.length; k++){
 }
 
 
-var hover_color = "#70CCF7";
+var hover_color = "#3eb549";
 cur_language_lefts = "ENGLISH";
 for(var k=0; k<only_tag.length; k++){
     only_tag[k].addEventListener("mouseover", function(e) {
@@ -1476,7 +1476,7 @@ for(var k=0; k<only_tag.length; k++){
   			case "ENGLISH":
       			cur_language_lefts = "ENGLISH";
       			//cur_language = "title-english";
-      			hover_color = "#70CCF7";
+      			hover_color = "#3eb549";
       			break;
       		case "AFRIKAANS":
       			cur_language_lefts = "AFRIKAANS";
@@ -1484,7 +1484,7 @@ for(var k=0; k<only_tag.length; k++){
       			break;
       		case "ITALIAN":
       			cur_language_lefts = "ITALIAN";
-      			hover_color = '#3eb549';
+      			hover_color = '#ffff00';
       			break;
       		case "ROMANIAN":
       			cur_language_lefts = "ROMANIAN";
@@ -1496,11 +1496,11 @@ for(var k=0; k<only_tag.length; k++){
       			break;
       		case "ESTONIAN":
       			cur_language_lefts = "ESTONIAN";
-      			hover_color = '#3eb549';
+      			hover_color = '#d7b089';
       			break;
       		case "LATVIAN":
       			cur_language_lefts = "LATVIAN";
-      			hover_color = '#ffff00';
+      			hover_color = '#3eb549';
       			break;
       		case "SLOVAK":
       			cur_language_lefts = "SLOVAK";
