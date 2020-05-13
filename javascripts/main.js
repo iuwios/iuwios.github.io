@@ -1,11 +1,4 @@
-function disableClick(){
-        document.onclick=function(event){
-          if (event.button == 2) {
-            alert('Right Click Message');
-            return false;
-          }
-        }
-      }
+
 
 var num = 0;
 var max = document.querySelectorAll("[id='pg']").length-2;
