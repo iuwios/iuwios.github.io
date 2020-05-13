@@ -2090,29 +2090,30 @@ function dragElement(elmnt) {
 
 
 var img = $('.book');
-
 var offset = img.offset();
 var mouseDown = false;
-
-document.getElementById("bookup").style.setProperty('--rotate-z', '10deg');
+var f_x=0;
+var f_y=0;
 function mouse(evt) {
-	
+
     if(mouseDown ==true){
-    var center_x = (offset.left) + (img.width() / 2);
-    var center_y = (offset.top) + (img.height() / 2);
-    var mouse_x = evt.pageX;
-    var mouse_y = evt.pageY;
-    var radians = Math.atan2(mouse_x - center_x, mouse_y - center_y);
-    var degree = (radians * (180 / Math.PI) * -1) + 90;
-    img.css('-moz-transform', 'rotate(' + degree + 'deg)');
-    img.css('-webkit-transform', 'rotate(' + degree + 'deg)');
-    img.css('-o-transform', 'rotate(' + degree + 'deg)');
-    img.css('-ms-transform', 'rotate(' + degree + 'deg)');
+    center_x = f_x - evt.pageX;
+    center_y = f_y - evt.pageY;
+    center_z = center_y + center_x;
+    var mouse_x = -center_x + 'deg';
+    var mouse_y = center_y + 'deg';
+    var mouse_z = center_z + 'deg';
+    document.getElementById("bookup").style.setProperty('--rotate-y', mouse_x);
+    document.getElementById("bookup").style.setProperty('--rotate-x', mouse_y);
+    //document.getElementById("bookup").style.setProperty('--rotate-z', mouse_z);
+
     }
 }
 
 img.mousedown(function (e) {
     mouseDown=true;
+    f_x=e.pageX;
+    f_y=e.pageY;
     $(document).mousemove(mouse);
 });
 $(document).mouseup(function (e) {

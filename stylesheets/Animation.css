@@ -94,9 +94,7 @@
   }
 }
 
-
-/* Created with http://boockup.marco.land */
-
+/*
 @-webkit-keyframes rotatingAnimationY {
   0%{
     -webkit-transform: rotateY(0deg);
@@ -106,4 +104,4 @@
     -webkit-transform: rotateY(360deg);
             transform: rotateY(360deg);
   }
-}
+}*/
