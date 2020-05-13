@@ -2094,7 +2094,9 @@ var img = $('.book');
 var offset = img.offset();
 var mouseDown = false;
 
+document.getElementById("bookup").style.setProperty('--rotate-z', '10deg');
 function mouse(evt) {
+	
     if(mouseDown ==true){
     var center_x = (offset.left) + (img.width() / 2);
     var center_y = (offset.top) + (img.height() / 2);
@@ -2116,3 +2118,5 @@ img.mousedown(function (e) {
 $(document).mouseup(function (e) {
     mouseDown = false;
 })
+
+

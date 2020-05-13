@@ -17,6 +17,11 @@
 	--init-margin-left: 72;
 	--init-d2-rabbit-height: 565;
 
+
+	--rotate-x: 0deg;
+	--rotate-y: 0deg;
+	--rotate-z: 0deg;
+
 	--init-border-color: white;
 	--init-line-height: 140;
 	--init-border-colorL: black;
@@ -248,19 +253,6 @@ display: none;
 }
 
 
-/* Created with http://boockup.marco.land */
-
-@-webkit-keyframes rotatingAnimationY {
-  0%{
-    -webkit-transform: rotateY(0deg);
-            transform: rotateY(0deg);
-  }
-  100% {
-    -webkit-transform: rotateY(360deg);
-            transform: rotateY(360deg);
-  }
-}
-
 
 .book {
 	position: absolute;
@@ -285,9 +277,9 @@ display: none;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
-.boockup {
-	-webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-	transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+.bookup {
+	-webkit-transform: rotateX(var(--rotate-x)) rotateY(var(--rotate-y)) rotateZ(var(--rotate-z));
+	transform: rotateX(var(--rotate-x)) rotateY(var(--rotate-y)) rotateZ(var(--rotate-z));
 }
 .book-container {
 	-webkit-transform-style: preserve-3d;
@@ -558,7 +550,7 @@ display: none;
 }
 .Intro-right-page-1:before 
 {
-  	display: none;
+  	display: none;a
 }
 .nav-container
 {
