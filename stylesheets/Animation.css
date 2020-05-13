@@ -94,7 +94,7 @@
   }
 }
 
-/*
+
 @-webkit-keyframes rotatingAnimationY {
   0%{
     -webkit-transform: rotateY(0deg);
@@ -104,4 +104,11 @@
     -webkit-transform: rotateY(360deg);
             transform: rotateY(360deg);
   }
-}*/
+}
+
+.paused{
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -o-animation-play-state:paused; 
+    animation-play-state:paused;
+}

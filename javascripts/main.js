@@ -2097,12 +2097,12 @@ var f_y=0;
 function mouse(evt) {
 
     if(mouseDown ==true){
-    center_x = f_x - evt.pageX;
-    center_y = f_y - evt.pageY;
+    center_x = (f_x - evt.pageX)/2;
+    center_y = (f_y - evt.pageY)/2;
     center_z = center_y + center_x;
     var mouse_x = -center_x + 'deg';
     var mouse_y = center_y + 'deg';
-    var mouse_z = center_z + 'deg';
+    //var mouse_z = center_z + 'deg';
     document.getElementById("bookup").style.setProperty('--rotate-y', mouse_x);
     document.getElementById("bookup").style.setProperty('--rotate-x', mouse_y);
     //document.getElementById("bookup").style.setProperty('--rotate-z', mouse_z);
@@ -2114,6 +2114,8 @@ img.mousedown(function (e) {
     mouseDown=true;
     f_x=e.pageX;
     f_y=e.pageY;
+    //f_z=e.pageZ;
+    //alert(f_z);
     $(document).mousemove(mouse);
 });
 $(document).mouseup(function (e) {
