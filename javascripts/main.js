@@ -2157,6 +2157,13 @@ function changeNews(topic)
 
 }
 
+dragElement(document.getElementById("header-1"));
+dragElement(document.getElementById("header-2"));
+dragElement(document.getElementById("author-1"));
+dragElement(document.getElementById("author-2"));
+
+dragElement(document.getElementById("snippet-1"));
+
 
 
 
