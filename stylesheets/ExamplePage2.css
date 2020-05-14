@@ -136,7 +136,7 @@
 	line-height: calc((100vw / 1440) * 53);
 
 }
-
+/*
 .Example-left-page-2 .example-line-1
 {
 	position: absolute;
@@ -149,23 +149,24 @@
 	left: calc((100vw / 1440) * 920);
 	z-index: 11;
 }
-
+*/
 .Example-left-page-2 .author-1
 {
 	position: absolute;
 	margin: 0;
 	padding: 0;
 	width: calc((100vw / 1440) * 336);
-	height: calc((100vw / 1440) * 60);
+	height: calc((100vw / 1440) * 75);
 
-	top: calc((100vw / 1440) * 313);
+	top: calc((100vw / 1440) * 310);
 	left: calc((100vw / 1440) * 830);
 
 	font-style: italic;
 	font-weight: 300;
 	font-size: calc((100vw / 1440) * 24);
-	line-height: calc((100vw / 1440) * 27);
+	line-height: calc((100vw / 1440) * 30);
 	text-align: center;
+	border-bottom: calc((100vw / 1440) * 4) solid black;
 	z-index: 11;
 }
 
@@ -188,7 +189,7 @@
 
 }
 
-
+/*
 .Example-left-page-2 .example-line-2
 {
 	position: absolute;
@@ -201,7 +202,7 @@
 	left: calc((100vw / 1440) * 920);
 	z-index: 11;
 }
-
+*/
 .Example-left-page-2 .example-line-3
 {
 	position: absolute;
@@ -212,6 +213,21 @@
 
 	top: calc((100vw / 1440) * 523);
 	left: calc((100vw / 1440) * 110);
+	z-index: 11;
+}
+
+.Example-left-page-2 .copyright
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: calc((100vw / 1440) * 703.68);
+	height: calc((100vw / 1440) * 25);
+
+	font-size: calc((100vw / 1440) * 10);
+
+	top: calc((100vw / 1440) * 770);
+	left: calc((100vw / 1440) * 80);
 	z-index: 11;
 }
 
@@ -250,7 +266,7 @@
 	font-size: calc((100vw / 1440) * 48);
 	line-height: calc((100vw / 1440) * 53);
 }
-
+/*
 .Example-left-page-2 .example-line-4
 {
 	position: absolute;
@@ -275,7 +291,7 @@
 	top: calc((100vw / 1440) * 760);
 	left: calc((100vw / 1440) * 180);
 	z-index: 11;
-}
+}*/
 
 .Example-left-page-2 .author-2
 {
@@ -283,7 +299,7 @@
 	margin: 0;
 	padding: 0;
 	height: calc((100vw / 1440) * 46.55);
-	width: calc((100vw / 1440) * 290);
+	width: calc((100vw / 1440) * 335);
 
 	top: calc((100vw / 1440) * 715);
 	left: calc((100vw / 1440) * 110);
@@ -295,6 +311,7 @@
 	font-weight: 300;
 	font-size: calc((100vw / 1440) * 24);
 	line-height: calc((100vw / 1440) * 42);
+	border-bottom: calc((100vw / 1440) * 4) solid black;
 }
 
 .Example-left-page-2 .outside
