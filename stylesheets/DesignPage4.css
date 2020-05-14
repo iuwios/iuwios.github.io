@@ -498,11 +498,11 @@
 {
 	position: absolute;
 	margin: 0;
-	width: calc((100vw / var(--init-width)) * 520.52);
-	height: calc((100vw / var(--init-width)) * 421.79);
-	top: calc((100vw / var(--init-width)) * 80);
+	width: calc((100vw / var(--init-width)) * 526);
+	height: calc((100vw / var(--init-width)) * 500);
+	top: calc((100vw / var(--init-width)) * 60);
 	right: calc((100vw / var(--init-width)) * var(--init-margin-left));
-	z-index: 10;
+	
 }
 
 .Design-right-page-4 h1

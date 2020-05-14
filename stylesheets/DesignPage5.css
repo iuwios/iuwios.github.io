@@ -425,17 +425,6 @@
 	text-align: right;
 }
 
-.Design-right-page-5 .plate
-{
-	width: calc((100vw / var(--init-width)) * 525.6);
-	height: calc((100vw / var(--init-width)) * 153.01);
-	position: absolute;
-	margin: 0;
-	top: calc((100vw / var(--init-width)) * 234);
-	right: calc((100vw / var(--init-width)) * 72);
-	text-align: right;
-}
-
 .Design-right-page-5 .eat-me
 {
 	font-family: Crimson Pro;

@@ -1,1 +1,2125 @@
-var _0x5e81=['tweak-box-container','select-hide','background','circle_brown','recognition','SWEDISH','example','p7-estonian','title-slovenian','text-nocake','smile','value','CATALAN','circle_pink','d4xl','lineHeight','p72-afrikaans','FINNISH','MALTESE','d6-regular','0.4','appendChild','opticalsize_animation','#3eb549','circle_white','e3-example-slider-weight','special-character-container','onclick','#70CCF7','p7-albanian','title-albanian','mouseup','d4s','--init-border-colorL','--text-size','design','deg','mouseover','offsetLeft','select-items','p7-slovenian','[id=\x27pg\x27]','removeAttribute','border','with-unlimited','--init-line-height','p7-icelandic','p7-french','p72-croatian','the-text','wdth','title-romanian','triangle5','DIV','p72-norwegian','setAttribute','p72-czech','book-overview','d4_xl','VIETNAMESE','p72-slovak','SLOVAK','addEventListener','d4-size-containers','mousedown','p7-german','#FFFFFF','visibility','circle_black','d4_xs','black','class','p7-czech','--e3-text-lineheight','roman','d4_l','lowercase-container','d-weighttxt','CROATIAN','triangle-containerz','--rotate-y','p72-italian','fontStyle','p72-portuguese','same-as-selected','clientX','slider-e','add','title-italian','custom-select','innerHTML','FRENCH','offset','italic_animation','docs','preventDefault','ital','mousemove','p72-albanian','HUNGARIAN','fontSize','p7-catalan','drink-text','https://api.nytimes.com/svc/search/v2/articlesearch.json?q=fashion&api-key=oObWA9Y4w0O3UeN7RevglXHX4MdXzw74','p72-swedish','TURKISH','stopPropagation','#ddd9d6','click','p72-danish','p7-afrikaans','book-character-2','Alphabet-Container','p72-romanian','#231F20','ITALIAN','ROMANIAN','#000000','textShadow','setProperty','eat-me','NORWEGIAN','toggle','options','#FFEB00','book-character-1-txt','#EB0000','book-character-1','p7-vietnamese','title-swedish','design-slider','--e3-text-weight','p7-danish','slider-t','title-maltese','txt-YY','title-catalan','FVFV','DUTCH','title-hungarian','p7-spanish','p72-english','p7-latvian','GERMAN','p72-hungarian','p72-polish','title-vietnamese','PORTUGUESE','p72-french','e3-value-size','AFRIKAANS','p7-maltese','d4m','img','--rotate-x','checkbox_ital','CZECH','indexOf','POLISH','title-danish','slider-Y','p7-portuguese','parentNode','p7-swedish','classList','style','white','previousSibling','size-text','title-german','d5-regular','opsz','title-lithuanian','wght','querySelectorAll','title-afrikaans','backgroundColor','--e3-text-size','clientY','checked','slider-r','triangle1','none','getElementsByClassName','p72-icelandic','p72-lithuanian','d4_m','triangle3','pageX','#ffff00','p72-catalan','hidden','p72-latvian','slider-O','slider-pg3','triangle6','fontWeight','circle_yellow','getElementsByTagName','#d7b089','SLOVENIAN','length','title-croatian','book-chapter','LITHUANIAN','color','#3EB449','getComputedStyle','#D7B089','select-selected','getElementById','ICELANDIC','p7-finnish','title-french','#FFC0EF','title-estonian','title-portuguese','p7-turkish','ESTONIAN','opacity','d4l','display','onmousemove','txt-OO','red','p72-slovenian','title-norwegian','p72-spanish','selectedIndex','--text-weight-small','p72-turkish','onmouseup','d5-italic','p72-maltese','title-turkish','italic','top','p7-norwegian','response','p72-german','p7-hungarian','ALBANIAN','SPANISH','#FEC0F0','circle_green','p7-italian','title-polish','--init-border-color','weight-text','triangle4','d4_s','ENGLISH','slnt','visible','replace','event','pageY','title-finnish','p72-vietnamese','normal','push','p7-english','title-icelandic','1px\x20solid\x20black','--astr-margin-right','weight-unlimited','header','intro','select-arrow-active','slider-FVFV','remove','p72-estonian','title-english','many-lines','className','p7-slovak','d4xs','onmousedown','p7-polish','p72-finnish','p7-lithuanian','oninput','bookup','e3-value-weight','book-title','select','1px\x20solid\x20white','p7-croatian','DANISH','LATVIAN','title-slovak','d6-italic','--text-size-L','createElement','--text-weight','block','book-chapter-txt','.book','circle_blue','p7-romanian','txt-ee'];(function(_0x3afd0f,_0x5e8145){var _0x52b6d2=function(_0x4a5cef){while(--_0x4a5cef){_0x3afd0f['push'](_0x3afd0f['shift']());}};_0x52b6d2(++_0x5e8145);}(_0x5e81,0x15c));var _0x52b6=function(_0x3afd0f,_0x5e8145){_0x3afd0f=_0x3afd0f-0x0;var _0x52b6d2=_0x5e81[_0x3afd0f];return _0x52b6d2;};var num=0x0;var max=document[_0x52b6('0x7f')]('[id=\x27pg\x27]')[_0x52b6('0x9a')]-0x2;var elms=document[_0x52b6('0x7f')](_0x52b6('0x127'));function intro(){document[_0x52b6('0xa3')]('intro')['style'][_0x52b6('0x9e')]='#FEC0F0';document[_0x52b6('0xa3')](_0x52b6('0x121'))[_0x52b6('0x76')][_0x52b6('0x9e')]='white';document['getElementById'](_0x52b6('0x104'))[_0x52b6('0x76')]['color']=_0x52b6('0x77');document['getElementById'](_0x52b6('0x102'))[_0x52b6('0x76')]['color']=_0x52b6('0x77');elms[num][_0x52b6('0x76')][_0x52b6('0xae')]='none';elms[num+0x1][_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0x87');elms[0x0][_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0xf8');elms[0x1][_0x52b6('0x76')][_0x52b6('0xae')]='block';num=0x0;}function design(){document[_0x52b6('0xa3')](_0x52b6('0x121'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0xc4');document[_0x52b6('0xa3')](_0x52b6('0xdc'))['style'][_0x52b6('0x9e')]=_0x52b6('0x77');document['getElementById'](_0x52b6('0x104'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x102'))['style'][_0x52b6('0x9e')]=_0x52b6('0x77');elms[num][_0x52b6('0x76')]['display']=_0x52b6('0x87');elms[num+0x1]['style']['display']=_0x52b6('0x87');elms[0x4][_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0xf8');elms[0x5][_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0xf8');num=0x4;}function example(){document[_0x52b6('0xa3')](_0x52b6('0x104'))['style'][_0x52b6('0x9e')]=_0x52b6('0xc4');document[_0x52b6('0xa3')](_0x52b6('0x121'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0xdc'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('recognition')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');elms[num][_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0x87');elms[num+0x1][_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0x87');elms[0x12]['style'][_0x52b6('0xae')]='block';elms[0x13][_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0xf8');num=0x12;}function recognition(){document[_0x52b6('0xa3')](_0x52b6('0x102'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0xc4');document[_0x52b6('0xa3')](_0x52b6('0x121'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x104'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('intro')[_0x52b6('0x76')]['color']=_0x52b6('0x77');elms[num][_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0x87');elms[num+0x1][_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0x87');elms[0x18]['style']['display']=_0x52b6('0xf8');elms[0x19][_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0xf8');num=0x18;}function right(){if(num==max){return;}else{elms[num][_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0x87');elms[num+0x1][_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0x87');elms[num+0x2]['style']['display']=_0x52b6('0xf8');elms[num+0x3][_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0xf8');num=num+0x2;}switch(num){case 0x0:document[_0x52b6('0xa3')](_0x52b6('0xdc'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0xc4');document[_0x52b6('0xa3')](_0x52b6('0x121'))[_0x52b6('0x76')][_0x52b6('0x9e')]='white';document[_0x52b6('0xa3')](_0x52b6('0x104'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document['getElementById'](_0x52b6('0x102'))['style']['color']=_0x52b6('0x77');break;case 0x4:document['getElementById'](_0x52b6('0x121'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0xc4');document[_0x52b6('0xa3')](_0x52b6('0xdc'))['style'][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('example')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x102'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');break;case 0x12:document[_0x52b6('0xa3')]('example')['style']['color']='#FEC0F0';document['getElementById'](_0x52b6('0x121'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('intro')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x102'))[_0x52b6('0x76')][_0x52b6('0x9e')]='white';break;case 0x18:document[_0x52b6('0xa3')](_0x52b6('0x102'))[_0x52b6('0x76')]['color']=_0x52b6('0xc4');document['getElementById'](_0x52b6('0x121'))[_0x52b6('0x76')]['color']=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x104'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('intro')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');break;default:break;}}function left(){if(num==0x0){return;}else{elms[num][_0x52b6('0x76')][_0x52b6('0xae')]='none';elms[num+0x1][_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0x87');elms[num-0x1][_0x52b6('0x76')]['display']=_0x52b6('0xf8');elms[num-0x2]['style'][_0x52b6('0xae')]=_0x52b6('0xf8');num=num-0x2;}switch(num){case 0x2:document['getElementById'](_0x52b6('0xdc'))[_0x52b6('0x76')]['color']=_0x52b6('0xc4');document[_0x52b6('0xa3')]('design')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x104'))['style']['color']=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x102'))[_0x52b6('0x76')][_0x52b6('0x9e')]='white';break;case 0x10:document[_0x52b6('0xa3')](_0x52b6('0x121'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0xc4');document['getElementById'](_0x52b6('0xdc'))[_0x52b6('0x76')][_0x52b6('0x9e')]='white';document['getElementById']('example')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x102'))[_0x52b6('0x76')]['color']=_0x52b6('0x77');break;case 0x16:document[_0x52b6('0xa3')]('example')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0xc4');document[_0x52b6('0xa3')](_0x52b6('0x121'))['style'][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0xdc'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x102'))[_0x52b6('0x76')]['color']=_0x52b6('0x77');break;default:break;}}function wght(){document[_0x52b6('0xa3')](_0x52b6('0x108'))['className']='weight_animation';document[_0x52b6('0xa3')](_0x52b6('0x7e'))[_0x52b6('0x76')][_0x52b6('0x100')]='black';document[_0x52b6('0xa3')](_0x52b6('0x7e'))['style'][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('slnt')[_0x52b6('0x76')][_0x52b6('0x100')]='white';document[_0x52b6('0xa3')]('slnt')[_0x52b6('0x76')]['color']=_0x52b6('0x17');document[_0x52b6('0xa3')]('wdth')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document['getElementById']('wdth')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x31'))[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('ital')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')]('opsz')[_0x52b6('0x76')]['background']=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x7c'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');}function wdth(){document[_0x52b6('0xa3')](_0x52b6('0x108'))['className']='width_animation';document['getElementById'](_0x52b6('0x3'))[_0x52b6('0x76')]['background']='black';document[_0x52b6('0xa3')](_0x52b6('0x3'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('slnt')['style']['background']=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0xcd'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')]('wght')[_0x52b6('0x76')][_0x52b6('0x100')]='white';document[_0x52b6('0xa3')](_0x52b6('0x7e'))[_0x52b6('0x76')][_0x52b6('0x9e')]='black';document[_0x52b6('0xa3')](_0x52b6('0x31'))[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document['getElementById'](_0x52b6('0x31'))[_0x52b6('0x76')]['color']=_0x52b6('0x17');document[_0x52b6('0xa3')]('opsz')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document['getElementById'](_0x52b6('0x7c'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');}function slnt(){document[_0x52b6('0xa3')](_0x52b6('0x108'))[_0x52b6('0xe3')]='slant_animation';document[_0x52b6('0xa3')](_0x52b6('0xcd'))[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0xcd'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x7e'))[_0x52b6('0x76')]['background']=_0x52b6('0x77');document['getElementById'](_0x52b6('0x7e'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x3'))[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x3'))[_0x52b6('0x76')][_0x52b6('0x9e')]='black';document['getElementById'](_0x52b6('0x31'))[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x31'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x7c'))[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x7c'))[_0x52b6('0x76')]['color']=_0x52b6('0x17');}function ital(){document[_0x52b6('0xa3')](_0x52b6('0x108'))[_0x52b6('0xe3')]=_0x52b6('0x2e');document[_0x52b6('0xa3')](_0x52b6('0x31'))[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x31'))['style'][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0xcd'))[_0x52b6('0x76')][_0x52b6('0x100')]='white';document[_0x52b6('0xa3')](_0x52b6('0xcd'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x3'))[_0x52b6('0x76')]['background']=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x3'))[_0x52b6('0x76')]['color']=_0x52b6('0x17');document[_0x52b6('0xa3')]('wght')['style'][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x7e'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x7c'))['style'][_0x52b6('0x100')]='white';document[_0x52b6('0xa3')](_0x52b6('0x7c'))[_0x52b6('0x76')][_0x52b6('0x9e')]='black';}function opsz(){document[_0x52b6('0xa3')]('smile')[_0x52b6('0xe3')]=_0x52b6('0x114');document[_0x52b6('0xa3')](_0x52b6('0x7c'))[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x7c'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0xcd'))[_0x52b6('0x76')]['background']='white';document['getElementById'](_0x52b6('0xcd'))['style'][_0x52b6('0x9e')]='black';document[_0x52b6('0xa3')](_0x52b6('0x3'))[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('wdth')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document['getElementById'](_0x52b6('0x31'))[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document['getElementById'](_0x52b6('0x31'))[_0x52b6('0x76')][_0x52b6('0x9e')]='black';document[_0x52b6('0xa3')](_0x52b6('0x7e'))['style'][_0x52b6('0x100')]=_0x52b6('0x77');document['getElementById'](_0x52b6('0x7e'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');}var slider=document['getElementById'](_0x52b6('0x92'));var output=document[_0x52b6('0xa3')](_0x52b6('0xb0'));var sliderY=document['getElementById'](_0x52b6('0x71'));var outputY=document[_0x52b6('0xa3')](_0x52b6('0x58'));var slider5=document[_0x52b6('0xa3')](_0x52b6('0xde'));var output5=document[_0x52b6('0xa3')]('txt-FVFV');var slidert=document[_0x52b6('0xa3')](_0x52b6('0x56'));var outputt=document[_0x52b6('0xa3')]('txt-tt');var slidere=document[_0x52b6('0xa3')](_0x52b6('0x27'));var outpute=document[_0x52b6('0xa3')](_0x52b6('0xfd'));var sliderr=document[_0x52b6('0xa3')](_0x52b6('0x85'));var outputr=document[_0x52b6('0xa3')]('txt-rr');slider['oninput']=function(){output[_0x52b6('0x2b')]=slider[_0x52b6('0x109')];var _0x1c7d19=document[_0x52b6('0xa3')]('OO');_0x1c7d19[_0x52b6('0x76')][_0x52b6('0x48')]('--text-weight',this[_0x52b6('0x109')]);var _0x260c1d=this[_0x52b6('0x109')]/0x384*-0x19;_0x1c7d19[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xd9'),_0x260c1d);};sliderY[_0x52b6('0xea')]=function(){outputY[_0x52b6('0x2b')]=sliderY[_0x52b6('0x109')];a=_0x52b6('0x7e')+this[_0x52b6('0x109')];var _0x847c26=document[_0x52b6('0xa3')]('YY');_0x847c26['style'][_0x52b6('0x48')](_0x52b6('0xf7'),this[_0x52b6('0x109')]);};slider5[_0x52b6('0xea')]=function(){output5[_0x52b6('0x2b')]=slider5[_0x52b6('0x109')];a='wght'+this[_0x52b6('0x109')];var _0x134713=document[_0x52b6('0xa3')](_0x52b6('0x5a'));_0x134713[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xf7'),this[_0x52b6('0x109')]);};slidert[_0x52b6('0xea')]=function(){outputt[_0x52b6('0x2b')]=slidert['value'];a=_0x52b6('0x7e')+this[_0x52b6('0x109')];var _0x4b866b=document[_0x52b6('0xa3')]('tt');_0x4b866b[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xf7'),this[_0x52b6('0x109')]);};slidere[_0x52b6('0xea')]=function(){outpute[_0x52b6('0x2b')]=slidere[_0x52b6('0x109')];a=_0x52b6('0x7e')+this[_0x52b6('0x109')];var _0x5a2b9d=document[_0x52b6('0xa3')]('ee');_0x5a2b9d[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xf7'),this[_0x52b6('0x109')]);};sliderr[_0x52b6('0xea')]=function(){outputr[_0x52b6('0x2b')]=sliderr[_0x52b6('0x109')];a=_0x52b6('0x7e')+this[_0x52b6('0x109')];var _0x416899=document[_0x52b6('0xa3')]('rr');_0x416899[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xf7'),this[_0x52b6('0x109')]);};function xs(){document['getElementById'](_0x52b6('0x2'))[_0x52b6('0x76')]['setProperty'](_0x52b6('0x120'),0x3c);document[_0x52b6('0xa3')]('xs')[_0x52b6('0x76')]['background']=_0x52b6('0x17');document[_0x52b6('0xa3')]('xs')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0xc4');document[_0x52b6('0xa3')]('m')[_0x52b6('0x76')]['background']='white';document['getElementById']('m')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')]('l')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('l')['style'][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')]('xl')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('xl')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')]('s')['style'][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('s')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');}function s(){document[_0x52b6('0xa3')](_0x52b6('0x2'))[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0x120'),0x78);document['getElementById']('s')['style']['background']='black';document[_0x52b6('0xa3')]('s')[_0x52b6('0x76')]['color']=_0x52b6('0xc4');document[_0x52b6('0xa3')]('m')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document['getElementById']('m')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')]('l')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('l')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')]('xl')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('xl')[_0x52b6('0x76')][_0x52b6('0x9e')]='black';document[_0x52b6('0xa3')]('xs')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('xs')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');}function m(){document['getElementById'](_0x52b6('0x2'))[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0x120'),0xb4);document[_0x52b6('0xa3')]('m')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x17');document[_0x52b6('0xa3')]('m')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0xc4');document[_0x52b6('0xa3')]('l')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('l')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document['getElementById']('xs')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('xs')['style'][_0x52b6('0x9e')]=_0x52b6('0x17');document['getElementById']('xl')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('xl')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')]('s')[_0x52b6('0x76')]['background']=_0x52b6('0x77');document[_0x52b6('0xa3')]('s')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');}function l(){document[_0x52b6('0xa3')]('the-text')[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0x120'),0xf0);document[_0x52b6('0xa3')]('l')[_0x52b6('0x76')]['background']=_0x52b6('0x17');document[_0x52b6('0xa3')]('l')['style'][_0x52b6('0x9e')]=_0x52b6('0xc4');document[_0x52b6('0xa3')]('m')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('m')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')]('xs')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('xs')[_0x52b6('0x76')]['color']=_0x52b6('0x17');document[_0x52b6('0xa3')]('xl')['style'][_0x52b6('0x100')]='white';document[_0x52b6('0xa3')]('xl')[_0x52b6('0x76')][_0x52b6('0x9e')]='black';document[_0x52b6('0xa3')]('s')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('s')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');}function xl(){document[_0x52b6('0xa3')](_0x52b6('0x2'))[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0x120'),0x12c);document['getElementById']('xl')[_0x52b6('0x76')][_0x52b6('0x100')]='black';document[_0x52b6('0xa3')]('xl')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0xc4');document['getElementById']('m')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('m')[_0x52b6('0x76')][_0x52b6('0x9e')]='black';document['getElementById']('xs')[_0x52b6('0x76')]['background']=_0x52b6('0x77');document[_0x52b6('0xa3')]('xs')[_0x52b6('0x76')]['color']='black';document[_0x52b6('0xa3')]('l')[_0x52b6('0x76')][_0x52b6('0x100')]='white';document[_0x52b6('0xa3')]('l')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')]('s')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('s')[_0x52b6('0x76')][_0x52b6('0x9e')]='black';}var slider_pg3=document[_0x52b6('0xa3')](_0x52b6('0x93'));var cur_color=_0x52b6('0x4f');var cur_element='d4_l';var black_white=_0x52b6('0x13');var rom_ital=_0x52b6('0xbc');var night_mode=![];slider_pg3[_0x52b6('0xea')]=function(){var _0xc9a4be=document['getElementById'](_0x52b6('0xe2'));_0xc9a4be[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xb6'),this[_0x52b6('0x109')]);};var elems=document[_0x52b6('0xa3')](_0x52b6('0x20'))['getElementsByTagName'](_0x52b6('0x6a'));function color_red(){if(night_mode==!![]){change_night();}document['getElementById'](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0xb1');cur_color=_0x52b6('0x4f');black_white=_0x52b6('0x13');document[_0x52b6('0xa3')](cur_element)[_0x52b6('0x76')]['color']=black_white;document[_0x52b6('0xa3')](cur_element)[_0x52b6('0x76')]['backgroundColor']=cur_color;document['getElementById'](rom_ital)[_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;document[_0x52b6('0xa3')](rom_ital)[_0x52b6('0x76')]['color']=black_white;for(var _0x24bfb5=0x0;_0x24bfb5<elems[_0x52b6('0x9a')];_0x24bfb5++){if(elems[_0x24bfb5][_0x52b6('0xe3')]==_0x52b6('0x86')){elems[_0x24bfb5]['style'][_0x52b6('0x14')]=_0x52b6('0xce');document[_0x52b6('0xa3')](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x47')]=_0x52b6('0x87');}else{elems[_0x24bfb5][_0x52b6('0x76')][_0x52b6('0x14')]=_0x52b6('0x90');}}document[_0x52b6('0xa3')](_0x52b6('0x86'))[_0x52b6('0x76')][_0x52b6('0x14')]=_0x52b6('0xce');}function color_yellow(){if(night_mode==!![]){change_night();}document['getElementById']('drink-text')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x4d');cur_color=_0x52b6('0x4d');black_white=_0x52b6('0x13');document[_0x52b6('0xa3')](cur_element)[_0x52b6('0x76')][_0x52b6('0x9e')]=black_white;document[_0x52b6('0xa3')](cur_element)[_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;document[_0x52b6('0xa3')](rom_ital)['style'][_0x52b6('0x81')]=cur_color;document[_0x52b6('0xa3')](rom_ital)['style']['color']=black_white;for(var _0x3feb9a=0x0;_0x3feb9a<elems[_0x52b6('0x9a')];_0x3feb9a++){if(elems[_0x3feb9a][_0x52b6('0xe3')]=='triangle2'){elems[_0x3feb9a][_0x52b6('0x76')]['visibility']=_0x52b6('0xce');document[_0x52b6('0xa3')]('drink-text')['style'][_0x52b6('0x47')]=_0x52b6('0x87');}else{elems[_0x3feb9a][_0x52b6('0x76')][_0x52b6('0x14')]=_0x52b6('0x90');}}}function color_blue(){if(night_mode==!![]){change_night();}cur_color=_0x52b6('0x11a');document[_0x52b6('0xa3')](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x9e')]='#70CCF7';document[_0x52b6('0xa3')](cur_element)[_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;black_white=_0x52b6('0x13');document['getElementById'](cur_element)[_0x52b6('0x76')][_0x52b6('0x9e')]=black_white;document[_0x52b6('0xa3')](rom_ital)['style'][_0x52b6('0x81')]=cur_color;document[_0x52b6('0xa3')](rom_ital)[_0x52b6('0x76')]['color']=black_white;for(var _0x5681b2=0x0;_0x5681b2<elems[_0x52b6('0x9a')];_0x5681b2++){if(elems[_0x5681b2][_0x52b6('0xe3')]==_0x52b6('0x8c')){elems[_0x5681b2][_0x52b6('0x76')][_0x52b6('0x14')]='visible';document['getElementById']('drink-text')[_0x52b6('0x76')][_0x52b6('0x47')]=_0x52b6('0x87');}else{elems[_0x5681b2][_0x52b6('0x76')][_0x52b6('0x14')]=_0x52b6('0x90');}}}function color_brown(){if(night_mode==!![]){change_night();}cur_color=_0x52b6('0xa1');document[_0x52b6('0xa3')](_0x52b6('0x37'))[_0x52b6('0x76')]['color']='#D7B089';document[_0x52b6('0xa3')](cur_element)[_0x52b6('0x76')]['backgroundColor']=cur_color;black_white='#FFFFFF';document[_0x52b6('0xa3')](cur_element)[_0x52b6('0x76')]['color']=black_white;document[_0x52b6('0xa3')](rom_ital)[_0x52b6('0x76')]['backgroundColor']=cur_color;document[_0x52b6('0xa3')](rom_ital)[_0x52b6('0x76')][_0x52b6('0x9e')]=black_white;for(var _0xd8a0ec=0x0;_0xd8a0ec<elems[_0x52b6('0x9a')];_0xd8a0ec++){if(elems[_0xd8a0ec][_0x52b6('0xe3')]==_0x52b6('0xca')){elems[_0xd8a0ec][_0x52b6('0x76')][_0x52b6('0x14')]=_0x52b6('0xce');document[_0x52b6('0xa3')](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x47')]=_0x52b6('0x87');}else{elems[_0xd8a0ec][_0x52b6('0x76')][_0x52b6('0x14')]=_0x52b6('0x90');}}}function color_pink(){if(night_mode==!![]){change_night();}cur_color=_0x52b6('0xa7');document[_0x52b6('0xa3')]('drink-text')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0xa7');document[_0x52b6('0xa3')](cur_element)[_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;black_white=_0x52b6('0x13');document[_0x52b6('0xa3')](cur_element)[_0x52b6('0x76')]['color']=black_white;document['getElementById'](rom_ital)['style'][_0x52b6('0x81')]=cur_color;document[_0x52b6('0xa3')](rom_ital)['style'][_0x52b6('0x9e')]=black_white;for(var _0x20b265=0x0;_0x20b265<elems[_0x52b6('0x9a')];_0x20b265++){if(elems[_0x20b265]['className']==_0x52b6('0x5')){elems[_0x20b265][_0x52b6('0x76')]['visibility']='visible';document['getElementById'](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x47')]=_0x52b6('0x87');}else{elems[_0x20b265][_0x52b6('0x76')][_0x52b6('0x14')]=_0x52b6('0x90');}}}function color_black(){if(night_mode==!![]){change_night();}cur_color=_0x52b6('0x46');document[_0x52b6('0xa3')](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x9e')]='black';document[_0x52b6('0xa3')](cur_element)[_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;black_white='#FFFFFF';document[_0x52b6('0xa3')](cur_element)[_0x52b6('0x76')][_0x52b6('0x9e')]=black_white;document[_0x52b6('0xa3')](rom_ital)[_0x52b6('0x76')]['backgroundColor']=cur_color;document[_0x52b6('0xa3')](rom_ital)[_0x52b6('0x76')][_0x52b6('0x9e')]=black_white;for(var _0x3d284c=0x0;_0x3d284c<elems[_0x52b6('0x9a')];_0x3d284c++){if(elems[_0x3d284c]['className']==_0x52b6('0x94')){elems[_0x3d284c][_0x52b6('0x76')][_0x52b6('0x14')]=_0x52b6('0xce');document[_0x52b6('0xa3')](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x47')]=_0x52b6('0x87');}else{elems[_0x3d284c][_0x52b6('0x76')][_0x52b6('0x14')]=_0x52b6('0x90');}}}function color_green(){if(night_mode==!![]){change_night();}cur_color=_0x52b6('0x9f');document[_0x52b6('0xa3')](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x9f');document[_0x52b6('0xa3')](cur_element)[_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;black_white=_0x52b6('0x13');document[_0x52b6('0xa3')](cur_element)[_0x52b6('0x76')][_0x52b6('0x9e')]=black_white;document[_0x52b6('0xa3')](rom_ital)[_0x52b6('0x76')]['backgroundColor']=cur_color;document[_0x52b6('0xa3')](rom_ital)[_0x52b6('0x76')][_0x52b6('0x9e')]=black_white;for(var _0x51623d=0x0;_0x51623d<elems[_0x52b6('0x9a')];_0x51623d++){if(elems[_0x51623d][_0x52b6('0xe3')]=='triangle7'){elems[_0x51623d][_0x52b6('0x76')][_0x52b6('0x14')]=_0x52b6('0xce');document[_0x52b6('0xa3')](_0x52b6('0x37'))[_0x52b6('0x76')]['textShadow']=_0x52b6('0x87');}else{elems[_0x51623d][_0x52b6('0x76')][_0x52b6('0x14')]=_0x52b6('0x90');}}}function change_night(){elms[0xa][_0x52b6('0x76')][_0x52b6('0x81')]='white';elms[0xb][_0x52b6('0x76')][_0x52b6('0x81')]='white';document[_0x52b6('0xa3')](_0x52b6('0x96'))[_0x52b6('0x76')][_0x52b6('0x129')]=_0x52b6('0xd8');document[_0x52b6('0xa3')](_0x52b6('0xfb'))[_0x52b6('0x76')][_0x52b6('0x129')]=_0x52b6('0xd8');document[_0x52b6('0xa3')]('circle_brown')[_0x52b6('0x76')]['border']='1px\x20solid\x20black';document['getElementById']('circle_pink')[_0x52b6('0x76')]['border']=_0x52b6('0xd8');document[_0x52b6('0xa3')](_0x52b6('0x15'))[_0x52b6('0x76')][_0x52b6('0x129')]=_0x52b6('0xd8');document[_0x52b6('0xa3')](_0x52b6('0xc5'))[_0x52b6('0x76')]['border']=_0x52b6('0xd8');document[_0x52b6('0xa3')](_0x52b6('0x116'))[_0x52b6('0x76')][_0x52b6('0x129')]=_0x52b6('0xd8');document[_0x52b6('0xa3')](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x81')]='#FFFFFF';document['getElementById'](_0x52b6('0xc9'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x79'))[_0x52b6('0x76')][_0x52b6('0x9e')]='black';document[_0x52b6('0xa3')](_0x52b6('0x1e'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0xda'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x12a'))[_0x52b6('0x76')][_0x52b6('0x9e')]='black';document[_0x52b6('0xa3')](_0x52b6('0x16'))[_0x52b6('0x76')]['backgroundColor']=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0xcb'))[_0x52b6('0x76')][_0x52b6('0x81')]='white';document[_0x52b6('0xa3')](_0x52b6('0x8b'))['style'][_0x52b6('0x81')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x1c'))[_0x52b6('0x76')][_0x52b6('0x81')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('d4_xl')[_0x52b6('0x76')]['backgroundColor']=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x16'))[_0x52b6('0x76')][_0x52b6('0x9e')]='black';document[_0x52b6('0xa3')](_0x52b6('0xcb'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x8b'))['style'][_0x52b6('0x9e')]='black';document['getElementById']('d4_l')[_0x52b6('0x76')]['color']=_0x52b6('0x17');document['getElementById']('d4_xl')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document['getElementById']('italic')['style'][_0x52b6('0x9e')]='black';document[_0x52b6('0xa3')](_0x52b6('0xbc'))[_0x52b6('0x76')][_0x52b6('0x81')]='#FFFFFF';document[_0x52b6('0xa3')](_0x52b6('0x1b'))['style']['color']=_0x52b6('0x17');document[_0x52b6('0xa3')]('roman')[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x77');night_mode=![];}function color_white(){cur_color=_0x52b6('0x13');document[_0x52b6('0xa3')](_0x52b6('0x37'))['style'][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](cur_element)[_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;black_white='#000000';document['getElementById'](cur_element)[_0x52b6('0x76')][_0x52b6('0x9e')]=black_white;if(rom_ital=='roman'){document[_0x52b6('0xa3')](_0x52b6('0x1b'))[_0x52b6('0x76')]['color']=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x1b'))['style'][_0x52b6('0x81')]=_0x52b6('0x13');document[_0x52b6('0xa3')]('italic')['style']['color']=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0xbc'))[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x17');}else{document[_0x52b6('0xa3')](_0x52b6('0xbc'))['style'][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0xbc'))['style'][_0x52b6('0x81')]=_0x52b6('0x13');document[_0x52b6('0xa3')](_0x52b6('0x1b'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x1b'))['style'][_0x52b6('0x100')]=_0x52b6('0x17');}for(var _0x5a02c3=0x0;_0x5a02c3<elems[_0x52b6('0x9a')];_0x5a02c3++){if(elems[_0x5a02c3][_0x52b6('0xe3')]=='triangle8'){elems[_0x5a02c3][_0x52b6('0x76')]['visibility']=_0x52b6('0xce');}else{elems[_0x5a02c3][_0x52b6('0x76')][_0x52b6('0x14')]=_0x52b6('0x90');}}elms[0xa][_0x52b6('0x76')]['backgroundColor']=_0x52b6('0x17');elms[0xb][_0x52b6('0x76')]['backgroundColor']=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x96'))[_0x52b6('0x76')][_0x52b6('0x129')]=_0x52b6('0xef');document[_0x52b6('0xa3')](_0x52b6('0xfb'))[_0x52b6('0x76')][_0x52b6('0x129')]=_0x52b6('0xef');document[_0x52b6('0xa3')](_0x52b6('0x101'))[_0x52b6('0x76')][_0x52b6('0x129')]=_0x52b6('0xef');document[_0x52b6('0xa3')](_0x52b6('0x10b'))[_0x52b6('0x76')][_0x52b6('0x129')]=_0x52b6('0xef');document[_0x52b6('0xa3')]('circle_black')[_0x52b6('0x76')][_0x52b6('0x129')]=_0x52b6('0xef');document['getElementById'](_0x52b6('0xc5'))[_0x52b6('0x76')][_0x52b6('0x129')]=_0x52b6('0xef');document[_0x52b6('0xa3')]('circle_white')[_0x52b6('0x76')]['border']='1px\x20solid\x20white';document['getElementById'](_0x52b6('0x16'))[_0x52b6('0x76')][_0x52b6('0x81')]='black';document[_0x52b6('0xa3')](_0x52b6('0xcb'))[_0x52b6('0x76')]['backgroundColor']=_0x52b6('0x17');document[_0x52b6('0xa3')]('d4_m')[_0x52b6('0x76')]['backgroundColor']=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x1c'))['style'][_0x52b6('0x81')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0xb'))[_0x52b6('0x76')][_0x52b6('0x81')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x16'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('d4_s')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')]('d4_m')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x1c'))['style']['color']=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0xb'))['style']['color']=_0x52b6('0x77');document[_0x52b6('0xa3')](cur_element)['style'][_0x52b6('0x81')]=cur_color;document[_0x52b6('0xa3')](cur_element)['style'][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x37'))[_0x52b6('0x76')]['backgroundColor']='black';document[_0x52b6('0xa3')](_0x52b6('0xc9'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x79'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x1e'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document['getElementById']('weight-unlimited')[_0x52b6('0x76')]['color']=_0x52b6('0x77');document['getElementById']('with-unlimited')[_0x52b6('0x76')]['color']=_0x52b6('0x77');night_mode=!![];}function d4click_roman(){rom_ital=_0x52b6('0x1b');document[_0x52b6('0xa3')](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x23')]=_0x52b6('0xd4');if(cur_color==_0x52b6('0x13')){document[_0x52b6('0xa3')](_0x52b6('0x1b'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')]('roman')[_0x52b6('0x76')]['backgroundColor']=_0x52b6('0x13');document[_0x52b6('0xa3')](_0x52b6('0xbc'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document['getElementById'](_0x52b6('0xbc'))[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x17');}else{document[_0x52b6('0xa3')](_0x52b6('0x1b'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x1b'))[_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;document[_0x52b6('0xa3')](_0x52b6('0xbc'))[_0x52b6('0x76')]['color']=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0xbc'))['style'][_0x52b6('0x100')]='white';}}function d4click_italic(){rom_ital=_0x52b6('0xbc');document[_0x52b6('0xa3')]('drink-text')['style'][_0x52b6('0x23')]='italic';if(cur_color=='#FFFFFF'){document[_0x52b6('0xa3')](_0x52b6('0xbc'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0xbc'))[_0x52b6('0x76')][_0x52b6('0x81')]=_0x52b6('0x13');document[_0x52b6('0xa3')]('roman')[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x1b'))[_0x52b6('0x76')][_0x52b6('0x100')]=_0x52b6('0x17');}else{document['getElementById'](_0x52b6('0xbc'))[_0x52b6('0x76')]['color']=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0xbc'))[_0x52b6('0x76')]['backgroundColor']=cur_color;document[_0x52b6('0xa3')]('roman')[_0x52b6('0x76')]['color']=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x1b'))['style'][_0x52b6('0x100')]=_0x52b6('0x77');}}var d4_size_elems=document[_0x52b6('0xa3')](_0x52b6('0x10'))[_0x52b6('0x97')]('li');function d4xs(){document[_0x52b6('0xa3')]('drink-text')[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0x12b'),0x1e);document[_0x52b6('0xa3')](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x48')]('--text-size-L',0x1e);cur_element=_0x52b6('0x16');if(night_mode){for(var _0x4d7e94=0x0;_0x4d7e94<d4_size_elems[_0x52b6('0x9a')];_0x4d7e94++){if(d4_size_elems[_0x4d7e94]['className']==_0x52b6('0xe5')){d4_size_elems[_0x4d7e94][_0x52b6('0x76')][_0x52b6('0x48')]('--init-border-color','#231F20');d4_size_elems[_0x4d7e94][_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;d4_size_elems[_0x4d7e94][_0x52b6('0x76')]['color']=black_white;}else{d4_size_elems[_0x4d7e94][_0x52b6('0x76')][_0x52b6('0x81')]='black';d4_size_elems[_0x4d7e94][_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');d4_size_elems[_0x4d7e94]['style'][_0x52b6('0x48')](_0x52b6('0xc8'),_0x52b6('0x77'));d4_size_elems[_0x4d7e94][_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0x11f'),'white');}}}else{for(var _0x4d7e94=0x0;_0x4d7e94<d4_size_elems[_0x52b6('0x9a')];_0x4d7e94++){if(d4_size_elems[_0x4d7e94][_0x52b6('0xe3')]==_0x52b6('0xe5')){d4_size_elems[_0x4d7e94][_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xc8'),_0x52b6('0x43'));d4_size_elems[_0x4d7e94][_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;d4_size_elems[_0x4d7e94][_0x52b6('0x76')][_0x52b6('0x9e')]=black_white;}else{d4_size_elems[_0x4d7e94][_0x52b6('0x76')][_0x52b6('0x81')]=_0x52b6('0x77');d4_size_elems[_0x4d7e94][_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');d4_size_elems[_0x4d7e94][_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xc8'),_0x52b6('0x77'));d4_size_elems[_0x4d7e94][_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0x11f'),_0x52b6('0x77'));}}}}function d4s(){document[_0x52b6('0xa3')](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xf5'),0x3c);document[_0x52b6('0xa3')](_0x52b6('0x37'))['style'][_0x52b6('0x48')](_0x52b6('0x12b'),0x3c);cur_element=_0x52b6('0xcb');if(night_mode){for(var _0x391c22=0x0;_0x391c22<d4_size_elems[_0x52b6('0x9a')];_0x391c22++){if(d4_size_elems[_0x391c22]['className']==_0x52b6('0x11e')){d4_size_elems[_0x391c22][_0x52b6('0x76')]['setProperty']('--init-border-color','#231F20');d4_size_elems[_0x391c22][_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;d4_size_elems[_0x391c22][_0x52b6('0x76')]['color']=black_white;}else{d4_size_elems[_0x391c22][_0x52b6('0x76')][_0x52b6('0x81')]=_0x52b6('0x17');d4_size_elems[_0x391c22][_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');d4_size_elems[_0x391c22]['style'][_0x52b6('0x48')](_0x52b6('0xc8'),'white');d4_size_elems[_0x391c22]['style'][_0x52b6('0x48')](_0x52b6('0x11f'),'white');}}}else{for(var _0x391c22=0x0;_0x391c22<d4_size_elems[_0x52b6('0x9a')];_0x391c22++){if(d4_size_elems[_0x391c22]['className']==_0x52b6('0x11e')){d4_size_elems[_0x391c22][_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xc8'),_0x52b6('0x43'));d4_size_elems[_0x391c22][_0x52b6('0x76')]['backgroundColor']=cur_color;d4_size_elems[_0x391c22][_0x52b6('0x76')][_0x52b6('0x9e')]=black_white;}else{d4_size_elems[_0x391c22][_0x52b6('0x76')][_0x52b6('0x81')]=_0x52b6('0x77');d4_size_elems[_0x391c22][_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');d4_size_elems[_0x391c22][_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xc8'),_0x52b6('0x77'));d4_size_elems[_0x391c22]['style'][_0x52b6('0x48')](_0x52b6('0x11f'),_0x52b6('0x77'));}}}}function d4m(){document[_0x52b6('0xa3')](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x48')]('--text-size-L',0x78);document['getElementById'](_0x52b6('0x37'))['style'][_0x52b6('0x48')]('--init-line-height',0x6c);cur_element=_0x52b6('0x8b');if(night_mode){for(var _0x16bba6=0x0;_0x16bba6<d4_size_elems[_0x52b6('0x9a')];_0x16bba6++){if(d4_size_elems[_0x16bba6][_0x52b6('0xe3')]==_0x52b6('0x69')){d4_size_elems[_0x16bba6][_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xc8'),'#231F20');d4_size_elems[_0x16bba6][_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;d4_size_elems[_0x16bba6]['style'][_0x52b6('0x9e')]=black_white;}else{d4_size_elems[_0x16bba6]['style']['backgroundColor']=_0x52b6('0x17');d4_size_elems[_0x16bba6][_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');d4_size_elems[_0x16bba6]['style']['setProperty'](_0x52b6('0xc8'),'white');d4_size_elems[_0x16bba6][_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0x11f'),_0x52b6('0x77'));}}}else{for(var _0x16bba6=0x0;_0x16bba6<d4_size_elems[_0x52b6('0x9a')];_0x16bba6++){if(d4_size_elems[_0x16bba6][_0x52b6('0xe3')]==_0x52b6('0x69')){d4_size_elems[_0x16bba6]['style'][_0x52b6('0x48')](_0x52b6('0xc8'),_0x52b6('0x43'));d4_size_elems[_0x16bba6][_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;d4_size_elems[_0x16bba6][_0x52b6('0x76')]['color']=black_white;}else{d4_size_elems[_0x16bba6][_0x52b6('0x76')]['backgroundColor']='white';d4_size_elems[_0x16bba6][_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');d4_size_elems[_0x16bba6][_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xc8'),'white');d4_size_elems[_0x16bba6][_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0x11f'),'white');}}}}function d4l(){document['getElementById'](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xf5'),0xb4);document[_0x52b6('0xa3')](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0x12b'),0x8c);cur_element=_0x52b6('0x1c');if(night_mode){for(var _0x3298f8=0x0;_0x3298f8<d4_size_elems[_0x52b6('0x9a')];_0x3298f8++){if(d4_size_elems[_0x3298f8][_0x52b6('0xe3')]=='d4l'){d4_size_elems[_0x3298f8][_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xc8'),_0x52b6('0x43'));d4_size_elems[_0x3298f8]['style'][_0x52b6('0x81')]=cur_color;d4_size_elems[_0x3298f8][_0x52b6('0x76')][_0x52b6('0x9e')]=black_white;}else{d4_size_elems[_0x3298f8][_0x52b6('0x76')][_0x52b6('0x81')]=_0x52b6('0x17');d4_size_elems[_0x3298f8]['style'][_0x52b6('0x9e')]=_0x52b6('0x77');d4_size_elems[_0x3298f8][_0x52b6('0x76')]['setProperty'](_0x52b6('0xc8'),'white');d4_size_elems[_0x3298f8]['style'][_0x52b6('0x48')](_0x52b6('0x11f'),_0x52b6('0x77'));}}}else{for(var _0x3298f8=0x0;_0x3298f8<d4_size_elems[_0x52b6('0x9a')];_0x3298f8++){if(d4_size_elems[_0x3298f8][_0x52b6('0xe3')]==_0x52b6('0xad')){d4_size_elems[_0x3298f8]['style'][_0x52b6('0x48')]('--init-border-colorL',_0x52b6('0x43'));d4_size_elems[_0x3298f8][_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;d4_size_elems[_0x3298f8]['style'][_0x52b6('0x9e')]=black_white;}else{d4_size_elems[_0x3298f8]['style'][_0x52b6('0x81')]='white';d4_size_elems[_0x3298f8][_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');d4_size_elems[_0x3298f8]['style'][_0x52b6('0x48')](_0x52b6('0xc8'),_0x52b6('0x77'));}}}}function d4xl(){document[_0x52b6('0xa3')](_0x52b6('0x37'))['style'][_0x52b6('0x48')](_0x52b6('0xf5'),0xc3);document['getElementById'](_0x52b6('0x37'))[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0x12b'),0xaa);cur_element=_0x52b6('0xb');if(night_mode){for(var _0x1c0f18=0x0;_0x1c0f18<d4_size_elems[_0x52b6('0x9a')];_0x1c0f18++){if(d4_size_elems[_0x1c0f18][_0x52b6('0xe3')]==_0x52b6('0x10c')){d4_size_elems[_0x1c0f18][_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xc8'),_0x52b6('0x43'));d4_size_elems[_0x1c0f18][_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;d4_size_elems[_0x1c0f18][_0x52b6('0x76')][_0x52b6('0x9e')]=black_white;}else{d4_size_elems[_0x1c0f18]['style'][_0x52b6('0x81')]=_0x52b6('0x17');d4_size_elems[_0x1c0f18][_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');d4_size_elems[_0x1c0f18][_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xc8'),_0x52b6('0x77'));d4_size_elems[_0x1c0f18][_0x52b6('0x76')][_0x52b6('0x48')]('--init-border-colorL',_0x52b6('0x77'));}}}else{for(var _0x1c0f18=0x0;_0x1c0f18<d4_size_elems['length'];_0x1c0f18++){if(d4_size_elems[_0x1c0f18][_0x52b6('0xe3')]=='d4xl'){d4_size_elems[_0x1c0f18][_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xc8'),_0x52b6('0x43'));d4_size_elems[_0x1c0f18]['style'][_0x52b6('0x81')]=cur_color;d4_size_elems[_0x1c0f18]['style'][_0x52b6('0x9e')]=black_white;}else{d4_size_elems[_0x1c0f18][_0x52b6('0x76')][_0x52b6('0x81')]=_0x52b6('0x77');d4_size_elems[_0x1c0f18][_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');d4_size_elems[_0x1c0f18][_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xc8'),'white');d4_size_elems[_0x1c0f18]['style'][_0x52b6('0x48')](_0x52b6('0x11f'),_0x52b6('0x77'));}}}}var sliderd4=document['getElementById'](_0x52b6('0x53'));var outputd4=document[_0x52b6('0xa3')](_0x52b6('0x1e'));sliderd4['oninput']=function(){outputd4[_0x52b6('0x2b')]=sliderd4[_0x52b6('0x109')];var _0x834b10=document['getElementById']('drink-text');_0x834b10[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0xf7'),this[_0x52b6('0x109')]);};function d5italic(){document[_0x52b6('0xa3')](_0x52b6('0xb9'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0xb9'))[_0x52b6('0x76')][_0x52b6('0x81')]='black';document['getElementById']('d5-regular')[_0x52b6('0x76')][_0x52b6('0x81')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x7b'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')]('Alphabet-Container')[_0x52b6('0x76')]['fontStyle']='italic';document[_0x52b6('0xa3')](_0x52b6('0x118'))[_0x52b6('0x76')]['fontStyle']=_0x52b6('0xbc');document[_0x52b6('0xa3')]('eat-me')['style'][_0x52b6('0x23')]=_0x52b6('0xbc');}function d5regular(){document[_0x52b6('0xa3')](_0x52b6('0x7b'))[_0x52b6('0x76')][_0x52b6('0x9e')]='white';document[_0x52b6('0xa3')](_0x52b6('0x7b'))[_0x52b6('0x76')][_0x52b6('0x81')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0xb9'))[_0x52b6('0x76')][_0x52b6('0x81')]=_0x52b6('0x77');document['getElementById'](_0x52b6('0xb9'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x41'))[_0x52b6('0x76')]['fontStyle']=_0x52b6('0xd4');document['getElementById'](_0x52b6('0x118'))[_0x52b6('0x76')][_0x52b6('0x23')]='normal';document[_0x52b6('0xa3')](_0x52b6('0x49'))['style'][_0x52b6('0x23')]=_0x52b6('0xd4');}function d6italic(){document[_0x52b6('0xa3')](_0x52b6('0xf4'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0xf4'))[_0x52b6('0x76')][_0x52b6('0x81')]='black';document['getElementById']('d6-regular')[_0x52b6('0x76')][_0x52b6('0x81')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x111'))[_0x52b6('0x76')][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')](_0x52b6('0x1d'))[_0x52b6('0x76')]['fontStyle']=_0x52b6('0xbc');document[_0x52b6('0xa3')](_0x52b6('0x107'))['style']['fontStyle']='italic';}function d6regular(){document[_0x52b6('0xa3')](_0x52b6('0x111'))[_0x52b6('0x76')]['color']=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0x111'))[_0x52b6('0x76')]['backgroundColor']='black';document[_0x52b6('0xa3')](_0x52b6('0xf4'))['style'][_0x52b6('0x81')]=_0x52b6('0x77');document[_0x52b6('0xa3')](_0x52b6('0xf4'))['style'][_0x52b6('0x9e')]=_0x52b6('0x17');document[_0x52b6('0xa3')]('lowercase-container')[_0x52b6('0x76')][_0x52b6('0x23')]=_0x52b6('0xd4');document[_0x52b6('0xa3')](_0x52b6('0x107'))[_0x52b6('0x76')][_0x52b6('0x23')]='normal';}var cur_language='title-english';var cur_language_left='ENGLISH';var cur_color=_0x52b6('0x115');var cur_title=_0x52b6('0xd6');var cur_chapter='p72-english';var x,i,j,selElmnt,a,b,c;x=document[_0x52b6('0x88')](_0x52b6('0x2a'));for(i=0x0;i<x[_0x52b6('0x9a')];i++){selElmnt=x[i][_0x52b6('0x97')](_0x52b6('0xee'))[0x0];a=document[_0x52b6('0xf6')](_0x52b6('0x6'));a[_0x52b6('0x8')](_0x52b6('0x18'),_0x52b6('0xa2'));a[_0x52b6('0x2b')]=selElmnt[_0x52b6('0x4c')][selElmnt[_0x52b6('0xb5')]][_0x52b6('0x2b')];x[i][_0x52b6('0x113')](a);b=document[_0x52b6('0xf6')](_0x52b6('0x6'));b[_0x52b6('0x8')](_0x52b6('0x18'),'select-items\x20select-hide');for(j=0x0;j<selElmnt[_0x52b6('0x9a')];j++){c=document[_0x52b6('0xf6')]('DIV');c[_0x52b6('0x2b')]=selElmnt[_0x52b6('0x4c')][j][_0x52b6('0x2b')];c[_0x52b6('0xf')](_0x52b6('0x3d'),function(_0x3aed6d){var _0x1405e7,_0xf2ddf9,_0x591b81,_0x442d72,_0x4bc80b;_0x442d72=this[_0x52b6('0x73')][_0x52b6('0x73')][_0x52b6('0x97')]('select')[0x0];_0x4bc80b=this[_0x52b6('0x73')][_0x52b6('0x78')];for(_0xf2ddf9=0x0;_0xf2ddf9<_0x442d72[_0x52b6('0x9a')];_0xf2ddf9++){if(_0x442d72['options'][_0xf2ddf9][_0x52b6('0x2b')]==this[_0x52b6('0x2b')]){document[_0x52b6('0xa3')](cur_language)[_0x52b6('0x76')][_0x52b6('0xae')]='none';document[_0x52b6('0xa3')](cur_language_left)[_0x52b6('0x76')][_0x52b6('0x81')]=_0x52b6('0x77');switch(_0x442d72[_0x52b6('0x4c')][_0xf2ddf9][_0x52b6('0x2b')]){case _0x52b6('0xcc'):cur_language_left=_0x52b6('0xcc');cur_language=_0x52b6('0xe1');cur_color=_0x52b6('0x115');cur_title=_0x52b6('0xd6');cur_chapter='p72-english';break;case _0x52b6('0x67'):cur_language=_0x52b6('0x80');cur_language_left=_0x52b6('0x67');cur_color=_0x52b6('0xa7');cur_title=_0x52b6('0x3f');cur_chapter=_0x52b6('0x10e');break;case'ITALIAN':cur_language_left=_0x52b6('0x44');cur_language=_0x52b6('0x29');cur_color=_0x52b6('0x8e');cur_title='p7-italian';cur_chapter=_0x52b6('0x22');break;case'ROMANIAN':cur_language=_0x52b6('0x4');cur_language_left=_0x52b6('0x45');cur_color='#70CCF7';cur_title=_0x52b6('0xfc');cur_chapter='p72-romanian';break;case _0x52b6('0xc2'):cur_language_left=_0x52b6('0xc2');cur_language=_0x52b6('0x11c');cur_color=_0x52b6('0x3c');cur_title=_0x52b6('0x11b');cur_chapter=_0x52b6('0x33');break;case _0x52b6('0xab'):cur_language='title-estonian';cur_language_left=_0x52b6('0xab');cur_color=_0x52b6('0x98');cur_title=_0x52b6('0x105');cur_chapter=_0x52b6('0xe0');break;case _0x52b6('0xf2'):cur_language_left=_0x52b6('0xf2');cur_language='title-latvian';cur_color=_0x52b6('0x115');cur_title=_0x52b6('0x5f');cur_chapter=_0x52b6('0x91');break;case'SLOVAK':cur_language=_0x52b6('0xf3');cur_language_left='SLOVAK';cur_color=_0x52b6('0x3c');cur_title=_0x52b6('0xe4');cur_chapter='p72-slovak';break;case'CATALAN':cur_language_left=_0x52b6('0x10a');cur_language=_0x52b6('0x59');cur_color='#ffff00';cur_title=_0x52b6('0x36');cur_chapter=_0x52b6('0x8f');break;case _0x52b6('0x10f'):cur_language_left=_0x52b6('0x10f');cur_language=_0x52b6('0xd2');cur_color=_0x52b6('0x3c');cur_title=_0x52b6('0xa5');cur_chapter=_0x52b6('0xe8');break;case _0x52b6('0x9d'):cur_language=_0x52b6('0x7d');cur_language_left='LITHUANIAN';cur_color=_0x52b6('0xa7');cur_title=_0x52b6('0xe9');cur_chapter=_0x52b6('0x8a');break;case _0x52b6('0x99'):cur_language=_0x52b6('0x106');cur_language_left='SLOVENIAN';cur_color=_0x52b6('0x11a');cur_title=_0x52b6('0x126');cur_chapter=_0x52b6('0xb2');break;case'CROATIAN':cur_language=_0x52b6('0x9b');cur_language_left=_0x52b6('0x1f');cur_color=_0x52b6('0x115');cur_title=_0x52b6('0xf0');cur_chapter=_0x52b6('0x1');break;case'FRENCH':cur_language=_0x52b6('0xa6');cur_language_left='FRENCH';cur_color=_0x52b6('0x11a');cur_title=_0x52b6('0x0');cur_chapter=_0x52b6('0x65');break;case _0x52b6('0x110'):cur_language=_0x52b6('0x57');cur_language_left=_0x52b6('0x110');cur_color=_0x52b6('0x98');cur_title=_0x52b6('0x68');cur_chapter=_0x52b6('0xba');break;case _0x52b6('0xc3'):cur_language='title-spanish';cur_language_left=_0x52b6('0xc3');cur_color=_0x52b6('0x8e');cur_title=_0x52b6('0x5d');cur_chapter=_0x52b6('0xb4');break;case _0x52b6('0x60'):cur_language_left=_0x52b6('0x60');cur_language=_0x52b6('0x7a');cur_color=_0x52b6('0x115');cur_title=_0x52b6('0x12');cur_chapter=_0x52b6('0xc0');break;case _0x52b6('0x4a'):cur_language_left=_0x52b6('0x4a');cur_language=_0x52b6('0xb3');cur_color=_0x52b6('0x11a');cur_title=_0x52b6('0xbe');cur_chapter=_0x52b6('0x7');break;case _0x52b6('0x6d'):cur_language='title-czech';cur_language_left=_0x52b6('0x6d');cur_color=_0x52b6('0xa7');cur_title='p7-czech';cur_chapter=_0x52b6('0x9');break;case'SWEDISH':cur_language=_0x52b6('0x52');cur_language_left='SWEDISH';cur_color=_0x52b6('0x115');cur_title='p7-swedish';cur_chapter='p72-swedish';break;case'DANISH':cur_language=_0x52b6('0x70');cur_language_left=_0x52b6('0xf1');cur_color='#ffff00';cur_title='p7-danish';cur_chapter=_0x52b6('0x3e');break;case _0x52b6('0x34'):cur_language=_0x52b6('0x5c');cur_language_left=_0x52b6('0x34');cur_color=_0x52b6('0x98');cur_title='p7-hungarian';cur_chapter=_0x52b6('0x61');break;case _0x52b6('0x6f'):cur_language=_0x52b6('0xc7');cur_language_left='POLISH';cur_color=_0x52b6('0x3c');cur_title=_0x52b6('0xe7');cur_chapter=_0x52b6('0x62');break;case _0x52b6('0x3a'):cur_language=_0x52b6('0xbb');cur_language_left=_0x52b6('0x3a');cur_color=_0x52b6('0xa7');cur_title=_0x52b6('0xaa');cur_chapter='p72-turkish';break;case _0x52b6('0x5b'):cur_language=_0x52b6('0x70');cur_language_left='DUTCH';cur_color='#70CCF7';cur_title=_0x52b6('0x55');cur_chapter=_0x52b6('0x3e');break;case _0x52b6('0xa4'):cur_language=_0x52b6('0xd7');cur_language_left=_0x52b6('0xa4');cur_color=_0x52b6('0xa7');cur_title='p7-icelandic';cur_chapter='p72-icelandic';break;case _0x52b6('0x64'):cur_language=_0x52b6('0xa9');cur_language_left=_0x52b6('0x64');cur_color='#ffff00';cur_title=_0x52b6('0x72');cur_chapter='p72-portuguese';break;case _0x52b6('0xc'):cur_language=_0x52b6('0x63');cur_language_left=_0x52b6('0xc');cur_color=_0x52b6('0x98');cur_title='p7-vietnamese';cur_chapter=_0x52b6('0xd3');break;default:break;}document[_0x52b6('0xa3')](cur_language)[_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0xf8');document[_0x52b6('0x88')](_0x52b6('0xa2'))[0x0][_0x52b6('0x2b')]=cur_language_left;document[_0x52b6('0xa3')](cur_language_left)[_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;document[_0x52b6('0xa3')](cur_title)['style'][_0x52b6('0x9e')]=cur_color;document[_0x52b6('0xa3')](cur_chapter)[_0x52b6('0x76')][_0x52b6('0x9e')]=cur_color;_0x442d72[_0x52b6('0xb5')]=_0xf2ddf9;_0x4bc80b['innerHTML']=this[_0x52b6('0x2b')];_0x1405e7=this[_0x52b6('0x73')][_0x52b6('0x88')](_0x52b6('0x25'));for(_0x591b81=0x0;_0x591b81<_0x1405e7['length'];_0x591b81++){_0x1405e7[_0x591b81][_0x52b6('0x128')](_0x52b6('0x18'));}this[_0x52b6('0x8')](_0x52b6('0x18'),'same-as-selected');break;}}_0x4bc80b[_0x52b6('0x3d')]();});b[_0x52b6('0x113')](c);}x[i][_0x52b6('0x113')](b);a[_0x52b6('0xf')](_0x52b6('0x3d'),function(_0x17107c){_0x17107c[_0x52b6('0x3b')]();closeAllSelect(this);this['nextSibling'][_0x52b6('0x75')][_0x52b6('0x4b')]('select-hide');this[_0x52b6('0x75')]['toggle'](_0x52b6('0xdd'));});}function closeAllSelect(_0x330533){var _0xa3c270,_0xfe5d67,_0x292e46,_0x58c08e=[];_0xa3c270=document[_0x52b6('0x88')](_0x52b6('0x125'));_0xfe5d67=document['getElementsByClassName'](_0x52b6('0xa2'));for(_0x292e46=0x0;_0x292e46<_0xfe5d67[_0x52b6('0x9a')];_0x292e46++){if(_0x330533==_0xfe5d67[_0x292e46]){_0x58c08e[_0x52b6('0xd5')](_0x292e46);}else{_0xfe5d67[_0x292e46][_0x52b6('0x75')][_0x52b6('0xdf')](_0x52b6('0xdd'));}}for(_0x292e46=0x0;_0x292e46<_0xa3c270[_0x52b6('0x9a')];_0x292e46++){if(_0x58c08e[_0x52b6('0x6e')](_0x292e46)){_0xa3c270[_0x292e46][_0x52b6('0x75')][_0x52b6('0x28')](_0x52b6('0xff'));}}}document[_0x52b6('0xf')]('click',closeAllSelect);var p7elements,o;p7elements=document[_0x52b6('0xa3')]('language-container');var only_tag=p7elements[_0x52b6('0x97')]('li');for(var k=0x0;k<only_tag[_0x52b6('0x9a')];k++){only_tag[k][_0x52b6('0xf')]('click',function(_0x340a38){document[_0x52b6('0xa3')](cur_language_left)[_0x52b6('0x76')][_0x52b6('0x81')]='transparent';document[_0x52b6('0xa3')](cur_language)['style'][_0x52b6('0xae')]='none';switch(this[_0x52b6('0x2b')]){case'ENGLISH':cur_language_left=_0x52b6('0xcc');cur_language=_0x52b6('0xe1');cur_color=_0x52b6('0x115');cur_title='p7-english';cur_chapter=_0x52b6('0x5e');break;case _0x52b6('0x67'):cur_language=_0x52b6('0x80');cur_language_left='AFRIKAANS';cur_color=_0x52b6('0xa7');cur_title='p7-afrikaans';cur_chapter=_0x52b6('0x10e');break;case _0x52b6('0x44'):cur_language_left=_0x52b6('0x44');cur_language=_0x52b6('0x29');cur_color=_0x52b6('0x8e');cur_title=_0x52b6('0xc6');cur_chapter=_0x52b6('0x22');break;case _0x52b6('0x45'):cur_language=_0x52b6('0x4');cur_language_left='ROMANIAN';cur_color=_0x52b6('0x11a');cur_title=_0x52b6('0xfc');cur_chapter=_0x52b6('0x42');break;case _0x52b6('0xc2'):cur_language_left=_0x52b6('0xc2');cur_language=_0x52b6('0x11c');cur_color='#ddd9d6';cur_title=_0x52b6('0x11b');cur_chapter=_0x52b6('0x33');break;case _0x52b6('0xab'):cur_language=_0x52b6('0xa8');cur_language_left=_0x52b6('0xab');cur_color=_0x52b6('0x98');cur_title=_0x52b6('0x105');cur_chapter=_0x52b6('0xe0');break;case _0x52b6('0xf2'):cur_language_left=_0x52b6('0xf2');cur_language='title-latvian';cur_color='#3eb549';cur_title='p7-latvian';cur_chapter=_0x52b6('0x91');break;case _0x52b6('0xe'):cur_language=_0x52b6('0xf3');cur_language_left=_0x52b6('0xe');cur_color=_0x52b6('0x3c');cur_title=_0x52b6('0xe4');cur_chapter=_0x52b6('0xd');break;case _0x52b6('0x10a'):cur_language_left=_0x52b6('0x10a');cur_language='title-catalan';cur_color='#ffff00';cur_title='p7-catalan';cur_chapter=_0x52b6('0x8f');break;case _0x52b6('0x10f'):cur_language_left=_0x52b6('0x10f');cur_language='title-finnish';cur_color=_0x52b6('0x3c');cur_title='p7-finnish';cur_chapter=_0x52b6('0xe8');break;case _0x52b6('0x9d'):cur_language=_0x52b6('0x7d');cur_language_left=_0x52b6('0x9d');cur_color=_0x52b6('0xa7');cur_title=_0x52b6('0xe9');cur_chapter=_0x52b6('0x8a');break;case _0x52b6('0x99'):cur_language=_0x52b6('0x106');cur_language_left=_0x52b6('0x99');cur_color='#70CCF7';cur_title=_0x52b6('0x126');cur_chapter=_0x52b6('0xb2');break;case _0x52b6('0x1f'):cur_language='title-croatian';cur_language_left='CROATIAN';cur_color='#3eb549';cur_title=_0x52b6('0xf0');cur_chapter=_0x52b6('0x1');break;case _0x52b6('0x2c'):cur_language=_0x52b6('0xa6');cur_language_left=_0x52b6('0x2c');cur_color='#70CCF7';cur_title=_0x52b6('0x0');cur_chapter=_0x52b6('0x65');break;case _0x52b6('0x110'):cur_language=_0x52b6('0x57');cur_language_left=_0x52b6('0x110');cur_color=_0x52b6('0x98');cur_title=_0x52b6('0x68');cur_chapter='p72-maltese';break;case _0x52b6('0xc3'):cur_language='title-spanish';cur_language_left=_0x52b6('0xc3');cur_color='#ffff00';cur_title=_0x52b6('0x5d');cur_chapter=_0x52b6('0xb4');break;case _0x52b6('0x60'):cur_language_left=_0x52b6('0x60');cur_language='title-german';cur_color=_0x52b6('0x115');cur_title='p7-german';cur_chapter=_0x52b6('0xc0');break;case _0x52b6('0x4a'):cur_language_left=_0x52b6('0x4a');cur_language='title-norwegian';cur_color=_0x52b6('0x11a');cur_title='p7-norwegian';cur_chapter=_0x52b6('0x7');break;case _0x52b6('0x6d'):cur_language='title-czech';cur_language_left=_0x52b6('0x6d');cur_color=_0x52b6('0xa7');cur_title=_0x52b6('0x19');cur_chapter=_0x52b6('0x9');break;case _0x52b6('0x103'):cur_language=_0x52b6('0x52');cur_language_left=_0x52b6('0x103');cur_color=_0x52b6('0x115');cur_title=_0x52b6('0x74');cur_chapter=_0x52b6('0x39');break;case _0x52b6('0xf1'):cur_language=_0x52b6('0x70');cur_language_left=_0x52b6('0xf1');cur_color=_0x52b6('0x8e');cur_title=_0x52b6('0x55');cur_chapter='p72-danish';break;case'HUNGARIAN':cur_language='title-hungarian';cur_language_left=_0x52b6('0x34');cur_color=_0x52b6('0x98');cur_title=_0x52b6('0xc1');cur_chapter=_0x52b6('0x61');break;case _0x52b6('0x6f'):cur_language=_0x52b6('0xc7');cur_language_left=_0x52b6('0x6f');cur_color=_0x52b6('0x3c');cur_title=_0x52b6('0xe7');cur_chapter=_0x52b6('0x62');break;case'TURKISH':cur_language=_0x52b6('0xbb');cur_language_left=_0x52b6('0x3a');cur_color='#FFC0EF';cur_title='p7-turkish';cur_chapter=_0x52b6('0xb7');break;case _0x52b6('0x5b'):cur_language='title-danish';cur_language_left=_0x52b6('0x5b');cur_color=_0x52b6('0x11a');cur_title=_0x52b6('0x55');cur_chapter=_0x52b6('0x3e');break;case _0x52b6('0xa4'):cur_language=_0x52b6('0xd7');cur_language_left=_0x52b6('0xa4');cur_color=_0x52b6('0xa7');cur_title=_0x52b6('0x12c');cur_chapter=_0x52b6('0x89');break;case _0x52b6('0x64'):cur_language=_0x52b6('0xa9');cur_language_left='PORTUGUESE';cur_color=_0x52b6('0x8e');cur_title=_0x52b6('0x72');cur_chapter=_0x52b6('0x24');break;case _0x52b6('0xc'):cur_language=_0x52b6('0x63');cur_language_left=_0x52b6('0xc');cur_color=_0x52b6('0x98');cur_title=_0x52b6('0x51');cur_chapter=_0x52b6('0xd3');break;default:break;}document[_0x52b6('0x88')](_0x52b6('0xa2'))[0x0][_0x52b6('0x2b')]=cur_language_left;document[_0x52b6('0xa3')](cur_language_left)[_0x52b6('0x76')][_0x52b6('0x81')]=cur_color;document[_0x52b6('0xa3')](cur_language)[_0x52b6('0x76')][_0x52b6('0xae')]=_0x52b6('0xf8');document[_0x52b6('0xa3')](cur_title)[_0x52b6('0x76')][_0x52b6('0x9e')]=cur_color;document['getElementById'](cur_chapter)[_0x52b6('0x76')][_0x52b6('0x9e')]=cur_color;});}var hover_color=_0x52b6('0x115');cur_language_lefts=_0x52b6('0xcc');for(var k=0x0;k<only_tag[_0x52b6('0x9a')];k++){only_tag[k][_0x52b6('0xf')](_0x52b6('0x123'),function(_0xdf53a){switch(this[_0x52b6('0x2b')]){case'ENGLISH':cur_language_lefts=_0x52b6('0xcc');hover_color=_0x52b6('0x115');break;case'AFRIKAANS':cur_language_lefts=_0x52b6('0x67');hover_color=_0x52b6('0xa7');break;case _0x52b6('0x44'):cur_language_lefts=_0x52b6('0x44');hover_color=_0x52b6('0x8e');break;case _0x52b6('0x45'):cur_language_lefts=_0x52b6('0x45');hover_color=_0x52b6('0x11a');break;case _0x52b6('0xc2'):cur_language_lefts=_0x52b6('0xc2');hover_color=_0x52b6('0x3c');break;case _0x52b6('0xab'):cur_language_lefts=_0x52b6('0xab');hover_color=_0x52b6('0x98');break;case'LATVIAN':cur_language_lefts='LATVIAN';hover_color=_0x52b6('0x115');break;case _0x52b6('0xe'):cur_language_lefts=_0x52b6('0xe');hover_color=_0x52b6('0x3c');break;case _0x52b6('0x10a'):cur_language_lefts='CATALAN';hover_color=_0x52b6('0x8e');break;case'FINNISH':cur_language_lefts='FINNISH';hover_color=_0x52b6('0x3c');break;case _0x52b6('0x9d'):cur_language_lefts=_0x52b6('0x9d');hover_color=_0x52b6('0xa7');break;case'SLOVENIAN':cur_language_lefts=_0x52b6('0x99');hover_color=_0x52b6('0x11a');break;case _0x52b6('0x1f'):cur_language_lefts=_0x52b6('0x1f');hover_color=_0x52b6('0x115');break;case'FRENCH':cur_language_lefts=_0x52b6('0x2c');hover_color=_0x52b6('0x11a');break;case'MALTESE':cur_language_lefts=_0x52b6('0x110');hover_color=_0x52b6('0x98');break;case _0x52b6('0xc3'):cur_language_lefts=_0x52b6('0xc3');hover_color='#ffff00';break;case _0x52b6('0x60'):cur_language_lefts='GERMAN';hover_color=_0x52b6('0x115');break;case _0x52b6('0x4a'):cur_language_lefts=_0x52b6('0x4a');hover_color='#70CCF7';break;case'CZECH':cur_language_lefts=_0x52b6('0x6d');hover_color=_0x52b6('0xa7');break;case'SWEDISH':cur_language_lefts='SWEDISH';hover_color=_0x52b6('0x115');break;case _0x52b6('0xf1'):cur_language_lefts=_0x52b6('0xf1');hover_color=_0x52b6('0x8e');break;case _0x52b6('0x34'):cur_language_lefts='HUNGARIAN';hover_color=_0x52b6('0x98');break;case'POLISH':cur_language_lefts=_0x52b6('0x6f');hover_color='#ddd9d6';break;case _0x52b6('0x3a'):cur_language_lefts=_0x52b6('0x3a');hover_color=_0x52b6('0xa7');break;case _0x52b6('0x5b'):cur_language_lefts=_0x52b6('0x5b');hover_color=_0x52b6('0x11a');break;case'ICELANDIC':cur_language_lefts=_0x52b6('0xa4');hover_color=_0x52b6('0xa7');break;case _0x52b6('0x64'):cur_language_lefts=_0x52b6('0x64');hover_color=_0x52b6('0x8e');break;case _0x52b6('0xc'):cur_language_lefts='VIETNAMESE';hover_color=_0x52b6('0x98');break;default:break;}document[_0x52b6('0xa3')](cur_language_lefts)['style'][_0x52b6('0x81')]=hover_color;document['getElementById'](cur_language_lefts)[_0x52b6('0x76')][_0x52b6('0xac')]=_0x52b6('0x112');});}for(var k=0x0;k<only_tag[_0x52b6('0x9a')];k++){only_tag[k][_0x52b6('0xf')]('mouseout',function(_0x336560){switch(this[_0x52b6('0x2b')]){case _0x52b6('0xcc'):cur_language_lefts='ENGLISH';hover_color=_0x52b6('0x11a');break;case'AFRIKAANS':cur_language_lefts=_0x52b6('0x67');hover_color=_0x52b6('0xa7');break;case _0x52b6('0x44'):cur_language_lefts=_0x52b6('0x44');hover_color=_0x52b6('0x115');break;case'ROMANIAN':cur_language_lefts=_0x52b6('0x45');hover_color=_0x52b6('0x11a');break;case _0x52b6('0xc2'):cur_language_lefts=_0x52b6('0xc2');hover_color=_0x52b6('0x3c');break;case _0x52b6('0xab'):cur_language_lefts=_0x52b6('0xab');hover_color=_0x52b6('0x115');break;case _0x52b6('0xf2'):cur_language_lefts='LATVIAN';hover_color=_0x52b6('0x8e');break;case _0x52b6('0xe'):cur_language_lefts='SLOVAK';hover_color=_0x52b6('0x3c');break;case _0x52b6('0x10a'):cur_language_lefts='CATALAN';hover_color=_0x52b6('0x8e');break;case _0x52b6('0x10f'):cur_language_lefts=_0x52b6('0x10f');hover_color=_0x52b6('0x3c');break;case _0x52b6('0x9d'):cur_language_lefts=_0x52b6('0x9d');hover_color=_0x52b6('0xa7');break;case _0x52b6('0x99'):cur_language_lefts=_0x52b6('0x99');hover_color=_0x52b6('0x11a');break;case _0x52b6('0x1f'):cur_language_lefts=_0x52b6('0x1f');hover_color='#3eb549';break;case'FRENCH':cur_language_lefts='FRENCH';hover_color=_0x52b6('0x11a');break;case _0x52b6('0x110'):cur_language_lefts='MALTESE';hover_color='#d7b089';break;case _0x52b6('0xc3'):cur_language_lefts='SPANISH';hover_color=_0x52b6('0x8e');break;case'GERMAN':cur_language_lefts=_0x52b6('0x60');hover_color=_0x52b6('0x115');break;case _0x52b6('0x4a'):cur_language_lefts=_0x52b6('0x4a');hover_color='#70CCF7';break;case'CZECH':cur_language_lefts=_0x52b6('0x6d');hover_color=_0x52b6('0xa7');break;case _0x52b6('0x103'):cur_language_lefts=_0x52b6('0x103');hover_color=_0x52b6('0x115');break;case _0x52b6('0xf1'):cur_language_lefts='DANISH';hover_color=_0x52b6('0x8e');break;case _0x52b6('0x34'):cur_language_lefts=_0x52b6('0x34');hover_color=_0x52b6('0x98');break;case _0x52b6('0x6f'):cur_language_lefts=_0x52b6('0x6f');hover_color=_0x52b6('0x3c');break;case _0x52b6('0x3a'):cur_language_lefts=_0x52b6('0x3a');hover_color=_0x52b6('0xa7');break;case _0x52b6('0x5b'):cur_language_lefts=_0x52b6('0x5b');hover_color=_0x52b6('0x11a');break;case _0x52b6('0xa4'):cur_language_lefts=_0x52b6('0xa4');hover_color=_0x52b6('0xa7');break;case _0x52b6('0x64'):cur_language_lefts=_0x52b6('0x64');hover_color=_0x52b6('0x8e');break;case _0x52b6('0xc'):cur_language_lefts=_0x52b6('0xc');hover_color='#d7b089';break;default:break;}document[_0x52b6('0xa3')](cur_language_lefts)[_0x52b6('0x76')][_0x52b6('0x81')]=_0x52b6('0x77');document[_0x52b6('0xa3')](cur_language_lefts)[_0x52b6('0x76')][_0x52b6('0xac')]='1';document[_0x52b6('0xa3')](cur_language_left)['style'][_0x52b6('0x81')]=cur_color;});}var url=_0x52b6('0x38');function setup(){loadJSON(url,gotData);}function gotData(_0x23b90d){println(_0x23b90d[_0x52b6('0xbf')][_0x52b6('0x2f')][0x0]['headline']['main']);}var slider_e3_weight=document[_0x52b6('0xa3')](_0x52b6('0x117'));var output_e3_weight=document[_0x52b6('0xa3')](_0x52b6('0xec'));var slider_e3_size=document[_0x52b6('0xa3')]('e3-example-slider-size');var output_e3_size=document[_0x52b6('0xa3')](_0x52b6('0x66'));var slider_e3_lineheight=document[_0x52b6('0xa3')]('e3-example-slider-lineheight');var output_e3_lineheight=document[_0x52b6('0xa3')]('e3-value-lineheight');var dark_mode=document['getElementById']('dark-mode');var checkbox_ital=document[_0x52b6('0xa3')](_0x52b6('0x6c'));var book_overview=document[_0x52b6('0xa3')](_0x52b6('0xa'));var book_title=document[_0x52b6('0xa3')](_0x52b6('0xed'));var book_character_1=document[_0x52b6('0xa3')](_0x52b6('0x50'));var book_character_2=document[_0x52b6('0xa3')](_0x52b6('0x40'));var book_character_1_txt=document[_0x52b6('0xa3')](_0x52b6('0x4e'));var book_character_2_txt=document[_0x52b6('0xa3')]('book-character-2-txt');var book_chapter=document[_0x52b6('0xa3')](_0x52b6('0x9c'));var book_chapter_txt=document[_0x52b6('0xa3')](_0x52b6('0xf9'));var curr_txtbox='book-title';checkbox_ital[_0x52b6('0x119')]=function(){if(checkbox_ital[_0x52b6('0x84')]==!![]){document[_0x52b6('0xa3')](curr_txtbox)[_0x52b6('0x76')][_0x52b6('0x23')]=_0x52b6('0xbc');}else{document[_0x52b6('0xa3')](curr_txtbox)[_0x52b6('0x76')]['fontStyle']=_0x52b6('0xd4');}};slider_e3_weight[_0x52b6('0xea')]=function(){output_e3_weight[_0x52b6('0x2b')]=slider_e3_weight[_0x52b6('0x109')];var _0x311ce0=document[_0x52b6('0xa3')](curr_txtbox);_0x311ce0['style']['setProperty'](_0x52b6('0x54'),this[_0x52b6('0x109')]);};slider_e3_size[_0x52b6('0xea')]=function(){output_e3_size[_0x52b6('0x2b')]=slider_e3_size[_0x52b6('0x109')];var _0x757274=document[_0x52b6('0xa3')](curr_txtbox);_0x757274['style'][_0x52b6('0x48')](_0x52b6('0x82'),this[_0x52b6('0x109')]);};slider_e3_lineheight[_0x52b6('0xea')]=function(){output_e3_lineheight[_0x52b6('0x2b')]=slider_e3_lineheight[_0x52b6('0x109')];var _0x551ad7=document['getElementById'](curr_txtbox);_0x551ad7['style'][_0x52b6('0x48')](_0x52b6('0x1a'),this['value']);};book_overview[_0x52b6('0x119')]=function(){curr_txtbox=book_overview['id'];var _0x22cff5=window[_0x52b6('0xa0')](book_overview);slider_e3_weight[_0x52b6('0x109')]=_0x22cff5[_0x52b6('0x95')];output_e3_weight[_0x52b6('0x2b')]=_0x22cff5[_0x52b6('0x95')];size_wo_px=_0x22cff5['fontSize'];size_wo_px=size_wo_px[_0x52b6('0xcf')]('p','');size_wo_px=size_wo_px[_0x52b6('0xcf')]('x','');slider_e3_size[_0x52b6('0x109')]=size_wo_px;output_e3_size[_0x52b6('0x2b')]=size_wo_px;lh_wo_px=_0x22cff5[_0x52b6('0x10d')];lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('p','');lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('x','');slider_e3_lineheight[_0x52b6('0x109')]=lh_wo_px;output_e3_lineheight[_0x52b6('0x2b')]=lh_wo_px;if(_0x22cff5[_0x52b6('0x23')]=='italic'){document[_0x52b6('0xa3')](_0x52b6('0x6c'))[_0x52b6('0x84')]=!![];}else{document[_0x52b6('0xa3')](_0x52b6('0x6c'))[_0x52b6('0x84')]=![];}};book_title[_0x52b6('0x119')]=function(){curr_txtbox=book_title['id'];var _0x3c4c36=window[_0x52b6('0xa0')](book_title);slider_e3_weight[_0x52b6('0x109')]=_0x3c4c36[_0x52b6('0x95')];output_e3_weight[_0x52b6('0x2b')]=_0x3c4c36[_0x52b6('0x95')];size_wo_px=_0x3c4c36['fontSize'];size_wo_px=size_wo_px[_0x52b6('0xcf')]('p','');size_wo_px=size_wo_px[_0x52b6('0xcf')]('x','');slider_e3_size[_0x52b6('0x109')]=size_wo_px;output_e3_size['innerHTML']=size_wo_px;lh_wo_px=_0x3c4c36[_0x52b6('0x10d')];lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('p','');lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('x','');slider_e3_lineheight[_0x52b6('0x109')]=lh_wo_px;output_e3_lineheight[_0x52b6('0x2b')]=lh_wo_px;if(_0x3c4c36[_0x52b6('0x23')]==_0x52b6('0xbc')){document[_0x52b6('0xa3')]('checkbox_ital')[_0x52b6('0x84')]=!![];}else{document[_0x52b6('0xa3')](_0x52b6('0x6c'))[_0x52b6('0x84')]=![];}};book_character_1[_0x52b6('0x119')]=function(){curr_txtbox=book_character_1['id'];var _0xc80289=window[_0x52b6('0xa0')](book_character_1);slider_e3_weight[_0x52b6('0x109')]=_0xc80289[_0x52b6('0x95')];output_e3_weight[_0x52b6('0x2b')]=_0xc80289[_0x52b6('0x95')];size_wo_px=_0xc80289[_0x52b6('0x35')];size_wo_px=size_wo_px[_0x52b6('0xcf')]('p','');size_wo_px=size_wo_px[_0x52b6('0xcf')]('x','');slider_e3_size[_0x52b6('0x109')]=size_wo_px;output_e3_size[_0x52b6('0x2b')]=size_wo_px;lh_wo_px=_0xc80289[_0x52b6('0x10d')];lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('p','');lh_wo_px=lh_wo_px['replace']('x','');slider_e3_lineheight[_0x52b6('0x109')]=lh_wo_px;output_e3_lineheight[_0x52b6('0x2b')]=lh_wo_px;if(_0xc80289[_0x52b6('0x23')]==_0x52b6('0xbc')){document[_0x52b6('0xa3')](_0x52b6('0x6c'))['checked']=!![];}else{document[_0x52b6('0xa3')](_0x52b6('0x6c'))[_0x52b6('0x84')]=![];}};book_character_1_txt[_0x52b6('0x119')]=function(){curr_txtbox=book_character_1_txt['id'];var _0x4fb8da=window[_0x52b6('0xa0')](book_character_1_txt);slider_e3_weight[_0x52b6('0x109')]=_0x4fb8da[_0x52b6('0x95')];output_e3_weight[_0x52b6('0x2b')]=_0x4fb8da[_0x52b6('0x95')];size_wo_px=_0x4fb8da['fontSize'];size_wo_px=size_wo_px[_0x52b6('0xcf')]('p','');size_wo_px=size_wo_px['replace']('x','');slider_e3_size[_0x52b6('0x109')]=size_wo_px;output_e3_size[_0x52b6('0x2b')]=size_wo_px;lh_wo_px=_0x4fb8da[_0x52b6('0x10d')];lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('p','');lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('x','');slider_e3_lineheight[_0x52b6('0x109')]=lh_wo_px;output_e3_lineheight[_0x52b6('0x2b')]=lh_wo_px;if(_0x4fb8da[_0x52b6('0x23')]==_0x52b6('0xbc')){document[_0x52b6('0xa3')](_0x52b6('0x6c'))[_0x52b6('0x84')]=!![];}else{document[_0x52b6('0xa3')](_0x52b6('0x6c'))[_0x52b6('0x84')]=![];}};book_character_2['onclick']=function(){curr_txtbox=book_character_2['id'];var _0x179deb=window[_0x52b6('0xa0')](book_character_2);slider_e3_weight[_0x52b6('0x109')]=_0x179deb[_0x52b6('0x95')];output_e3_weight[_0x52b6('0x2b')]=_0x179deb[_0x52b6('0x95')];size_wo_px=_0x179deb[_0x52b6('0x35')];size_wo_px=size_wo_px[_0x52b6('0xcf')]('p','');size_wo_px=size_wo_px[_0x52b6('0xcf')]('x','');slider_e3_size['value']=size_wo_px;output_e3_size[_0x52b6('0x2b')]=size_wo_px;lh_wo_px=_0x179deb['lineHeight'];lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('p','');lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('x','');slider_e3_lineheight['value']=lh_wo_px;output_e3_lineheight[_0x52b6('0x2b')]=lh_wo_px;if(_0x179deb[_0x52b6('0x23')]=='italic'){document[_0x52b6('0xa3')](_0x52b6('0x6c'))[_0x52b6('0x84')]=!![];}else{document[_0x52b6('0xa3')](_0x52b6('0x6c'))['checked']=![];}};book_character_2_txt['onclick']=function(){curr_txtbox=book_character_2_txt['id'];var _0x4c1f22=window[_0x52b6('0xa0')](book_character_2_txt);slider_e3_weight[_0x52b6('0x109')]=_0x4c1f22[_0x52b6('0x95')];output_e3_weight[_0x52b6('0x2b')]=_0x4c1f22[_0x52b6('0x95')];size_wo_px=_0x4c1f22[_0x52b6('0x35')];size_wo_px=size_wo_px['replace']('p','');size_wo_px=size_wo_px['replace']('x','');slider_e3_size[_0x52b6('0x109')]=size_wo_px;output_e3_size[_0x52b6('0x2b')]=size_wo_px;lh_wo_px=_0x4c1f22[_0x52b6('0x10d')];lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('p','');lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('x','');slider_e3_lineheight[_0x52b6('0x109')]=lh_wo_px;output_e3_lineheight[_0x52b6('0x2b')]=lh_wo_px;if(_0x4c1f22[_0x52b6('0x23')]==_0x52b6('0xbc')){document['getElementById'](_0x52b6('0x6c'))[_0x52b6('0x84')]=!![];}else{document[_0x52b6('0xa3')]('checkbox_ital')[_0x52b6('0x84')]=![];}};book_chapter[_0x52b6('0x119')]=function(){curr_txtbox=book_chapter['id'];var _0x1baa9d=window[_0x52b6('0xa0')](book_chapter);slider_e3_weight[_0x52b6('0x109')]=_0x1baa9d[_0x52b6('0x95')];output_e3_weight[_0x52b6('0x2b')]=_0x1baa9d[_0x52b6('0x95')];size_wo_px=_0x1baa9d[_0x52b6('0x35')];size_wo_px=size_wo_px[_0x52b6('0xcf')]('p','');size_wo_px=size_wo_px[_0x52b6('0xcf')]('x','');slider_e3_size[_0x52b6('0x109')]=size_wo_px;output_e3_size[_0x52b6('0x2b')]=size_wo_px;lh_wo_px=_0x1baa9d[_0x52b6('0x10d')];lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('p','');lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('x','');slider_e3_lineheight[_0x52b6('0x109')]=lh_wo_px;output_e3_lineheight[_0x52b6('0x2b')]=lh_wo_px;if(_0x1baa9d[_0x52b6('0x23')]==_0x52b6('0xbc')){document[_0x52b6('0xa3')](_0x52b6('0x6c'))[_0x52b6('0x84')]=!![];}else{document['getElementById'](_0x52b6('0x6c'))[_0x52b6('0x84')]=![];}};book_chapter_txt[_0x52b6('0x119')]=function(){curr_txtbox=book_chapter_txt['id'];var _0xc7a863=window[_0x52b6('0xa0')](book_chapter_txt);slider_e3_weight[_0x52b6('0x109')]=_0xc7a863[_0x52b6('0x95')];output_e3_weight[_0x52b6('0x2b')]=_0xc7a863[_0x52b6('0x95')];size_wo_px=_0xc7a863[_0x52b6('0x35')];size_wo_px=size_wo_px['replace']('p','');size_wo_px=size_wo_px[_0x52b6('0xcf')]('x','');slider_e3_size[_0x52b6('0x109')]=size_wo_px;output_e3_size[_0x52b6('0x2b')]=size_wo_px;lh_wo_px=_0xc7a863[_0x52b6('0x10d')];lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('p','');lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('x','');slider_e3_lineheight[_0x52b6('0x109')]=lh_wo_px;output_e3_lineheight['innerHTML']=lh_wo_px;if(_0xc7a863[_0x52b6('0x23')]==_0x52b6('0xbc')){document[_0x52b6('0xa3')](_0x52b6('0x6c'))[_0x52b6('0x84')]=!![];}else{document[_0x52b6('0xa3')](_0x52b6('0x6c'))['checked']=![];}};dark_mode[_0x52b6('0x119')]=function(){curr_txtbox=dark_mode['id'];var _0x3ed05f=window[_0x52b6('0xa0')](dark_mode);slider_e3_weight[_0x52b6('0x109')]=_0x3ed05f[_0x52b6('0x95')];output_e3_weight[_0x52b6('0x2b')]=_0x3ed05f[_0x52b6('0x95')];size_wo_px=_0x3ed05f[_0x52b6('0x35')];size_wo_px=size_wo_px[_0x52b6('0xcf')]('p','');size_wo_px=size_wo_px[_0x52b6('0xcf')]('x','');slider_e3_size['value']=size_wo_px;output_e3_size[_0x52b6('0x2b')]=size_wo_px;lh_wo_px=_0x3ed05f[_0x52b6('0x10d')];lh_wo_px=lh_wo_px[_0x52b6('0xcf')]('p','');lh_wo_px=lh_wo_px['replace']('x','');slider_e3_lineheight[_0x52b6('0x109')]=lh_wo_px;output_e3_lineheight[_0x52b6('0x2b')]=lh_wo_px;if(_0x3ed05f[_0x52b6('0x23')]==_0x52b6('0xbc')){document[_0x52b6('0xa3')]('checkbox_ital')[_0x52b6('0x84')]=!![];}else{document['getElementById'](_0x52b6('0x6c'))[_0x52b6('0x84')]=![];}};dragElement(document['getElementById'](_0x52b6('0xfe')));function dragElement(_0x3448f9){var _0x495a4b=0x0,_0x38359f=0x0,_0x2ba958=0x0,_0x35da26=0x0;if(document[_0x52b6('0xa3')](_0x3448f9['id']+'header')){document[_0x52b6('0xa3')](_0x3448f9['id']+_0x52b6('0xdb'))[_0x52b6('0xe6')]=_0x575506;}else{_0x3448f9['onmousedown']=_0x575506;}function _0x575506(_0x2a8498){_0x2a8498=_0x2a8498||window[_0x52b6('0xd0')];_0x2a8498[_0x52b6('0x30')]();_0x2ba958=_0x2a8498['clientX'];_0x35da26=_0x2a8498[_0x52b6('0x83')];document[_0x52b6('0xb8')]=_0xe1845f;document[_0x52b6('0xaf')]=_0x1c2bb3;}function _0x1c2bb3(_0x297305){_0x297305=_0x297305||window[_0x52b6('0xd0')];_0x297305[_0x52b6('0x30')]();_0x495a4b=_0x2ba958-_0x297305['clientX'];_0x38359f=_0x35da26-_0x297305[_0x52b6('0x83')];_0x2ba958=_0x297305[_0x52b6('0x26')];_0x35da26=_0x297305[_0x52b6('0x83')];_0x3448f9[_0x52b6('0x76')][_0x52b6('0xbd')]=_0x3448f9['offsetTop']-_0x38359f+'px';_0x3448f9['style']['left']=_0x3448f9[_0x52b6('0x124')]-_0x495a4b+'px';}function _0xe1845f(){document[_0x52b6('0xb8')]=null;document[_0x52b6('0xaf')]=null;}}var img=$(_0x52b6('0xfa'));var offset=img[_0x52b6('0x2d')]();var mouseDown=![];var f_x=0x0;var f_y=0x0;function mouse(_0xe4454f){if(mouseDown==!![]){center_x=(f_x-_0xe4454f[_0x52b6('0x8d')])/0x2;center_y=(f_y-_0xe4454f[_0x52b6('0xd1')])/0x2;center_z=center_y+center_x;var _0x443994=-center_x+'deg';var _0x55b24b=center_y+_0x52b6('0x122');document[_0x52b6('0xa3')](_0x52b6('0xeb'))[_0x52b6('0x76')][_0x52b6('0x48')](_0x52b6('0x21'),_0x443994);document[_0x52b6('0xa3')](_0x52b6('0xeb'))['style'][_0x52b6('0x48')](_0x52b6('0x6b'),_0x55b24b);}}img[_0x52b6('0x11')](function(_0x257c05){mouseDown=!![];f_x=_0x257c05[_0x52b6('0x8d')];f_y=_0x257c05['pageY'];$(document)[_0x52b6('0x32')](mouse);});$(document)[_0x52b6('0x11d')](function(_0x21e7d9){mouseDown=![];});
+var num = 0;
+var max = document.querySelectorAll("[id='pg']").length-2;
+var elms = document.querySelectorAll("[id='pg']");
+function intro(){
+	document.getElementById("intro").style.color='#FEC0F0';
+	document.getElementById("design").style.color='white';
+	document.getElementById("example").style.color='white';
+	document.getElementById("recognition").style.color='white';
+	elms[num].style.display = 'none';
+	elms[num+1].style.display = 'none';
+	elms[0].style.display = 'block';
+	elms[1].style.display = 'block';
+
+	num=0;
+
+
+}
+
+function design(){
+	document.getElementById("design").style.color='#FEC0F0';
+	document.getElementById("intro").style.color='white';
+	document.getElementById("example").style.color='white';
+	document.getElementById("recognition").style.color='white';
+	elms[num].style.display = 'none';
+	elms[num+1].style.display = 'none';
+	elms[4].style.display = 'block';
+	elms[5].style.display = 'block';
+
+	num=4;
+
+}
+
+function example(){
+	document.getElementById("example").style.color='#FEC0F0';
+	document.getElementById("design").style.color='white';
+	document.getElementById("intro").style.color='white';
+	document.getElementById("recognition").style.color='white';
+	elms[num].style.display = 'none';
+	elms[num+1].style.display = 'none';
+	elms[18].style.display = 'block';
+	elms[19].style.display = 'block';
+
+	num=18;
+}
+
+function recognition(){
+	document.getElementById("recognition").style.color='#FEC0F0';
+	document.getElementById("design").style.color='white';
+	document.getElementById("example").style.color='white';
+	document.getElementById("intro").style.color='white';
+	elms[num].style.display = 'none';
+	elms[num+1].style.display = 'none';
+	elms[24].style.display = 'block';
+	elms[25].style.display = 'block';
+
+	num=24;
+}
+
+function right(){
+	//var elms = document.querySelectorAll("[id='pg']");
+	if(num==max){
+		return;
+	}
+	else{
+		elms[num].style.display = 'none';
+		elms[num+1].style.display = 'none';
+		elms[num+2].style.display = 'block';
+		elms[num+3].style.display = 'block';
+		num=num+2;
+	}
+
+	switch(num){
+		case 0:
+			document.getElementById("intro").style.color='#FEC0F0';
+			document.getElementById("design").style.color='white';
+			document.getElementById("example").style.color='white';
+			document.getElementById("recognition").style.color='white';
+			break;
+		case 4:
+			document.getElementById("design").style.color='#FEC0F0';
+			document.getElementById("intro").style.color='white';
+			document.getElementById("example").style.color='white';
+			document.getElementById("recognition").style.color='white';
+			break;
+		case 18:
+			document.getElementById("example").style.color='#FEC0F0';
+			document.getElementById("design").style.color='white';
+			document.getElementById("intro").style.color='white';
+			document.getElementById("recognition").style.color='white';
+			break;
+		case 24:
+			document.getElementById("recognition").style.color='#FEC0F0';
+			document.getElementById("design").style.color='white';
+			document.getElementById("example").style.color='white';
+			document.getElementById("intro").style.color='white';
+			break;
+		default:
+			break;
+	}
+
+}
+
+function left(){
+	//var elms = document.querySelectorAll("[id='pg']");
+	if(num==0){
+		return;
+	}
+	else{
+		elms[num].style.display = 'none';
+		elms[num+1].style.display = 'none';
+		elms[num-1].style.display = 'block';
+		elms[num-2].style.display = 'block';
+		num = num - 2;
+	}
+
+
+	switch(num){
+		case 2:
+			document.getElementById("intro").style.color='#FEC0F0';
+			document.getElementById("design").style.color='white';
+			document.getElementById("example").style.color='white';
+			document.getElementById("recognition").style.color='white';
+			break;
+		case 16:
+			document.getElementById("design").style.color='#FEC0F0';
+			document.getElementById("intro").style.color='white';
+			document.getElementById("example").style.color='white';
+			document.getElementById("recognition").style.color='white';
+			break;
+		case 22:
+			document.getElementById("example").style.color='#FEC0F0';
+			document.getElementById("design").style.color='white';
+			document.getElementById("intro").style.color='white';
+			document.getElementById("recognition").style.color='white';
+			break;
+		default:
+			break;
+	}
+
+}
+
+function wght()
+{
+	document.getElementById("smile").className = 'weight_animation';
+	document.getElementById("wght").style.background = 'black';
+	document.getElementById("wght").style.color = 'white';
+
+	document.getElementById("slnt").style.background = 'white';
+	document.getElementById("slnt").style.color = 'black';
+	document.getElementById("wdth").style.background = 'white';
+	document.getElementById("wdth").style.color = 'black';
+	document.getElementById("ital").style.background = 'white';
+	document.getElementById("ital").style.color = 'black';
+	document.getElementById("opsz").style.background = 'white';
+	document.getElementById("opsz").style.color = 'black';
+}
+function wdth()
+{
+	document.getElementById("smile").className = 'width_animation';
+	document.getElementById("wdth").style.background = 'black';
+	document.getElementById("wdth").style.color = 'white';
+
+	document.getElementById("slnt").style.background = 'white';
+	document.getElementById("slnt").style.color = 'black';
+	document.getElementById("wght").style.background = 'white';
+	document.getElementById("wght").style.color = 'black';
+	document.getElementById("ital").style.background = 'white';
+	document.getElementById("ital").style.color = 'black';
+	document.getElementById("opsz").style.background = 'white';
+	document.getElementById("opsz").style.color = 'black';
+}
+
+function slnt()
+{
+	document.getElementById("smile").className = 'slant_animation';
+	document.getElementById("slnt").style.background = 'black';
+	document.getElementById("slnt").style.color = 'white';
+
+	document.getElementById("wght").style.background = 'white';
+	document.getElementById("wght").style.color = 'black';
+	document.getElementById("wdth").style.background = 'white';
+	document.getElementById("wdth").style.color = 'black';
+	document.getElementById("ital").style.background = 'white';
+	document.getElementById("ital").style.color = 'black';
+	document.getElementById("opsz").style.background = 'white';
+	document.getElementById("opsz").style.color = 'black';
+}
+function ital()
+{
+	document.getElementById("smile").className = 'italic_animation';
+	document.getElementById("ital").style.background = 'black';
+	document.getElementById("ital").style.color = 'white';
+
+	document.getElementById("slnt").style.background = 'white';
+	document.getElementById("slnt").style.color = 'black';
+	document.getElementById("wdth").style.background = 'white';
+	document.getElementById("wdth").style.color = 'black';
+	document.getElementById("wght").style.background = 'white';
+	document.getElementById("wght").style.color = 'black';
+	document.getElementById("opsz").style.background = 'white';
+	document.getElementById("opsz").style.color = 'black';
+}
+function opsz()
+{
+	document.getElementById("smile").className = 'opticalsize_animation';
+	document.getElementById("opsz").style.background = 'black';
+	document.getElementById("opsz").style.color = 'white';
+
+	document.getElementById("slnt").style.background = 'white';
+	document.getElementById("slnt").style.color = 'black';
+	document.getElementById("wdth").style.background = 'white';
+	document.getElementById("wdth").style.color = 'black';
+	document.getElementById("ital").style.background = 'white';
+	document.getElementById("ital").style.color = 'black';
+	document.getElementById("wght").style.background = 'white';
+	document.getElementById("wght").style.color = 'black';
+}
+
+var slider = document.getElementById("slider-O");
+var output = document.getElementById("txt-OO");
+
+var sliderY = document.getElementById("slider-Y");
+var outputY = document.getElementById("txt-YY");
+
+var slider5 = document.getElementById("slider-FVFV");
+var output5 = document.getElementById("txt-FVFV");
+
+var slidert = document.getElementById("slider-t");
+var outputt = document.getElementById("txt-tt");
+
+var slidere = document.getElementById("slider-e");
+var outpute = document.getElementById("txt-ee");
+
+var sliderr = document.getElementById("slider-r");
+var outputr = document.getElementById("txt-rr");
+
+slider.oninput = function() {
+		output.innerHTML = slider.value;
+		var d = document.getElementById("OO");
+		d.style.setProperty('--text-weight', this.value);
+
+		var right = (this.value / 900) * -25;
+		d.style.setProperty('--astr-margin-right', right);
+}
+
+sliderY.oninput = function() {
+		outputY.innerHTML = sliderY.value;
+		a = "wght" + this.value;
+		var d = document.getElementById("YY");
+		d.style.setProperty('--text-weight', this.value);
+}
+
+slider5.oninput = function() {
+		output5.innerHTML = slider5.value;
+		a = "wght" + this.value;
+		var d = document.getElementById("FVFV");
+		d.style.setProperty('--text-weight', this.value);
+}
+
+slidert.oninput = function() {
+		outputt.innerHTML = slidert.value;
+		a = "wght" + this.value;
+		var d = document.getElementById("tt");
+		d.style.setProperty('--text-weight', this.value);
+}
+
+slidere.oninput = function() {
+		outpute.innerHTML = slidere.value;
+		a = "wght" + this.value;
+		var d = document.getElementById("ee");
+		d.style.setProperty('--text-weight', this.value);
+}
+
+sliderr.oninput = function() {
+		outputr.innerHTML = sliderr.value;
+		a = "wght" + this.value;
+		var d = document.getElementById("rr");
+		d.style.setProperty('--text-weight', this.value);
+}
+
+
+function xs()
+{
+	document.getElementById("the-text").style.setProperty('--text-size', 60);
+	document.getElementById("xs").style.background='black';
+	document.getElementById("xs").style.color='#FEC0F0';
+
+	document.getElementById("m").style.background='white';
+	document.getElementById("m").style.color='black';
+	document.getElementById("l").style.background='white';
+	document.getElementById("l").style.color='black';
+	document.getElementById("xl").style.background='white';
+	document.getElementById("xl").style.color='black';
+	document.getElementById("s").style.background='white';
+	document.getElementById("s").style.color='black';
+	
+}
+
+function s()
+{
+	document.getElementById("the-text").style.setProperty('--text-size', 120);
+	document.getElementById("s").style.background='black';
+	document.getElementById("s").style.color='#FEC0F0';
+
+	document.getElementById("m").style.background='white';
+	document.getElementById("m").style.color='black';
+	document.getElementById("l").style.background='white';
+	document.getElementById("l").style.color='black';
+	document.getElementById("xl").style.background='white';
+	document.getElementById("xl").style.color='black';
+	document.getElementById("xs").style.background='white';
+	document.getElementById("xs").style.color='black';
+}
+function m()
+{
+	document.getElementById("the-text").style.setProperty('--text-size', 180);
+	document.getElementById("m").style.background='black';
+	document.getElementById("m").style.color='#FEC0F0';
+
+	document.getElementById("l").style.background='white';
+	document.getElementById("l").style.color='black';
+	document.getElementById("xs").style.background='white';
+	document.getElementById("xs").style.color='black';
+	document.getElementById("xl").style.background='white';
+	document.getElementById("xl").style.color='black';
+	document.getElementById("s").style.background='white';
+	document.getElementById("s").style.color='black';
+	
+}
+function l()
+{
+	document.getElementById("the-text").style.setProperty('--text-size', 240);
+	document.getElementById("l").style.background='black';
+	document.getElementById("l").style.color='#FEC0F0';
+
+	document.getElementById("m").style.background='white';
+	document.getElementById("m").style.color='black';
+	document.getElementById("xs").style.background='white';
+	document.getElementById("xs").style.color='black';
+	document.getElementById("xl").style.background='white';
+	document.getElementById("xl").style.color='black';
+	document.getElementById("s").style.background='white';
+	document.getElementById("s").style.color='black';
+}
+function xl()
+{
+	document.getElementById("the-text").style.setProperty('--text-size', 300);
+	document.getElementById("xl").style.background='black';
+	document.getElementById("xl").style.color='#FEC0F0';
+
+	document.getElementById("m").style.background='white';
+	document.getElementById("m").style.color='black';
+	document.getElementById("xs").style.background='white';
+	document.getElementById("xs").style.color='black';
+	document.getElementById("l").style.background='white';
+	document.getElementById("l").style.color='black';
+	document.getElementById("s").style.background='white';
+	document.getElementById("s").style.color='black';
+}
+
+
+var slider_pg3 = document.getElementById("slider-pg3");
+var cur_color = "#EB0000";
+var cur_element = "d4_l";
+var black_white = "#FFFFFF";
+var rom_ital='italic';
+var night_mode = false;
+
+slider_pg3.oninput = function() 
+{
+		var d = document.getElementById("many-lines");
+		d.style.setProperty('--text-weight-small', this.value);
+}
+
+
+var elems = document.getElementById("triangle-containerz").getElementsByTagName("img");
+function color_red()
+{
+	if(night_mode==true){
+		change_night();
+	}
+	document.getElementById("drink-text").style.color='red';
+	cur_color = '#EB0000';
+	black_white = "#FFFFFF";
+	document.getElementById(cur_element).style.color=black_white;
+	document.getElementById(cur_element).style.backgroundColor=cur_color;
+	document.getElementById(rom_ital).style.backgroundColor=cur_color;
+	document.getElementById(rom_ital).style.color=black_white;
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle1') {
+            elems[i].style.visibility = 'visible'; 
+            document.getElementById("drink-text").style.textShadow = "none";   
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+	
+	document.getElementById("triangle1").style.visibility='visible';
+}
+
+function color_yellow()
+{
+	if(night_mode==true){
+		change_night();
+	}
+	document.getElementById("drink-text").style.color='#FFEB00';
+	cur_color='#FFEB00';
+	black_white = "#FFFFFF";
+	document.getElementById(cur_element).style.color=black_white;
+	document.getElementById(cur_element).style.backgroundColor=cur_color;
+	document.getElementById(rom_ital).style.backgroundColor=cur_color;
+	document.getElementById(rom_ital).style.color=black_white;
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle2') {
+            elems[i].style.visibility = 'visible';   
+            document.getElementById("drink-text").style.textShadow = "none"; 
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+
+}
+
+function color_blue()
+{
+	if(night_mode==true){
+		change_night();
+	}
+	cur_color='#70CCF7';
+	document.getElementById("drink-text").style.color='#70CCF7';
+	document.getElementById(cur_element).style.backgroundColor=cur_color;
+	black_white = "#FFFFFF";
+	document.getElementById(cur_element).style.color=black_white;
+	document.getElementById(rom_ital).style.backgroundColor=cur_color;
+	document.getElementById(rom_ital).style.color=black_white;
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle3') {
+            elems[i].style.visibility = 'visible';  
+            document.getElementById("drink-text").style.textShadow = "none";  
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+}
+
+
+function color_brown()
+{
+	if(night_mode==true){
+		change_night();
+	}
+	cur_color='#D7B089';
+	document.getElementById("drink-text").style.color='#D7B089';
+	document.getElementById(cur_element).style.backgroundColor=cur_color;
+	black_white = "#FFFFFF";
+	document.getElementById(cur_element).style.color=black_white;
+	document.getElementById(rom_ital).style.backgroundColor=cur_color;
+	document.getElementById(rom_ital).style.color=black_white;
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle4') {
+            elems[i].style.visibility = 'visible';   
+            document.getElementById("drink-text").style.textShadow = "none"; 
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+}
+
+function color_pink()
+{
+	if(night_mode==true){
+		change_night();
+	}
+	cur_color='#FFC0EF';
+	document.getElementById("drink-text").style.color='#FFC0EF';
+	document.getElementById(cur_element).style.backgroundColor=cur_color;
+	black_white = "#FFFFFF";
+	document.getElementById(cur_element).style.color=black_white;
+	document.getElementById(rom_ital).style.backgroundColor=cur_color;
+	document.getElementById(rom_ital).style.color=black_white;
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle5') {
+            elems[i].style.visibility = 'visible';   
+            document.getElementById("drink-text").style.textShadow = "none"; 
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+}
+
+function color_black()
+{
+	if(night_mode==true){
+		change_night();
+	}
+	cur_color='#000000';
+	document.getElementById("drink-text").style.color='black';
+	document.getElementById(cur_element).style.backgroundColor=cur_color;
+	black_white = "#FFFFFF";
+	document.getElementById(cur_element).style.color=black_white;
+	document.getElementById(rom_ital).style.backgroundColor=cur_color;
+	document.getElementById(rom_ital).style.color=black_white;
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle6') {
+            elems[i].style.visibility = 'visible';  
+            document.getElementById("drink-text").style.textShadow = "none";  
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+}
+
+function color_green()
+{
+	if(night_mode==true){
+		change_night();
+	}
+	cur_color='#3EB449';
+	document.getElementById("drink-text").style.color='#3EB449';
+	document.getElementById(cur_element).style.backgroundColor=cur_color;
+	black_white = "#FFFFFF";
+	document.getElementById(cur_element).style.color=black_white;
+	document.getElementById(rom_ital).style.backgroundColor=cur_color;
+	document.getElementById(rom_ital).style.color=black_white;
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle7') {
+            elems[i].style.visibility = 'visible';
+            document.getElementById("drink-text").style.textShadow = "none";
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+}
+
+function change_night()
+{
+	elms[10].style.backgroundColor = 'white';
+    elms[11].style.backgroundColor = 'white';
+    document.getElementById('circle_yellow').style.border='1px solid black';
+    document.getElementById('circle_blue').style.border='1px solid black';
+    document.getElementById('circle_brown').style.border='1px solid black';
+    document.getElementById('circle_pink').style.border='1px solid black';
+    document.getElementById('circle_black').style.border='1px solid black';
+    document.getElementById('circle_green').style.border='1px solid black';
+    document.getElementById('circle_white').style.border='1px solid black';
+    document.getElementById('drink-text').style.backgroundColor='#FFFFFF';
+    document.getElementById('weight-text').style.color='black';
+    document.getElementById('size-text').style.color='black';
+    document.getElementById('d-weighttxt').style.color='black';
+    document.getElementById('weight-unlimited').style.color='black';
+    document.getElementById('with-unlimited').style.color='black';
+
+    document.getElementById('d4_xs').style.backgroundColor='white';
+    document.getElementById('d4_s').style.backgroundColor='white';
+    document.getElementById('d4_m').style.backgroundColor='white';
+    document.getElementById('d4_l').style.backgroundColor='white';
+    document.getElementById('d4_xl').style.backgroundColor='white';
+    document.getElementById('d4_xs').style.color='black';
+    document.getElementById('d4_s').style.color='black';
+    document.getElementById('d4_m').style.color='black';
+    document.getElementById('d4_l').style.color='black';
+    document.getElementById('d4_xl').style.color='black';
+
+    document.getElementById("italic").style.color='black';
+	document.getElementById("italic").style.backgroundColor='#FFFFFF';
+	document.getElementById("roman").style.color='black';
+	document.getElementById("roman").style.background='white';
+    night_mode = false;
+
+}
+/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+function color_white()
+{
+	cur_color='#FFFFFF';
+	document.getElementById("drink-text").style.color='white';
+	document.getElementById(cur_element).style.backgroundColor=cur_color;
+	black_white = "#000000";
+	document.getElementById(cur_element).style.color=black_white;
+
+
+	if(rom_ital=='roman'){
+		document.getElementById("roman").style.color='black';
+		document.getElementById("roman").style.backgroundColor='#FFFFFF';
+		document.getElementById("italic").style.color='white';
+		document.getElementById("italic").style.background='black';
+	}
+	else{
+		document.getElementById("italic").style.color='black';
+		document.getElementById("italic").style.backgroundColor='#FFFFFF';
+		document.getElementById("roman").style.color='white';
+		document.getElementById("roman").style.background='black';
+	}
+
+	for (var i = 0; i<elems.length; i++) {
+        if (elems[i].className == 'triangle8') {
+            elems[i].style.visibility = 'visible';
+            //document.getElementById("drink-text").style.textShadow =  "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black";  
+        }
+        else {
+            elems[i].style.visibility = 'hidden';
+        }
+    }
+    elms[10].style.backgroundColor = 'black';
+    elms[11].style.backgroundColor = 'black';
+    document.getElementById('circle_yellow').style.border='1px solid white';
+    document.getElementById('circle_blue').style.border='1px solid white';
+    document.getElementById('circle_brown').style.border='1px solid white';
+    document.getElementById('circle_pink').style.border='1px solid white';
+    document.getElementById('circle_black').style.border='1px solid white';
+    document.getElementById('circle_green').style.border='1px solid white';
+    document.getElementById('circle_white').style.border='1px solid white';
+
+    document.getElementById('d4_xs').style.backgroundColor='black';
+    document.getElementById('d4_s').style.backgroundColor='black';
+    document.getElementById('d4_m').style.backgroundColor='black';
+    document.getElementById('d4_l').style.backgroundColor='black';
+    document.getElementById('d4_xl').style.backgroundColor='black';
+    document.getElementById('d4_xs').style.color='white';
+    document.getElementById('d4_s').style.color='white';
+    document.getElementById('d4_m').style.color='white';
+    document.getElementById('d4_l').style.color='white';
+    document.getElementById('d4_xl').style.color='white';
+
+    document.getElementById(cur_element).style.backgroundColor=cur_color;
+    document.getElementById(cur_element).style.color='black';
+
+    document.getElementById('drink-text').style.backgroundColor='black';
+    document.getElementById('weight-text').style.color='white';
+    document.getElementById('size-text').style.color='white';
+    document.getElementById('d-weighttxt').style.color='white';
+    document.getElementById('weight-unlimited').style.color='white';
+    document.getElementById('with-unlimited').style.color='white';
+    night_mode = true;
+
+
+}
+
+
+function d4click_roman()
+{
+	rom_ital='roman';
+	document.getElementById("drink-text").style.fontStyle='normal';
+	if(cur_color=='#FFFFFF'){
+		document.getElementById("roman").style.color='black';
+		document.getElementById("roman").style.backgroundColor='#FFFFFF';
+		document.getElementById("italic").style.color='white';
+		document.getElementById("italic").style.background='black';
+	}
+	else{
+		document.getElementById("roman").style.color='white';
+		document.getElementById("roman").style.backgroundColor=cur_color;
+		document.getElementById("italic").style.color='black';
+		document.getElementById("italic").style.background='white';
+	}
+
+}
+
+function d4click_italic()
+{
+	rom_ital='italic';
+	document.getElementById("drink-text").style.fontStyle='italic';
+	if(cur_color=='#FFFFFF'){
+		document.getElementById("italic").style.color='black';
+		document.getElementById("italic").style.backgroundColor='#FFFFFF';
+		document.getElementById("roman").style.color='white';
+		document.getElementById("roman").style.background='black';
+		
+	}
+	else{
+		document.getElementById("italic").style.color='white';
+		document.getElementById("italic").style.backgroundColor=cur_color;
+		document.getElementById("roman").style.color='black';
+		document.getElementById("roman").style.background='white';
+	}
+
+}
+
+var d4_size_elems = document.getElementById("d4-size-containers").getElementsByTagName("li");
+
+function d4xs()
+{
+	document.getElementById("drink-text").style.setProperty("--init-line-height", 30);
+	document.getElementById("drink-text").style.setProperty("--text-size-L", 30);
+	cur_element="d4_xs";
+
+	if(night_mode){
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4xs') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+	            d4_size_elems[i].style.backgroundColor='black';
+	            d4_size_elems[i].style.color='white';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
+
+		}
+	}
+
+	else{
+		for (var i = 0; i<d4_size_elems.length; i++) {
+		    if (d4_size_elems[i].className == 'd4xs') {
+		    	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+		        d4_size_elems[i].style.backgroundColor=cur_color;
+		        d4_size_elems[i].style.color=black_white;
+		    }
+		    else {
+		        d4_size_elems[i].style.backgroundColor='white';
+		        d4_size_elems[i].style.color='black';
+		        d4_size_elems[i].style.setProperty("--init-border-color", "white");
+		        d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+		    }
+		}
+
+	}
+
+}
+
+function d4s()
+{
+	document.getElementById("drink-text").style.setProperty("--text-size-L", 60);
+	document.getElementById("drink-text").style.setProperty("--init-line-height", 60);
+	cur_element="d4_s";
+
+	if(night_mode){
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4s') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+	            d4_size_elems[i].style.backgroundColor='black';
+	            d4_size_elems[i].style.color='white';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
+
+		}
+	}
+	else{
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4s') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+
+	            d4_size_elems[i].style.backgroundColor='white';
+	            d4_size_elems[i].style.color='black';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
+	    }
+
+	}
+
+	
+}
+
+function d4m()
+{
+	document.getElementById("drink-text").style.setProperty("--text-size-L", 120);
+	document.getElementById("drink-text").style.setProperty("--init-line-height", 108);
+	cur_element="d4_m";
+
+	if(night_mode){
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4m') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+	            d4_size_elems[i].style.backgroundColor='black';
+	            d4_size_elems[i].style.color='white';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
+
+		}
+	}
+
+	else{
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4m') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+
+	            d4_size_elems[i].style.backgroundColor='white';
+	            d4_size_elems[i].style.color='black';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
+	    }
+
+	}
+}
+
+function d4l()
+{
+	document.getElementById("drink-text").style.setProperty("--text-size-L", 180);
+	document.getElementById("drink-text").style.setProperty("--init-line-height", 140);
+	cur_element="d4_l";
+
+	if(night_mode){
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4l') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+	            d4_size_elems[i].style.backgroundColor='black';
+	            d4_size_elems[i].style.color='white';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
+
+		}
+	}
+	else{
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4l') {
+	        	d4_size_elems[i].style.setProperty("--init-border-colorL", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+
+	            d4_size_elems[i].style.backgroundColor='white';
+	            d4_size_elems[i].style.color='black';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	        }
+	    }
+
+	}
+
+}
+
+function d4xl()
+{
+	document.getElementById("drink-text").style.setProperty("--text-size-L", 195);
+	document.getElementById("drink-text").style.setProperty("--init-line-height", 170);
+	cur_element="d4_xl";
+
+
+	if(night_mode){
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4xl') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+	            d4_size_elems[i].style.backgroundColor='black';
+	            d4_size_elems[i].style.color='white';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
+
+		}
+	}
+	else{
+		for (var i = 0; i<d4_size_elems.length; i++) {
+	        if (d4_size_elems[i].className == 'd4xl') {
+	        	d4_size_elems[i].style.setProperty("--init-border-color", "#231F20");
+	            d4_size_elems[i].style.backgroundColor=cur_color;
+	            d4_size_elems[i].style.color=black_white;
+	        }
+	        else {
+
+	            d4_size_elems[i].style.backgroundColor='white';
+	            d4_size_elems[i].style.color='black';
+	            d4_size_elems[i].style.setProperty("--init-border-color", "white");
+	            d4_size_elems[i].style.setProperty("--init-border-colorL", "white");
+	        }
+	    }
+
+	}
+
+
+}
+
+var sliderd4 = document.getElementById("design-slider");
+var outputd4 = document.getElementById("d-weighttxt");
+
+sliderd4.oninput = function()
+{
+	outputd4.innerHTML = sliderd4.value;
+	var d = document.getElementById("drink-text");
+	d.style.setProperty('--text-weight', this.value);
+}
+
+
+function d5italic()
+{
+	document.getElementById("d5-italic").style.color = 'white';
+	document.getElementById("d5-italic").style.backgroundColor = 'black';
+	document.getElementById("d5-regular").style.backgroundColor = 'white';
+	document.getElementById("d5-regular").style.color = 'black';
+	document.getElementById("Alphabet-Container").style.fontStyle = 'italic';
+	document.getElementById("special-character-container").style.fontStyle = 'italic';
+	document.getElementById("eat-me").style.fontStyle = 'italic';
+}
+
+function d5regular()
+{
+	document.getElementById("d5-regular").style.color = 'white';
+	document.getElementById("d5-regular").style.backgroundColor = 'black';
+	document.getElementById("d5-italic").style.backgroundColor = 'white';
+	document.getElementById("d5-italic").style.color = 'black';
+	document.getElementById("Alphabet-Container").style.fontStyle = 'normal';
+	document.getElementById("special-character-container").style.fontStyle = 'normal';
+	document.getElementById("eat-me").style.fontStyle = 'normal';
+}
+
+function d6italic()
+{
+	document.getElementById("d6-italic").style.color = 'white';
+	document.getElementById("d6-italic").style.backgroundColor = 'black';
+	document.getElementById("d6-regular").style.backgroundColor = 'white';
+	document.getElementById("d6-regular").style.color = 'black';
+	document.getElementById("lowercase-container").style.fontStyle = 'italic';
+	document.getElementById("text-nocake").style.fontStyle = 'italic';
+}
+
+function d6regular()
+{
+	document.getElementById("d6-regular").style.color = 'white';
+	document.getElementById("d6-regular").style.backgroundColor = 'black';
+	document.getElementById("d6-italic").style.backgroundColor = 'white';
+	document.getElementById("d6-italic").style.color = 'black';
+	document.getElementById("lowercase-container").style.fontStyle = 'normal';
+	document.getElementById("text-nocake").style.fontStyle = 'normal';
+}
+
+
+
+var cur_language = "title-english";
+var cur_language_left = "ENGLISH";
+var cur_color = "#3eb549";
+var cur_title = "p7-english";
+var cur_chapter = "p72-english";
+/*#FFC0EF
+#70CCF7
+#FFEB00*/
+var x, i, j, selElmnt, a, b, c;
+/* Look for any elements with the class "custom-select": */
+x = document.getElementsByClassName("custom-select");
+for (i = 0; i < x.length; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  /* For each element, create a new DIV that will act as the selected item: */
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  /* For each element, create a new DIV that will contain the option list: */
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  //alert(b.className);
+  for (j = 0; j < selElmnt.length; j++) {
+    /* For each option in the original select element,
+    create a new DIV that will act as an option item: */
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        /* When an item is clicked, update the original select box,
+        and the selected item: */
+        var y, i, k, s, h;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        h = this.parentNode.previousSibling;
+       	//alert(this.parentNode.innerHTML);
+        for (i = 0; i < s.length; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+          document.getElementById(cur_language).style.display = "none";
+          document.getElementById(cur_language_left).style.backgroundColor='white';
+	  	  //document.getElementById(cur_language_left).style.color='black';
+          	switch(s.options[i].innerHTML){
+          		case "ENGLISH":
+          			cur_language_left = "ENGLISH";
+          			cur_language = "title-english";
+          			cur_color = "#3eb549";
+          			cur_title = "p7-english";
+          			cur_chapter = "p72-english";
+          			break;
+          		case "AFRIKAANS":
+          			cur_language = "title-afrikaans";
+          			cur_language_left = "AFRIKAANS";
+          			cur_color = "#FFC0EF";
+          			cur_title = "p7-afrikaans";
+          			cur_chapter = "p72-afrikaans";
+          			break;
+          		case "ITALIAN":
+          			cur_language_left = "ITALIAN";
+          			cur_language = "title-italian";
+          			cur_color = '#ffff00';
+          			cur_title = "p7-italian";
+          			cur_chapter = "p72-italian";
+          			break;
+          		case "ROMANIAN":
+          			cur_language = "title-romanian";
+          			cur_language_left = "ROMANIAN";
+          			cur_color = "#70CCF7";
+          			cur_title = "p7-romanian";
+          			cur_chapter = "p72-romanian";
+          			break;
+          		case "ALBANIAN":
+          			cur_language_left = "ALBANIAN";
+          			cur_language = "title-albanian";
+          			cur_color = '#ddd9d6';
+          			cur_title = "p7-albanian";
+          			cur_chapter = "p72-albanian";
+          			break;
+          		case "ESTONIAN":
+          			cur_language = "title-estonian";
+          			cur_language_left = "ESTONIAN";
+          			cur_color = '#d7b089';
+          			cur_title = "p7-estonian";
+          			cur_chapter = "p72-estonian";
+          			break;
+          		case "LATVIAN":
+          			cur_language_left = "LATVIAN";
+          			cur_language = "title-latvian";
+          			cur_color = '#3eb549';
+          			cur_title = "p7-latvian";
+          			cur_chapter = "p72-latvian";
+          			break;
+          		case "SLOVAK":
+          			cur_language = "title-slovak";
+          			cur_language_left = "SLOVAK";
+          			cur_color = '#ddd9d6';
+          			cur_title = "p7-slovak";
+          			cur_chapter = "p72-slovak";
+          			break;
+				case "CATALAN":
+		  			cur_language_left = "CATALAN";
+		  			cur_language = "title-catalan";
+		  			cur_color = '#ffff00';
+		  			cur_title = "p7-catalan";
+          			cur_chapter = "p72-catalan";
+		  			break;
+		  		case "FINNISH":
+		  			cur_language_left = "FINNISH";
+	          		cur_language = "title-finnish";
+	          		cur_color = '#ddd9d6';
+	          		cur_title = "p7-finnish";
+          			cur_chapter = "p72-finnish";
+		  			break;
+				case "LITHUANIAN":
+					cur_language = "title-lithuanian";
+	      			cur_language_left = "LITHUANIAN";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-lithuanian";
+          			cur_chapter = "p72-lithuanian";
+	      			break;
+	      		case "SLOVENIAN":
+	      			cur_language = "title-slovenian";
+	      			cur_language_left = "SLOVENIAN";
+	      			cur_color = "#70CCF7";
+	      			cur_title = "p7-slovenian";
+          			cur_chapter = "p72-slovenian";
+	      			break;
+	      		case "CROATIAN":
+	      			cur_language = "title-croatian";
+	      			cur_language_left = "CROATIAN";
+	      			cur_color = '#3eb549';
+	      			cur_title = "p7-croatian";
+          			cur_chapter = "p72-croatian";
+	      			break;
+	      		case "FRENCH":
+	      			cur_language = "title-french";
+	      			cur_language_left = "FRENCH";
+	      			cur_color = "#70CCF7";
+	      			cur_title = "p7-french";
+          			cur_chapter = "p72-french";
+	      			break;
+	      		case "MALTESE":
+	      			cur_language = "title-maltese";
+	      			cur_language_left = "MALTESE";
+	      			cur_color = '#d7b089';
+	      			cur_title = "p7-maltese";
+          			cur_chapter = "p72-maltese";
+	      			break;
+	      		case "SPANISH":
+	      			cur_language = "title-spanish";
+	      			cur_language_left = "SPANISH";
+	      			cur_color = '#ffff00';
+	      			cur_title = "p7-spanish";
+          			cur_chapter = "p72-spanish";
+	      			break;
+		      	case "GERMAN":
+		  			cur_language_left = "GERMAN";
+		  			cur_language = "title-german";
+		  			cur_color = '#3eb549';
+		  			cur_title = "p7-german";
+          			cur_chapter = "p72-german";
+		  			break;
+		  		case "NORWEGIAN":
+		  			cur_language_left = "NORWEGIAN";
+	          		cur_language = "title-norwegian";
+	          		cur_color = "#70CCF7";
+	          		cur_title = "p7-norwegian";
+          			cur_chapter = "p72-norwegian";
+		  			break;
+				case "CZECH":
+					cur_language = "title-czech";
+	      			cur_language_left = "CZECH";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-czech";
+          			cur_chapter = "p72-czech";
+	      			break;
+	      		case "SWEDISH":
+	      			cur_language = "title-swedish";
+	      			cur_language_left = "SWEDISH";
+	      			cur_color = '#3eb549';
+	      			cur_title = "p7-swedish";
+          			cur_chapter = "p72-swedish";
+	      			break;
+	      		case "DANISH":
+	      			cur_language = "title-danish";
+	      			cur_language_left = "DANISH";
+	      			cur_color = '#ffff00';
+	      			cur_title = "p7-danish";
+          			cur_chapter = "p72-danish";
+	      			break;
+	      		case "HUNGARIAN":
+	      			cur_language = "title-hungarian";
+	      			cur_language_left = "HUNGARIAN";
+	      			cur_color = '#d7b089';
+	      			cur_title = "p7-hungarian";
+          			cur_chapter = "p72-hungarian";
+	      			break;
+	      		case "POLISH":
+	      			cur_language = "title-polish";
+	      			cur_language_left = "POLISH";
+	      			cur_color = '#ddd9d6';
+	      			cur_title = "p7-polish";
+          			cur_chapter = "p72-polish";
+	      			break;
+	      		case "TURKISH":
+	      			cur_language = "title-turkish";
+	      			cur_language_left = "TURKISH";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-turkish";
+          			cur_chapter = "p72-turkish";
+	      			break;
+	      		case "DUTCH":
+	      			cur_language = "title-danish";
+	      			cur_language_left = "DUTCH";
+	      			cur_color = "#70CCF7";
+	      			cur_title = "p7-danish";
+          			cur_chapter = "p72-danish";
+	      			break;
+	      		case "ICELANDIC":
+	      			cur_language = "title-icelandic";
+	      			cur_language_left = "ICELANDIC";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-icelandic";
+          			cur_chapter = "p72-icelandic";
+	      			break;
+	      		case "PORTUGUESE":
+	      			cur_language = "title-portuguese";
+	      			cur_language_left = "PORTUGUESE";
+	      			cur_color = '#ffff00';
+	      			cur_title = "p7-portuguese";
+          			cur_chapter = "p72-portuguese";
+	      			break;
+	      		case "VIETNAMESE":
+	      			cur_language = "title-vietnamese";
+	      			cur_language_left = "VIETNAMESE";
+	      			cur_color = '#d7b089';
+	      			cur_title = "p7-vietnamese";
+          			cur_chapter = "p72-vietnamese";
+	      			break;
+
+          		default:
+          			break;
+          	}
+          	document.getElementById(cur_language).style.display = "block";
+          	document.getElementsByClassName("select-selected")[0].innerHTML=cur_language_left;
+		  	document.getElementById(cur_language_left).style.backgroundColor=cur_color;
+		  	document.getElementById(cur_title).style.color=cur_color;
+	  		document.getElementById(cur_chapter).style.color=cur_color;
+         
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            //alert(y.nodeName);
+            for (k = 0; k < y.length; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+    /* When the select box is clicked, close any other select boxes,
+    and open/close the current select box: */
+    e.stopPropagation();
+    closeAllSelect(this);
+    this.nextSibling.classList.toggle("select-hide");
+    this.classList.toggle("select-arrow-active");
+  });
+}
+
+function closeAllSelect(elmnt) {
+  /* A function that will close all select boxes in the document,
+  except the current select box: */
+  var x, y, i, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  for (i = 0; i < y.length; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < x.length; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+
+/* If the user clicks anywhere outside the select box,
+then close all select boxes: */
+document.addEventListener("click", closeAllSelect);
+var p7elements,o;
+
+p7elements=document.getElementById("language-container");
+var only_tag = p7elements.getElementsByTagName("li");
+
+for(var k=0; k<only_tag.length; k++){
+    only_tag[k].addEventListener("click", function(e) {
+    	document.getElementById(cur_language_left).style.backgroundColor='transparent';
+	  	document.getElementById(cur_language).style.display = "none";
+		switch(this.innerHTML){
+  			case "ENGLISH":
+          			cur_language_left = "ENGLISH";
+          			cur_language = "title-english";
+          			cur_color = "#3eb549";
+          			cur_title = "p7-english";
+          			cur_chapter = "p72-english";
+          			break;
+          		case "AFRIKAANS":
+          			cur_language = "title-afrikaans";
+          			cur_language_left = "AFRIKAANS";
+          			cur_color = "#FFC0EF";
+          			cur_title = "p7-afrikaans";
+          			cur_chapter = "p72-afrikaans";
+          			break;
+          		case "ITALIAN":
+          			cur_language_left = "ITALIAN";
+          			cur_language = "title-italian";
+          			cur_color = '#ffff00';
+          			cur_title = "p7-italian";
+          			cur_chapter = "p72-italian";
+          			break;
+          		case "ROMANIAN":
+          			cur_language = "title-romanian";
+          			cur_language_left = "ROMANIAN";
+          			cur_color = "#70CCF7";
+          			cur_title = "p7-romanian";
+          			cur_chapter = "p72-romanian";
+          			break;
+          		case "ALBANIAN":
+          			cur_language_left = "ALBANIAN";
+          			cur_language = "title-albanian";
+          			cur_color = '#ddd9d6';
+          			cur_title = "p7-albanian";
+          			cur_chapter = "p72-albanian";
+          			break;
+          		case "ESTONIAN":
+          			cur_language = "title-estonian";
+          			cur_language_left = "ESTONIAN";
+          			cur_color = '#d7b089';
+          			cur_title = "p7-estonian";
+          			cur_chapter = "p72-estonian";
+          			break;
+          		case "LATVIAN":
+          			cur_language_left = "LATVIAN";
+          			cur_language = "title-latvian";
+          			cur_color = '#3eb549';
+          			cur_title = "p7-latvian";
+          			cur_chapter = "p72-latvian";
+          			break;
+          		case "SLOVAK":
+          			cur_language = "title-slovak";
+          			cur_language_left = "SLOVAK";
+          			cur_color = '#ddd9d6';
+          			cur_title = "p7-slovak";
+          			cur_chapter = "p72-slovak";
+          			break;
+				case "CATALAN":
+		  			cur_language_left = "CATALAN";
+		  			cur_language = "title-catalan";
+		  			cur_color = '#ffff00';
+		  			cur_title = "p7-catalan";
+          			cur_chapter = "p72-catalan";
+		  			break;
+		  		case "FINNISH":
+		  			cur_language_left = "FINNISH";
+	          		cur_language = "title-finnish";
+	          		cur_color = '#ddd9d6';
+	          		cur_title = "p7-finnish";
+          			cur_chapter = "p72-finnish";
+		  			break;
+				case "LITHUANIAN":
+					cur_language = "title-lithuanian";
+	      			cur_language_left = "LITHUANIAN";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-lithuanian";
+          			cur_chapter = "p72-lithuanian";
+	      			break;
+	      		case "SLOVENIAN":
+	      			cur_language = "title-slovenian";
+	      			cur_language_left = "SLOVENIAN";
+	      			cur_color = "#70CCF7";
+	      			cur_title = "p7-slovenian";
+          			cur_chapter = "p72-slovenian";
+	      			break;
+	      		case "CROATIAN":
+	      			cur_language = "title-croatian";
+	      			cur_language_left = "CROATIAN";
+	      			cur_color = '#3eb549';
+	      			cur_title = "p7-croatian";
+          			cur_chapter = "p72-croatian";
+	      			break;
+	      		case "FRENCH":
+	      			cur_language = "title-french";
+	      			cur_language_left = "FRENCH";
+	      			cur_color = "#70CCF7";
+	      			cur_title = "p7-french";
+          			cur_chapter = "p72-french";
+	      			break;
+	      		case "MALTESE":
+	      			cur_language = "title-maltese";
+	      			cur_language_left = "MALTESE";
+	      			cur_color = '#d7b089';
+	      			cur_title = "p7-maltese";
+          			cur_chapter = "p72-maltese";
+	      			break;
+	      		case "SPANISH":
+	      			cur_language = "title-spanish";
+	      			cur_language_left = "SPANISH";
+	      			cur_color = '#ffff00';
+	      			cur_title = "p7-spanish";
+          			cur_chapter = "p72-spanish";
+	      			break;
+		      	case "GERMAN":
+		  			cur_language_left = "GERMAN";
+		  			cur_language = "title-german";
+		  			cur_color = '#3eb549';
+		  			cur_title = "p7-german";
+          			cur_chapter = "p72-german";
+		  			break;
+		  		case "NORWEGIAN":
+		  			cur_language_left = "NORWEGIAN";
+	          		cur_language = "title-norwegian";
+	          		cur_color = "#70CCF7";
+	          		cur_title = "p7-norwegian";
+          			cur_chapter = "p72-norwegian";
+		  			break;
+				case "CZECH":
+					cur_language = "title-czech";
+	      			cur_language_left = "CZECH";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-czech";
+          			cur_chapter = "p72-czech";
+	      			break;
+	      		case "SWEDISH":
+	      			cur_language = "title-swedish";
+	      			cur_language_left = "SWEDISH";
+	      			cur_color = '#3eb549';
+	      			cur_title = "p7-swedish";
+          			cur_chapter = "p72-swedish";
+	      			break;
+	      		case "DANISH":
+	      			cur_language = "title-danish";
+	      			cur_language_left = "DANISH";
+	      			cur_color = '#ffff00';
+	      			cur_title = "p7-danish";
+          			cur_chapter = "p72-danish";
+	      			break;
+	      		case "HUNGARIAN":
+	      			cur_language = "title-hungarian";
+	      			cur_language_left = "HUNGARIAN";
+	      			cur_color = '#d7b089';
+	      			cur_title = "p7-hungarian";
+          			cur_chapter = "p72-hungarian";
+	      			break;
+	      		case "POLISH":
+	      			cur_language = "title-polish";
+	      			cur_language_left = "POLISH";
+	      			cur_color = '#ddd9d6';
+	      			cur_title = "p7-polish";
+          			cur_chapter = "p72-polish";
+	      			break;
+	      		case "TURKISH":
+	      			cur_language = "title-turkish";
+	      			cur_language_left = "TURKISH";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-turkish";
+          			cur_chapter = "p72-turkish";
+	      			break;
+	      		case "DUTCH":
+	      			cur_language = "title-danish";
+	      			cur_language_left = "DUTCH";
+	      			cur_color = "#70CCF7";
+	      			cur_title = "p7-danish";
+          			cur_chapter = "p72-danish";
+	      			break;
+	      		case "ICELANDIC":
+	      			cur_language = "title-icelandic";
+	      			cur_language_left = "ICELANDIC";
+	      			cur_color = "#FFC0EF";
+	      			cur_title = "p7-icelandic";
+          			cur_chapter = "p72-icelandic";
+	      			break;
+	      		case "PORTUGUESE":
+	      			cur_language = "title-portuguese";
+	      			cur_language_left = "PORTUGUESE";
+	      			cur_color = '#ffff00';
+	      			cur_title = "p7-portuguese";
+          			cur_chapter = "p72-portuguese";
+	      			break;
+	      		case "VIETNAMESE":
+	      			cur_language = "title-vietnamese";
+	      			cur_language_left = "VIETNAMESE";
+	      			cur_color = '#d7b089';
+	      			cur_title = "p7-vietnamese";
+          			cur_chapter = "p72-vietnamese";
+	      			break;
+
+	  		default:
+	  			break;
+	  		}
+	  	document.getElementsByClassName("select-selected")[0].innerHTML=cur_language_left;
+	  	document.getElementById(cur_language_left).style.backgroundColor=cur_color;
+	  	//document.getElementById(cur_language_left).style.color='white';
+	  	document.getElementById(cur_language).style.display = "block";
+	  	document.getElementById(cur_title).style.color=cur_color;
+	  	document.getElementById(cur_chapter).style.color=cur_color;
+    });
+
+}
+
+
+var hover_color = "#3eb549";
+cur_language_lefts = "ENGLISH";
+for(var k=0; k<only_tag.length; k++){
+    only_tag[k].addEventListener("mouseover", function(e) {
+    	
+		switch(this.innerHTML){
+  			case "ENGLISH":
+      			cur_language_lefts = "ENGLISH";
+      			//cur_language = "title-english";
+      			hover_color = "#3eb549";
+      			break;
+      		case "AFRIKAANS":
+      			cur_language_lefts = "AFRIKAANS";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "ITALIAN":
+      			cur_language_lefts = "ITALIAN";
+      			hover_color = '#ffff00';
+      			break;
+      		case "ROMANIAN":
+      			cur_language_lefts = "ROMANIAN";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "ALBANIAN":
+      			cur_language_lefts = "ALBANIAN";
+      			hover_color = '#ddd9d6';
+      			break;
+      		case "ESTONIAN":
+      			cur_language_lefts = "ESTONIAN";
+      			hover_color = '#d7b089';
+      			break;
+      		case "LATVIAN":
+      			cur_language_lefts = "LATVIAN";
+      			hover_color = '#3eb549';
+      			break;
+      		case "SLOVAK":
+      			cur_language_lefts = "SLOVAK";
+      			hover_color = '#ddd9d6';
+      			break;
+			case "CATALAN":
+	  			cur_language_lefts = "CATALAN";
+	  			hover_color = '#ffff00';
+	  			break;
+	  		case "FINNISH":
+	  			cur_language_lefts = "FINNISH";
+          		hover_color = '#ddd9d6';
+	  			break;
+			case "LITHUANIAN":
+      			cur_language_lefts = "LITHUANIAN";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "SLOVENIAN":
+      			cur_language_lefts = "SLOVENIAN";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "CROATIAN":
+      			cur_language_lefts = "CROATIAN";
+      			hover_color = '#3eb549';
+      			break;
+      		case "FRENCH":
+      			cur_language_lefts = "FRENCH";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "MALTESE":
+      			cur_language_lefts = "MALTESE";
+      			hover_color = '#d7b089';
+      			break;
+      		case "SPANISH":
+      			cur_language_lefts = "SPANISH";
+      			hover_color = '#ffff00';
+      			break;
+	      	case "GERMAN":
+	  			cur_language_lefts = "GERMAN";
+	  			hover_color = '#3eb549';
+	  			break;
+	  		case "NORWEGIAN":
+	  			cur_language_lefts = "NORWEGIAN";
+          		hover_color = "#70CCF7";
+	  			break;
+			case "CZECH":
+      			cur_language_lefts = "CZECH";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "SWEDISH":
+      			cur_language_lefts = "SWEDISH";
+      			hover_color = '#3eb549';
+      			break;
+      		case "DANISH":
+      			cur_language_lefts = "DANISH";
+      			hover_color = '#ffff00';
+      			break;
+      		case "HUNGARIAN":
+      			cur_language_lefts = "HUNGARIAN";
+      			hover_color = '#d7b089';
+      			break;
+      		case "POLISH":
+      			cur_language_lefts = "POLISH";
+      			hover_color = '#ddd9d6';
+      			break;
+      		case "TURKISH":
+      			cur_language_lefts = "TURKISH";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "DUTCH":
+      			cur_language_lefts = "DUTCH";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "ICELANDIC":
+      			cur_language_lefts = "ICELANDIC";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "PORTUGUESE":
+      			cur_language_lefts = "PORTUGUESE";
+      			hover_color = '#ffff00';
+      			break;
+      		case "VIETNAMESE":
+      			cur_language_lefts = "VIETNAMESE";
+      			hover_color = '#d7b089';
+      			break;
+	  		default:
+	  			break;
+	  		}
+	  		document.getElementById(cur_language_lefts).style.backgroundColor=hover_color;
+	  		document.getElementById(cur_language_lefts).style.opacity="0.4";
+	   });
+
+}
+
+
+for(var k=0; k<only_tag.length; k++){
+    only_tag[k].addEventListener("mouseout", function(e) {
+    	
+		switch(this.innerHTML){
+  			case "ENGLISH":
+      			cur_language_lefts = "ENGLISH";
+      			//cur_language = "title-english";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "AFRIKAANS":
+      			cur_language_lefts = "AFRIKAANS";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "ITALIAN":
+      			cur_language_lefts = "ITALIAN";
+      			hover_color = '#3eb549';
+      			break;
+      		case "ROMANIAN":
+      			cur_language_lefts = "ROMANIAN";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "ALBANIAN":
+      			cur_language_lefts = "ALBANIAN";
+      			hover_color = '#ddd9d6';
+      			break;
+      		case "ESTONIAN":
+      			cur_language_lefts = "ESTONIAN";
+      			hover_color = '#3eb549';
+      			break;
+      		case "LATVIAN":
+      			cur_language_lefts = "LATVIAN";
+      			hover_color = '#ffff00';
+      			break;
+      		case "SLOVAK":
+      			cur_language_lefts = "SLOVAK";
+      			hover_color = '#ddd9d6';
+      			break;
+			case "CATALAN":
+	  			cur_language_lefts = "CATALAN";
+	  			hover_color = '#ffff00';
+	  			break;
+	  		case "FINNISH":
+	  			cur_language_lefts = "FINNISH";
+          		hover_color = '#ddd9d6';
+	  			break;
+			case "LITHUANIAN":
+      			cur_language_lefts = "LITHUANIAN";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "SLOVENIAN":
+      			cur_language_lefts = "SLOVENIAN";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "CROATIAN":
+      			cur_language_lefts = "CROATIAN";
+      			hover_color = '#3eb549';
+      			break;
+      		case "FRENCH":
+      			cur_language_lefts = "FRENCH";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "MALTESE":
+      			cur_language_lefts = "MALTESE";
+      			hover_color = '#d7b089';
+      			break;
+      		case "SPANISH":
+      			cur_language_lefts = "SPANISH";
+      			hover_color = '#ffff00';
+      			break;
+	      	case "GERMAN":
+	  			cur_language_lefts = "GERMAN";
+	  			hover_color = '#3eb549';
+	  			break;
+	  		case "NORWEGIAN":
+	  			cur_language_lefts = "NORWEGIAN";
+          		hover_color = "#70CCF7";
+	  			break;
+			case "CZECH":
+      			cur_language_lefts = "CZECH";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "SWEDISH":
+      			cur_language_lefts = "SWEDISH";
+      			hover_color = '#3eb549';
+      			break;
+      		case "DANISH":
+      			cur_language_lefts = "DANISH";
+      			hover_color = '#ffff00';
+      			break;
+      		case "HUNGARIAN":
+      			cur_language_lefts = "HUNGARIAN";
+      			hover_color = '#d7b089';
+      			break;
+      		case "POLISH":
+      			cur_language_lefts = "POLISH";
+      			hover_color = '#ddd9d6';
+      			break;
+      		case "TURKISH":
+      			cur_language_lefts = "TURKISH";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "DUTCH":
+      			cur_language_lefts = "DUTCH";
+      			hover_color = "#70CCF7";
+      			break;
+      		case "ICELANDIC":
+      			cur_language_lefts = "ICELANDIC";
+      			hover_color = "#FFC0EF";
+      			break;
+      		case "PORTUGUESE":
+      			cur_language_lefts = "PORTUGUESE";
+      			hover_color = '#ffff00';
+      			break;
+      		case "VIETNAMESE":
+      			cur_language_lefts = "VIETNAMESE";
+      			hover_color = '#d7b089';
+      			break;
+	  		default:
+	  			break;
+	  		}
+	  		document.getElementById(cur_language_lefts).style.backgroundColor='white';
+	  		document.getElementById(cur_language_lefts).style.opacity="1";
+	  		document.getElementById(cur_language_left).style.backgroundColor=cur_color;
+	   });
+
+}
+
+var url = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?q=fashion&api-key=oObWA9Y4w0O3UeN7RevglXHX4MdXzw74';
+
+function setup()
+{
+	loadJSON(url, gotData);
+}
+
+function gotData(data)
+{
+	println(data.response.docs[0].headline.main);
+
+}
+
+
+var slider_e3_weight = document.getElementById("e3-example-slider-weight");
+var output_e3_weight = document.getElementById("e3-value-weight");
+var slider_e3_size = document.getElementById("e3-example-slider-size");
+var output_e3_size = document.getElementById("e3-value-size");
+var slider_e3_lineheight = document.getElementById("e3-example-slider-lineheight");
+var output_e3_lineheight = document.getElementById("e3-value-lineheight");
+var dark_mode = document.getElementById("dark-mode");
+
+var checkbox_ital = document.getElementById("checkbox_ital");
+
+var book_overview = document.getElementById("book-overview");
+var book_title = document.getElementById("book-title");
+var book_character_1 = document.getElementById("book-character-1");
+var book_character_2 = document.getElementById("book-character-2");
+var book_character_1_txt = document.getElementById("book-character-1-txt");
+var book_character_2_txt = document.getElementById("book-character-2-txt");
+var book_chapter = document.getElementById("book-chapter");
+var book_chapter_txt = document.getElementById("book-chapter-txt");
+
+var curr_txtbox = "book-title";
+
+checkbox_ital.onclick = function() {
+	if(checkbox_ital.checked == true){
+		document.getElementById(curr_txtbox).style.fontStyle = 'italic';
+	}
+	else{
+		document.getElementById(curr_txtbox).style.fontStyle = 'normal';
+	}
+}
+
+slider_e3_weight.oninput = function() {
+	output_e3_weight.innerHTML = slider_e3_weight.value;
+	//alert(curr_txtbox);
+	var d = document.getElementById(curr_txtbox);
+	d.style.setProperty('--e3-text-weight', this.value);
+
+}
+
+slider_e3_size.oninput = function() 
+{
+	output_e3_size.innerHTML = slider_e3_size.value;
+	var d = document.getElementById(curr_txtbox);
+	d.style.setProperty('--e3-text-size', this.value);
+}
+
+slider_e3_lineheight.oninput = function() 
+{
+	output_e3_lineheight.innerHTML = slider_e3_lineheight.value;
+	var d = document.getElementById(curr_txtbox);
+	d.style.setProperty('--e3-text-lineheight', this.value);
+}
+
+book_overview.onclick = function()
+{
+	curr_txtbox = book_overview.id;
+	var styles_applied = window.getComputedStyle(book_overview);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+book_title.onclick = function()
+{
+	curr_txtbox = book_title.id;
+	var styles_applied = window.getComputedStyle(book_title);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+book_character_1.onclick = function()
+{
+	curr_txtbox = book_character_1.id;
+	var styles_applied = window.getComputedStyle(book_character_1);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+book_character_1_txt.onclick = function()
+{
+	curr_txtbox = book_character_1_txt.id;
+	var styles_applied = window.getComputedStyle(book_character_1_txt);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+book_character_2.onclick = function()
+{
+	curr_txtbox = book_character_2.id;
+	var styles_applied = window.getComputedStyle(book_character_2);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+book_character_2_txt.onclick = function()
+{
+	curr_txtbox = book_character_2_txt.id;
+	var styles_applied = window.getComputedStyle(book_character_2_txt);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+book_chapter.onclick = function()
+{
+	curr_txtbox = book_chapter.id;
+	var styles_applied = window.getComputedStyle(book_chapter);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+book_chapter_txt.onclick = function()
+{
+	curr_txtbox = book_chapter_txt.id;
+	var styles_applied = window.getComputedStyle(book_chapter_txt);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+dark_mode.onclick = function()
+{
+	curr_txtbox = dark_mode.id;
+	var styles_applied = window.getComputedStyle(dark_mode);
+
+	slider_e3_weight.value = styles_applied.fontWeight;
+	output_e3_weight.innerHTML = styles_applied.fontWeight;
+
+	size_wo_px = styles_applied.fontSize;
+	size_wo_px = size_wo_px.replace('p','');
+	size_wo_px = size_wo_px.replace('x','');
+	slider_e3_size.value = size_wo_px;
+	output_e3_size.innerHTML = size_wo_px;
+
+	lh_wo_px = styles_applied.lineHeight;
+	lh_wo_px = lh_wo_px.replace('p','');
+	lh_wo_px = lh_wo_px.replace('x','');
+	slider_e3_lineheight.value = lh_wo_px;
+	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	if(styles_applied.fontStyle == 'italic'){
+		document.getElementById("checkbox_ital").checked = true;
+	}
+	else {
+		document.getElementById("checkbox_ital").checked = false;
+	}
+}
+
+// Make the DIV element draggable:
+dragElement(document.getElementById("tweak-box-container"));
+
+function dragElement(elmnt) {
+	var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+	if (document.getElementById(elmnt.id + "header")) {
+	// if present, the header is where you move the DIV from:
+	document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+	} else {
+	// otherwise, move the DIV from anywhere inside the DIV: 
+	elmnt.onmousedown = dragMouseDown;
+ }
+
+  function dragMouseDown(e) {
+	e = e || window.event;
+	e.preventDefault();
+	// get the mouse cursor position at startup:
+	pos3 = e.clientX;
+	pos4 = e.clientY;
+	document.onmouseup = closeDragElement;
+	// call a function whenever the cursor moves:
+	document.onmousemove = elementDrag;
+	}
+
+	function elementDrag(e) {
+	e = e || window.event;
+	e.preventDefault();
+	// calculate the new cursor position:
+	pos1 = pos3 - e.clientX;
+	pos2 = pos4 - e.clientY;
+	pos3 = e.clientX;
+	pos4 = e.clientY;
+	// set the element's new position:
+	elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+	elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+	// stop moving when mouse button is released:
+	document.onmouseup = null;
+	document.onmousemove = null;
+	}
+}
+
+//var box= document.getElementById("book");
+
+
+
+var img = $('.book');
+var offset = img.offset();
+var mouseDown = false;
+var f_x=0;
+var f_y=0;
+function mouse(evt) {
+
+    if(mouseDown ==true){
+    center_x = (f_x - evt.pageX)/2;
+    center_y = (f_y - evt.pageY)/2;
+    center_z = center_y + center_x;
+    var mouse_x = -center_x + 'deg';
+    var mouse_y = center_y + 'deg';
+    //var mouse_z = center_z + 'deg';
+    document.getElementById("bookup").style.setProperty('--rotate-y', mouse_x);
+    document.getElementById("bookup").style.setProperty('--rotate-x', mouse_y);
+    //document.getElementById("bookup").style.setProperty('--rotate-z', mouse_z);
+
+    }
+}
+
+img.mousedown(function (e) {
+    mouseDown=true;
+    f_x=e.pageX;
+    f_y=e.pageY;
+    //f_z=e.pageZ;
+    //alert(f_z);
+    $(document).mousemove(mouse);
+});
+$(document).mouseup(function (e) {
+    mouseDown = false;
+})
+
+
