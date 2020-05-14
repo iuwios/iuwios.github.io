@@ -304,7 +304,8 @@ display: none;
 }
 .book-front 
 {
-	background: white;
+	background-image: url('../images/book-cover.jpg');
+	
 	width: calc((100vw / 1440) * 400);
 	height: calc((100vw / 1440) * 540);
 	-webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 14)) translate3d(0,0,0) rotateY(0deg);
