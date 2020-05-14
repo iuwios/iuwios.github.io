@@ -113,6 +113,8 @@
 	height: calc((100vw / 1440) * 322.63);
 	top: calc((100vw / 1440) * 175);
 	left: calc((100vw / 1440) * 110);
+	background-size: contain;
+	background-repeat: no-repeat;
 	z-index: 11;
 }
 
@@ -223,6 +225,8 @@
 
 	top: calc((100vw / 1440) * 550);
 	left: calc((100vw / 1440) * 473);
+	background-size: contain;
+	background-repeat: no-repeat;
 	z-index: 11;
 }
 
