@@ -2143,12 +2143,12 @@ function changeNews(topic)
 	  if (err !== null) {
 	    alert('Something went wrong: ' + err);
 	  } else {
-	    document.getElementById("header-1").innerHTML = data.response.docs[0].headline.print_headline;
+	    document.getElementById("header-1").innerHTML = data.response.docs[0].headline.main;
 	    document.getElementById("Example2-1").style.content = "url(https://www.nytimes.com/" + data.response.docs[0].multimedia[0].url + ")";
 	    document.getElementById("author-1").innerHTML = data.response.docs[0].byline.original;
 	    document.getElementById("snippet-1").innerHTML = data.response.docs[0].snippet;
 
-	    document.getElementById("header-2").innerHTML = data.response.docs[1].headline.print_headline;
+	    document.getElementById("header-2").innerHTML = data.response.docs[1].headline.main;
 	    document.getElementById("Example2-2").style.content = "url(https://www.nytimes.com/" + data.response.docs[1].multimedia[0].url + ")";
 	    document.getElementById("author-2").innerHTML = data.response.docs[1].byline.original;
 	    //alert(data.response.docs[0].multimedia[0].url);
