@@ -304,12 +304,75 @@ display: none;
 }
 .book-front 
 {
-	background-image: url('../images/book-cover.jpg');
+	background: white;
 	width: calc((100vw / 1440) * 400);
 	height: calc((100vw / 1440) * 540);
 	-webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 14)) translate3d(0,0,0) rotateY(0deg);
 	transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 14)) translate3d(0,0,0) rotateY(0deg);
 }
+
+.front-first
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 90);
+	height: calc((100vw / 1440) * 490);
+	top: calc((100vw / 1440) * 25);
+	left: calc((100vw / 1440) * 25);
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid green;
+}
+
+.front-first li
+{
+	margin-bottom: calc((100vw / 1440) * 8);
+}
+.front-first li:nth-of-type(12)
+{
+	margin-bottom: 0;
+}
+
+.front-left
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 24;
+	width: calc((100vw / 1440) * 400);
+	height: calc((100vw / 1440) * 540);
+}
+.font-22
+{
+	font-size: calc((100vw / 1440) * 22);
+}
+
+.font-20
+{
+	font-size: calc((100vw / 1440) * 20);
+}
+
+.font-18
+{
+	font-size: calc((100vw / 1440) * 18);
+}
+
+.font-16
+{
+	font-size: calc((100vw / 1440) * 16);
+}
+
+.font-14
+{
+	font-size: calc((100vw / 1440) * 14);
+}
+
+.font-12
+{
+	font-size: calc((100vw / 1440) * 12);
+}
+
+
 .book-side-left 
 {
   background-image: url('../images/book-spine.jpg');
@@ -343,11 +406,24 @@ display: none;
 	transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -255) ,calc((100vw / 1440) * 29)) translate3d(0px, calc((100vw / 1440) * 511), calc((100vw / 1440) * -29)) rotateX(-90deg);
 }
 .book-back {
-	background-image: url('../images/book-back.jpg');
+	background: white;
 	width: calc((100vw / 1440) * 400);
 	height: calc((100vw / 1440) * 540);
 	-webkit-transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 44)) translate3d(0,0, calc((100vw / 1440) * -58)) rotateY(180deg);
 	transform: translate3d(calc((100vw / 1440) * -200) ,calc((100vw / 1440) * -270) ,calc((100vw / 1440) * 4ㅊ)) translate3d(0,0, calc((100vw / 1440) * -58)) rotateY(180deg);
+}
+
+.back 
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 350);
+	height: calc((100vw / 1440) * 90);
+	top: calc((100vw / 1440) * 425);
+	left: calc((100vw / 1440) * 25);
+	text-align: justify;
+	font-size: calc((100vw / 1440) * 10);
+	line-height: calc((100vw / 1440) * 15);
+	
 }
 
 
