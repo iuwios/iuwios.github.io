@@ -69,6 +69,19 @@ function right(){
 		num=num+2;
 	}
 
+    if(num==6){
+		document.getElementById("the-text").focus();
+	}
+	else if(num==10){
+		document.getElementById("drink-text").focus();
+	}
+	else if(num==12){
+		document.getElementById("eat-me").focus();
+	}
+	else if(num==14){
+		document.getElementById("text-nocake").focus();
+	}
+
 	switch(num){
 		case 0:
 			document.getElementById("intro").style.color='#FEC0F0';
@@ -113,6 +126,18 @@ function left(){
 		num = num - 2;
 	}
 
+	if(num==6){
+		document.getElementById("the-text").focus();
+	}
+	else if(num==10){
+		document.getElementById("drink-text").focus();
+	}
+	else if(num==12){
+		document.getElementById("eat-me").focus();
+	}
+	else if(num==14){
+		document.getElementById("text-nocake").focus();
+	}
 
 	switch(num){
 		case 2:
@@ -2157,11 +2182,25 @@ function changeNews(topic)
 
 }
 
+var send_news = document.getElementById("input-topic");
+send_news.onclick=function()
+{
+	var topic = document.getElementById("e2-topic").value;
+	if(topic == "input new topic"){
+		return;
+	}
+	else{
+		changeNews(topic);
+	}
+}
+
 dragElement(document.getElementById("header-1"));
 dragElement(document.getElementById("header-2"));
 dragElement(document.getElementById("author-1"));
 dragElement(document.getElementById("author-2"));
 dragElement(document.getElementById("snippet-1"));
+dragElement(document.getElementById("example-line-5"));
+dragElement(document.getElementById("example-line-1"));
 
 
 
