@@ -1820,63 +1820,63 @@ var dark = false;
 function darkFunction()
 {
 	if(document.getElementById("e3-dark-mode").checked == true){
-		document.getElementById("LastPage").style.backgroundColor='black';
-		document.getElementById("LastPage").style.color='white';
-		document.getElementById("LastPage").style.border='1px solid white';
-		book_overview.style.color='white';
-		book_title.style.color='white';
-		book_character_1.style.color='white';
-		book_character_1_txt.style.color='white';
-		book_character_2.style.color='white';
-		book_character_2_txt.style.color='white';
-		book_chapter.style.color='white';
-		book_chapter_txt.style.color='white';
-		document.getElementById("Example3-line1").style.borderColor='white';
-		document.getElementById("Example3-line2").style.borderColor='white';
-		document.getElementById("Example3-line3").style.borderColor='white';
-		document.getElementById("Example3-line4").style.borderColor='white';
+		document.getElementById("LastPage").style.backgroundColor='#000000';
+		document.getElementById("LastPage").style.color='#ffffff';
+		document.getElementById("LastPage").style.border='1px solid #ffffff';
+		book_overview.style.color='#ffffff';
+		book_title.style.color='#ffffff';
+		book_character_1.style.color='#ffffff';
+		book_character_1_txt.style.color='#ffffff';
+		book_character_2.style.color='#ffffff';
+		book_character_2_txt.style.color='#ffffff';
+		book_chapter.style.color='#ffffff';
+		book_chapter_txt.style.color='#ffffff';
+		document.getElementById("Example3-line1").style.borderColor='#ffffff';
+		document.getElementById("Example3-line2").style.borderColor='#ffffff';
+		document.getElementById("Example3-line3").style.borderColor='#ffffff';
+		document.getElementById("Example3-line4").style.borderColor='#ffffff';
 
-		document.getElementById("tweak-box-container").style.backgroundColor='black';
-		document.getElementById("tweak-box-container").style.color='white';
-		document.getElementById("tweak-box-container").style.border='1px solid white';
-		document.getElementById("e3-example-slider-weight").style.background='white';
-		document.getElementById("e3-example-slider-size").style.background='white';
-		document.getElementById("e3-example-slider-lineheight").style.background='white';
-		document.getElementById("checkmark1").style.borderColor='white';
-		document.getElementById("checkmark1").style.background='white';
-		document.getElementById("checkmark2").style.background='white';
-		document.getElementById("checkmark2").style.borderColor='white';
+		document.getElementById("tweak-box-container").style.backgroundColor='#000000';
+		document.getElementById("tweak-box-container").style.color='#ffffff';
+		document.getElementById("tweak-box-container").style.border='1px solid #ffffff';
+		document.getElementById("e3-example-slider-weight").style.background='#ffffff';
+		document.getElementById("e3-example-slider-size").style.background='#ffffff';
+		document.getElementById("e3-example-slider-lineheight").style.background='#ffffff';
+		document.getElementById("checkmark1").style.borderColor='#ffffff';
+		document.getElementById("checkmark1").style.background='#ffffff';
+		document.getElementById("checkmark2").style.background='#ffffff';
+		document.getElementById("checkmark2").style.borderColor='#ffffff';
 
 		checkbox_color.value = "#ffffff";
 	
 	}
 	else{
-		document.getElementById("LastPage").style.backgroundColor='white';
-		document.getElementById("LastPage").style.color='black';
+		document.getElementById("LastPage").style.backgroundColor='#ffffff';
+		document.getElementById("LastPage").style.color='#000000';
 		document.getElementById("LastPage").style.border='none';
-		book_overview.style.color='black';
-		book_title.style.color='black';
-		book_character_1.style.color='black';
-		book_character_1_txt.style.color='black';
-		book_character_2.style.color='black';
-		book_character_2_txt.style.color='black';
-		book_chapter.style.color='black';
-		book_chapter_txt.style.color='black';
-		document.getElementById("Example3-line1").style.borderColor='black';
-		document.getElementById("Example3-line2").style.borderColor='black';
-		document.getElementById("Example3-line3").style.borderColor='black';
-		document.getElementById("Example3-line4").style.borderColor='black';
+		book_overview.style.color='#000000';
+		book_title.style.color='#000000';
+		book_character_1.style.color='#000000';
+		book_character_1_txt.style.color='#000000';
+		book_character_2.style.color='#000000';
+		book_character_2_txt.style.color='#000000';
+		book_chapter.style.color='#000000';
+		book_chapter_txt.style.color='#000000';
+		document.getElementById("Example3-line1").style.borderColor='#000000';
+		document.getElementById("Example3-line2").style.borderColor='#000000';
+		document.getElementById("Example3-line3").style.borderColor='#000000';
+		document.getElementById("Example3-line4").style.borderColor='#000000';
 
-		document.getElementById("tweak-box-container").style.backgroundColor='white';
-		document.getElementById("tweak-box-container").style.color='black';
+		document.getElementById("tweak-box-container").style.backgroundColor='#ffffff';
+		document.getElementById("tweak-box-container").style.color='#000000';
 		document.getElementById("tweak-box-container").style.border='none';
-		document.getElementById("e3-example-slider-weight").style.background='black';
-		document.getElementById("e3-example-slider-size").style.background='black';
-		document.getElementById("e3-example-slider-lineheight").style.background='black';
-		document.getElementById("checkmark1").style.borderColor='black';
+		document.getElementById("e3-example-slider-weight").style.background='#000000';
+		document.getElementById("e3-example-slider-size").style.background='#000000';
+		document.getElementById("e3-example-slider-lineheight").style.background='#000000';
+		document.getElementById("checkmark1").style.borderColor='#000000';
 		document.getElementById("checkmark1").style.background='transparent';
 		document.getElementById("checkmark2").style.background='transparent';
-		document.getElementById("checkmark2").style.borderColor='black';
+		document.getElementById("checkmark2").style.borderColor='#000000';
 
 		checkbox_color.value = "#000000";
 
@@ -1884,6 +1884,38 @@ function darkFunction()
 
 }
 
+var rgbToHex = function (rgb) { 
+  var hex = Number(rgb).toString(16);
+  if (hex.length < 2) {
+       hex = "0" + hex;
+  }
+  return hex;
+};
+
+var fullColorHex = function(r,g,b) {   
+  var red = rgbToHex(r);
+  var green = rgbToHex(g);
+  var blue = rgbToHex(b);
+  return "#"+red+green+blue;
+};
+
+function rgbtoHex(t)
+{
+	str = t;
+	str = str.substring(0, str.length - 1);
+	str = str.slice(4);
+	var st = str.split(',');
+	//alert(st[0]+"hello");
+	if(st.length == 3){
+		return fullColorHex(st[0],st[1],st[2]);
+	}
+	else{
+		return;
+	}
+	return '#ffffff';
+	
+
+}
 checkbox_color.oninput = function()
 {
 	document.getElementById(curr_txtbox).style.color=checkbox_color.value;
@@ -1909,7 +1941,7 @@ book_overview.onclick = function()
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
 
-	checkbox_color.value = book_overview.style.color;
+	checkbox_color.value = rgbtoHex(book_overview.style.color);
 
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
@@ -1939,7 +1971,7 @@ book_title.onclick = function()
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
 
-	checkbox_color.value = book_title.style.color;
+	checkbox_color.value = rgbtoHex(book_title.style.color);
 
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
@@ -1969,7 +2001,7 @@ book_character_1.onclick = function()
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
 
-	checkbox_color.value = book_character_1.style.color;
+	checkbox_color.value = rgbtoHex(book_character_1.style.color);
 
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
@@ -1999,7 +2031,7 @@ book_character_1_txt.onclick = function()
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
 
-	checkbox_color.value = book_character_1_txt.style.color;
+	checkbox_color.value = rgbtoHex(book_character_1_txt.style.color);
 
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
@@ -2029,7 +2061,7 @@ book_character_2.onclick = function()
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
 
-	checkbox_color.value = book_character_2.style.color;
+	checkbox_color.value = rgbtoHex(book_character_2.style.color);
 
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
@@ -2059,7 +2091,7 @@ book_character_2_txt.onclick = function()
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
 
-	checkbox_color.value = book_character_2_txt.style.color;
+	checkbox_color.value = rgbtoHex(book_character_2_txt.style.color);
 
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
@@ -2089,7 +2121,7 @@ book_chapter.onclick = function()
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
 
-	checkbox_color.value = book_chapter.style.color;
+	checkbox_color.value = rgbtoHex(book_chapter.style.color);
 
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
@@ -2119,7 +2151,7 @@ book_chapter_txt.onclick = function()
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
 
-	checkbox_color.value = book_chapter_txt.style.color;
+	checkbox_color.value = rgbtoHex(book_chapter_txt.style.color);
 
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
@@ -2149,7 +2181,7 @@ dark_mode.onclick = function()
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
 
-	checkbox_color.value = dark_mode.style.color;
+	checkbox_color.value = rgbtoHex(dark_mode.style.color);
 
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
