@@ -1847,6 +1847,8 @@ function darkFunction()
 		document.getElementById("checkmark2").style.background='#ffffff';
 		document.getElementById("checkmark2").style.borderColor='#ffffff';
 
+		document.getElementById("text-weight-container").style.borderColor='#ffffff';
+
 		checkbox_color.value = "#ffffff";
 	
 	}
@@ -1877,6 +1879,8 @@ function darkFunction()
 		document.getElementById("checkmark1").style.background='transparent';
 		document.getElementById("checkmark2").style.background='transparent';
 		document.getElementById("checkmark2").style.borderColor='#000000';
+
+		document.getElementById("text-weight-container").style.borderColor='#000000';
 
 		checkbox_color.value = "#000000";
 
