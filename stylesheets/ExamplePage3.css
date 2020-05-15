@@ -124,7 +124,7 @@
 	height: calc((100vw / 1440) * 390);
 	top: calc((100vw / 1440) * 50);
 	left: calc((100vw / 1440) * 750);
-	color: white;
+	color: #ffffff;
 
 	font-family: Crimson Pro;
 	font-style: normal;
