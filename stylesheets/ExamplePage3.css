@@ -1,6 +1,6 @@
 .Example-left-page-3
 {
-	display: none;
+	display: block;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
 	background-color: black;
@@ -11,7 +11,7 @@
 
 .Example-right-page-3
 {
-	display: none;
+	display: block;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
 	background-color: black;
@@ -36,7 +36,6 @@
 	padding: 0;
 	width: calc((100vw / 1440) * 612);
 	height: calc((100vw / 1440) * 792);
-
 	top:0;
 	left: calc((100vw / 1440) * 114);
 	background-color: white;
@@ -232,6 +231,7 @@
 	font-weight: var(--e3-text-weight);
 	background: transparent;
 	border: none;
+	resize: none;
 
 
 }
@@ -256,6 +256,7 @@
 	font-variation-settings: "wght" var(--e3-text-weight);
 	background: transparent;
 	border: none;
+	resize: none;
 }
 
 .h-5
@@ -277,6 +278,7 @@
 	font-variation-settings: "wght" var(--e3-text-weight);
 	background: transparent;
 	border: none;
+	resize: none;
 }
 
 
@@ -300,6 +302,7 @@
 	font-variation-settings: "wght" var(--e3-text-weight);
 	background: transparent;
 	border: none;
+	resize: none;
 }
 
 .h-8
@@ -321,6 +324,7 @@
 	font-variation-settings: "wght" var(--e3-text-weight);
 	background: transparent;
 	border: none;
+	resize: none;
 
 }
 
@@ -339,6 +343,7 @@
 	font-weight: normal;
 	font-size: calc((100vw / 1440) * 12);
 	line-height: calc((100vw / 1440) * 13);
+
 
 }
 
@@ -361,6 +366,7 @@
 	font-variation-settings: "wght" var(--e3-text-weight);
 	background: transparent;
 	border: none;
+	resize: none;
 }
 .h-4
 {
@@ -380,6 +386,7 @@
 	font-variation-settings: "wght" var(--e3-text-weight);
 	background: transparent;
 	border: none;
+	resize: none;
 }
 
 .h-7
@@ -400,6 +407,7 @@
 	font-variation-settings: "wght" var(--e3-text-weight);
 	background: transparent;
 	border: none;
+	resize: none;
 }
 
 /*Left*/

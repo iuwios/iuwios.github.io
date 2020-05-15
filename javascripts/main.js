@@ -1814,6 +1814,48 @@ slider_e3_lineheight.oninput = function()
 	d.style.setProperty('--e3-text-lineheight', this.value);
 }
 
+var dark = false;
+
+function darkFunction()
+{
+	if(document.getElementById("e3-dark-mode").checked == true){
+		document.getElementById("LastPage").style.backgroundColor='black';
+		document.getElementById("LastPage").style.color='white';
+		document.getElementById("LastPage").style.border='1px solid white';
+		book_overview.style.color='white';
+		book_title.style.color='white';
+		book_character_1.style.color='white';
+		book_character_1_txt.style.color='white';
+		book_character_2.style.color='white';
+		book_character_2_txt.style.color='white';
+		book_chapter.style.color='white';
+		book_chapter_txt.style.color='white';
+		document.getElementById("Example3-line1").style.borderColor='white';
+		document.getElementById("Example3-line2").style.borderColor='white';
+		document.getElementById("Example3-line3").style.borderColor='white';
+		document.getElementById("Example3-line4").style.borderColor='white';
+	
+	}
+	else{
+		document.getElementById("LastPage").style.backgroundColor='white';
+		document.getElementById("LastPage").style.color='black';
+		document.getElementById("LastPage").style.border='none';
+		book_overview.style.color='black';
+		book_title.style.color='black';
+		book_character_1.style.color='black';
+		book_character_1_txt.style.color='black';
+		book_character_2.style.color='black';
+		book_character_2_txt.style.color='black';
+		book_chapter.style.color='black';
+		book_chapter_txt.style.color='black';
+		document.getElementById("Example3-line1").style.borderColor='black';
+		document.getElementById("Example3-line2").style.borderColor='black';
+		document.getElementById("Example3-line3").style.borderColor='black';
+		document.getElementById("Example3-line4").style.borderColor='black';
+	}
+
+}
+
 book_overview.onclick = function()
 {
 	curr_txtbox = book_overview.id;
