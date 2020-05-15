@@ -701,7 +701,7 @@
 	outline: none !important;
 }
 
-.slider-changes::-ms-track {
+.slider-changes::-ms-thumb {
 	-ms-appearance: none;
 	appearance: none;
 	width: calc((100vw / 1440) * 15);

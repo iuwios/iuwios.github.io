@@ -313,7 +313,7 @@
 	outline: none !important;
 }
 
-.slider-pg3::-ms-track
+.slider-pg3::-ms-thumb
  {
 	-ms-appearance: none;
 	appearance: none;

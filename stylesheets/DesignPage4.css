@@ -476,7 +476,7 @@
 	  outline: none !important;
 }
 
-.design-slider::-ms-track
+.design-slider::-ms-thumb
 {
 	  -ms-appearance: none;
 	  appearance: none;
