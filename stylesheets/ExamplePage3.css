@@ -636,6 +636,17 @@
 	background-color: #F0F8FF;
 }
 
+.pick-color
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 70);
+	height: calc((100vw / 1440) * 25);
+	left: calc((100vw / 1440) * 230);
+	top: calc((100vw / 1440) * 10);
+	border: none;
+
+}
+
 
 .checkmark:after {
 	content: "";

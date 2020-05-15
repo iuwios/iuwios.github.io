@@ -1771,6 +1771,7 @@ var output_e3_lineheight = document.getElementById("e3-value-lineheight");
 var dark_mode = document.getElementById("dark-mode");
 
 var checkbox_ital = document.getElementById("checkbox_ital");
+var checkbox_color = document.getElementById("pick-color");
 
 var book_overview = document.getElementById("book-overview");
 var book_title = document.getElementById("book-title");
@@ -1845,6 +1846,8 @@ function darkFunction()
 		document.getElementById("checkmark1").style.background='white';
 		document.getElementById("checkmark2").style.background='white';
 		document.getElementById("checkmark2").style.borderColor='white';
+
+		checkbox_color.value = "#ffffff";
 	
 	}
 	else{
@@ -1875,8 +1878,15 @@ function darkFunction()
 		document.getElementById("checkmark2").style.background='transparent';
 		document.getElementById("checkmark2").style.borderColor='black';
 
+		checkbox_color.value = "#000000";
+
 	}
 
+}
+
+checkbox_color.oninput = function()
+{
+	document.getElementById(curr_txtbox).style.color=checkbox_color.value;
 }
 
 book_overview.onclick = function()
@@ -1898,6 +1908,8 @@ book_overview.onclick = function()
 	lh_wo_px = lh_wo_px.replace('x','');
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	checkbox_color.value = book_overview.style.color;
 
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
@@ -1927,6 +1939,8 @@ book_title.onclick = function()
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
 
+	checkbox_color.value = book_title.style.color;
+
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
 	}
@@ -1954,6 +1968,8 @@ book_character_1.onclick = function()
 	lh_wo_px = lh_wo_px.replace('x','');
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	checkbox_color.value = book_character_1.style.color;
 
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
@@ -1983,6 +1999,8 @@ book_character_1_txt.onclick = function()
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
 
+	checkbox_color.value = book_character_1_txt.style.color;
+
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
 	}
@@ -2010,6 +2028,8 @@ book_character_2.onclick = function()
 	lh_wo_px = lh_wo_px.replace('x','');
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	checkbox_color.value = book_character_2.style.color;
 
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
@@ -2039,6 +2059,8 @@ book_character_2_txt.onclick = function()
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
 
+	checkbox_color.value = book_character_2_txt.style.color;
+
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
 	}
@@ -2066,6 +2088,8 @@ book_chapter.onclick = function()
 	lh_wo_px = lh_wo_px.replace('x','');
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	checkbox_color.value = book_chapter.style.color;
 
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
@@ -2095,6 +2119,8 @@ book_chapter_txt.onclick = function()
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
 
+	checkbox_color.value = book_chapter_txt.style.color;
+
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
 	}
@@ -2122,6 +2148,8 @@ dark_mode.onclick = function()
 	lh_wo_px = lh_wo_px.replace('x','');
 	slider_e3_lineheight.value = lh_wo_px;
 	output_e3_lineheight.innerHTML = lh_wo_px;
+
+	checkbox_color.value = dark_mode.style.color;
 
 	if(styles_applied.fontStyle == 'italic'){
 		document.getElementById("checkbox_ital").checked = true;
