@@ -553,7 +553,7 @@
 	font-weight: normal;
 	display: flex;
 	font-size: calc((100vw / 1440) * 18);
-	line-height: calc((100vw / 1440) * 25);
+	line-height: calc((100vw / 1440) * 24);
 }
 
 
