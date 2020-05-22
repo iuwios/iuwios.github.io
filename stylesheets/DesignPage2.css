@@ -304,6 +304,7 @@
 .slider-pg3::-webkit-slider-thumb
  {
 	-webkit-appearance: none;
+	transform: scale(1) !important;
 	appearance: none;
 	width: calc((100vw / var(--init-width)) * 15);
 	height: calc((100vw / var(--init-width)) * 15);

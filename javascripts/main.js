@@ -1,6 +1,7 @@
 var num = 0;
 var max = document.querySelectorAll("[id='pg']").length-2;
 var elms = document.querySelectorAll("[id='pg']");
+
 function intro(){
 	document.getElementById("intro").style.color='#FEC0F0';
 	document.getElementById("design").style.color='white';
@@ -10,10 +11,7 @@ function intro(){
 	elms[num+1].style.display = 'none';
 	elms[0].style.display = 'block';
 	elms[1].style.display = 'block';
-
 	num=0;
-
-
 }
 
 function design(){

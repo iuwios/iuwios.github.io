@@ -467,6 +467,7 @@
 .design-slider::-webkit-slider-thumb 
 {
 	  -webkit-appearance: none;
+	  transform: scale(1) !important;
 	  appearance: none;
 	  width: calc((100vw / var(--init-width)) * 25);
 	  height: calc((100vw / var(--init-width)) * 25);

@@ -153,6 +153,8 @@
 	top: calc((100vw / var(--init-width)) * 220);
 	left: 0;
 	margin: 0;
+	min-height: calc(100vw / var(--init-width) * 5);
+	min-width: calc((100vw / var(--init-width)) * 5);
 	border-radius: 80px;
 	-webkit-appearance: none;  /* 13 */
 	-ms-appearance: none;
@@ -175,6 +177,7 @@
 
 .slider-2::-ms-thumb {
 	  -ms-appearance: none;
+	  transform: scale(1) !important;
 	  appearance: none;
 	  width: calc((100vw / var(--init-width)) * 15);
 	  height: calc((100vw / var(--init-width)) * 15);
