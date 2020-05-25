@@ -397,5 +397,19 @@
 	z-index: 11;
 }
 
+@media screen and (max-width: 480px){
+.Example-left-page-2
+{
+	display: block;
+	width: 100vw;
+	left: 0;
+	right: 0;
+	top: calc((100vw / var(--init-width)) * 792 * 17 + 170px);
+}
 
 
+
+
+
+
+}

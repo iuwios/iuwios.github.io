@@ -658,8 +658,6 @@
 	height: calc((100vw / 1440) * 10);
 	border: solid black;
 	border-width: 0 calc((100vw / 1440) * 3) calc((100vw / 1440) * 3) 0;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
 
@@ -675,7 +673,8 @@
 	border-radius: 80px;
 	-webkit-appearance: none;  /* 13 */
 	-ms-appearance: none; 
-  	appearance: none;
+  	-moz-appearance: none; 
+	     appearance: none;
   	background: black;
   	outline: none !important;
 

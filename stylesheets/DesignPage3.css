@@ -97,10 +97,26 @@
 	background-repeat: repeat-x;
 	background-size: calc((100vw / var(--init-width)) * 500) calc((100vw / var(--init-width)) * 310);
 	background-position: left 0px top calc((100vw / var(--init-width)) * 210);
-	animation: wave 12s linear infinite;
+	-webkit-animation: wave 12s linear infinite;
+	        animation: wave 12s linear infinite;
 }
 
 /*animation for wave*/
+@-webkit-keyframes wave
+{
+	0%
+	{
+		background-position: left 0px top calc((100vw / var(--init-width)) * 280);
+
+	}
+	
+	50%
+	{
+
+		background-position: left calc((100vw / var(--init-width)) * 2760) top 0px;	
+	}
+
+}
 @keyframes wave
 {
 	0%

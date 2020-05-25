@@ -2306,7 +2306,7 @@ function changeNews(topic)
 	    //alert(data.response.docs[0].multimedia[0].url);
 	  }
 	});
-
+ 
 }
 
 var send_news = document.getElementById("input-topic");

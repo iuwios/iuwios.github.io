@@ -295,7 +295,8 @@
 	border-radius: 80px;
 	-webkit-appearance: none;  /* 13 */
 	-ms-appearance:none;
-  	appearance: none;
+  	-moz-appearance: none;
+	     appearance: none;
   	background: #BBBDBF;
   	outline: none !important;
 
