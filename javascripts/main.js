@@ -1869,7 +1869,7 @@ function darkFunction()
 
 		document.getElementById("tweak-box-container").style.backgroundColor='#ffffff';
 		document.getElementById("tweak-box-container").style.color='#000000';
-		document.getElementById("tweak-box-container").style.border='none';
+		document.getElementById("tweak-box-container").style.border='1px solid #000000';
 		document.getElementById("e3-example-slider-weight").style.background='#000000';
 		document.getElementById("e3-example-slider-size").style.background='#000000';
 		document.getElementById("e3-example-slider-lineheight").style.background='#000000';
@@ -2243,6 +2243,7 @@ var offset = img.offset();
 var mouseDown = false;
 var f_x=0;
 var f_y=0;
+
 function mouse(evt) {
 
     if(mouseDown ==true){
@@ -2303,7 +2304,6 @@ function changeNews(topic)
 	    document.getElementById("header-2").innerHTML = data.response.docs[1].headline.main;
 	    document.getElementById("Example2-2").style.content = "url(https://www.nytimes.com/" + data.response.docs[1].multimedia[0].url + ")";
 	    document.getElementById("author-2").innerHTML = data.response.docs[1].byline.original;
-	    //alert(data.response.docs[0].multimedia[0].url);
 	  }
 	});
  
