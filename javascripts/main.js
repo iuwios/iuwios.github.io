@@ -60,7 +60,13 @@ var num = 0;
 var max = document.querySelectorAll("[id='pg']").length-2;
 var elms = document.querySelectorAll("[id='pg']");
 
+
+
+
+/*
 function intro(){
+
+
 	document.getElementById("intro").style.color='#FEC0F0';
 	document.getElementById("design").style.color='white';
 	document.getElementById("example").style.color='white';
@@ -111,7 +117,7 @@ function recognition(){
 
 	num=24;
 }
-
+*/
 /*
 function right(){
 	//var elms = document.querySelectorAll("[id='pg']");
@@ -227,6 +233,7 @@ document.getElementById("contain").addEventListener("mousewheel", function(event
 
 	if(event.deltaY>0){
 		$('#crimson-book').turn('next');
+		checkPageRight();
 		/*switch(num){
       	case 0:
       		right();
@@ -270,6 +277,7 @@ document.getElementById("contain").addEventListener("mousewheel", function(event
 
 	else if(event.deltaY<0){
 		$('#crimson-book').turn('previous');
+		checkPageLeft();
 		/*switch(num){
       	case 0:
       		left();
@@ -2690,18 +2698,112 @@ dragElement(document.getElementById("example-line-1"));
     module.init('crimson-book');
 }());
 
+function checkPageLeft(){
+	//alert($('#crimson-book').turn('page'));
+	switch($('#crimson-book').turn('page')){
+		case 5:
+			document.getElementById("intro").style.color='#FEC0F0';
+			document.getElementById("design").style.color='white';
+			document.getElementById("example").style.color='white';
+			document.getElementById("recognition").style.color='white';
+			break;
+		case 19:
+			document.getElementById("intro").style.color='white';
+			document.getElementById("design").style.color='#FEC0F0';
+			document.getElementById("example").style.color='white';
+			document.getElementById("recognition").style.color='white';	
+			break;
+		case 25:
+			document.getElementById("intro").style.color='white';
+			document.getElementById("design").style.color='white';
+			document.getElementById("example").style.color='#FEC0F0';
+			document.getElementById("recognition").style.color='white';
+			break;
+	
+		default:
+			break;
+	}
+}
+
+
+function checkPageRight(){
+	//alert($('#crimson-book').turn('page'));
+	switch($('#crimson-book').turn('page')){
+		
+		case 6:
+			document.getElementById("intro").style.color='white';
+			document.getElementById("design").style.color='#FEC0F0';
+			document.getElementById("example").style.color='white';
+			document.getElementById("recognition").style.color='white';	
+			break;
+		case 20:
+			document.getElementById("intro").style.color='white';
+			document.getElementById("design").style.color='white';
+			document.getElementById("example").style.color='#FEC0F0';
+			document.getElementById("recognition").style.color='white';
+			break;
+		case 26:
+			document.getElementById("intro").style.color='white';
+			document.getElementById("design").style.color='white';
+			document.getElementById("example").style.color='white';
+			document.getElementById("recognition").style.color='#FEC0F0';
+			break;
+		default:
+			break;
+	}
+}
 
 
 $("#right").click(function(e){
 	e.preventDefault();
 	$('#crimson-book').turn('next');
+	checkPageRight();
 });
+
 
 $("#left").click(function(e){
 	e.preventDefault();
 	$('#crimson-book').turn('previous');
+
+	checkPageLeft();
+	
 });
 
 
+$("#intro").click(function(e){
+	e.preventDefault();
+	$('#crimson-book').turn('page', 2);
+	//alert($('#crimson-book').turn('page'));
+	document.getElementById("intro").style.color='#FEC0F0';
+	document.getElementById("design").style.color='white';
+	document.getElementById("example").style.color='white';
+	document.getElementById("recognition").style.color='white';
+});
 
+$("#design").click(function(e){
+	e.preventDefault();
+	$('#crimson-book').turn('page', 6);
+	document.getElementById("intro").style.color='white';
+	document.getElementById("design").style.color='#FEC0F0';
+	document.getElementById("example").style.color='white';
+	document.getElementById("recognition").style.color='white';
+});
+
+$("#example").click(function(e){
+	e.preventDefault();
+	$('#crimson-book').turn('page', 20);
+	document.getElementById("intro").style.color='white';
+	document.getElementById("design").style.color='white';
+	document.getElementById("example").style.color='#FEC0F0';
+	document.getElementById("recognition").style.color='white';
+});
+
+$("#recognition").click(function(e){
+	e.preventDefault();
+	$('#crimson-book').turn('page', 26);
+	document.getElementById("intro").style.color='white';
+	document.getElementById("design").style.color='white';
+	document.getElementById("example").style.color='white';
+	document.getElementById("recognition").style.color='#FEC0F0';
+});
 
