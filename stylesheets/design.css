@@ -235,7 +235,7 @@ display: none;
 	font-style: normal;
 	font-weight: 500;
 	font-size: calc((100vw / 1440) * 24);
-	line-height: calc((100vw / 1440) * 27);
+	
 	text-align: center;
 
 	text-decoration: none;
