@@ -2548,9 +2548,9 @@ var f_y=0;
 function mouse(evt) {
 
     if(mouseDown ==true){
-    center_x = (f_x - evt.pageX)/2;
-    center_y = (f_y - evt.pageY)/2;
-    center_z = center_y + center_x;
+    var center_x = (f_x - evt.pageX)/2;
+    var center_y = (f_y - evt.pageY)/2;
+    var center_z = center_y + center_x;
     var mouse_x = -center_x + 'deg';
     var mouse_y = center_y + 'deg';
     //var mouse_z = center_z + 'deg';
