@@ -233,7 +233,7 @@ document.getElementById("contain").addEventListener("mousewheel", function(event
 
 	if(event.deltaY>0){
 		$('#crimson-book').turn('next');
-		//checkPageRight();
+		checkPageRight();
 		/*switch(num){
       	case 0:
       		right();
@@ -277,7 +277,7 @@ document.getElementById("contain").addEventListener("mousewheel", function(event
 
 	else if(event.deltaY<0){
 		$('#crimson-book').turn('previous');
-		//checkPageLeft();
+		checkPageLeft();
 		/*switch(num){
       	case 0:
       		left();
@@ -2754,7 +2754,7 @@ function checkPageRight(){
 	}
 }
 
-/*
+
 $("#right").click(function(e){
 	e.preventDefault();
 	$('#crimson-book').turn('next');
@@ -2768,7 +2768,7 @@ $("#left").click(function(e){
 
 	checkPageLeft();
 	
-});*/
+});
 
 
 $("#intro").click(function(e){
