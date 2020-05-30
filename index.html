@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="stylesheets/DesignPage6.css" />
     <link rel="stylesheet" href="stylesheets/DesignPage7.css" />
     <link rel="stylesheet" href="stylesheets/ExamplePage1.css" />
+    
     <link rel="stylesheet" href="stylesheets/ExamplePage2.css" />
     <link rel="stylesheet" href="stylesheets/ExamplePage3.css" />
     <link rel="stylesheet" href="stylesheets/RecognitionPage1.css" />
@@ -39,7 +40,7 @@
 
   <body>
 
-    <div class="book" id="book" mousedown="onDocumentMouseDown">
+    <section class="book" id="book" mousedown="onDocumentMouseDown">
       <div class="bookup" id="bookup">
         <div class="book-container" id="book-container" onclick="this.classList.toggle('paused');">
           <div class="book-front"></div>
@@ -52,14 +53,14 @@
         </div>
         </div>
       </div>
-    </div>
+    </section> 
 
-    <div class="contain" id="contain">
+    <section class="contain" id="contain">
 
-      <a href="#!" class="btn_left" id="left" >
-        <img src="images/VectorL.svg" alt="left"></a>
-      <a href="#!" class="btn_right" id="right" >
-        <img src="images/VectorR.svg" alt="right"></a>
+      <div class="btn_left" id="left" >
+        <img src="images/VectorL.svg" alt="left"></div>
+      <div class="btn_right" id="right" >
+        <img src="images/VectorR.svg" alt="right"></div>
 
       <div class="crimson-book" id="crimson-book">
         <div></div>
@@ -1041,8 +1042,7 @@
             <div class="author-1" id="author-1">By ALEX MARSHALL and CHRISTOPHER F. SCHUETZE</div>
             <div class="copyright">Copyright (c) 2020 The New York Times Company. All Rights Reserved.</div>
             <div class="example-line-1" id="example-line-1"></div>
-            <!--<div class="example-line-2"></div>
-            <div class="example-line-4"></div>-->
+            
             <div class="example-line-5" id="example-line-5"></div>
             <div class="example-line-3"></div>
             <div class="long-line"></div>
@@ -1125,7 +1125,7 @@
                 <input type="range" min="1" max="200" value="28" class="slider-changes" id="e3-example-slider-lineheight">
               </div>
               
-              <!--checked="checked"-->
+         
               <div class="checkbox-container">
                 
               <label class="box-container">Italics
@@ -1139,10 +1139,7 @@
               <label class="color-con">
                 <input type="color" class="pick-color" id="pick-color">
               </label>
-              <!--<label class="box-container">Custom Text
-                <input type="checkbox" id="checkbox_custom" style="display:none">
-                <span class="checkmark"></span>
-              </label>  -->
+              
               </div>  
 
             </div>
@@ -1203,7 +1200,7 @@
 
 
 
-    </div>
+    </section>
      <!-- Navigation -->
     <div class="nav-container">
       <nav class="nav-pages">

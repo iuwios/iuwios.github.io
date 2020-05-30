@@ -46,6 +46,11 @@ body
 	background-color: black;
 	margin: 0;
 	overflow-x: hidden;
+	scroll-snap-points-y: repeat(57.85vw);
+	overflow-y: scroll; 
+	scroll-snap-type: mandatory;
+	scroll-behavior: smooth;
+	scroll-snap-type: y mandatory;
 }
 
 
@@ -64,6 +69,7 @@ body
 	background-color: black;
 	margin: 0 auto;
 	top: calc(57.85vw * 0.95078);
+	scroll-snap-align: center;
 	
 
 	/*border: 2px solid grey;*/
@@ -149,6 +155,7 @@ display: none;
 	left: calc(57.85vw * 0.027083);
 	width: calc((100vw / 1440) * 11);
 	height: calc((100vw / 1440) * 18);
+	cursor: pointer;
 }
 
 .btn_right
@@ -159,6 +166,7 @@ display: none;
 	right: calc(57.85vw * 0.027083);
 	width: calc((100vw / 1440) * 11);
 	height: calc((100vw / 1440) * 18);
+	cursor: pointer;
 }
 
 
@@ -263,7 +271,7 @@ display: none;
 	top: 0;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
-	overflow: hidden;
+	/*overflow: hidden;*/
 	-webkit-perspective: calc((100vw / 1440) * 1200);
 	perspective: calc((100vw / 1440) * 1200);
 	display: -webkit-box;
@@ -276,9 +284,8 @@ display: none;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	scroll-snap-type: y mandatory;
 	/* Scroll Snap */
-  scroll-snap-align: center;
+  	scroll-snap-align: center;
 	/*border: 1px solid green;*/
 }
 

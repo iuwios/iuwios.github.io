@@ -227,7 +227,7 @@ function left(){
 
 }*/
 
-document.getElementById("contain").addEventListener("mousewheel", function(event){
+document.getElementById("crimson-book").addEventListener("mousewheel", function(event){
 	//disableScroll();
 	event.preventDefault();
 
@@ -494,11 +494,11 @@ function sliderMouseControl(sld,name,out,ch,event){
 	//alert(sliderval +5);
 
     event.preventDefault();
-    if(event.deltaY<0 && sliderval - 5 >=200){
+    if(event.deltaY>0 && sliderval - 5 >=200){
     	//alert(event.deltaY);
     	sliderval = sliderval-10;
     }
-    else if(event.deltaY > 0 && sliderval + 5<=900){
+    else if(event.deltaY < 0 && sliderval + 5<=900){
     	//alert(event.deltaY);
     	sliderval = sliderval+10;
     }
@@ -2676,8 +2676,7 @@ dragElement(document.getElementById("example-line-1"));
             // run the plugin
             $(this.el).turn({
             	page: 2,
-                
-
+                pages: 20,
                 acceleration: true,
                 when: {
 				    start: function(event, pageObject, corner) {
