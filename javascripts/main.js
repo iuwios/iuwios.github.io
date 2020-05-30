@@ -1,3 +1,61 @@
+
+"use strict";
+/*var crimson;
+$(window).ready(function(){
+	$('#crimson-book').turn({
+		page:2,
+		acceleration: 'true',
+		elevation: '50'
+	});/*
+	$('#crimson-book').bind('start', function(e, data, c) {
+        if(data.next == 2) {
+            e.preventDefault();
+        }
+    });
+    $('.p2').unbind('pressed');
+    $('.p2').unbind('pressed');
+
+
+});*/
+
+/*
+$(window).bind('keydown', function(e){
+	if(e.keyCode == 37){
+		$('crimson-book').turn('page', 4);
+	}
+	else if(e.keyCOde == 39){
+		$('crimson-book').turn('page', 4);
+	}
+});*/
+
+
+
+// on window resize, update the plugin size
+/*window.addEventListener('resize', function (e) {
+	//alert($('crimson-book').width);
+	$('#crimson-book').turn({
+		page:2,
+		acceleration: 'true',
+		elevation: '50'
+	});
+
+});*/
+
+
+
+
+/* temporary window scroll disable */
+function disableScroll() 
+{ 
+    document.body.classList.add("stop-scrolling"); 
+} 
+  
+function enableScroll() { 
+    document.body.classList.remove("stop-scrolling"); 
+}
+
+
+/* transitions for left and right arrow Keys */
 var num = 0;
 var max = document.querySelectorAll("[id='pg']").length-2;
 var elms = document.querySelectorAll("[id='pg']");
@@ -54,6 +112,7 @@ function recognition(){
 	num=24;
 }
 
+/*
 function right(){
 	//var elms = document.querySelectorAll("[id='pg']");
 	if(num==max){
@@ -160,10 +219,111 @@ function left(){
 			break;
 	}
 
-}
+}*/
+
+document.getElementById("contain").addEventListener("mousewheel", function(event){
+	//disableScroll();
+	event.preventDefault();
+
+	if(event.deltaY>0){
+		$('#crimson-book').turn('next');
+		/*switch(num){
+      	case 0:
+      		right();
+      		break;
+      	case 2:
+      		right();
+      		break;
+      	case 4:
+      		right();
+      		break;
+      	case 6:
+      		right();
+      		break;
+      	case 8:
+      		right();
+      		break;
+      	case 10:
+      		right();
+      		break;
+      	case 12:
+      		right();
+      		break;
+      	case 14:
+      		right();
+      		break;
+      	case 16:
+      		right();
+      		break;
+      	case 18:
+      		right();
+      		break;
+      	case 20:
+      		right();
+      		break;
+      	case 22:
+      		right();
+      		break;
+      }*/
+
+	}
+
+	else if(event.deltaY<0){
+		$('#crimson-book').turn('previous');
+		/*switch(num){
+      	case 0:
+      		left();
+      		break;
+      	case 2:
+      		left();
+      		break;
+      	case 4:
+      		left();
+      		break;
+      	case 6:
+      		left();
+      		break;
+      	case 8:
+      		left();
+      		break;
+      	case 10:
+      		left();
+      		break;
+      	case 12:
+      		left();
+      		break;
+      	case 14:
+      		left();
+      		break;
+      	case 16:
+      		left();
+      		break;
+      	case 18:
+      		left();
+      		break;
+      	case 20:
+      		left();
+      		break;
+      	case 22:
+      		left();
+      		break;
+      	case 24:
+      		left();
+      		break;
+      }*/
+
+
+	}
+
+
+});
+
+/* Intro Page 2 Left Interactions */
+
 
 function wght()
 {
+
 	document.getElementById("smile").className = 'weight_animation';
 	document.getElementById("wght").style.background = 'black';
 	document.getElementById("wght").style.color = 'white';
@@ -179,6 +339,7 @@ function wght()
 }
 function wdth()
 {
+
 	document.getElementById("smile").className = 'width_animation';
 	document.getElementById("wdth").style.background = 'black';
 	document.getElementById("wdth").style.color = 'white';
@@ -195,6 +356,7 @@ function wdth()
 
 function slnt()
 {
+
 	document.getElementById("smile").className = 'slant_animation';
 	document.getElementById("slnt").style.background = 'black';
 	document.getElementById("slnt").style.color = 'white';
@@ -239,6 +401,63 @@ function opsz()
 	document.getElementById("wght").style.color = 'black';
 }
 
+var roboto_count = 0;
+
+
+	
+document.getElementById("roboto-effect").addEventListener("wheel", function(event){
+	//disableScroll();
+	event.stopPropagation();
+	event.preventDefault();
+	if(event.deltaY<0){
+		if(roboto_count < 0 ){
+			roboto_count = 4;
+		}
+		else {
+			roboto_count = roboto_count - 1;
+		}
+
+	}
+
+	else if(event.deltaY>0){
+		if(roboto_count > 4 ){
+			roboto_count = 0;
+		}
+		else{
+			roboto_count = roboto_count + 1;
+		}
+
+	}
+		
+
+	switch(roboto_count){
+		case 0:
+			wght();
+			break;
+		case 1:
+			wdth();
+			break;
+		case 2:
+			slnt();
+			break;
+		case 3:
+			ital();
+			break;
+		case 4:
+			opsz();
+			break;
+		default:
+			break;
+
+	}
+
+		
+});
+		
+
+
+/* Intro Page 2 Right Interactions */
+
 var slider = document.getElementById("slider-O");
 var output = document.getElementById("txt-OO");
 
@@ -257,13 +476,82 @@ var outpute = document.getElementById("txt-ee");
 var sliderr = document.getElementById("slider-r");
 var outputr = document.getElementById("txt-rr");
 
+var sliderval;
+
+function sliderMouseControl(sld,name,out,ch,event){
+	sliderval = parseInt(sld.value);
+	var d = document.getElementById(name);
+	//disableScroll();
+	//parseInt(sliderval);
+	//alert(sliderval +5);
+
+    event.preventDefault();
+    if(event.deltaY<0 && sliderval - 5 >=200){
+    	//alert(event.deltaY);
+    	sliderval = sliderval-10;
+    }
+    else if(event.deltaY > 0 && sliderval + 5<=900){
+    	//alert(event.deltaY);
+    	sliderval = sliderval+10;
+    }
+	out.innerHTML = sliderval;
+    d.style.setProperty('--text-weight', sliderval);
+    sld.value = sliderval;	
+
+}
+
+document.getElementById("t").addEventListener("mousewheel", function(event) {
+	event.stopPropagation();
+	sliderMouseControl(slidert,"tt",outputt,"t", event);
+
+		
+});
+
+
+document.getElementById("O").addEventListener("mousewheel", function(event) {
+	event.stopPropagation();
+	sliderMouseControl(slider,"OO",output,"O", event);
+		
+});
+
+
+document.getElementById("Y").addEventListener("mousewheel", function(event) {
+	event.stopPropagation();
+	sliderMouseControl(sliderY,"YY",outputY,"Y", event);
+		
+});
+
+
+
+document.getElementById("FV").addEventListener("mousewheel", function(event) {
+	event.stopPropagation();
+	sliderMouseControl(slider5,"FVFV",output5,"FV",event);
+		
+});
+
+
+
+document.getElementById("e").addEventListener("wheel", function(event) {
+	event.stopPropagation();
+	sliderMouseControl(slidere,"ee",outpute,"e",event);
+		
+});
+
+
+document.getElementById("r").addEventListener("wheel", function(event) {
+	event.stopPropagation();
+	sliderMouseControl(sliderr,"rr",outputr,"r",event);
+		
+});
+
+
+
+
 slider.oninput = function() {
 		output.innerHTML = slider.value;
 		var d = document.getElementById("OO");
 		d.style.setProperty('--text-weight', this.value);
-
-		var right = (this.value / 900) * -25;
-		d.style.setProperty('--astr-margin-right', right);
+		sliderval = this.value;
 }
 
 sliderY.oninput = function() {
@@ -271,6 +559,7 @@ sliderY.oninput = function() {
 		a = "wght" + this.value;
 		var d = document.getElementById("YY");
 		d.style.setProperty('--text-weight', this.value);
+		sliderval = this.value;
 }
 
 slider5.oninput = function() {
@@ -278,6 +567,7 @@ slider5.oninput = function() {
 		a = "wght" + this.value;
 		var d = document.getElementById("FVFV");
 		d.style.setProperty('--text-weight', this.value);
+		sliderval = this.value;
 }
 
 slidert.oninput = function() {
@@ -285,6 +575,7 @@ slidert.oninput = function() {
 		a = "wght" + this.value;
 		var d = document.getElementById("tt");
 		d.style.setProperty('--text-weight', this.value);
+		sliderval = this.value;
 }
 
 slidere.oninput = function() {
@@ -292,6 +583,7 @@ slidere.oninput = function() {
 		a = "wght" + this.value;
 		var d = document.getElementById("ee");
 		d.style.setProperty('--text-weight', this.value);
+		sliderval = this.value;
 }
 
 sliderr.oninput = function() {
@@ -299,6 +591,7 @@ sliderr.oninput = function() {
 		a = "wght" + this.value;
 		var d = document.getElementById("rr");
 		d.style.setProperty('--text-weight', this.value);
+		sliderval = this.value;
 }
 
 
@@ -389,8 +682,8 @@ var black_white = "#FFFFFF";
 var rom_ital='italic';
 var night_mode = false;
 
-slider_pg3.oninput = function() 
-{
+
+slider_pg3.oninput = function() {
 		var d = document.getElementById("many-lines");
 		d.style.setProperty('--text-weight-small', this.value);
 }
@@ -1491,7 +1784,7 @@ for(var k=0; k<only_tag.length; k++){
 
 
 var hover_color = "#3eb549";
-cur_language_lefts = "ENGLISH";
+var cur_language_lefts = "ENGLISH";
 for(var k=0; k<only_tag.length; k++){
     only_tag[k].addEventListener("mouseover", function(e) {
     	
@@ -2334,6 +2627,80 @@ dragElement(document.getElementById("example-line-1"));
 
 
 
+(function () {
+    'use strict';
+
+    var module = {
+        init: function (id) {
+            var me = this;
+
+            // if older browser then don't run javascript
+            if (document.addEventListener) {
+                this.el = document.getElementById(id);
+                this.resize();
+                this.plugins();
+
+                // on window resize, update the plugin size
+                window.addEventListener('resize', function (e) {
+                    var size = me.resize();
+                    $(me.el).turn('size', size.width, size.height);
+                });
+            }
+        },
+        resize: function () {
+            // reset the width and height to the css defaults
+            this.el.style.width = '';
+            this.el.style.height = '';
+
+            var width = this.el.clientWidth,
+                height = this.el.clientHeight;
+
+            // set the width and height matching the aspect ratio
+            //this.el.style.width = this.el.clientWidth + 'px';
+            //this.el.style.height = this.el.clientHeight + 'px';
+
+            return {
+                width: this.el.clientWidth,
+                height: this.el.clientHeight
+            };
+        },
+        plugins: function () {
+            // run the plugin
+            $(this.el).turn({
+            	page: 2,
+                gradients: true,
+                acceleration: true,
+                when: {
+				    start: function(event, pageObject, corner) {
+				       if (pageObject.next==1) 
+				         event.preventDefault();
+				    }, 
+				    turning: function(event, page, view) {
+				       if (page==1)
+				          event.preventDefault();
+				    }
+  				}
+            });
+
+            // hide the body overflow
+            document.body.className = 'hide-overflow';
+        }
+    };
+
+    module.init('crimson-book');
+}());
+
+
+
+$("#right").click(function(e){
+	e.preventDefault();
+	$('#crimson-book').turn('next');
+});
+
+$("#left").click(function(e){
+	e.preventDefault();
+	$('#crimson-book').turn('previous');
+});
 
 
 

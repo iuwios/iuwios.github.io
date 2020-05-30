@@ -1,26 +1,28 @@
 /* Design page 1 Left */
 .Design-left-page-1
 {
-	display: none;
-	width: 44.028vw;
-	height: calc((100vw / var(--init-width)) * 792);
+
 	background-color: #FFBFF1;;
+	display: block;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
 	position: absolute;
-	left: 5.972vw;
-	top: calc(57.85vw * 0.04922);
+	right: 0;
+	top: 0;
 }
 
 
 /* Design page 1 Right*/
 .Design-right-page-1
 {
-	display: none;
-	width: 44.028vw;
-	height: calc((100vw / var(--init-width)) * 792);
+	
 	background: radial-gradient(113.79% 107.74% at 1.8% 51.22%, #000000 0%, #000000 85.19%, #FFBFF1 100%);
+	display: block;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
 	position: absolute;
-	right: 5.972vw;
-	top: calc(57.85vw * 0.04922);
+	right: 0;
+	top: 0;
 }
 
 .Design-right-page-1:before {

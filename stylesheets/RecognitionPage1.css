@@ -1,23 +1,23 @@
 .Recognition-left-page-1
 {
-	display: none;
+	display: block;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
 	background-color: #D7B089;
 	position: absolute;
-	left: 5.972vw;
-	top: calc(57.85vw * 0.04922);
+	left: 0;
+	top: 0;
 }
 
 .Recognition-right-page-1
 {
-	display: none;
+	background-color: #D7B089;
+	display: block;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
-	background-color: #D7B089;
 	position: absolute;
-	right: 5.972vw;
-	top: calc(57.85vw * 0.04922);
+	right: 0;
+	top: 0;
 }
 
 .Recognition-right-page-1:before {

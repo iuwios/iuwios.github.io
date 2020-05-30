@@ -1,23 +1,23 @@
 .Design-left-page-7
 {
-	display: none;
+	display: block;
 	width: 44.028vw;
-	height: calc((100vw / var(--init-width)) * 792);
+	height: calc(57.85vw * 0.95078);
 	background-color: white;
 	position: absolute;
-	left: 5.972vw;
-	top: calc(57.85vw * 0.04922);
+	left: 0;
+	top: 0;
 }
 
 .Design-right-page-7
 {
-	display: none;
+	display: block;
 	width: 44.028vw;
-	height: calc((100vw / var(--init-width)) * 792);
+	height: calc(57.85vw * 0.95078);
 	background-color: white;
 	position: absolute;
-	right: 5.972vw;
-	top: calc(57.85vw * 0.04922);
+	right: 0;
+	top: 0;
 }
 
 .Design-right-page-7:before {
@@ -370,8 +370,6 @@
   background-color: transparent;
   margin-right: calc((100vw / var(--init-width)) * 26);
   text-align: center;
-
- 
 }
 
 /* Style the arrow inside the select element: */

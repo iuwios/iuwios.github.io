@@ -1,9 +1,19 @@
 /* Roboto Flex Animations */
 /* Intro page 2 */
+
+@keyframes textsize_Animation {
+  from {
+    font-size: 1em;
+  }
+  to {
+    font-size: 1.1em;
+  }
+}
+
 .italic_animation
 {
   -webkit-animation-name: italAnimation;
-  -webkit-animation-duration:2s;
+  -webkit-animation-duration:1s;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
   

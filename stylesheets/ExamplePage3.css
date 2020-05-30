@@ -1,23 +1,24 @@
 .Example-left-page-3
 {
-	display: none;
+	display: block;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
 	background-color: black;
 	position: absolute;
-	left: 5.972vw;
-	top: calc(57.85vw * 0.04922);
+	left: 0;
+	top: 0;
 }
 
 .Example-right-page-3
 {
-	display: none;
+	display: block;
 	width: 44.028vw;
 	height: calc(57.85vw * 0.95078);
 	background-color: black;
 	position: absolute;
-	right: 5.972vw;
-	top: calc(57.85vw * 0.04922);
+	right: 0;
+	top: 0;
+	z-index: -1;
 }
 
 .Example-right-page-3:before {
@@ -125,7 +126,6 @@
 	font-weight: var(--e3-text-weight);
 	background: transparent;
 	border: none;
-
 	z-index: 1;
 }
 
@@ -136,15 +136,12 @@
 	padding: 0;
 	width: calc((100vw / 1440) * 200);
 	height: calc((100vw / 1440) * 20);
-
 	top: calc((100vw / 1440) * 52);
 	left: calc((100vw / 1440) * 36.14);
-
 	font-style: normal;
 	font-weight: normal;
 	font-size: calc((100vw / 1440) * 18);
 	line-height: calc((100vw / 1440) * 20);
-
 }
 
 .book-overview
@@ -154,15 +151,12 @@
 	padding: 0;
 	width: calc((100vw / 1440) * 200);
 	height: calc((100vw / 1440) * 20);
-
 	top: calc((100vw / 1440) * 112.01);
 	left: calc((100vw / 1440) * 36.14);
-
 	font-style: normal;
 	font-weight: normal;
 	font-size: calc((100vw / 1440) * 18);
 	line-height: calc((100vw / 1440) * 20);
-
 }
 
 .book-characters
@@ -172,10 +166,8 @@
 	padding: 0;
 	width: calc((100vw / 1440) * 220.01);
 	height: calc((100vw / 1440) * 20);
-
 	top: calc((100vw / 1440) * 220.01);
 	left: calc((100vw / 1440) * 36.14);
-
 	font-style: normal;
 	font-weight: normal;
 	font-size: calc((100vw / 1440) * 18);

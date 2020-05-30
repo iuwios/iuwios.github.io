@@ -1,26 +1,26 @@
 /* Design Page 2 Right*/
 .Design-left-page-2
 {
-	display: none;
+	display: bock;
 	width: 44.028vw;
-	height: calc((100vw / var(--init-width)) * 792);
+	height: calc(57.85vw * 0.95078);
 	background-color: white;
 	position: absolute;
-	left: 5.972vw;
-	top: calc(57.85vw * 0.04922);
+	left: 0;
+	top: 0;
 }
 
 
 /* Design Page 2 Left*/
 .Design-right-page-2
 {
-	display: none;
+	display: block;
 	width: 44.028vw;
-	height: calc((100vw / var(--init-width)) * 792);
+	height: calc(57.85vw * 0.95078);
 	background-color: white;
 	position: absolute;
-	right: 5.972vw;
-	top: calc(57.85vw * 0.04922);
+	right: 0;
+	top: 0;
 }
 
 .Design-right-page-2:before 
