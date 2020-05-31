@@ -2650,8 +2650,26 @@ dragElement(document.getElementById("example-line-1"));
 
                 // on window resize, update the plugin size
                 window.addEventListener('resize', function (e) {
-                    var size = me.resize();
-                    $(me.el).turn('size', size.width, size.height);
+                	var size = me.resize();
+                	const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+					const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+					//alert(size.height / vh);
+					//alert(size.height / vh);
+                	/*if(size.height / vh > 0.88){
+                		
+                		var nheight = 0.88 * vh; 
+                		//alert(nheight);
+                		var nwidth = (nheight / vh) * vw;
+                		$(me.el).turn('size', nwidth, nheight);
+                		//alert(nheight);
+
+
+                	}
+                	else{*/
+                		$(me.el).turn('size', size.width, size.height);
+                		//$(me.el).turn('size', size.width, size.height);
+                	
+       
                 });
             }
         },
@@ -2701,12 +2719,14 @@ dragElement(document.getElementById("example-line-1"));
 function checkPageLeft(){
 	//alert($('#crimson-book').turn('page'));
 	switch($('#crimson-book').turn('page')){
+
 		case 5:
 			document.getElementById("intro").style.color='#FEC0F0';
 			document.getElementById("design").style.color='white';
 			document.getElementById("example").style.color='white';
 			document.getElementById("recognition").style.color='white';
 			break;
+
 		case 19:
 			document.getElementById("intro").style.color='white';
 			document.getElementById("design").style.color='#FEC0F0';
@@ -2728,13 +2748,29 @@ function checkPageLeft(){
 
 function checkPageRight(){
 	//alert($('#crimson-book').turn('page'));
+	/*if(num==6){
+		document.getElementById("the-text").focus();
+	}
+	else if(num==10){
+		document.getElementById("drink-text").focus();
+	}
+	else if(num==12){
+		document.getElementById("eat-me").focus();
+	}
+	else if(num==14){
+		document.getElementById("text-nocake").focus();
+	}*/
+
 	switch($('#crimson-book').turn('page')){
+		
 		
 		case 6:
 			document.getElementById("intro").style.color='white';
 			document.getElementById("design").style.color='#FEC0F0';
 			document.getElementById("example").style.color='white';
 			document.getElementById("recognition").style.color='white';	
+			break;
+			//alert("found");
 			break;
 		case 20:
 			document.getElementById("intro").style.color='white';
@@ -2751,6 +2787,8 @@ function checkPageRight(){
 		default:
 			break;
 	}
+
+	
 }
 
 

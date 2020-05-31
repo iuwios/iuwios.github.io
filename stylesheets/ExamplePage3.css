@@ -1,3 +1,14 @@
+.Example-2
+{
+	position: relative;
+	display: block;
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	left: 0;
+	top: 0;
+}
+
 .Example-left-page-3
 {
 	display: block;
@@ -7,9 +18,11 @@
 	position: absolute;
 	left: 0;
 	top: 0;
+	scroll-snap-align: center;
+	
 }
 
-.Example-right-page-3
+/*.Example-right-page-3
 {
 	display: block;
 	width: 44.028vw;
@@ -28,7 +41,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-}
+}*/
 
 .LastPage
 {

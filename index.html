@@ -39,1180 +39,1195 @@
   </head>
 
   <body>
-
-    <section class="book" id="book" mousedown="onDocumentMouseDown">
-      <div class="bookup" id="bookup">
-        <div class="book-container" id="book-container" onclick="this.classList.toggle('paused');">
-          <div class="book-front"></div>
-          <div class="book-side-left"></div>
-          <div class="book-side-right"></div>
-          <div class="book-top"></div>
-          <div class="book-bottom"></div>
-          <div class="book-back">
-            <div class='back'>Crimson Pro is a serif typeface with contemporary, clear, classic, and rounded open curves. Made for reading, this family is perfect for textbooks, editorial websites, and more. It continues the tradition of beautiful, Garamond-inspired typefaces, often called "Garalde" or "Old Style". It has 8 currated weights in both Roman and Italic, and as Variable font has customizable weight axis.</div>
+    <div class="mainContainer">
+      <section class="book" id="book" mousedown="onDocumentMouseDown">
+        <div class="bookup" id="bookup">
+          <div class="book-container" id="book-container" onclick="this.classList.toggle('paused');">
+            <div class="book-front"></div>
+            <div class="book-side-left"></div>
+            <div class="book-side-right"></div>
+            <div class="book-top"></div>
+            <div class="book-bottom"></div>
+            <div class="book-back">
+              <div class='back'>Crimson Pro is a serif typeface with contemporary, clear, classic, and rounded open curves. Made for reading, this family is perfect for textbooks, editorial websites, and more. It continues the tradition of beautiful, Garamond-inspired typefaces, often called "Garalde" or "Old Style". It has 8 currated weights in both Roman and Italic, and as Variable font has customizable weight axis.</div>
+          </div>
+          </div>
         </div>
-        </div>
-      </div>
-    </section> 
+      </section> 
 
-    <section class="contain" id="contain">
+      <section class="contain" id="contain">
 
-      <div class="btn_left" id="left" >
-        <img src="images/VectorL.svg" alt="left"></div>
-      <div class="btn_right" id="right" >
-        <img src="images/VectorR.svg" alt="right"></div>
+        <div class="btn_left" id="left" >
+          <img src="images/VectorL.svg" alt="left"></div>
+        <div class="btn_right" id="right" >
+          <img src="images/VectorR.svg" alt="right"></div>
 
-      <div class="crimson-book" id="crimson-book">
-        <div></div>
+        <div class="crimson-book" id="crimson-book">
+          <div></div>
 
-        <div class="Intro-left-page-1" id="pg" >
-        </div>
+          <div class="Intro-left-page-1" id="pg" >
+          </div>
 
-        <div class="Intro-right-page-1" id="pg" >
-          <div class="container">
-            <div class="hamburger_btn">
-              <div class="one"></div>
-              <div class="two"></div>
-              <div class="three"></div>
+          <div class="Intro-right-page-1" id="pg" >
+            <div class="container">
+              <div class="hamburger_btn">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+              </div>
+
+              <div class="menu">
+                <nav>
+                  <li><a href="#">Intro</a></li>
+                  <li><a href="#">Design</a></li>
+                  <li><a href="#">Example</a></li>
+                  <li><a href="#">Recognition</a></li>
+                </nav>
+              </div>
+            </div>
+            <div class="main-txt">
+              <h1>The Benefits of <br> Crimson Pro <span class="nd">&</span> Variable Fonts</h1>
+            </div>
+          </div>
+
+          <!-- Intro Page 2 Variable Font Introduction Left Page -->
+          <div class="Intro-left-page-2" id="pg">
+            <h2>1</h2>
+            <h3>Benefits of <span>Variable Fonts</span></h3>
+            <div class="main-circle">
+              <img src="images/circle.png" alt="main-circle" class="main-circle">
+              <h4 class="smile" id="smile">:c)</h4>
+            </div>
+            <h5 class="roberto">Roboto Flex<br>is used as an example</h5>
+            <nav class="effect" id="roboto-effect">
+              <li class="wght" id="wght" onclick="wght()">wght</li>
+              <li class="wdth" id="wdth" onclick="wdth()">wdth</li>
+              <li class="slnt" id="slnt" onclick="slnt()">slnt</li>
+              <li class="ital" id="ital" onclick="ital()">grad</li>
+              <li class="opsz" id="opsz" onclick="opsz()">opsz</li>
+            </nav>
+            <h6>Variable fonts are the latest in the evolution of fonts.</h6>
+            <h1>White Crimson Pro only has a variable Weight(wght)<br>axis currently, a variable font can have other<br>axes like Width(wdth), Slant(slnt), Gradiation(grad),<br>and Optical size (opsz).</h1>
+          </div>
+
+          <!-- Intro Page 2 Variable Font Right Page -->
+            <div class="Intro-right-page-2" id="pg">
+
+              <h1>intro</h1>
+                <div class="contain-0Y5" id="contain-0Y5">
+                  <nav class="OY5">
+                    <li class="O" id="O"><h4 class="O-text" id="OO">*</h4><input type="range" min="200" max="900" value="900" class="slider-2" id="slider-O"><h3 class="txt-bot" id="txt-OO">900</h3></li>
+                    <li class="Y" id="Y"><h4 id="YY">y</h4><input type="range" min="200" max="900" value="900" class="slider-2" id="slider-Y"><h3 class="txt-bot" id="txt-YY">900</h3></li>
+                    <li class="FV" id="FV"><h4 id="FVFV">5</h4><input type="range" min="200" max="900" value="900" class="slider-2" id="slider-FVFV"><h3 class="txt-bot" id="txt-FVFV">900</h3></li>
+                  </nav>
+                </div>
+
+                <div class="contain-ter">
+                  <nav class="ter">
+                    <li class="t" id="t"><h4 id="tt">t</h4><input type="range" min="200" max="900" value="900" class="slider-2" id="slider-t"><h3 class="txt-bot" id="txt-tt">900</h3></li>
+                    <li class="e" id="e"><h4 id="ee">e</h4><input type="range" min="200" max="900" value="900" class="slider-2" id="slider-e"><h3 class="txt-bot" id="txt-ee">900</h3></li>
+                    <li class="r" id="r"><h4 id="rr">r</h4><input type="range" min="200" max="900" value="900" class="slider-2" id="slider-r"><h3 class="txt-bot" id="txt-rr">900</h3></li>
+                  </nav>
+                </div>
+
+                <h2>What does this mean?</h2>
+                <h3 class="lst">These axes allow designers greater flexibility to create<br>and customize their own font instances for aesthetic<br>and layout flexibility.</h3>
+
+              <div class="container">
+                <div class="hamburger_btn">
+                  <div class="one"></div>
+                  <div class="two"></div>
+                  <div class="three"></div>
+                </div>
+
+                <div class="menu">
+                  <nav>
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Example</a></li>
+                    <li><a href="#">Recognition</a></li>
+                  </nav>
+                </div>
+              </div>
             </div>
 
-            <div class="menu">
-              <nav>
-                <li><a href="#">Intro</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Example</a></li>
-                <li><a href="#">Recognition</a></li>
-              </nav>
+            <!-- Page 3 Intro Variable Font Introduction -->
+          <div class="Design-left-page-1" id="pg">
+          
+          </div>
+
+            <div class="Design-right-page-1" id="pg">
+            <h1>Part 1</h1>
+            <h2>Design</h2>
+              <div class="container">
+                <div class="hamburger_btn">
+                  <div class="one"></div>
+                  <div class="two"></div>
+                  <div class="three"></div>
+                </div>
+
+                <div class="menu">
+                  <nav>
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Example</a></li>
+                    <li><a href="#">Recognition</a></li>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+            <!-- Design pg 2 -->
+          <div class="Design-left-page-2" id="pg">
+            <h1>5</h1>
+            <div class="text-container">
+              
+              <input type="text" class="the-text" id="the-text" value="Hi,">
+              <img src="images/brr.svg" alt="bright" class="b-right">
+              <img src="images/bll.svg" alt="left" class="b-left">
+              <div class="st-line"></div>
+              <h2>size</h2>
+              <div class="dot-line"></div>
+              <ul class="size-container">
+                <li class="xs" id="xs" onclick="xs()" >XS</li>
+                <li class="s" id="s" onclick="s()">S</li>
+                <li class="m" id="m" onclick="m()">M</li>
+                <li class="l" id="l" onclick="l()">L</li>
+                <li class="xl" id="xl" onclick="xl()">XL</li>
+              </ul>
+            </div>
+            
+            <h3>Easy on the Eyes</h3>
+            <div class="last-line"></div>
+            <h4>Crimson Pro’s cap height gives it better proportions<br> and less visual noise, making it easier to read.</h4>
+          </div>
+
+            <div class="Design-right-page-2" id="pg">
+              <h1>design</h1>
+              <h2>Weight Axis</h2>
+              <input type="range" min="200" max="850" value="200" class="slider-pg3" id="slider-pg3">
+              <div class="many-lines" id="many-lines">
+                  <span class="first">White Rabbit with pink eyes</span><br>
+                  <span class="second">White Rabbit with pink eyes</span><br>
+                  <span class="third">White Rabbit with pink eyes</span><br>
+                  <span class="fourth">White Rabbit with pink eyes</span><br>
+                  <span class="fifth">White Rabbit with pink eyes</span><br>
+                  <span class="sixth">White Rabbit with pink eyes</span><br>
+                  <span class="seventh">White Rabbit with pink eyes</span><br>
+                  <span class="eighth">White Rabbit with pink eyes</span><br>
+                  <span class="ninth">White Rabbit with pink eyes</span><br>
+                  <span class="tenth">White Rabbit with pink eyes</span><br>
+                  <span class="eleventh">White Rabbit with pink eyes</span><br>
+                  <span class="twelfth">White Rabbit with pink eyes</span>
+                </div>
+
+              <div class="container">
+                <div class="hamburger_btn">
+                  <div class="one"></div>
+                  <div class="two"></div>
+                  <div class="three"></div>
+                </div>
+
+                <div class="menu">
+                  <nav>
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Example</a></li>
+                    <li><a href="#">Recognition</a></li>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+            <div class="Design-left-page-3" id="pg">
+              <h1>7</h1>
+              <div class ="water">
+                <div class="box"></div>
+                <img src="images/P.svg" alt="alpha-P" class="alpha-P">
+                <div class="word_inside">
+                  <h2> counter </h2>
+                </div>
+              </div>
+
+              <div class="design-bt-line"></div>
+              <h3>With large counters and apertures, readers can easily recognize different characters at smaller sizes.</h3>
+
+              
+            </div>
+
+            <div class="Design-right-page-3" id="pg">
+
+              <h1>design</h1>
+              <img src="images/top-letters.svg" alt="top-letter" class="top-letter">
+              <img src="images/weights.svg" alt="weights" class="weights">
+              <img src="images/mouse.svg" alt="mouse" class="mouse">
+              <img src="images/mboot.svg" alt="mboot" class="mboot">
+              <img src="images/dodo.svg" alt="dodo" class="dodo">
+              <img src="images/mushroom.svg" alt="mushroom" class="mushroom">
+              <img src="images/bottom-letters.svg" alt="bottom-letters" class="bottom-letters">
+              <img src="images/cake1.svg" alt="cake1" class="cake1">
+
+              <div class="container">
+                <div class="hamburger_btn">
+                  <div class="one"></div>
+                  <div class="two"></div>
+                  <div class="three"></div>
+                </div>
+
+                <div class="menu">
+                  <nav>
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Example</a></li>
+                    <li><a href="#">Recognition</a></li>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+            <div class="Design-left-page-4" id="pg">
+              <h1>9</h1>
+              <div class="drink-container">
+                <textarea class="drink-text" id="drink-text">Drink&#10;me</textarea>
+                <ul class="color-container">
+                  <li class="circle_red" id="circle_red" onclick="color_red()" ></li>
+                  <li class="circle_yellow" id="circle_yellow" onclick="color_yellow()"></li>
+                  <li class="circle_blue" id="circle_blue" onclick="color_blue()"></li>
+                  <li class="circle_brown" id="circle_brown" onclick="color_brown()"></li>
+                  <li class="circle_pink" id="circle_pink" onclick="color_pink()"></li>
+                  <li class="circle_black" id="circle_black" onclick="color_black()"></li>
+                  <li class="circle_green" id="circle_green" onclick="color_green()"></li>
+                  <li class="circle_white" id="circle_white" onclick="color_white()"></li>
+                </ul>
+                <div class="weight-text" id="weight-text">Weight Axis</div>
+                <input type="range" min="200" max="900" value="900" class="design-slider" id="design-slider">
+                <ul class="container-normal-italic">
+                  <li class="roman" id="roman" onclick="d4click_roman()"/>Roman</li>
+                  <li class="italic" id="italic" onclick="d4click_italic()">Italic</li>
+                </ul>
+                <div class="size-text" id="size-text">Size</div>
+                <img src="images/dotted.svg" alt="dotted" class="dotted">
+                <img src="images/dotted.svg" alt="dotted2" class="dotted2">
+                <div class="horizontal-line"></div>
+
+                <ul class="triangle-container" id="triangle-containerz">
+                  <li>
+                    <img src="images/triangle.svg" alt="triangle1" class="triangle1" id="triangle1">
+                  </li>
+                  <li>
+                    <img src="images/triangle.svg" alt="triangle2" class="triangle2" id="triangle2">
+                  </li>
+                  <li>
+                    <img src="images/triangle.svg" alt="triangle3" class="triangle3" id="triangle3">
+                  </li>
+                  <li>
+                    <img src="images/triangle.svg" alt="triangle4" class="triangle4" id="triangle4">
+                  </li>
+                  <li>
+                    <img src="images/triangle.svg" alt="triangle5" class="triangle5" id="triangle5">
+                  </li>
+                  <li>
+                    <img src="images/triangle.svg" alt="triangle6" class="triangle6" id="triangle6">
+                  </li>
+                  <li>
+                    <img src="images/triangle.svg" alt="triangle7" class="triangle7" id="triangle7">
+                  </li>
+                  <li>
+                    <img src="images/triangle.svg" alt="triangle8" class="triangle8" id="triangle8">
+                  </li>
+                </ul>
+
+                <h2 class="d-weighttxt" id="d-weighttxt">900</h2>
+                <ul class="d4-size-container" id="d4-size-containers">
+                  <li class="d4xs" id="d4_xs" onclick="d4xs()" >XS</li>
+                  <li class="d4s" id="d4_s" onclick="d4s()">S</li>
+                  <li class="d4m" id="d4_m" onclick="d4m()">M</li>
+                  <li class="d4l" id="d4_l" onclick="d4l()">L</li>
+                  <li class="d4xl" id="d4_xl" onclick="d4xl()">XL</li> 
+                </ul>
+              </div>
+
+          </div>
+
+            <div class="Design-right-page-4" id="pg">
+              <h1>design</h1>
+              <img src="images/aaa.svg" alt="aaa" class="aaa" id="aaa">
+              
+              <h2 id="weight-unlimited">Weight</h2>
+             
+              <h3 id="with-unlimited">With unlimited options along this axis, designers can<br>tweak Crimson Pro to get the exact look and feel they<br>want. They can create custom styles, name them, and<br>save those instances to use throughout the design. 
+              </h3>
+              <div class="container">
+                <div class="hamburger_btn">
+                  <div class="one"></div>
+                  <div class="two"></div>
+                  <div class="three"></div>
+                </div>
+
+                <div class="menu">
+                  <nav>
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Example</a></li>
+                    <li><a href="#">Recognition</a></li>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+            <div class="Design-left-page-5" id="pg">
+              <h1>11</h1>
+              <div class="d5-regular" id="d5-regular" onclick="d5regular()">Regular</div>
+              <div class="d5-italic" id="d5-italic" onclick="d5italic()">Italic</div>
+              <div class="Alphabet-Container" id="Alphabet-Container">
+                <ul class="ABCD" id="UpperAlphabet">
+                  <li>A</li>
+                  <li>B</li>
+                  <li>C</li>
+                  <li>D</li>
+                </ul>
+
+                <ul class="EFGH" id="UpperAlphabet">
+                  <li>E</li>
+                  <li>F</li>
+                  <li>G</li>
+                  <li>H</li>
+                </ul>
+
+                <ul class="IJK" id="UpperAlphabet">
+                  <li>I</li>
+                  <li>J</li>
+                  <li>K</li>
+                </ul>
+
+                <ul class="LMN" id="UpperAlphabet">
+                  <li>L</li>
+                  <li>M</li>
+                  <li>N</li>
+                </ul>
+
+                <ul class="OP" id="UpperAlphabet">
+                  <li>O</li>
+                  <li>P</li>
+                </ul>
+
+                <ul class="QRST" id="UpperAlphabet">
+                  <li>Q</li>
+                  <li>R</li>
+                  <li>S</li>
+                  <li>T</li>
+                </ul>
+
+                <ul class="UVW" id="UpperAlphabet">
+                  <li>U</li>
+                  <li>V</li>
+                  <li>W</li>
+                </ul>
+
+                <ul class="XYZ" id="UpperAlphabet">
+                  <li>X</li>
+                  <li>Y</li>
+                  <li>Z</li>
+                </ul>
+              </div>
+
+          </div>
+
+            <div class="Design-right-page-5" id="pg">
+              <h1>uppercase</h1>
+              <img src="images/cake.svg" alt="cake" class="cake">
+        
+              <textarea class="eat-me" id="eat-me">"EAT ME"</textarea>
+
+              <div class="special-character-container" id="special-character-container">
+              <ul class="Hash" id="Hash">
+                <li>₤</li>
+                <li>&</li>
+                <li>$</li>
+                <li>€</li>
+                <li>#</li>
+              </ul>
+
+              <ul class="addmult" id="addmult">
+                <li>+</li>
+                <li>÷</li>
+                <li>×</li>
+                <li>=</li>
+                <li>*</li>
+              </ul>
+
+              <ul class="question" id="question">
+                <li>?</li>
+                <li>%</li>
+                <li>!</li>
+                <li><</li>
+                <li>[</li>
+                <li>]</li>
+              </ul>
+
+            </div>
+
+              <div class="container">
+                <div class="hamburger_btn">
+                  <div class="one"></div>
+                  <div class="two"></div>
+                  <div class="three"></div>
+                </div>
+
+                <div class="menu">
+                  <nav>
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Example</a></li>
+                    <li><a href="#">Recognition</a></li>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+            <div class="Design-left-page-6" id="pg">
+              <h1>13</h1>
+              <div class="d6-regular" id="d6-regular" onclick="d6regular()">Regular</div>
+              <div class="d6-italic" id="d6-italic" onclick="d6italic()">Italic</div>
+              <div class="lowercase-container" id="lowercase-container">
+                 <ul class="abcd01" id="abcd">
+                  <li>a</li>
+                  <li>b</li>
+                  <li>c</li>
+                  <li>d</li>
+                  <li>0</li>
+                  <li>1</li>
+                </ul>
+
+                <ul class="efgh23" id="efgh23">
+                  <li>e</li>
+                  <li>f</li>
+                  <li>g</li>
+                  <li>h</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+
+                <ul class="ijk45" id="ijk45">
+                  <li>i</li>
+                  <li>j</li>
+                  <li>k</li>
+                  <li>4</li>
+                  <li>5</li>
+                </ul>
+
+                <ul class="lmn67" id="lmn67">
+                  <li>l</li>
+                  <li>m</li>
+                  <li>n</li>
+                  <li>6</li>
+                  <li>7</li>
+                </ul>
+
+                <ul class="opqr89" id="opqr89">
+                  <li>o</li>
+                  <li>p</li>
+                  <li>q</li>
+                  <li>r</li>
+                  <li>8</li>
+                  <li>9</li>
+                </ul>
+
+                <ul class="st" id="st">
+                  <li>s</li>
+                  <li>t</li>
+                </ul>
+
+                <ul class="uvw" id="uvw">
+                  <li>u</li>
+                  <li>v</li>
+                  <li>w</li>
+                </ul>
+
+                <ul class="xyz" id="xyz">
+                  <li>x</li>
+                  <li>y</li>
+                  <li>z</li>
+                </ul>
+
+              </div>
+
+
+            </div>
+
+
+            <div class="Design-right-page-6" id="pg">
+              <h1>design</h1>
+              <textarea class="text-nocake" id="text-nocake">“So she set to&#10;work, and very&#10;soon finished off&#10;the cake”</textarea>
+              <img src="images/nocake.svg" alt="nocake" class="nocake">
+              <div class="container">
+                <div class="hamburger_btn">
+                  <div class="one"></div>
+                  <div class="two"></div>
+                  <div class="three"></div>
+                </div>
+
+                <div class="menu">
+                  <nav>
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Example</a></li>
+                    <li><a href="#">Recognition</a></li>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+
+
+          <div class="Design-left-page-7" id="pg">
+              <h1>15</h1>
+              <h2>Looking to use <span>Crimson Pro</span><br>in your language?</h2>
+          
+            <div class="language-container" id="language-container">
+               <ul class="AEIR" id="AEIR">
+                  <li id="AFRIKAANS">AFRIKAANS</li>
+                  <li id="ENGLISH">ENGLISH</li>
+                  <li id="ITALIAN">ITALIAN</li>
+                  <li id="ROMANIAN">ROMANIAN</li>
+               </ul>
+               <ul class="AELS" id="AELS">
+                  <li id="ALBANIAN">ALBANIAN</li>
+                  <li id="ESTONIAN">ESTONIAN</li>
+                  <li id="LATVIAN">LATVIAN</li>
+                  <li id="SLOVAK">SLOVAK</li>
+               </ul>
+               <ul class="CFLS" id="CFLS">
+                  <li id="CATALAN">CATALAN</li>
+                  <li id="FINNISH">FINNISH</li>
+                  <li id="LITHUANIAN">LITHUANIAN</li>
+                  <li id="SLOVENIAN">SLOVENIAN</li>
+               </ul>
+               <ul class="CFMS" id="CFMS">
+                  <li id="CROATIAN">CROATIAN</li>
+                  <li id="FRENCH">FRENCH</li>
+                  <li id="MALTESE">MALTESE</li>
+                  <li id="SPANISH">SPANISH</li>
+               </ul>
+               <ul class="CGNS" id="CGNS">
+                  <li id="NORWEGIAN">NORWEGIAN</li>
+                  <li id="GERMAN">GERMAN</li>
+                  <li id="CZECH">CZECH</li>
+                  <li id="SWEDISH">SWEDISH</li>
+               </ul>
+               <ul class="DHPT" id="DHPT">
+                  <li id="DANISH">DANISH</li>
+                  <li id="HUNGARIAN">HUNGARIAN</li>
+                  <li id="POLISH">POLISH</li>
+                  <li id="TURKISH">TURKISH</li>
+               </ul>
+               <ul class="DCPV" id="DCPV">
+                  <li id="DUTCH">DUTCH</li>
+                  <li id="ICELANDIC">ICELANDIC</li>
+                  <li id="PORTUGUESE">PORTUGUESE</li>
+                  <li id="VIETNAMESE">VIETNAMESE</li>
+               </ul>
+
             </div>
           </div>
-          <div class="main-txt">
-            <h1>The Benefits of <br> Crimson Pro <span class="nd">&</span> Variable Fonts</h1>
-          </div>
-        </div>
 
-        <!-- Intro Page 2 Variable Font Introduction Left Page -->
-        <div class="Intro-left-page-2" id="pg">
-          <h2>1</h2>
-          <h3>Benefits of <span>Variable Fonts</span></h3>
-          <div class="main-circle">
-            <img src="images/circle.png" alt="main-circle" class="main-circle">
-            <h4 class="smile" id="smile">:c)</h4>
+            <div class="Design-right-page-7" id="pg">
+              <h1>preview</h1>
+              <div class="d7-border"></div>
+
+              <div class="custom-select">
+                <select>
+                  <option value="0">ENGLISH</option>
+                  <option value="1">AFRIKAANS</option>
+                  <option value="2">ITALIAN</option>
+                  <option value="3">ROMANIAN</option>
+                  <option value="4">ALBANIAN</option>
+                  <option value="5">LATVIAN</option>
+                  <option value="6">SLOVAK</option>
+                  <option value="7">CATALAN</option>
+                  <option value="8">FINNISH</option>
+                  <option value="9">LITHUANIAN</option>
+                  <option value="10">SLOVENIAN</option>
+                  <option value="11">CROATIAN</option>
+                  <option value="12">FRENCH</option>
+                  <option value="13">MALTESE</option>
+                  <option value="14">SPANISH</option>
+                  <option value="15">CZECH</option>
+                  <option value="16">NORWEGIAN</option>
+                  <option value="17">GERMAN</option>
+                  <option value="18">SWEDISH</option>
+                  <option value="19">DANISH</option>
+                  <option value="20">HUNGARIAN</option>
+                  <option value="21">POLISH</option>
+                  <option value="22">TURKISH</option>
+                  <option value="23">DUTCH</option>
+                  <option value="24">ICELANDIC</option>
+                  <option value="25">PORTUGUESE</option>
+                  <option value="26">VIETNAMESE</option>
+                </select>
+              </div>
+              <div class="p7text-container" id="title-english">
+                <div class="p7title" id="p7-english">ALICE'S ADVENTURE IN WONDERLAND</div>
+                <div class="p7chapter" id="p72-english">Chapter II</div>
+                <div class="p7paragraph" >For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went.
+                <br><br>
+               So she called softly after it, ‘Mouse dear! Do come back again, and we won’t talk about cats or dogs either, if you don’t like them!’ When the Mouse heard this, it turned round and swam slowly back to her: its face was quite pale (with passion, Alice thought), and it said in a low trembling voice, ‘Let us get to the shore, and then I’ll tell you my history, and you’ll understand why it is I hate cats and dogs.’
+                <br><br>
+                It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures. Alice led the way, and the whole party swam to the shore.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-afrikaans" style="display:none">
+                <div class="p7title" id="p7-afrikaans">ALICE SE AVONTURE IN WONDERLAND</div>
+                <div class="p7chapter" id="p72-afrikaans">Hoofstuk II</div>
+                <div class="p7paragraph" >For the Mouse was swimming away Want die muis swem so hard soos dit van haar weg was, en maak 'n hele opskudding in die swembad.
+                <br><br>
+               Sy het toe saggies daarna geroep: ‘Muis skat! Kom weer terug, en ons sal ook nie oor katte of honde praat as jy nie van hulle hou nie!’ Toe die muis dit hoor, draai hy om en swem stadig terug na haar: sy gesig was baie bleek (met passie , Dink Alice), en dit sê met 'n lae bewende stem: ‘Laat ons by die oewer uitkom, dan vertel ek jou my geskiedenis, en jy sal verstaan waarom ek katte en honde haat.’
+                <br><br>
+                Dit was hoog tyd om te gaan, want die swembad het baie oorvol geraak met die voëls en diere wat daarin geval het: daar was 'n eend en 'n Dodo, 'n Lory en 'n Arend en verskeie ander nuuskierige wesens. Alice lei die pad, en die hele party swem na die oewer.
+                </div>
+              </div>
+
+
+              <div class="p7text-container" id="title-italian" style="display:none">
+                <div class="p7title" id="p7-italian">LE AVVENTURE D’ALICE</div>
+                <div class="p7chapter" id="p72-italian">Capitolo II</div>
+                <div class="p7paragraph">Perché il Mouse le stava nuotando via più forte che poteva, e stava facendo un bel trambusto nella piscina.
+                <br><br>
+              Quindi lo chiamò dolcemente, “Mouse caro! Torna di nuovo, e non parleremo nemmeno di cani o gatti, se non ti piacciono!” Quando il Mouse lo sentì, si voltò e le tornò lentamente a nuotare: il suo viso era piuttosto pallido (con passione , Pensò Alice), e disse a bassa voce tremante: “Andiamo a riva, e poi ti racconterò la mia storia, e capirai perché odio cani e gatti”.
+                <br><br>
+                Era giunto il momento di andare, perché la piscina stava diventando piuttosto affollata con gli uccelli e gli animali che vi erano caduti: c'erano un'anatra e un Dodo, un Lory e un Eaglet e molte altre creature curiose. Alice aprì la strada e l'intera festa nuotò fino alla riva.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-romanian" style="display:none">
+                <div class="p7title" id="p7-romanian">AVENTURILE LUI ALICE IN TARA MINUNILOR</div>
+                <div class="p7chapter" id="p72-romanian">Capitolul II</div>
+                <div class="p7paragraph">Căci șoarecele înota departe de ea, cât putea de greu și făcea o agitație în piscină, așa cum mergea.
+                <br><br>
+              Așa că a sunat ușor după ea: „Mouse drag! Reveniți din nou și nici nu vom vorbi despre pisici sau câini, dacă nu le place!” Când șoarecele a auzit acest lucru, s-a întors și a înotat încet spre ea: chipul era destul de palid (cu pasiune , S-a gândit Alice) și a spus cu o voce tremurândă: „Hai să ajungem la țărm, apoi o să vă spun istoria mea și veți înțelege de ce este vorba că urăsc pisicile și câinii”.
+                <br><br>
+               Era timpul să mergem, căci bazinul devenea destul de aglomerat cu păsările și animalele care căzuseră în ea: erau un Rău și un Dodo, un Lory și un Eaglet și alte câteva creaturi curioase. Alice a condus drumul și toată petrecerea a înotat până la țărm.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-albanian" style="display:none">
+                <div class="p7title" id="p7-albanian">AVENTURAT E ALISE NË VENDIN E MREKULLIVE</div>
+                <div class="p7chapter" id="p72-albanian">Kapitulli II</div>
+                <div class="p7paragraph">Sepse Miu po notohej larg saj, aq sa mund të shkonte, dhe bënte mjaft mall në pishinë siç shkonte.
+                <br><br>
+              Kështu që ajo e thirri me butësi pas saj, ‘Mouse e dashur! A u kthehu përsëri, dhe ne nuk do të flasim as për mace ose qen, nëse nuk i pëlqen ata!’ Kur Miu e dëgjoi këtë, u kthye dhe rrotullua ngadalë përsëri tek ajo: fytyra e saj ishte mjaft e zbehtë (me pasion , Mendoi Alice), dhe tha me një zë të ulët të dridhur, ‘Le të arrijmë në breg, dhe pastaj unë do t'ju tregoj historinë time, dhe ju do të kuptoni pse është unë i urrej macet dhe qentë’.
+                <br><br>
+               Ishte koha e duhur për të shkuar, sepse pishina ishte shumë e mbushur me zogjtë dhe kafshët që kishin rënë në të: kishte një Duck dhe një Dodo, një Lory dhe një Eaglet dhe disa krijesa të tjera kurioze. Alice udhëhoqi rrugën, dhe e gjithë festa notoi në breg.
+                </div>
+              </div>
+
+
+              <div class="p7text-container" id="title-estonian" style="display:none">
+                <div class="p7title" id="p7-estonian">ALICE’I SEIKLUSED IMEDEMAAL</div>
+                <div class="p7chapter" id="p72-estonian">II peatükk</div>
+                <div class="p7paragraph">Sest hiir ujus temast eemale nii kõvasti, kui vähegi võis minna, ja tegi basseinis käies üsna käratsema.
+                <br><br>
+              Nii et ta helistas pärast seda pehmelt: ‘Hiir kallis! Tulge jälle tagasi ja me ei räägi ka kassidest ega koertest, kui teile need ei meeldi!’ Kui Hiir seda kuulis, keeras see ringi ja ujus aeglaselt tema poole: tema nägu oli üsna kahvatu (kirega), Mõtles Alice), ja ütles vaiksel väriseval häälel: ‘Laskem kaldale, siis ma räägin teile oma ajaloo ja saate aru, miks ma vihkan kasse ja koeri.’
+                <br><br>
+               Oli viimane aeg minna, sest bassein oli sinna kukkunud lindude ja loomadega üsna rahvarohke: seal olid part ja dodo, lory ja kotkas ning mitmed muud uudishimulikud olendid. Alice viis teed ja kogu pidu ujus kaldale.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-latvian" style="display:none">
+                <div class="p7title" id="p7-latvian">ALISES PIEDZĪVOJUMI BRĪNUMZEMĒ</div>
+                <div class="p7chapter" id="p72-latvian">II nodaļa</div>
+                <div class="p7paragraph">Tā kā Pelīte peldējās prom no viņas tik grūti, cik vien varēja noiet, un diezgan satraucoši peldējās baseinā.
+                <br><br>
+              Tāpēc viņa maigi pēc tā sauca: “Pele mīļā! Atgriezieties vēlreiz, un mēs nerunāsim arī par kaķiem vai suņiem, ja jums tie nepatīk!” Kad Pele to dzirdēja, tā apgriezās un lēnām peldēja viņai pretī: tās seja bija diezgan bāla (ar aizrautību) , Alise domāja), un tā zemā drebošā balsī sacīja: “Ļaujiet mums nokļūt krastā, un tad es jums pastāstīšu savu vēsturi, un jūs sapratīsit, kāpēc es ienīstu kaķus un suņus.”
+                <br><br>
+               Bija pēdējais laiks doties, jo baseins bija diezgan pieblīvēts ar tajā iekritušajiem putniem un dzīvniekiem: tur bija pīle un dodo, lorijs un ērglis, kā arī vairākas citas ziņkārīgas radības. Alise veda ceļu, un visa ballīte peldēja uz krastu.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-slovak" style="display:none">
+                <div class="p7title" id="p7-slovak">ALICA V KRAJINE ZÁZRAKOV</div>
+                <div class="p7chapter" id="p72-slovak">Kapitola II</div>
+                <div class="p7paragraph">Pretože myš od nej plávala tak tvrdo, ako to len šlo, a robila v bazéne celkom rozruch.
+                <br><br>
+              Zavolala potom ticho, „drahá myš! Vráťte sa znova a nebudeme hovoriť ani o mačkách alebo psoch, ak sa vám nepáčia! “Keď to myš počula, otočila sa a pomaly k nej plávala: jej tvár bola dosť bledá (s vášňou) , Pomyslela si Alice) a tichým chvejúcim sa hlasom povedala: „Poďme na pobrežie, potom ti poviem svoju históriu a pochopíš, prečo to nenávidím mačky a psy.“
+                <br><br>
+               Nastal najvyšší čas ísť, pretože bazén bol dosť preplnený vtákmi a zvieratami, ktoré do neho spadli: boli kačica a Dodo, Lory a Eaglet a niekoľko ďalších zvedavých tvorov. Alice viedla cestu a celá strana plavala na pobrežie.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-catalan" style="display:none">
+                <div class="p7title" id="p7-catalan">LES AVENTURES D’ALÍCIA</div>
+                <div class="p7chapter" id="p72-catalan">Capítol II</div>
+                <div class="p7paragraph">Perquè el ratolí nedava tan lluny com es podia, i feia molta commoció a la piscina.
+                <br><br>
+              Llavors, ella va cridar amb suavitat: “Ratolí estimat! Torneu-hi de nou i tampoc parlarem de gats ni de gossos, si no us agrada!” Quan el Ratolí va sentir això, es va girar i va nedar lentament cap a ella: la cara era pàl·lida (amb passió , Va pensar Alícia) i va dir amb veu tremolosa: “Anem a la costa, i després us explicaré la meva història i entendreu per què és que odio els gats i els gossos”.
+                <br><br>
+               Era hora d’anar-hi, perquè la piscina s’estava fent força plena d’ocells i animals que hi havien caigut: hi havia un Ànec i un Dodo, un Lory i un Àguila i diverses altres criatures curioses. Alícia va dirigir el camí i tota la festa va nedar fins a la vora.
+                </div>
+              </div>
+
+
+              <div class="p7text-container" id="title-finnish" style="display:none">
+                <div class="p7title" id="p7-finnish">LIISAN SEIKKAILUT IHMEMAASSA</div>
+                <div class="p7chapter" id="p72-finnish">II luku</div>
+                <div class="p7paragraph">Sillä hiiri ui pois hänestä niin kovaa kuin mahdollista, ja teki melko levottomuuden uima-altaassa, kun se meni.
+                <br><br>
+              Joten hän soitti sen jälkeen pehmeästi: ‘Hiiri rakas! Älä tule takaisin, emmekä puhu myöskään kissoista tai koirista, jos et pidä heistä!’ Kun hiiri kuuli tämän, se kääntyi ympäri ja ui hitaasti takaisin hänen luokseen: sen kasvot olivat melko vaaleat (intohimoisesti), Alice ajatteli), ja se sanoi vapisevalla äänellä: ‘Menkäämme rannalle ja kerron sitten historiani, ja ymmärrät miksi vihaan kissoja ja koiria.’
+                <br><br>
+               Oli korkea aika lähteä, sillä uima-allas oli tulossa melko täynnä siihen putoantuneita lintuja ja eläimiä: siellä oli ankka ja dodo, lory ja kotka sekä useita muita uteliaita olentoja. Alice johti tietä, ja koko puolue ui rannalle.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-lithuanian" style="display:none">
+                <div class="p7title" id="p7-lithuanian">ALISOS NUOTYKIAI STEBUKLŲ ŠALYJE</div>
+                <div class="p7chapter" id="p72-lithuanian">II skyrius</div>
+                <div class="p7paragraph">Nes Pelė plaukė toliau nuo jos kiek įmanoma sunkiau, o baseine jautėsi gana linksma.
+                <br><br>
+              Po to ji švelniai paragino: „Pelė brangioji! Grįžkite dar kartą, ir mes nekalbėsime apie kates ar šunis, jei jums jų nepatinka!“ Kai pele tai išgirdo, ji apsisuko ir lėtai plaukė atgal į ją: jos veidas buvo gana blyškus (su aistra) , Pagalvojo Alisa), ir žemu drebančiu balsu tarė: „Leiskime į krantą, tada aš jums papasakosiu savo istoriją ir jūs suprasite, kodėl aš nekenčiu kačių ir šunų“.
+                <br><br>
+               Buvo pats laikas eiti, nes baseinas buvo gana gausiai apkrautas į jį patekusiais paukščiais ir gyvūnais: antis ir Dodo, Loriu ir ereliu bei keletu kitų smalsių būtybių. Alisa vedė kelią, o visa partija plaukė į krantą.
+                </div>
+              </div>
+
+
+              <div class="p7text-container" id="title-slovenian" style="display:none">
+                <div class="p7title" id="p7-slovenian">ALIČINE PUSTOLOVŠČINE</div>
+                <div class="p7chapter" id="p72-slovenian">Poglavje II</div>
+                <div class="p7paragraph">Miška je plavala od nje tako težko, kot bi lahko šlo, in v bazenu se je precej zmedla.
+                <br><br>
+              Zato je tiho zaklicala za njo: 'Miška draga! Vrnite se še enkrat in tudi o mačkah in psih ne bomo govorili, če jih ne marate! «Ko je Miška to slišala, se je obrnila in počasi plavala nazaj k njej: njen obraz je bil precej bled (s strastjo) , Je pomislila Alice) in rekla je tiho, drhtečim glasom: "Pustimo do obale, nato pa vam bom povedal svojo zgodovino, in razumeli boste, zakaj sovražim mačke in pse."
+                <br><br>
+              Skrajni čas je šel, saj je bil bazen precej natrpan s pticami in živalmi, ki so padle vanj: tam sta bila Raca in Dodo, Lory in Eaglet ter več drugih radovednih bitij. Alice je vodila pot in celotna zabava je plavala na obalo.
+                </div>
+              </div>
+
+
+              <div class="p7text-container" id="title-croatian" style="display:none">
+                <div class="p7title" id="p7-croatian">ALISINE AVANTURE U ZEMLJI ČUDESA</div>
+                <div class="p7chapter" id="p72-croatian">II. Poglavlje</div>
+                <div class="p7paragraph">Miš se plivao od nje koliko god je mogao, i napravila zbrku u bazenu dok je išla.
+                <br><br>
+              Pa je tiho zazvala nakon toga: „Miše draga! Vratite se ponovo i nećemo razgovarati ni o mačkama ni o psima, ako vam se ne sviđaju!” Kad je Miš to čuo, okrenuo se i polako plivao prema njoj: lice joj je bilo sasvim blijedo (sa strašću , Pomislila je Alice) i rekla je tihim drhtavim glasom: „Idemo na obalu, a zatim ću vam ispričati svoju povijest, a vi ćete shvatiti zašto mrzim mačke i pse.”
+                <br><br>
+              Bilo je krajnje vrijeme za izlazak, jer je bazen bio prilično prepun ptica i životinja koje su upale u njega: tu su bili Patka i Dodo, Lory i Orao i nekoliko drugih znatiželjnih stvorenja. Alice je vodila na put, a cijela zabava otplivala je do obale.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-french" style="display:none">
+                <div class="p7title" id="p7-french">LES AVENTURES D’ALICE</div>
+                <div class="p7chapter" id="p72-french">Chapitre II</div>
+                <div class="p7paragraph">Car la souris nageait loin d’elle aussi fort que possible, et faisait beaucoup de bruit dans la piscine.
+                <br><br>
+              Alors elle appela doucement: «Chère Souris! Reviens encore, et nous ne parlerons pas non plus des chats ou des chiens, si tu ne les aimes pas!» Quand la Souris entendit ceci, elle se retourna et revint lentement à elle: son visage était plutôt pâle (avec passion, pensa Alice), et elle dit d’une voix basse et tremblante: «Allons au bord de la mer, et ensuite je te raconterai mon histoire, et tu comprendras pourquoi c’est que je déteste les chats et les chiens.»
+                <br><br>
+              Il était grand temps d’y aller car la piscine était pleine à craquer d’oiseaux et d’animaux qui y étaient tombés: il y avait un canard et un dodo, un lory et un aigle, ainsi que plusieurs autres créatures curieuses. Alice a ouvert la voie et toute la partie a nagé jusqu’au rivage.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-maltese" style="display:none">
+                <div class="p7title" id="p7-maltese">L-AVVENTURI TA 'ALICE FIL-WONDERLAND</div>
+                <div class="p7chapter" id="p72-maltese">Kapitolu II</div>
+                <div class="p7paragraph">Għall-ġurdien kien qed jgħum 'il bogħod minnha kemm jista' jkun imur, u jagħmel pjuttost għaqda fil-pixxina kif mar.
+                <br><br>
+              Allura hi sejħet ippronunzjata wara, "Ġurdien għeżież! Terġa 'terġa' lura, u lanqas ma nitkellmu dwar qtates jew klieb, jekk ma jħobbux!" Meta l-ġurdien sema 'dan, dawwar tond u għawm bil-mod lura lejn tagħha: wiċċu kien pjuttost pallidu (b'passjoni , Ħaseb Alice), u qalet b'vuċi baxxa tregħid, "Ejjew naslu lejn ix-xatt, u allura ngħidlek l-istorja tiegħi, u intom tifhmu għaliex qed jobgħod il-qtates u l-klieb."
+                <br><br>
+              Wasal iż-żmien biex immorru, għax il-pixxina kienet toħroġ pjuttost iffullata bl-għasafar u l-annimali li kienu waqgħu fiha: kien hemm Papra u Dodo, Lory u Eaglet, u bosta kreaturi kurjużi oħra. Alice mexxiet it-triq, u l-partit kollu kien jgħum fix-xatt.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-spanish" style="display:none">
+                <div class="p7title" id="p7-spanish">LAS AVENTURAS DE ALICIA</div>
+                <div class="p7chapter" id="p72-spanish">Capítulo II</div>
+                <div class="p7paragraph">Porque el Ratón estaba nadando lejos de ella tan fuerte como podía, y estaba haciendo una gran conmoción en la piscina a medida que avanzaba.
+                <br><br>
+              Entonces ella llamó suavemente después de eso, ‘¡Querido ratón! ¡Vuelve otra vez, y tampoco hablaremos de gatos o perros, si no te gustan!’ Cuando el Ratón escuchó esto, se dio la vuelta y nadó lentamente hacia ella: su cara estaba bastante pálida (con pasión , Pensó Alice), y decía en voz baja y temblorosa: ‘Vamos a la orilla, y luego te contaré mi historia, y entenderás por qué odio los gatos y los perros’.
+                <br><br>
+              Ya era hora de irse, porque la piscina se estaba abarrotando de pájaros y animales que habían caído en ella: había un pato y un dodo, un lory y un aguilucho, y varias otras criaturas curiosas. Alice abrió el camino y toda la fiesta nadó hasta la orilla.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-czech" style="display:none">
+                <div class="p7title" id="p7-czech">ALENKA V ŘÍŠI DIVŮ</div>
+                <div class="p7chapter" id="p72-czech">Kapitola II</div>
+                <div class="p7paragraph">Myš od ní plavala tak tvrdě, jak to šlo, a v bazénu udělala docela rozruch.
+                <br><br>
+              Zavolala tiše, „drahá myš! Vraťte se znovu a nebudeme mluvit ani o kočkách nebo psech, pokud se vám nelíbí!” Když to myš slyšela, otočila se a pomalu k ní plavala: její tvář byla docela bledá (s vášní) , Pomyslela si Alice) a řekla tichým chvějícím se hlasem: „Pojďme na břeh a pak ti řeknu svou historii a pochopíš, proč to nenávidím kočky a psy.”
+                <br><br>
+              Byl nejvyšší čas jít, protože bazén byl docela přeplněný ptáky a zvířaty, které do něj spadly: byly kachna a Dodo, Lory a Eaglet a několik dalších zvědavých tvorů. Alice vedla cestu a celá strana plavala na břeh.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-german" style="display:none">
+                <div class="p7title" id="p7-german">ALICE'S ABENTEUER IM WUNDERLAND</div>
+                <div class="p7chapter" id="p72-german">Kapitel II</div>
+                <div class="p7paragraph">Denn die Maus schwamm von ihr weg, so schwer es ging, und machte im Pool eine ziemliche Aufregung, als es ging.
+                <br><br>
+              Joten hän soitti sen jälkeen pehmeästi: “Hiiri rakas! Älä tule takaisin, emmekä puhu myöskään kissoista tai koirista, jos et pidä heistä!” Kun hiiri kuuli tämän, se kääntyi ympäri ja ui hitaasti takaisin hänen luokseen: sen kasvot olivat melko vaaleat (intohimoisesti) , Alice ajatteli), ja se sanoi vapisevalla äänellä: “Menkäämme rannalle ja kerron sitten historiani, ja ymmärrät miksi vihaan kissoja ja koiria.”
+                <br><br>
+             Het was de hoogste tijd om te gaan, want het zwembad werd behoorlijk druk met de vogels en dieren die erin waren gevallen: er waren een eend en een dodo, een lory en een adelaar en verschillende andere nieuwsgierige wezens. Alice liep voorop en het hele gezelschap zwom naar de kust.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-norwegian" style="display:none">
+                <div class="p7title" id="p7-norwegian">ALICE I EVENTYRLAND</div>
+                <div class="p7chapter" id="p72-norwegian">Kapittel II</div>
+                <div class="p7paragraph">For musen svømte bort fra henne så hardt som den kunne gå, og gjorde ganske opprykk i bassenget mens det gikk.
+                <br><br>
+              Så hun ringte bløtt etter det, "Mus kjære! Kom tilbake igjen, så snakker vi ikke om katter eller hunder heller, hvis du ikke liker dem!" Da musen hørte dette, snudde den seg og svømte sakte tilbake til henne: ansiktet var ganske blekt (med lidenskap , Tenkte Alice), og den sa med en lav skjelvende stemme, "La oss komme til fjæra, så skal jeg fortelle deg historien min, så vil du forstå hvorfor det er at jeg hater katter og hunder."
+                <br><br>
+             Det var på høy tid å gå, for bassenget ble ganske overfylt med fuglene og dyrene som hadde falt i det: det var en and og en Dodo, en Lory og en Eaglet og flere andre nysgjerrige skapninger. Alice ledet an, og hele partiet svømte til land.
+                </div>
+              </div>
+
+             <div class="p7text-container" id="title-swedish" style="display:none">
+                <div class="p7title" id="p7-swedish">ALICE I UNDERLANDET</div>
+                <div class="p7chapter" id="p72-swedish">Kapitel II</div>
+                <div class="p7paragraph">För musen simmade bort från henne så hårt som den kunde gå, och gjorde ganska uppror i poolen när det gick.
+                <br><br>
+              Så hon kallade mjukt efter det, "Mus kära! Kom tillbaka igen, så kommer vi inte prata om katter eller hundar heller, om du inte gillar dem!" När musen hörde detta, vände det sig och simmade långsamt tillbaka till henne: ansiktet var ganska blekt (med passion , Tänkte Alice), och det sa med en låg skakande röst, "Låt oss komma till stranden, och sedan ska jag berätta min historia, och du förstår varför det är jag hatar katter och hundar."
+                <br><br>
+             Det var hög tid att gå, för poolen blev ganska trångt med fåglar och djur som föll i den: det fanns en anka och en Dodo, en Lory och en örn och flera andra nyfikna varelser. Alice ledde vägen och hela partiet simmade till stranden.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-danish" style="display:none">
+                <div class="p7title" id="p7-danish">ALICE'S EVENTYR I EVENTYRLAND</div>
+                <div class="p7chapter" id="p72-danish">Kapitel II</div>
+                <div class="p7paragraph">For musen svømte væk fra hende så hårdt som den kunne gå, og gjorde en ganske ophidselse i poolen, mens den gik.
+                <br><br>
+              Så hun kaldte blidt efter det, “Mus kære! Kom tilbage igen, så taler vi heller ikke om katte eller hunde, hvis du ikke kan lide dem!” Da musen hørte dette, vendte det sig rundt og svømmede langsomt tilbage til hende: ansigtet var ret bleg (med lidenskab), Tænkte Alice), og det sagde med en lavt rystende stemme, “Lad os komme til kysten, så vil jeg fortælle dig min historie, så vil du forstå, hvorfor det er, jeg hader katte og hunde.”
+                <br><br>
+             Det var på høje tid at gå, for puljen blev ret overfyldt med de fugle og dyr, der var faldet i den: der var en And og en Dodo, en Lory og en Eaglet og flere andre nysgerrige væsener. Alice førte vejen, og hele festen svømmede til kysten.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-hungarian" style="display:none">
+                <div class="p7title" id="p7-hungarian">ALIZ KALANDJAI CSODAORSZÁGBAN</div>
+                <div class="p7chapter" id="p72-hungarian">II. Fejezet</div>
+                <div class="p7paragraph">Mert az egér annyira úszott tőle, amennyire csak tudott, és eléggé zavart volt a medencében, ahogy ment.
+                <br><br>
+              Ezért halkan felszólította: - Egér kedvesem! Ne gyere vissza, és nem is beszélünk macskákról vagy kutyákról, ha nem tetszik nekik! - Amikor az egér ezt meghallotta, megfordult és lassan visszaugrott feléje: arca sápadt volt (szenvedélyesen) , Gondolta Alice), és remegő hangon azt mondta: - Menjünk a partra, és akkor elmondom nekem a történelem, és meg fogod érteni, miért utálom macskákat és kutyákat. -
+                <br><br>
+              Legfőbb ideje elmenni, mert a medence eléggé zsúfolttá vált a beleesett madarakkal és állatokkal: volt kacsa és egy dodo, egy lory és egy sas, és még sok más kíváncsi lény. Alice vezette az utat, és az egész párt a part felé úszott.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-polish" style="display:none">
+                <div class="p7title" id="p7-polish">ALICJA W KRAINIE CZARÓW</div>
+                <div class="p7chapter" id="p72-polish">Rozdział II</div>
+                <div class="p7paragraph">Mysz odpływała od niej tak mocno, jak tylko mogła, i powodowała niemałe zamieszanie w basenie.
+                <br><br>
+              Po to ji švelniai paragino: „Pelė brangioji! Grįžkite dar kartą, ir mes nekalbėsime apie kates ar šunis, jei jums jų nepatinka!“ Kai pele tai išgirdo, ji apsisuko ir lėtai plaukė atgal į ją: jos veidas buvo gana blyškus (su aistra) , Pagalvojo Alisa), ir žemu drebančiu balsu tarė: „Leiskime į krantą, tada aš jums papasakosiu savo istoriją ir jūs suprasite, kodėl aš nekenčiu kačių ir šunų“.
+                <br><br>
+              Najwyższy czas iść, bo basen stawał się dość zatłoczony ptakami i zwierzętami, które do niego wpadły: były Kaczka i Dodo, Lory i Orlik oraz kilka innych ciekawych stworzeń. Alice poprowadziła i cała grupa popłynęła na brzeg.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-turkish" style="display:none">
+                <div class="p7title" id="p7-turkish">ALICE'IN HARIKALAR DIYARI MACERALARI</div>
+                <div class="p7chapter" id="p72-turkish">II. Bölüm</div>
+                <div class="p7paragraph">Çünkü Fare ondan olabildiğince sert bir şekilde yüzüyordu ve olduğu gibi havuzda oldukça kargaşa yaratıyordu.
+                <br><br>
+              Böylece usulca aradı, ‘Fare canım! Tekrar geri dönün ve kedileri veya köpekleri de konuşmayacağız, eğer onlardan hoşlanmıyorsanız!’ Fare bunu duyduğunda, etrafına döndü ve yavaşça ona doğru yüzdü: yüzü oldukça solgundu (tutkuyla) , Alice düşündü) ve az titreyen bir sesle, ‘Kıyıya geçelim ve sonra size tarihimi anlatacağım ve neden kedilerden ve köpeklerden nefret ettiğimi anlayacaksınız’ dedi.
+                <br><br>
+              Gitme zamanı gelmişti, çünkü havuzun içine düşmüş kuşlar ve hayvanlarla oldukça kalabalıklaşıyordu: bir Ördek ve Dodo, bir Lory ve Eaglet ve diğer meraklı yaratıklar vardı. Alice önderlik etti ve bütün parti kıyıya yüzdü.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-dutch" style="display:none">
+                <div class="p7title" id="p7-dutch">ALICE'S AVONTUREN IN WONDERLAND</div>
+                <div class="p7chapter" id="p72-dutch">Hoofdstuk II</div>
+                <div class="p7paragraph">Want de muis zwom zo hard als ze kon weg van haar en maakte in het zwembad nogal wat opschudding.
+                <br><br>
+              Dus riep ze er zachtjes naar, ‘Muis schat! Kom nog een keer terug, en we zullen ook niet over katten of honden praten, als je ze niet leuk vindt!’ Toen de muis dit hoorde, draaide het zich om en zwom langzaam terug naar haar: zijn gezicht was vrij bleek (met passie , Dacht Alice), en het zei met zachte, trillende stem: ‘Laten we naar de kust gaan, dan zal ik je mijn geschiedenis vertellen, en je zult begrijpen waarom ik katten en honden haat.’
+                <br><br>
+              Het was de hoogste tijd om te gaan, want het zwembad werd behoorlijk druk met de vogels en dieren die erin waren gevallen: er waren een eend en een dodo, een lory en een adelaar en verschillende andere nieuwsgierige wezens. Alice liep voorop en het hele gezelschap zwom naar de kust.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-icelandic" style="display:none">
+                <div class="p7title" id="p7-icelandic">ÆVINTÝRI ALICE Í UNDRALANDI</div>
+                <div class="p7chapter" id="p72-icelandic">II. Kafli</div>
+                <div class="p7paragraph">Því að músin var að synda í burtu frá henni eins hart og hún gat gengið og vakti nokkuð uppreist æru í lauginni eins og gengur.
+                <br><br>
+              Svo hún kallaði mjúklega eftir því, „Mús elskan! Komdu aftur og við tölum ekki um ketti eða hunda heldur, ef þér líkar ekki við þá!“ Þegar músin heyrði þetta, sneri hún sér við og synti hægt aftur til hennar: andlitið var alveg föl (af ástríðu , Hugsaði Alice) og það sagði með lágum skjálfandi röddu, „Við skulum komast að ströndinni, og þá segi ég sögu mína, og þú munt skilja af hverju það er að ég hata ketti og hunda.“
+                <br><br>
+              Það var kominn tími til að fara, því laugin var orðin ansi fjölmenn af fuglum og dýrum sem höfðu dottið í hana: það voru Önd og Dodo, Lory og Eaglet og nokkrar aðrar forvitnar skepnur. Alice leiddi veginn og allur flokkurinn synti að ströndinni.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-portuguese" style="display:none">
+                <div class="p7title" id="p7-portuguese">ALICE NO PAÍS DAS MARAVILHAS</div>
+                <div class="p7chapter" id="p72-portuguese">Capítulo II</div>
+                <div class="p7paragraph">Pois o Rato estava nadando para longe dela o máximo que podia, e fazendo uma grande comoção na piscina.
+                <br><br>
+              Então ela ligou suavemente: 'Mouse querido! Volte novamente, e também não falaremos sobre cães ou gatos, se você não gostar deles!' Quando o Mouse ouviu isso, virou-se e nadou lentamente de volta para ela: seu rosto estava muito pálido (com paixão Alice pensou), e disse em voz baixa e trêmula: 'Vamos para a praia, e depois vou lhe contar minha história, e você entenderá porque é que odeio cães e gatos'.
+                <br><br>
+              Já era hora de partir, pois a piscina estava ficando cheia de pássaros e animais que caíam nela: havia um pato e um dodô, um lory e uma águia e várias outras criaturas curiosas. Alice liderou o caminho, e toda a festa nadou até a praia.
+                </div>
+              </div>
+
+              <div class="p7text-container" id="title-vietnamese" style="display:none">
+                <div class="p7title" id="p7-vietnamese">CUỘC PHIÊU LƯU CỦA ALICE</div>
+                <div class="p7chapter" id="p72-vietnamese">Chương II</div>
+                <div class="p7paragraph">Vì Chuột đã bơi xa cô hết sức có thể, và làm cho một cuộc hỗn loạn trong hồ bơi như nó đã đi.
+                <br><br>
+              Vì vậy, cô gọi nhẹ nhàng sau nó, ‘Chuột thân yêu! Hãy quay lại lần nữa và chúng ta cũng sẽ không nói về mèo hay chó, nếu bạn không thích chúng! "Khi Chuột nghe thấy điều này, nó quay lại và bơi chậm lại với cô: khuôn mặt nó khá nhợt nhạt (với niềm đam mê , Alice nghĩ), và nó nói với giọng run run, 'Chúng ta hãy lên bờ, rồi tôi sẽ kể cho bạn nghe lịch sử của mình, và bạn sẽ hiểu tại sao tôi lại ghét mèo và chó'.
+                <br><br>
+              Đã đến lúc phải đi, vì hồ bơi đã trở nên khá đông đúc với những con chim và động vật rơi vào đó: có một con Vịt và Dodo, Lory và Đại bàng, và một số sinh vật tò mò khác. Alice dẫn đường, và cả nhóm bơi vào bờ.
+                </div>
+              </div>
+
+              
+              <div class="container">
+                <div class="hamburger_btn">
+                  <div class="one"></div>
+                  <div class="two"></div>
+                  <div class="three"></div>
+                </div>
+
+                <div class="menu">
+                  <nav>
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Example</a></li>
+                    <li><a href="#">Recognition</a></li>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+
+           <div class="Example-left-page-1" id="pg">
           </div>
-          <h5 class="roberto">Roboto Flex<br>is used as an example</h5>
-          <nav class="effect" id="roboto-effect">
-            <li class="wght" id="wght" onclick="wght()">wght</li>
-            <li class="wdth" id="wdth" onclick="wdth()">wdth</li>
-            <li class="slnt" id="slnt" onclick="slnt()">slnt</li>
-            <li class="ital" id="ital" onclick="ital()">grad</li>
-            <li class="opsz" id="opsz" onclick="opsz()">opsz</li>
+
+            <div class="Example-right-page-1" id="pg">
+              <h1>Part 2</h1>
+              <h2>Example</h2>
+              <div class="container">
+                <div class="hamburger_btn">
+                  <div class="one"></div>
+                  <div class="two"></div>
+                  <div class="three"></div>
+                </div>
+
+                <div class="menu">
+                  <nav>
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Example</a></li>
+                    <li><a href="#">Recognition</a></li>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+          
+
+          
+
+            <!--<div class="Example-right-page-3" id="pg">
+              <div class="container">
+                <div class="hamburger_btn">
+                  <div class="one"></div>
+                  <div class="two"></div>
+                  <div class="three"></div>
+                </div>
+
+                <div class="menu">
+                  <nav>
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Example</a></li>
+                    <li><a href="#">Recognition</a></li>
+                  </nav>
+                </div>
+              </div>
+            </div>-->
+
+
+            <div class="Recognition-left-page-1" id="pg">
+              <h1>23</h1>
+              <div class="jacques">
+                <h5>Jacques Le Bailley</h5>
+                <p>Jacques is a senior type designer, living in The Hague. He started his own foundry Baron von Fonthausen in 2009, and has been dedicated to type design ever since. After graduating from the KABK and an apprenticeship at Linotype GmBH, he worked in Berlin and The Hague as Graphic Designer for several years, and then for many years at one of the most prestigious Dutch foundries, The Enschedé Type Foundry. He has also been a tutor at the WdKA art academy of Rotterdam and St. Joost Art Academy of Den Bosch. He mixes personal type projects with contract work for foundries like Monotype, Bold Monday and Google, and every now and then he does custom projects for several branding agencies.</p>
+              </div>
+          </div>
+
+            <div class="Recognition-right-page-1" id="pg">
+               <h2>acknowledgement</h2>
+               <div class="sebastian">
+                <h5>Sebastian Kosch</h5>
+                <p>Sebastian is a software engineer and researcher with a weakness for good typography. He currently lives in Toronto. He sketched the first version  of Crimson in 2009, before Google Fonts launched. He was a freshman engineering student at the time, and drawing letters was more fun than studying for his calculus exams.</p>
+              </div>
+              <div class="container">
+                <div class="hamburger_btn">
+                  <div class="one"></div>
+                  <div class="two"></div>
+                  <div class="three"></div>
+                </div>
+
+                <div class="menu">
+                  <nav>
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Example</a></li>
+                    <li><a href="#">Recognition</a></li>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigation -->
+        <div class="nav-container">
+          <nav class="nav-pages">
+            <li class="intro" id="intro" >Intro</li>
+            </li>
+            <li class="design" id="design" >Design</li>
+            </li>
+            <li class="example" id="example" >Example</li>
+            </li>
+            <li class="recognition" id="recognition">Recognition</li>
+            </li>
           </nav>
-          <h6>Variable fonts are the latest in the evolution of fonts.</h6>
-          <h1>White Crimson Pro only has a variable Weight(wght)<br>axis currently, a variable font can have other<br>axes like Width(wdth), Slant(slnt), Gradiation(grad),<br>and Optical size (opsz).</h1>
         </div>
 
-        <!-- Intro Page 2 Variable Font Right Page -->
-          <div class="Intro-right-page-2" id="pg">
 
-            <h1>intro</h1>
-              <div class="contain-0Y5" id="contain-0Y5">
-                <nav class="OY5">
-                  <li class="O" id="O"><h4 class="O-text" id="OO">*</h4><input type="range" min="200" max="900" value="900" class="slider-2" id="slider-O"><h3 class="txt-bot" id="txt-OO">900</h3></li>
-                  <li class="Y" id="Y"><h4 id="YY">y</h4><input type="range" min="200" max="900" value="900" class="slider-2" id="slider-Y"><h3 class="txt-bot" id="txt-YY">900</h3></li>
-                  <li class="FV" id="FV"><h4 id="FVFV">5</h4><input type="range" min="200" max="900" value="900" class="slider-2" id="slider-FVFV"><h3 class="txt-bot" id="txt-FVFV">900</h3></li>
-                </nav>
-              </div>
 
-              <div class="contain-ter">
-                <nav class="ter">
-                  <li class="t" id="t"><h4 id="tt">t</h4><input type="range" min="200" max="900" value="900" class="slider-2" id="slider-t"><h3 class="txt-bot" id="txt-tt">900</h3></li>
-                  <li class="e" id="e"><h4 id="ee">e</h4><input type="range" min="200" max="900" value="900" class="slider-2" id="slider-e"><h3 class="txt-bot" id="txt-ee">900</h3></li>
-                  <li class="r" id="r"><h4 id="rr">r</h4><input type="range" min="200" max="900" value="900" class="slider-2" id="slider-r"><h3 class="txt-bot" id="txt-rr">900</h3></li>
-                </nav>
-              </div>
+      </section>
 
-              <h2>What does this mean?</h2>
-              <h3 class="lst">These axes allow designers greater flexibility to create<br>and customize their own font instances for aesthetic<br>and layout flexibility.</h3>
-
-            <div class="container">
-              <div class="hamburger_btn">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-              </div>
-
-              <div class="menu">
-                <nav>
-                  <li><a href="#">Intro</a></li>
-                  <li><a href="#">Design</a></li>
-                  <li><a href="#">Example</a></li>
-                  <li><a href="#">Recognition</a></li>
-                </nav>
-              </div>
-            </div>
-          </div>
-
-          <!-- Page 3 Intro Variable Font Introduction -->
-        <div class="Design-left-page-1" id="pg">
-        
-        </div>
-
-          <div class="Design-right-page-1" id="pg">
-          <h1>Part 1</h1>
-          <h2>Design</h2>
-            <div class="container">
-              <div class="hamburger_btn">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-              </div>
-
-              <div class="menu">
-                <nav>
-                  <li><a href="#">Intro</a></li>
-                  <li><a href="#">Design</a></li>
-                  <li><a href="#">Example</a></li>
-                  <li><a href="#">Recognition</a></li>
-                </nav>
-              </div>
-            </div>
-          </div>
-
-          <!-- Design pg 2 -->
-        <div class="Design-left-page-2" id="pg">
-          <h1>5</h1>
-          <div class="text-container">
-            
-            <input type="text" class="the-text" id="the-text" value="Hi,">
-            <img src="images/brr.svg" alt="bright" class="b-right">
-            <img src="images/bll.svg" alt="left" class="b-left">
-            <div class="st-line"></div>
-            <h2>size</h2>
-            <div class="dot-line"></div>
-            <ul class="size-container">
-              <li class="xs" id="xs" onclick="xs()" >XS</li>
-              <li class="s" id="s" onclick="s()">S</li>
-              <li class="m" id="m" onclick="m()">M</li>
-              <li class="l" id="l" onclick="l()">L</li>
-              <li class="xl" id="xl" onclick="xl()">XL</li>
+      <section class="Example-1">
+        <div class="Example-left-page-2">
+          <input type="text" value="input new topic" class="e2-topic" id="e2-topic"></input>
+          <dir class="input-topic" id="input-topic">submit</dir>
+          <img src="images/newspaper.svg" alt="newspaper" class="newspaper" id="newspaper">
+          <h1>THE CRIMSON PRO DAILY</h1>
+          <div class="date-container">
+            <ul class="date-wrapper">
+              <li>NO.53210</li>
+              <li>TUESDAY, JANUARY 07, 2020</li>
+              <li>$3.00</li>
             </ul>
           </div>
+          <img src="images/Example2-1.jpg" alt="Example2-1" class="Example2-1" id="Example2-1">
+          <img src="images/Example2-2.jpg" alt="Example2-2" class="Example2-2" id="Example2-2">
+          <div class="header-1" id="header-1">Genius, Genocide Denier Or Both?</div>
+          <div class="snippet-1" id="snippet-1">Peter Handke, the Austrian author who was awarded this year's Nobel Prize in Literature, has been accused of falsifying history and praising war criminals.</div>
+          <div class="author-1" id="author-1">By ALEX MARSHALL and CHRISTOPHER F. SCHUETZE</div>
+          <div class="copyright">Copyright (c) 2020 The New York Times Company. All Rights Reserved.</div>
+          <div class="example-line-1" id="example-line-1"></div>
           
-          <h3>Easy on the Eyes</h3>
-          <div class="last-line"></div>
-          <h4>Crimson Pro’s cap height gives it better proportions<br> and less visual noise, making it easier to read.</h4>
+          <div class="example-line-5" id="example-line-5"></div>
+          <div class="example-line-3"></div>
+          <div class="long-line"></div>
+          <div class="header-2" id="header-2">Up for Sale: Pop Culture Mementos</div>
+          <div class="author-2" id="author-2">By GEORGE GENE GUSTINES</div>
+          <div class="MadTea">MAD TEA</div>
+          <img src="images/outside.svg" alt="outside" class="outside" id="outside">
+          <img src="images/inside.svg" alt="inside" class="inside" id="inside">
         </div>
 
-          <div class="Design-right-page-2" id="pg">
-            <h1>design</h1>
-            <h2>Weight Axis</h2>
-            <input type="range" min="200" max="850" value="200" class="slider-pg3" id="slider-pg3">
-            <div class="many-lines" id="many-lines">
-                <span class="first">White Rabbit with pink eyes</span><br>
-                <span class="second">White Rabbit with pink eyes</span><br>
-                <span class="third">White Rabbit with pink eyes</span><br>
-                <span class="fourth">White Rabbit with pink eyes</span><br>
-                <span class="fifth">White Rabbit with pink eyes</span><br>
-                <span class="sixth">White Rabbit with pink eyes</span><br>
-                <span class="seventh">White Rabbit with pink eyes</span><br>
-                <span class="eighth">White Rabbit with pink eyes</span><br>
-                <span class="ninth">White Rabbit with pink eyes</span><br>
-                <span class="tenth">White Rabbit with pink eyes</span><br>
-                <span class="eleventh">White Rabbit with pink eyes</span><br>
-                <span class="twelfth">White Rabbit with pink eyes</span>
+      </section>
+
+            <!--<div class="Example-right-page-2" id="pg">
+              <div class="container">
+                <div class="hamburger_btn">
+                  <div class="one"></div>
+                  <div class="two"></div>
+                  <div class="three"></div>
+                </div>
+
+                <div class="menu">
+                  <nav>
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Example</a></li>
+                    <li><a href="#">Recognition</a></li>
+                  </nav>
+                </div>
               </div>
+            </div>-->
 
-            <div class="container">
-              <div class="hamburger_btn">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-              </div>
-
-              <div class="menu">
-                <nav>
-                  <li><a href="#">Intro</a></li>
-                  <li><a href="#">Design</a></li>
-                  <li><a href="#">Example</a></li>
-                  <li><a href="#">Recognition</a></li>
-                </nav>
-              </div>
-            </div>
-          </div>
-
-          <div class="Design-left-page-3" id="pg">
-            <h1>7</h1>
-            <div class ="water">
-              <div class="box"></div>
-              <img src="images/P.svg" alt="alpha-P" class="alpha-P">
-              <div class="word_inside">
-                <h2> counter </h2>
-              </div>
-            </div>
-
-            <div class="design-bt-line"></div>
-            <h3>With large counters and apertures, readers can easily recognize different characters at smaller sizes.</h3>
-
-            
-          </div>
-
-          <div class="Design-right-page-3" id="pg">
-
-            <h1>design</h1>
-            <img src="images/top-letters.svg" alt="top-letter" class="top-letter">
-            <img src="images/weights.svg" alt="weights" class="weights">
-            <img src="images/mouse.svg" alt="mouse" class="mouse">
-            <img src="images/mboot.svg" alt="mboot" class="mboot">
-            <img src="images/dodo.svg" alt="dodo" class="dodo">
-            <img src="images/mushroom.svg" alt="mushroom" class="mushroom">
-            <img src="images/bottom-letters.svg" alt="bottom-letters" class="bottom-letters">
-            <img src="images/cake1.svg" alt="cake1" class="cake1">
-
-            <div class="container">
-              <div class="hamburger_btn">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-              </div>
-
-              <div class="menu">
-                <nav>
-                  <li><a href="#">Intro</a></li>
-                  <li><a href="#">Design</a></li>
-                  <li><a href="#">Example</a></li>
-                  <li><a href="#">Recognition</a></li>
-                </nav>
-              </div>
-            </div>
-          </div>
-
-          <div class="Design-left-page-4" id="pg">
-            <h1>9</h1>
-            <div class="drink-container">
-              <textarea class="drink-text" id="drink-text">Drink&#10;me</textarea>
-              <ul class="color-container">
-                <li class="circle_red" id="circle_red" onclick="color_red()" ></li>
-                <li class="circle_yellow" id="circle_yellow" onclick="color_yellow()"></li>
-                <li class="circle_blue" id="circle_blue" onclick="color_blue()"></li>
-                <li class="circle_brown" id="circle_brown" onclick="color_brown()"></li>
-                <li class="circle_pink" id="circle_pink" onclick="color_pink()"></li>
-                <li class="circle_black" id="circle_black" onclick="color_black()"></li>
-                <li class="circle_green" id="circle_green" onclick="color_green()"></li>
-                <li class="circle_white" id="circle_white" onclick="color_white()"></li>
-              </ul>
-              <div class="weight-text" id="weight-text">Weight Axis</div>
-              <input type="range" min="200" max="900" value="900" class="design-slider" id="design-slider">
-              <ul class="container-normal-italic">
-                <li class="roman" id="roman" onclick="d4click_roman()"/>Roman</li>
-                <li class="italic" id="italic" onclick="d4click_italic()">Italic</li>
-              </ul>
-              <div class="size-text" id="size-text">Size</div>
-              <img src="images/dotted.svg" alt="dotted" class="dotted">
-              <img src="images/dotted.svg" alt="dotted2" class="dotted2">
-              <div class="horizontal-line"></div>
-
-              <ul class="triangle-container" id="triangle-containerz">
-                <li>
-                  <img src="images/triangle.svg" alt="triangle1" class="triangle1" id="triangle1">
-                </li>
-                <li>
-                  <img src="images/triangle.svg" alt="triangle2" class="triangle2" id="triangle2">
-                </li>
-                <li>
-                  <img src="images/triangle.svg" alt="triangle3" class="triangle3" id="triangle3">
-                </li>
-                <li>
-                  <img src="images/triangle.svg" alt="triangle4" class="triangle4" id="triangle4">
-                </li>
-                <li>
-                  <img src="images/triangle.svg" alt="triangle5" class="triangle5" id="triangle5">
-                </li>
-                <li>
-                  <img src="images/triangle.svg" alt="triangle6" class="triangle6" id="triangle6">
-                </li>
-                <li>
-                  <img src="images/triangle.svg" alt="triangle7" class="triangle7" id="triangle7">
-                </li>
-                <li>
-                  <img src="images/triangle.svg" alt="triangle8" class="triangle8" id="triangle8">
-                </li>
-              </ul>
-
-              <h2 class="d-weighttxt" id="d-weighttxt">900</h2>
-              <ul class="d4-size-container" id="d4-size-containers">
-                <li class="d4xs" id="d4_xs" onclick="d4xs()" >XS</li>
-                <li class="d4s" id="d4_s" onclick="d4s()">S</li>
-                <li class="d4m" id="d4_m" onclick="d4m()">M</li>
-                <li class="d4l" id="d4_l" onclick="d4l()">L</li>
-                <li class="d4xl" id="d4_xl" onclick="d4xl()">XL</li> 
-              </ul>
-            </div>
-
-        </div>
-
-          <div class="Design-right-page-4" id="pg">
-            <h1>design</h1>
-            <img src="images/aaa.svg" alt="aaa" class="aaa" id="aaa">
-            
-            <h2 id="weight-unlimited">Weight</h2>
-           
-            <h3 id="with-unlimited">With unlimited options along this axis, designers can<br>tweak Crimson Pro to get the exact look and feel they<br>want. They can create custom styles, name them, and<br>save those instances to use throughout the design. 
-            </h3>
-            <div class="container">
-              <div class="hamburger_btn">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-              </div>
-
-              <div class="menu">
-                <nav>
-                  <li><a href="#">Intro</a></li>
-                  <li><a href="#">Design</a></li>
-                  <li><a href="#">Example</a></li>
-                  <li><a href="#">Recognition</a></li>
-                </nav>
-              </div>
-            </div>
-          </div>
-
-          <div class="Design-left-page-5" id="pg">
-            <h1>11</h1>
-            <div class="d5-regular" id="d5-regular" onclick="d5regular()">Regular</div>
-            <div class="d5-italic" id="d5-italic" onclick="d5italic()">Italic</div>
-            <div class="Alphabet-Container" id="Alphabet-Container">
-              <ul class="ABCD" id="UpperAlphabet">
-                <li>A</li>
-                <li>B</li>
-                <li>C</li>
-                <li>D</li>
-              </ul>
-
-              <ul class="EFGH" id="UpperAlphabet">
-                <li>E</li>
-                <li>F</li>
-                <li>G</li>
-                <li>H</li>
-              </ul>
-
-              <ul class="IJK" id="UpperAlphabet">
-                <li>I</li>
-                <li>J</li>
-                <li>K</li>
-              </ul>
-
-              <ul class="LMN" id="UpperAlphabet">
-                <li>L</li>
-                <li>M</li>
-                <li>N</li>
-              </ul>
-
-              <ul class="OP" id="UpperAlphabet">
-                <li>O</li>
-                <li>P</li>
-              </ul>
-
-              <ul class="QRST" id="UpperAlphabet">
-                <li>Q</li>
-                <li>R</li>
-                <li>S</li>
-                <li>T</li>
-              </ul>
-
-              <ul class="UVW" id="UpperAlphabet">
-                <li>U</li>
-                <li>V</li>
-                <li>W</li>
-              </ul>
-
-              <ul class="XYZ" id="UpperAlphabet">
-                <li>X</li>
-                <li>Y</li>
-                <li>Z</li>
-              </ul>
-            </div>
-
-        </div>
-
-          <div class="Design-right-page-5" id="pg">
-            <h1>uppercase</h1>
-            <img src="images/cake.svg" alt="cake" class="cake">
-      
-            <textarea class="eat-me" id="eat-me">"EAT ME"</textarea>
-
-            <div class="special-character-container" id="special-character-container">
-            <ul class="Hash" id="Hash">
-              <li>₤</li>
-              <li>&</li>
-              <li>$</li>
-              <li>€</li>
-              <li>#</li>
-            </ul>
-
-            <ul class="addmult" id="addmult">
-              <li>+</li>
-              <li>÷</li>
-              <li>×</li>
-              <li>=</li>
-              <li>*</li>
-            </ul>
-
-            <ul class="question" id="question">
-              <li>?</li>
-              <li>%</li>
-              <li>!</li>
-              <li><</li>
-              <li>[</li>
-              <li>]</li>
-            </ul>
-
-          </div>
-
-            <div class="container">
-              <div class="hamburger_btn">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-              </div>
-
-              <div class="menu">
-                <nav>
-                  <li><a href="#">Intro</a></li>
-                  <li><a href="#">Design</a></li>
-                  <li><a href="#">Example</a></li>
-                  <li><a href="#">Recognition</a></li>
-                </nav>
-              </div>
-            </div>
-          </div>
-
-          <div class="Design-left-page-6" id="pg">
-            <h1>13</h1>
-            <div class="d6-regular" id="d6-regular" onclick="d6regular()">Regular</div>
-            <div class="d6-italic" id="d6-italic" onclick="d6italic()">Italic</div>
-            <div class="lowercase-container" id="lowercase-container">
-               <ul class="abcd01" id="abcd">
-                <li>a</li>
-                <li>b</li>
-                <li>c</li>
-                <li>d</li>
-                <li>0</li>
-                <li>1</li>
-              </ul>
-
-              <ul class="efgh23" id="efgh23">
-                <li>e</li>
-                <li>f</li>
-                <li>g</li>
-                <li>h</li>
-                <li>2</li>
-                <li>3</li>
-              </ul>
-
-              <ul class="ijk45" id="ijk45">
-                <li>i</li>
-                <li>j</li>
-                <li>k</li>
-                <li>4</li>
-                <li>5</li>
-              </ul>
-
-              <ul class="lmn67" id="lmn67">
-                <li>l</li>
-                <li>m</li>
-                <li>n</li>
-                <li>6</li>
-                <li>7</li>
-              </ul>
-
-              <ul class="opqr89" id="opqr89">
-                <li>o</li>
-                <li>p</li>
-                <li>q</li>
-                <li>r</li>
-                <li>8</li>
-                <li>9</li>
-              </ul>
-
-              <ul class="st" id="st">
-                <li>s</li>
-                <li>t</li>
-              </ul>
-
-              <ul class="uvw" id="uvw">
-                <li>u</li>
-                <li>v</li>
-                <li>w</li>
-              </ul>
-
-              <ul class="xyz" id="xyz">
-                <li>x</li>
-                <li>y</li>
-                <li>z</li>
-              </ul>
-
-            </div>
-
-
-          </div>
-
-
-          <div class="Design-right-page-6" id="pg">
-            <h1>design</h1>
-            <textarea class="text-nocake" id="text-nocake">“So she set to&#10;work, and very&#10;soon finished off&#10;the cake”</textarea>
-            <img src="images/nocake.svg" alt="nocake" class="nocake">
-            <div class="container">
-              <div class="hamburger_btn">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-              </div>
-
-              <div class="menu">
-                <nav>
-                  <li><a href="#">Intro</a></li>
-                  <li><a href="#">Design</a></li>
-                  <li><a href="#">Example</a></li>
-                  <li><a href="#">Recognition</a></li>
-                </nav>
-              </div>
-            </div>
-          </div>
-
-
-
-        <div class="Design-left-page-7" id="pg">
-            <h1>15</h1>
-            <h2>Looking to use <span>Crimson Pro</span><br>in your language?</h2>
-        
-          <div class="language-container" id="language-container">
-             <ul class="AEIR" id="AEIR">
-                <li id="AFRIKAANS">AFRIKAANS</li>
-                <li id="ENGLISH">ENGLISH</li>
-                <li id="ITALIAN">ITALIAN</li>
-                <li id="ROMANIAN">ROMANIAN</li>
-             </ul>
-             <ul class="AELS" id="AELS">
-                <li id="ALBANIAN">ALBANIAN</li>
-                <li id="ESTONIAN">ESTONIAN</li>
-                <li id="LATVIAN">LATVIAN</li>
-                <li id="SLOVAK">SLOVAK</li>
-             </ul>
-             <ul class="CFLS" id="CFLS">
-                <li id="CATALAN">CATALAN</li>
-                <li id="FINNISH">FINNISH</li>
-                <li id="LITHUANIAN">LITHUANIAN</li>
-                <li id="SLOVENIAN">SLOVENIAN</li>
-             </ul>
-             <ul class="CFMS" id="CFMS">
-                <li id="CROATIAN">CROATIAN</li>
-                <li id="FRENCH">FRENCH</li>
-                <li id="MALTESE">MALTESE</li>
-                <li id="SPANISH">SPANISH</li>
-             </ul>
-             <ul class="CGNS" id="CGNS">
-                <li id="NORWEGIAN">NORWEGIAN</li>
-                <li id="GERMAN">GERMAN</li>
-                <li id="CZECH">CZECH</li>
-                <li id="SWEDISH">SWEDISH</li>
-             </ul>
-             <ul class="DHPT" id="DHPT">
-                <li id="DANISH">DANISH</li>
-                <li id="HUNGARIAN">HUNGARIAN</li>
-                <li id="POLISH">POLISH</li>
-                <li id="TURKISH">TURKISH</li>
-             </ul>
-             <ul class="DCPV" id="DCPV">
-                <li id="DUTCH">DUTCH</li>
-                <li id="ICELANDIC">ICELANDIC</li>
-                <li id="PORTUGUESE">PORTUGUESE</li>
-                <li id="VIETNAMESE">VIETNAMESE</li>
-             </ul>
-
-          </div>
-        </div>
-
-          <div class="Design-right-page-7" id="pg">
-            <h1>preview</h1>
-            <div class="d7-border"></div>
-
-            <div class="custom-select">
-              <select>
-                <option value="0">ENGLISH</option>
-                <option value="1">AFRIKAANS</option>
-                <option value="2">ITALIAN</option>
-                <option value="3">ROMANIAN</option>
-                <option value="4">ALBANIAN</option>
-                <option value="5">LATVIAN</option>
-                <option value="6">SLOVAK</option>
-                <option value="7">CATALAN</option>
-                <option value="8">FINNISH</option>
-                <option value="9">LITHUANIAN</option>
-                <option value="10">SLOVENIAN</option>
-                <option value="11">CROATIAN</option>
-                <option value="12">FRENCH</option>
-                <option value="13">MALTESE</option>
-                <option value="14">SPANISH</option>
-                <option value="15">CZECH</option>
-                <option value="16">NORWEGIAN</option>
-                <option value="17">GERMAN</option>
-                <option value="18">SWEDISH</option>
-                <option value="19">DANISH</option>
-                <option value="20">HUNGARIAN</option>
-                <option value="21">POLISH</option>
-                <option value="22">TURKISH</option>
-                <option value="23">DUTCH</option>
-                <option value="24">ICELANDIC</option>
-                <option value="25">PORTUGUESE</option>
-                <option value="26">VIETNAMESE</option>
-              </select>
-            </div>
-            <div class="p7text-container" id="title-english">
-              <div class="p7title" id="p7-english">ALICE'S ADVENTURE IN WONDERLAND</div>
-              <div class="p7chapter" id="p72-english">Chapter II</div>
-              <div class="p7paragraph" >For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went.
-              <br><br>
-             So she called softly after it, ‘Mouse dear! Do come back again, and we won’t talk about cats or dogs either, if you don’t like them!’ When the Mouse heard this, it turned round and swam slowly back to her: its face was quite pale (with passion, Alice thought), and it said in a low trembling voice, ‘Let us get to the shore, and then I’ll tell you my history, and you’ll understand why it is I hate cats and dogs.’
-              <br><br>
-              It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures. Alice led the way, and the whole party swam to the shore.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-afrikaans" style="display:none">
-              <div class="p7title" id="p7-afrikaans">ALICE SE AVONTURE IN WONDERLAND</div>
-              <div class="p7chapter" id="p72-afrikaans">Hoofstuk II</div>
-              <div class="p7paragraph" >For the Mouse was swimming away Want die muis swem so hard soos dit van haar weg was, en maak 'n hele opskudding in die swembad.
-              <br><br>
-             Sy het toe saggies daarna geroep: ‘Muis skat! Kom weer terug, en ons sal ook nie oor katte of honde praat as jy nie van hulle hou nie!’ Toe die muis dit hoor, draai hy om en swem stadig terug na haar: sy gesig was baie bleek (met passie , Dink Alice), en dit sê met 'n lae bewende stem: ‘Laat ons by die oewer uitkom, dan vertel ek jou my geskiedenis, en jy sal verstaan waarom ek katte en honde haat.’
-              <br><br>
-              Dit was hoog tyd om te gaan, want die swembad het baie oorvol geraak met die voëls en diere wat daarin geval het: daar was 'n eend en 'n Dodo, 'n Lory en 'n Arend en verskeie ander nuuskierige wesens. Alice lei die pad, en die hele party swem na die oewer.
-              </div>
-            </div>
-
-
-            <div class="p7text-container" id="title-italian" style="display:none">
-              <div class="p7title" id="p7-italian">LE AVVENTURE D’ALICE</div>
-              <div class="p7chapter" id="p72-italian">Capitolo II</div>
-              <div class="p7paragraph">Perché il Mouse le stava nuotando via più forte che poteva, e stava facendo un bel trambusto nella piscina.
-              <br><br>
-            Quindi lo chiamò dolcemente, “Mouse caro! Torna di nuovo, e non parleremo nemmeno di cani o gatti, se non ti piacciono!” Quando il Mouse lo sentì, si voltò e le tornò lentamente a nuotare: il suo viso era piuttosto pallido (con passione , Pensò Alice), e disse a bassa voce tremante: “Andiamo a riva, e poi ti racconterò la mia storia, e capirai perché odio cani e gatti”.
-              <br><br>
-              Era giunto il momento di andare, perché la piscina stava diventando piuttosto affollata con gli uccelli e gli animali che vi erano caduti: c'erano un'anatra e un Dodo, un Lory e un Eaglet e molte altre creature curiose. Alice aprì la strada e l'intera festa nuotò fino alla riva.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-romanian" style="display:none">
-              <div class="p7title" id="p7-romanian">AVENTURILE LUI ALICE IN TARA MINUNILOR</div>
-              <div class="p7chapter" id="p72-romanian">Capitolul II</div>
-              <div class="p7paragraph">Căci șoarecele înota departe de ea, cât putea de greu și făcea o agitație în piscină, așa cum mergea.
-              <br><br>
-            Așa că a sunat ușor după ea: „Mouse drag! Reveniți din nou și nici nu vom vorbi despre pisici sau câini, dacă nu le place!” Când șoarecele a auzit acest lucru, s-a întors și a înotat încet spre ea: chipul era destul de palid (cu pasiune , S-a gândit Alice) și a spus cu o voce tremurândă: „Hai să ajungem la țărm, apoi o să vă spun istoria mea și veți înțelege de ce este vorba că urăsc pisicile și câinii”.
-              <br><br>
-             Era timpul să mergem, căci bazinul devenea destul de aglomerat cu păsările și animalele care căzuseră în ea: erau un Rău și un Dodo, un Lory și un Eaglet și alte câteva creaturi curioase. Alice a condus drumul și toată petrecerea a înotat până la țărm.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-albanian" style="display:none">
-              <div class="p7title" id="p7-albanian">AVENTURAT E ALISE NË VENDIN E MREKULLIVE</div>
-              <div class="p7chapter" id="p72-albanian">Kapitulli II</div>
-              <div class="p7paragraph">Sepse Miu po notohej larg saj, aq sa mund të shkonte, dhe bënte mjaft mall në pishinë siç shkonte.
-              <br><br>
-            Kështu që ajo e thirri me butësi pas saj, ‘Mouse e dashur! A u kthehu përsëri, dhe ne nuk do të flasim as për mace ose qen, nëse nuk i pëlqen ata!’ Kur Miu e dëgjoi këtë, u kthye dhe rrotullua ngadalë përsëri tek ajo: fytyra e saj ishte mjaft e zbehtë (me pasion , Mendoi Alice), dhe tha me një zë të ulët të dridhur, ‘Le të arrijmë në breg, dhe pastaj unë do t'ju tregoj historinë time, dhe ju do të kuptoni pse është unë i urrej macet dhe qentë’.
-              <br><br>
-             Ishte koha e duhur për të shkuar, sepse pishina ishte shumë e mbushur me zogjtë dhe kafshët që kishin rënë në të: kishte një Duck dhe një Dodo, një Lory dhe një Eaglet dhe disa krijesa të tjera kurioze. Alice udhëhoqi rrugën, dhe e gjithë festa notoi në breg.
-              </div>
-            </div>
-
-
-            <div class="p7text-container" id="title-estonian" style="display:none">
-              <div class="p7title" id="p7-estonian">ALICE’I SEIKLUSED IMEDEMAAL</div>
-              <div class="p7chapter" id="p72-estonian">II peatükk</div>
-              <div class="p7paragraph">Sest hiir ujus temast eemale nii kõvasti, kui vähegi võis minna, ja tegi basseinis käies üsna käratsema.
-              <br><br>
-            Nii et ta helistas pärast seda pehmelt: ‘Hiir kallis! Tulge jälle tagasi ja me ei räägi ka kassidest ega koertest, kui teile need ei meeldi!’ Kui Hiir seda kuulis, keeras see ringi ja ujus aeglaselt tema poole: tema nägu oli üsna kahvatu (kirega), Mõtles Alice), ja ütles vaiksel väriseval häälel: ‘Laskem kaldale, siis ma räägin teile oma ajaloo ja saate aru, miks ma vihkan kasse ja koeri.’
-              <br><br>
-             Oli viimane aeg minna, sest bassein oli sinna kukkunud lindude ja loomadega üsna rahvarohke: seal olid part ja dodo, lory ja kotkas ning mitmed muud uudishimulikud olendid. Alice viis teed ja kogu pidu ujus kaldale.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-latvian" style="display:none">
-              <div class="p7title" id="p7-latvian">ALISES PIEDZĪVOJUMI BRĪNUMZEMĒ</div>
-              <div class="p7chapter" id="p72-latvian">II nodaļa</div>
-              <div class="p7paragraph">Tā kā Pelīte peldējās prom no viņas tik grūti, cik vien varēja noiet, un diezgan satraucoši peldējās baseinā.
-              <br><br>
-            Tāpēc viņa maigi pēc tā sauca: “Pele mīļā! Atgriezieties vēlreiz, un mēs nerunāsim arī par kaķiem vai suņiem, ja jums tie nepatīk!” Kad Pele to dzirdēja, tā apgriezās un lēnām peldēja viņai pretī: tās seja bija diezgan bāla (ar aizrautību) , Alise domāja), un tā zemā drebošā balsī sacīja: “Ļaujiet mums nokļūt krastā, un tad es jums pastāstīšu savu vēsturi, un jūs sapratīsit, kāpēc es ienīstu kaķus un suņus.”
-              <br><br>
-             Bija pēdējais laiks doties, jo baseins bija diezgan pieblīvēts ar tajā iekritušajiem putniem un dzīvniekiem: tur bija pīle un dodo, lorijs un ērglis, kā arī vairākas citas ziņkārīgas radības. Alise veda ceļu, un visa ballīte peldēja uz krastu.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-slovak" style="display:none">
-              <div class="p7title" id="p7-slovak">ALICA V KRAJINE ZÁZRAKOV</div>
-              <div class="p7chapter" id="p72-slovak">Kapitola II</div>
-              <div class="p7paragraph">Pretože myš od nej plávala tak tvrdo, ako to len šlo, a robila v bazéne celkom rozruch.
-              <br><br>
-            Zavolala potom ticho, „drahá myš! Vráťte sa znova a nebudeme hovoriť ani o mačkách alebo psoch, ak sa vám nepáčia! “Keď to myš počula, otočila sa a pomaly k nej plávala: jej tvár bola dosť bledá (s vášňou) , Pomyslela si Alice) a tichým chvejúcim sa hlasom povedala: „Poďme na pobrežie, potom ti poviem svoju históriu a pochopíš, prečo to nenávidím mačky a psy.“
-              <br><br>
-             Nastal najvyšší čas ísť, pretože bazén bol dosť preplnený vtákmi a zvieratami, ktoré do neho spadli: boli kačica a Dodo, Lory a Eaglet a niekoľko ďalších zvedavých tvorov. Alice viedla cestu a celá strana plavala na pobrežie.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-catalan" style="display:none">
-              <div class="p7title" id="p7-catalan">LES AVENTURES D’ALÍCIA</div>
-              <div class="p7chapter" id="p72-catalan">Capítol II</div>
-              <div class="p7paragraph">Perquè el ratolí nedava tan lluny com es podia, i feia molta commoció a la piscina.
-              <br><br>
-            Llavors, ella va cridar amb suavitat: “Ratolí estimat! Torneu-hi de nou i tampoc parlarem de gats ni de gossos, si no us agrada!” Quan el Ratolí va sentir això, es va girar i va nedar lentament cap a ella: la cara era pàl·lida (amb passió , Va pensar Alícia) i va dir amb veu tremolosa: “Anem a la costa, i després us explicaré la meva història i entendreu per què és que odio els gats i els gossos”.
-              <br><br>
-             Era hora d’anar-hi, perquè la piscina s’estava fent força plena d’ocells i animals que hi havien caigut: hi havia un Ànec i un Dodo, un Lory i un Àguila i diverses altres criatures curioses. Alícia va dirigir el camí i tota la festa va nedar fins a la vora.
-              </div>
-            </div>
-
-
-            <div class="p7text-container" id="title-finnish" style="display:none">
-              <div class="p7title" id="p7-finnish">LIISAN SEIKKAILUT IHMEMAASSA</div>
-              <div class="p7chapter" id="p72-finnish">II luku</div>
-              <div class="p7paragraph">Sillä hiiri ui pois hänestä niin kovaa kuin mahdollista, ja teki melko levottomuuden uima-altaassa, kun se meni.
-              <br><br>
-            Joten hän soitti sen jälkeen pehmeästi: ‘Hiiri rakas! Älä tule takaisin, emmekä puhu myöskään kissoista tai koirista, jos et pidä heistä!’ Kun hiiri kuuli tämän, se kääntyi ympäri ja ui hitaasti takaisin hänen luokseen: sen kasvot olivat melko vaaleat (intohimoisesti), Alice ajatteli), ja se sanoi vapisevalla äänellä: ‘Menkäämme rannalle ja kerron sitten historiani, ja ymmärrät miksi vihaan kissoja ja koiria.’
-              <br><br>
-             Oli korkea aika lähteä, sillä uima-allas oli tulossa melko täynnä siihen putoantuneita lintuja ja eläimiä: siellä oli ankka ja dodo, lory ja kotka sekä useita muita uteliaita olentoja. Alice johti tietä, ja koko puolue ui rannalle.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-lithuanian" style="display:none">
-              <div class="p7title" id="p7-lithuanian">ALISOS NUOTYKIAI STEBUKLŲ ŠALYJE</div>
-              <div class="p7chapter" id="p72-lithuanian">II skyrius</div>
-              <div class="p7paragraph">Nes Pelė plaukė toliau nuo jos kiek įmanoma sunkiau, o baseine jautėsi gana linksma.
-              <br><br>
-            Po to ji švelniai paragino: „Pelė brangioji! Grįžkite dar kartą, ir mes nekalbėsime apie kates ar šunis, jei jums jų nepatinka!“ Kai pele tai išgirdo, ji apsisuko ir lėtai plaukė atgal į ją: jos veidas buvo gana blyškus (su aistra) , Pagalvojo Alisa), ir žemu drebančiu balsu tarė: „Leiskime į krantą, tada aš jums papasakosiu savo istoriją ir jūs suprasite, kodėl aš nekenčiu kačių ir šunų“.
-              <br><br>
-             Buvo pats laikas eiti, nes baseinas buvo gana gausiai apkrautas į jį patekusiais paukščiais ir gyvūnais: antis ir Dodo, Loriu ir ereliu bei keletu kitų smalsių būtybių. Alisa vedė kelią, o visa partija plaukė į krantą.
-              </div>
-            </div>
-
-
-            <div class="p7text-container" id="title-slovenian" style="display:none">
-              <div class="p7title" id="p7-slovenian">ALIČINE PUSTOLOVŠČINE</div>
-              <div class="p7chapter" id="p72-slovenian">Poglavje II</div>
-              <div class="p7paragraph">Miška je plavala od nje tako težko, kot bi lahko šlo, in v bazenu se je precej zmedla.
-              <br><br>
-            Zato je tiho zaklicala za njo: 'Miška draga! Vrnite se še enkrat in tudi o mačkah in psih ne bomo govorili, če jih ne marate! «Ko je Miška to slišala, se je obrnila in počasi plavala nazaj k njej: njen obraz je bil precej bled (s strastjo) , Je pomislila Alice) in rekla je tiho, drhtečim glasom: "Pustimo do obale, nato pa vam bom povedal svojo zgodovino, in razumeli boste, zakaj sovražim mačke in pse."
-              <br><br>
-            Skrajni čas je šel, saj je bil bazen precej natrpan s pticami in živalmi, ki so padle vanj: tam sta bila Raca in Dodo, Lory in Eaglet ter več drugih radovednih bitij. Alice je vodila pot in celotna zabava je plavala na obalo.
-              </div>
-            </div>
-
-
-            <div class="p7text-container" id="title-croatian" style="display:none">
-              <div class="p7title" id="p7-croatian">ALISINE AVANTURE U ZEMLJI ČUDESA</div>
-              <div class="p7chapter" id="p72-croatian">II. Poglavlje</div>
-              <div class="p7paragraph">Miš se plivao od nje koliko god je mogao, i napravila zbrku u bazenu dok je išla.
-              <br><br>
-            Pa je tiho zazvala nakon toga: „Miše draga! Vratite se ponovo i nećemo razgovarati ni o mačkama ni o psima, ako vam se ne sviđaju!” Kad je Miš to čuo, okrenuo se i polako plivao prema njoj: lice joj je bilo sasvim blijedo (sa strašću , Pomislila je Alice) i rekla je tihim drhtavim glasom: „Idemo na obalu, a zatim ću vam ispričati svoju povijest, a vi ćete shvatiti zašto mrzim mačke i pse.”
-              <br><br>
-            Bilo je krajnje vrijeme za izlazak, jer je bazen bio prilično prepun ptica i životinja koje su upale u njega: tu su bili Patka i Dodo, Lory i Orao i nekoliko drugih znatiželjnih stvorenja. Alice je vodila na put, a cijela zabava otplivala je do obale.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-french" style="display:none">
-              <div class="p7title" id="p7-french">LES AVENTURES D’ALICE</div>
-              <div class="p7chapter" id="p72-french">Chapitre II</div>
-              <div class="p7paragraph">Car la souris nageait loin d’elle aussi fort que possible, et faisait beaucoup de bruit dans la piscine.
-              <br><br>
-            Alors elle appela doucement: «Chère Souris! Reviens encore, et nous ne parlerons pas non plus des chats ou des chiens, si tu ne les aimes pas!» Quand la Souris entendit ceci, elle se retourna et revint lentement à elle: son visage était plutôt pâle (avec passion, pensa Alice), et elle dit d’une voix basse et tremblante: «Allons au bord de la mer, et ensuite je te raconterai mon histoire, et tu comprendras pourquoi c’est que je déteste les chats et les chiens.»
-              <br><br>
-            Il était grand temps d’y aller car la piscine était pleine à craquer d’oiseaux et d’animaux qui y étaient tombés: il y avait un canard et un dodo, un lory et un aigle, ainsi que plusieurs autres créatures curieuses. Alice a ouvert la voie et toute la partie a nagé jusqu’au rivage.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-maltese" style="display:none">
-              <div class="p7title" id="p7-maltese">L-AVVENTURI TA 'ALICE FIL-WONDERLAND</div>
-              <div class="p7chapter" id="p72-maltese">Kapitolu II</div>
-              <div class="p7paragraph">Għall-ġurdien kien qed jgħum 'il bogħod minnha kemm jista' jkun imur, u jagħmel pjuttost għaqda fil-pixxina kif mar.
-              <br><br>
-            Allura hi sejħet ippronunzjata wara, "Ġurdien għeżież! Terġa 'terġa' lura, u lanqas ma nitkellmu dwar qtates jew klieb, jekk ma jħobbux!" Meta l-ġurdien sema 'dan, dawwar tond u għawm bil-mod lura lejn tagħha: wiċċu kien pjuttost pallidu (b'passjoni , Ħaseb Alice), u qalet b'vuċi baxxa tregħid, "Ejjew naslu lejn ix-xatt, u allura ngħidlek l-istorja tiegħi, u intom tifhmu għaliex qed jobgħod il-qtates u l-klieb."
-              <br><br>
-            Wasal iż-żmien biex immorru, għax il-pixxina kienet toħroġ pjuttost iffullata bl-għasafar u l-annimali li kienu waqgħu fiha: kien hemm Papra u Dodo, Lory u Eaglet, u bosta kreaturi kurjużi oħra. Alice mexxiet it-triq, u l-partit kollu kien jgħum fix-xatt.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-spanish" style="display:none">
-              <div class="p7title" id="p7-spanish">LAS AVENTURAS DE ALICIA</div>
-              <div class="p7chapter" id="p72-spanish">Capítulo II</div>
-              <div class="p7paragraph">Porque el Ratón estaba nadando lejos de ella tan fuerte como podía, y estaba haciendo una gran conmoción en la piscina a medida que avanzaba.
-              <br><br>
-            Entonces ella llamó suavemente después de eso, ‘¡Querido ratón! ¡Vuelve otra vez, y tampoco hablaremos de gatos o perros, si no te gustan!’ Cuando el Ratón escuchó esto, se dio la vuelta y nadó lentamente hacia ella: su cara estaba bastante pálida (con pasión , Pensó Alice), y decía en voz baja y temblorosa: ‘Vamos a la orilla, y luego te contaré mi historia, y entenderás por qué odio los gatos y los perros’.
-              <br><br>
-            Ya era hora de irse, porque la piscina se estaba abarrotando de pájaros y animales que habían caído en ella: había un pato y un dodo, un lory y un aguilucho, y varias otras criaturas curiosas. Alice abrió el camino y toda la fiesta nadó hasta la orilla.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-czech" style="display:none">
-              <div class="p7title" id="p7-czech">ALENKA V ŘÍŠI DIVŮ</div>
-              <div class="p7chapter" id="p72-czech">Kapitola II</div>
-              <div class="p7paragraph">Myš od ní plavala tak tvrdě, jak to šlo, a v bazénu udělala docela rozruch.
-              <br><br>
-            Zavolala tiše, „drahá myš! Vraťte se znovu a nebudeme mluvit ani o kočkách nebo psech, pokud se vám nelíbí!” Když to myš slyšela, otočila se a pomalu k ní plavala: její tvář byla docela bledá (s vášní) , Pomyslela si Alice) a řekla tichým chvějícím se hlasem: „Pojďme na břeh a pak ti řeknu svou historii a pochopíš, proč to nenávidím kočky a psy.”
-              <br><br>
-            Byl nejvyšší čas jít, protože bazén byl docela přeplněný ptáky a zvířaty, které do něj spadly: byly kachna a Dodo, Lory a Eaglet a několik dalších zvědavých tvorů. Alice vedla cestu a celá strana plavala na břeh.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-german" style="display:none">
-              <div class="p7title" id="p7-german">ALICE'S ABENTEUER IM WUNDERLAND</div>
-              <div class="p7chapter" id="p72-german">Kapitel II</div>
-              <div class="p7paragraph">Denn die Maus schwamm von ihr weg, so schwer es ging, und machte im Pool eine ziemliche Aufregung, als es ging.
-              <br><br>
-            Joten hän soitti sen jälkeen pehmeästi: “Hiiri rakas! Älä tule takaisin, emmekä puhu myöskään kissoista tai koirista, jos et pidä heistä!” Kun hiiri kuuli tämän, se kääntyi ympäri ja ui hitaasti takaisin hänen luokseen: sen kasvot olivat melko vaaleat (intohimoisesti) , Alice ajatteli), ja se sanoi vapisevalla äänellä: “Menkäämme rannalle ja kerron sitten historiani, ja ymmärrät miksi vihaan kissoja ja koiria.”
-              <br><br>
-           Het was de hoogste tijd om te gaan, want het zwembad werd behoorlijk druk met de vogels en dieren die erin waren gevallen: er waren een eend en een dodo, een lory en een adelaar en verschillende andere nieuwsgierige wezens. Alice liep voorop en het hele gezelschap zwom naar de kust.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-norwegian" style="display:none">
-              <div class="p7title" id="p7-norwegian">ALICE I EVENTYRLAND</div>
-              <div class="p7chapter" id="p72-norwegian">Kapittel II</div>
-              <div class="p7paragraph">For musen svømte bort fra henne så hardt som den kunne gå, og gjorde ganske opprykk i bassenget mens det gikk.
-              <br><br>
-            Så hun ringte bløtt etter det, "Mus kjære! Kom tilbake igjen, så snakker vi ikke om katter eller hunder heller, hvis du ikke liker dem!" Da musen hørte dette, snudde den seg og svømte sakte tilbake til henne: ansiktet var ganske blekt (med lidenskap , Tenkte Alice), og den sa med en lav skjelvende stemme, "La oss komme til fjæra, så skal jeg fortelle deg historien min, så vil du forstå hvorfor det er at jeg hater katter og hunder."
-              <br><br>
-           Det var på høy tid å gå, for bassenget ble ganske overfylt med fuglene og dyrene som hadde falt i det: det var en and og en Dodo, en Lory og en Eaglet og flere andre nysgjerrige skapninger. Alice ledet an, og hele partiet svømte til land.
-              </div>
-            </div>
-
-           <div class="p7text-container" id="title-swedish" style="display:none">
-              <div class="p7title" id="p7-swedish">ALICE I UNDERLANDET</div>
-              <div class="p7chapter" id="p72-swedish">Kapitel II</div>
-              <div class="p7paragraph">För musen simmade bort från henne så hårt som den kunde gå, och gjorde ganska uppror i poolen när det gick.
-              <br><br>
-            Så hon kallade mjukt efter det, "Mus kära! Kom tillbaka igen, så kommer vi inte prata om katter eller hundar heller, om du inte gillar dem!" När musen hörde detta, vände det sig och simmade långsamt tillbaka till henne: ansiktet var ganska blekt (med passion , Tänkte Alice), och det sa med en låg skakande röst, "Låt oss komma till stranden, och sedan ska jag berätta min historia, och du förstår varför det är jag hatar katter och hundar."
-              <br><br>
-           Det var hög tid att gå, för poolen blev ganska trångt med fåglar och djur som föll i den: det fanns en anka och en Dodo, en Lory och en örn och flera andra nyfikna varelser. Alice ledde vägen och hela partiet simmade till stranden.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-danish" style="display:none">
-              <div class="p7title" id="p7-danish">ALICE'S EVENTYR I EVENTYRLAND</div>
-              <div class="p7chapter" id="p72-danish">Kapitel II</div>
-              <div class="p7paragraph">For musen svømte væk fra hende så hårdt som den kunne gå, og gjorde en ganske ophidselse i poolen, mens den gik.
-              <br><br>
-            Så hun kaldte blidt efter det, “Mus kære! Kom tilbage igen, så taler vi heller ikke om katte eller hunde, hvis du ikke kan lide dem!” Da musen hørte dette, vendte det sig rundt og svømmede langsomt tilbage til hende: ansigtet var ret bleg (med lidenskab), Tænkte Alice), og det sagde med en lavt rystende stemme, “Lad os komme til kysten, så vil jeg fortælle dig min historie, så vil du forstå, hvorfor det er, jeg hader katte og hunde.”
-              <br><br>
-           Det var på høje tid at gå, for puljen blev ret overfyldt med de fugle og dyr, der var faldet i den: der var en And og en Dodo, en Lory og en Eaglet og flere andre nysgerrige væsener. Alice førte vejen, og hele festen svømmede til kysten.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-hungarian" style="display:none">
-              <div class="p7title" id="p7-hungarian">ALIZ KALANDJAI CSODAORSZÁGBAN</div>
-              <div class="p7chapter" id="p72-hungarian">II. Fejezet</div>
-              <div class="p7paragraph">Mert az egér annyira úszott tőle, amennyire csak tudott, és eléggé zavart volt a medencében, ahogy ment.
-              <br><br>
-            Ezért halkan felszólította: - Egér kedvesem! Ne gyere vissza, és nem is beszélünk macskákról vagy kutyákról, ha nem tetszik nekik! - Amikor az egér ezt meghallotta, megfordult és lassan visszaugrott feléje: arca sápadt volt (szenvedélyesen) , Gondolta Alice), és remegő hangon azt mondta: - Menjünk a partra, és akkor elmondom nekem a történelem, és meg fogod érteni, miért utálom macskákat és kutyákat. -
-              <br><br>
-            Legfőbb ideje elmenni, mert a medence eléggé zsúfolttá vált a beleesett madarakkal és állatokkal: volt kacsa és egy dodo, egy lory és egy sas, és még sok más kíváncsi lény. Alice vezette az utat, és az egész párt a part felé úszott.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-polish" style="display:none">
-              <div class="p7title" id="p7-polish">ALICJA W KRAINIE CZARÓW</div>
-              <div class="p7chapter" id="p72-polish">Rozdział II</div>
-              <div class="p7paragraph">Mysz odpływała od niej tak mocno, jak tylko mogła, i powodowała niemałe zamieszanie w basenie.
-              <br><br>
-            Po to ji švelniai paragino: „Pelė brangioji! Grįžkite dar kartą, ir mes nekalbėsime apie kates ar šunis, jei jums jų nepatinka!“ Kai pele tai išgirdo, ji apsisuko ir lėtai plaukė atgal į ją: jos veidas buvo gana blyškus (su aistra) , Pagalvojo Alisa), ir žemu drebančiu balsu tarė: „Leiskime į krantą, tada aš jums papasakosiu savo istoriją ir jūs suprasite, kodėl aš nekenčiu kačių ir šunų“.
-              <br><br>
-            Najwyższy czas iść, bo basen stawał się dość zatłoczony ptakami i zwierzętami, które do niego wpadły: były Kaczka i Dodo, Lory i Orlik oraz kilka innych ciekawych stworzeń. Alice poprowadziła i cała grupa popłynęła na brzeg.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-turkish" style="display:none">
-              <div class="p7title" id="p7-turkish">ALICE'IN HARIKALAR DIYARI MACERALARI</div>
-              <div class="p7chapter" id="p72-turkish">II. Bölüm</div>
-              <div class="p7paragraph">Çünkü Fare ondan olabildiğince sert bir şekilde yüzüyordu ve olduğu gibi havuzda oldukça kargaşa yaratıyordu.
-              <br><br>
-            Böylece usulca aradı, ‘Fare canım! Tekrar geri dönün ve kedileri veya köpekleri de konuşmayacağız, eğer onlardan hoşlanmıyorsanız!’ Fare bunu duyduğunda, etrafına döndü ve yavaşça ona doğru yüzdü: yüzü oldukça solgundu (tutkuyla) , Alice düşündü) ve az titreyen bir sesle, ‘Kıyıya geçelim ve sonra size tarihimi anlatacağım ve neden kedilerden ve köpeklerden nefret ettiğimi anlayacaksınız’ dedi.
-              <br><br>
-            Gitme zamanı gelmişti, çünkü havuzun içine düşmüş kuşlar ve hayvanlarla oldukça kalabalıklaşıyordu: bir Ördek ve Dodo, bir Lory ve Eaglet ve diğer meraklı yaratıklar vardı. Alice önderlik etti ve bütün parti kıyıya yüzdü.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-dutch" style="display:none">
-              <div class="p7title" id="p7-dutch">ALICE'S AVONTUREN IN WONDERLAND</div>
-              <div class="p7chapter" id="p72-dutch">Hoofdstuk II</div>
-              <div class="p7paragraph">Want de muis zwom zo hard als ze kon weg van haar en maakte in het zwembad nogal wat opschudding.
-              <br><br>
-            Dus riep ze er zachtjes naar, ‘Muis schat! Kom nog een keer terug, en we zullen ook niet over katten of honden praten, als je ze niet leuk vindt!’ Toen de muis dit hoorde, draaide het zich om en zwom langzaam terug naar haar: zijn gezicht was vrij bleek (met passie , Dacht Alice), en het zei met zachte, trillende stem: ‘Laten we naar de kust gaan, dan zal ik je mijn geschiedenis vertellen, en je zult begrijpen waarom ik katten en honden haat.’
-              <br><br>
-            Het was de hoogste tijd om te gaan, want het zwembad werd behoorlijk druk met de vogels en dieren die erin waren gevallen: er waren een eend en een dodo, een lory en een adelaar en verschillende andere nieuwsgierige wezens. Alice liep voorop en het hele gezelschap zwom naar de kust.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-icelandic" style="display:none">
-              <div class="p7title" id="p7-icelandic">ÆVINTÝRI ALICE Í UNDRALANDI</div>
-              <div class="p7chapter" id="p72-icelandic">II. Kafli</div>
-              <div class="p7paragraph">Því að músin var að synda í burtu frá henni eins hart og hún gat gengið og vakti nokkuð uppreist æru í lauginni eins og gengur.
-              <br><br>
-            Svo hún kallaði mjúklega eftir því, „Mús elskan! Komdu aftur og við tölum ekki um ketti eða hunda heldur, ef þér líkar ekki við þá!“ Þegar músin heyrði þetta, sneri hún sér við og synti hægt aftur til hennar: andlitið var alveg föl (af ástríðu , Hugsaði Alice) og það sagði með lágum skjálfandi röddu, „Við skulum komast að ströndinni, og þá segi ég sögu mína, og þú munt skilja af hverju það er að ég hata ketti og hunda.“
-              <br><br>
-            Það var kominn tími til að fara, því laugin var orðin ansi fjölmenn af fuglum og dýrum sem höfðu dottið í hana: það voru Önd og Dodo, Lory og Eaglet og nokkrar aðrar forvitnar skepnur. Alice leiddi veginn og allur flokkurinn synti að ströndinni.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-portuguese" style="display:none">
-              <div class="p7title" id="p7-portuguese">ALICE NO PAÍS DAS MARAVILHAS</div>
-              <div class="p7chapter" id="p72-portuguese">Capítulo II</div>
-              <div class="p7paragraph">Pois o Rato estava nadando para longe dela o máximo que podia, e fazendo uma grande comoção na piscina.
-              <br><br>
-            Então ela ligou suavemente: 'Mouse querido! Volte novamente, e também não falaremos sobre cães ou gatos, se você não gostar deles!' Quando o Mouse ouviu isso, virou-se e nadou lentamente de volta para ela: seu rosto estava muito pálido (com paixão Alice pensou), e disse em voz baixa e trêmula: 'Vamos para a praia, e depois vou lhe contar minha história, e você entenderá porque é que odeio cães e gatos'.
-              <br><br>
-            Já era hora de partir, pois a piscina estava ficando cheia de pássaros e animais que caíam nela: havia um pato e um dodô, um lory e uma águia e várias outras criaturas curiosas. Alice liderou o caminho, e toda a festa nadou até a praia.
-              </div>
-            </div>
-
-            <div class="p7text-container" id="title-vietnamese" style="display:none">
-              <div class="p7title" id="p7-vietnamese">CUỘC PHIÊU LƯU CỦA ALICE</div>
-              <div class="p7chapter" id="p72-vietnamese">Chương II</div>
-              <div class="p7paragraph">Vì Chuột đã bơi xa cô hết sức có thể, và làm cho một cuộc hỗn loạn trong hồ bơi như nó đã đi.
-              <br><br>
-            Vì vậy, cô gọi nhẹ nhàng sau nó, ‘Chuột thân yêu! Hãy quay lại lần nữa và chúng ta cũng sẽ không nói về mèo hay chó, nếu bạn không thích chúng! "Khi Chuột nghe thấy điều này, nó quay lại và bơi chậm lại với cô: khuôn mặt nó khá nhợt nhạt (với niềm đam mê , Alice nghĩ), và nó nói với giọng run run, 'Chúng ta hãy lên bờ, rồi tôi sẽ kể cho bạn nghe lịch sử của mình, và bạn sẽ hiểu tại sao tôi lại ghét mèo và chó'.
-              <br><br>
-            Đã đến lúc phải đi, vì hồ bơi đã trở nên khá đông đúc với những con chim và động vật rơi vào đó: có một con Vịt và Dodo, Lory và Đại bàng, và một số sinh vật tò mò khác. Alice dẫn đường, và cả nhóm bơi vào bờ.
-              </div>
-            </div>
-
-            
-            <div class="container">
-              <div class="hamburger_btn">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-              </div>
-
-              <div class="menu">
-                <nav>
-                  <li><a href="#">Intro</a></li>
-                  <li><a href="#">Design</a></li>
-                  <li><a href="#">Example</a></li>
-                  <li><a href="#">Recognition</a></li>
-                </nav>
-              </div>
-            </div>
-          </div>
-
-
-         <div class="Example-left-page-1" id="pg">
-        </div>
-
-          <div class="Example-right-page-1" id="pg">
-            <h1>Part 2</h1>
-            <h2>Example</h2>
-            <div class="container">
-              <div class="hamburger_btn">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-              </div>
-
-              <div class="menu">
-                <nav>
-                  <li><a href="#">Intro</a></li>
-                  <li><a href="#">Design</a></li>
-                  <li><a href="#">Example</a></li>
-                  <li><a href="#">Recognition</a></li>
-                </nav>
-              </div>
-            </div>
-          </div>
-
-          <div class="Example-left-page-2" id="pg">
-            <input type="text" value="input new topic" class="e2-topic" id="e2-topic"></input>
-            <dir class="input-topic" id="input-topic">submit</dir>
-            <img src="images/newspaper.svg" alt="newspaper" class="newspaper" id="newspaper">
-            <h1>THE CRIMSON PRO DAILY</h1>
-            <div class="date-container">
-              <ul class="date-wrapper">
-                <li>NO.53210</li>
-                <li>TUESDAY, JANUARY 07, 2020</li>
-                <li>$3.00</li>
-              </ul>
-            </div>
-            <img src="images/Example2-1.jpg" alt="Example2-1" class="Example2-1" id="Example2-1">
-            <img src="images/Example2-2.jpg" alt="Example2-2" class="Example2-2" id="Example2-2">
-            <div class="header-1" id="header-1">Genius, Genocide Denier Or Both?</div>
-            <div class="snippet-1" id="snippet-1">Peter Handke, the Austrian author who was awarded this year's Nobel Prize in Literature, has been accused of falsifying history and praising war criminals.</div>
-            <div class="author-1" id="author-1">By ALEX MARSHALL and CHRISTOPHER F. SCHUETZE</div>
-            <div class="copyright">Copyright (c) 2020 The New York Times Company. All Rights Reserved.</div>
-            <div class="example-line-1" id="example-line-1"></div>
-            
-            <div class="example-line-5" id="example-line-5"></div>
-            <div class="example-line-3"></div>
-            <div class="long-line"></div>
-            <div class="header-2" id="header-2">Up for Sale: Pop Culture Mementos</div>
-            <div class="author-2" id="author-2">By GEORGE GENE GUSTINES</div>
-            <div class="MadTea">MAD TEA</div>
-            <img src="images/outside.svg" alt="outside" class="outside" id="outside">
-            <img src="images/inside.svg" alt="inside" class="inside" id="inside">
-
-          </div>
-
-          <div class="Example-right-page-2" id="pg">
-            <div class="container">
-              <div class="hamburger_btn">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-              </div>
-
-              <div class="menu">
-                <nav>
-                  <li><a href="#">Intro</a></li>
-                  <li><a href="#">Design</a></li>
-                  <li><a href="#">Example</a></li>
-                  <li><a href="#">Recognition</a></li>
-                </nav>
-              </div>
-            </div>
-          </div>
-
+        <section class="Example-2">
           <div class="Example-left-page-3" id="pg">
-            <div class="title-manuscript">Type a Manuscript</div>
-            <textarea class="dark-mode" id="dark-mode">*Click on the texts to tweak the story.&#10;Try out Dark Mode with Variable Fonts</textarea>
-            <div class="LastPage" id="LastPage">
-              <div class="Example3-line1" id="Example3-line1"></div>
-              <div class="Example3-line2" id="Example3-line2"></div>
-              <div class="Example3-line3" id="Example3-line3"></div>
-              <div class="Example3-line4" id="Example3-line4"></div>
-              <div class="book-title">BOOK TITLE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</div>
-              <div class="book-overview">OVERVIEW &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
-              <div class="book-characters">CHARACATERS :</div>
-              <div class="book-story">STORY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
-              <textarea class="h-1" id="book-title">Dog's Adventure in vortex</textarea>
-              <textarea class="h-2" id="book-overview">This is a book about a dog and her ball, who get stuck in a mystical vortex full of daemons and panthers.</textarea>
-              <textarea class="h-3" id="book-character-1">Dog</textarea>
-              <textarea class="h-4" id="book-character-2">Ballerina</textarea>
-              <textarea class="h-5" id="book-character-1-txt">Spunky, pixie dream girl. Loves to bark orders.</textarea>
-              <textarea class="h-6" id="book-character-2-txt">Born a basketball, dreams of becoming a wrecking ball</textarea>
-              <textarea class="h-7" id="book-chapter">Chapter-1</textarea>
-              <textarea class="h-8" id="book-chapter-txt">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</textarea>
-              <div class="h-9">Manuscript</div>
-            </div>
-          
-            <div class="tweak-box-container" id="tweak-box-container">
-              <div class="tweak-box-containerheader" id="tweak-box-containerheader"></div>
-              <h1>Type Playground</h1>
-              <div class="text-weight-container" id="text-weight-container">
-                <h2>Weight Axis</h2>
-                <h3>This axis changes the thickness of the text by<br>increasing or decreasing the boldness</h3>
+              <div class="title-manuscript">Type a Manuscript</div>
+              <textarea class="dark-mode" id="dark-mode">*Click on the texts to tweak the story.&#10;Try out Dark Mode with Variable Fonts</textarea>
+              <div class="LastPage" id="LastPage">
+                <div class="Example3-line1" id="Example3-line1"></div>
+                <div class="Example3-line2" id="Example3-line2"></div>
+                <div class="Example3-line3" id="Example3-line3"></div>
+                <div class="Example3-line4" id="Example3-line4"></div>
+                <div class="book-title">BOOK TITLE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</div>
+                <div class="book-overview">OVERVIEW &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
+                <div class="book-characters">CHARACATERS :</div>
+                <div class="book-story">STORY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
+                <textarea class="h-1" id="book-title">Dog's Adventure in vortex</textarea>
+                <textarea class="h-2" id="book-overview">This is a book about a dog and her ball, who get stuck in a mystical vortex full of daemons and panthers.</textarea>
+                <textarea class="h-3" id="book-character-1">Dog</textarea>
+                <textarea class="h-4" id="book-character-2">Ballerina</textarea>
+                <textarea class="h-5" id="book-character-1-txt">Spunky, pixie dream girl. Loves to bark orders.</textarea>
+                <textarea class="h-6" id="book-character-2-txt">Born a basketball, dreams of becoming a wrecking ball</textarea>
+                <textarea class="h-7" id="book-chapter">Chapter-1</textarea>
+                <textarea class="h-8" id="book-chapter-txt">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</textarea>
+                <div class="h-9">Manuscript</div>
               </div>
-              
-              <div class="weight-val"></div>
-              <div class="size-val"></div>
-
-              <div class="weight-slider-container">
-                <div class="value_text" id="e3-value-weight">400</div>
-                <div class="slider-elements">Weight : </div>
-                <input type="range" min="200" max="900" value="400" class="slider-changes" id="e3-example-slider-weight">
-              </div>
-
-              <div class="size-slider-container">
-                <div class="value_text" id="e3-value-size">20</div>
-                <div class="slider-elements">Size : </div>
-                <input type="range" min="1" max="200" value="20" class="slider-changes" id="e3-example-slider-size">
-              </div>
-
-              <div class="lineheight-slider-container">
-                <div class="value_text" id="e3-value-lineheight">28</div>
-                <div class="slider-elements">Line Height : </div>
-                <input type="range" min="1" max="200" value="28" class="slider-changes" id="e3-example-slider-lineheight">
-              </div>
-              
-         
-              <div class="checkbox-container">
+            
+              <div class="tweak-box-container" id="tweak-box-container">
+                <div class="tweak-box-containerheader" id="tweak-box-containerheader"></div>
+                <h1>Type Playground</h1>
+                <div class="text-weight-container" id="text-weight-container">
+                  <h2>Weight Axis</h2>
+                  <h3>This axis changes the thickness of the text by<br>increasing or decreasing the boldness</h3>
+                </div>
                 
-              <label class="box-container">Italics
-                <input type="checkbox" id="checkbox_ital" checked="checked">
-                <span class="checkmark" id="checkmark1"></span>
-              </label>
-              <label class="box-container">Dark Mode
-                <input type="checkbox" id="e3-dark-mode" onclick="darkFunction()" >
-                <span class="checkmark" id="checkmark2"></span>
-              </label>
-              <label class="color-con">
-                <input type="color" class="pick-color" id="pick-color">
-              </label>
+                <div class="weight-val"></div>
+                <div class="size-val"></div>
+
+                <div class="weight-slider-container">
+                  <div class="value_text" id="e3-value-weight">400</div>
+                  <div class="slider-elements">Weight : </div>
+                  <input type="range" min="200" max="900" value="400" class="slider-changes" id="e3-example-slider-weight">
+                </div>
+
+                <div class="size-slider-container">
+                  <div class="value_text" id="e3-value-size">20</div>
+                  <div class="slider-elements">Size : </div>
+                  <input type="range" min="1" max="200" value="20" class="slider-changes" id="e3-example-slider-size">
+                </div>
+
+                <div class="lineheight-slider-container">
+                  <div class="value_text" id="e3-value-lineheight">28</div>
+                  <div class="slider-elements">Line Height : </div>
+                  <input type="range" min="1" max="200" value="28" class="slider-changes" id="e3-example-slider-lineheight">
+                </div>
+                
+           
+                <div class="checkbox-container">
+                  
+                <label class="box-container">Italics
+                  <input type="checkbox" id="checkbox_ital" checked="checked">
+                  <span class="checkmark" id="checkmark1"></span>
+                </label>
+                <label class="box-container">Dark Mode
+                  <input type="checkbox" id="e3-dark-mode" onclick="darkFunction()" >
+                  <span class="checkmark" id="checkmark2"></span>
+                </label>
+                <label class="color-con">
+                  <input type="color" class="pick-color" id="pick-color">
+                </label>
+                
+                </div>  
+
+              </div>
+            </div>
               
-              </div>  
+        </section>
 
-            </div>
-          </div>
-
-          <div class="Example-right-page-3" id="pg">
-            <div class="container">
-              <div class="hamburger_btn">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-              </div>
-
-              <div class="menu">
-                <nav>
-                  <li><a href="#">Intro</a></li>
-                  <li><a href="#">Design</a></li>
-                  <li><a href="#">Example</a></li>
-                  <li><a href="#">Recognition</a></li>
-                </nav>
-              </div>
-            </div>
-          </div>
+       
 
 
-          <div class="Recognition-left-page-1" id="pg">
-            <h1>23</h1>
-            <div class="jacques">
-              <h5>Jacques Le Bailley</h5>
-              <p>Jacques is a senior type designer, living in The Hague. He started his own foundry Baron von Fonthausen in 2009, and has been dedicated to type design ever since. After graduating from the KABK and an apprenticeship at Linotype GmBH, he worked in Berlin and The Hague as Graphic Designer for several years, and then for many years at one of the most prestigious Dutch foundries, The Enschedé Type Foundry. He has also been a tutor at the WdKA art academy of Rotterdam and St. Joost Art Academy of Den Bosch. He mixes personal type projects with contract work for foundries like Monotype, Bold Monday and Google, and every now and then he does custom projects for several branding agencies.</p>
-            </div>
-        </div>
-
-          <div class="Recognition-right-page-1" id="pg">
-             <h2>acknowledgement</h2>
-             <div class="sebastian">
-              <h5>Sebastian Kosch</h5>
-              <p>Sebastian is a software engineer and researcher with a weakness for good typography. He currently lives in Toronto. He sketched the first version  of Crimson in 2009, before Google Fonts launched. He was a freshman engineering student at the time, and drawing letters was more fun than studying for his calculus exams.</p>
-            </div>
-            <div class="container">
-              <div class="hamburger_btn">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-              </div>
-
-              <div class="menu">
-                <nav>
-                  <li><a href="#">Intro</a></li>
-                  <li><a href="#">Design</a></li>
-                  <li><a href="#">Example</a></li>
-                  <li><a href="#">Recognition</a></li>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-    </section>
-     <!-- Navigation -->
-    <div class="nav-container">
-      <nav class="nav-pages">
-        <li class="intro" id="intro" >Intro</li>
-        </li>
-        <li class="design" id="design" >Design</li>
-        </li>
-        <li class="example" id="example" >Example</li>
-        </li>
-        <li class="recognition" id="recognition">Recognition</li>
-        </li>
-      </nav>
     </div>
 
     
