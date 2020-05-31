@@ -2654,7 +2654,7 @@ function checkPageLeft(){
 			document.getElementById("recognition").style.color='white';	
 			break;
 		case 21:
-			document.getElementById('example1').scrollIntoView();
+			document.getElementById('example1').scrollIntoView({behavior: 'smooth'});
 			document.getElementById("intro").style.color='white';
 			document.getElementById("design").style.color='white';
 			document.getElementById("example").style.color='#FEC0F0';
@@ -2694,7 +2694,7 @@ function checkPageRight(){
 			//alert("found");
 			break;
 		case 20:
-			document.getElementById('example1').scrollIntoView();
+			document.getElementById('example1').scrollIntoView({behavior: 'smooth'});
 			document.getElementById("intro").style.color='white';
 			document.getElementById("design").style.color='white';
 			document.getElementById("example").style.color='#FEC0F0';
@@ -2751,8 +2751,8 @@ $("#design").click(function(e){
 
 $("#example").click(function(e){
 	e.preventDefault();
-	//$('#crimson-book').turn('page', 20);
-	document.getElementById('example1').scrollIntoView();
+	$('#crimson-book').turn('page', 20);
+	document.getElementById('example1').scrollIntoView({behavior: 'smooth'});
 	document.getElementById("intro").style.color='white';
 	document.getElementById("design").style.color='white';
 	document.getElementById("example").style.color='#FEC0F0';
