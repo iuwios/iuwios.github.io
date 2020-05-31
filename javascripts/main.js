@@ -234,92 +234,12 @@ document.getElementById("crimson-book").addEventListener("mousewheel", function(
 	if(event.deltaY>0){
 		$('#crimson-book').turn('next');
 		checkPageRight();
-		/*switch(num){
-      	case 0:
-      		right();
-      		break;
-      	case 2:
-      		right();
-      		break;
-      	case 4:
-      		right();
-      		break;
-      	case 6:
-      		right();
-      		break;
-      	case 8:
-      		right();
-      		break;
-      	case 10:
-      		right();
-      		break;
-      	case 12:
-      		right();
-      		break;
-      	case 14:
-      		right();
-      		break;
-      	case 16:
-      		right();
-      		break;
-      	case 18:
-      		right();
-      		break;
-      	case 20:
-      		right();
-      		break;
-      	case 22:
-      		right();
-      		break;
-      }*/
 
 	}
 
 	else if(event.deltaY<0){
 		$('#crimson-book').turn('previous');
 		checkPageLeft();
-		/*switch(num){
-      	case 0:
-      		left();
-      		break;
-      	case 2:
-      		left();
-      		break;
-      	case 4:
-      		left();
-      		break;
-      	case 6:
-      		left();
-      		break;
-      	case 8:
-      		left();
-      		break;
-      	case 10:
-      		left();
-      		break;
-      	case 12:
-      		left();
-      		break;
-      	case 14:
-      		left();
-      		break;
-      	case 16:
-      		left();
-      		break;
-      	case 18:
-      		left();
-      		break;
-      	case 20:
-      		left();
-      		break;
-      	case 22:
-      		left();
-      		break;
-      	case 24:
-      		left();
-      		break;
-      }*/
-
 
 	}
 
@@ -2733,7 +2653,8 @@ function checkPageLeft(){
 			document.getElementById("example").style.color='white';
 			document.getElementById("recognition").style.color='white';	
 			break;
-		case 25:
+		case 21:
+			document.getElementById('example1').scrollIntoView();
 			document.getElementById("intro").style.color='white';
 			document.getElementById("design").style.color='white';
 			document.getElementById("example").style.color='#FEC0F0';
@@ -2773,12 +2694,13 @@ function checkPageRight(){
 			//alert("found");
 			break;
 		case 20:
+			document.getElementById('example1').scrollIntoView();
 			document.getElementById("intro").style.color='white';
 			document.getElementById("design").style.color='white';
 			document.getElementById("example").style.color='#FEC0F0';
 			document.getElementById("recognition").style.color='white';
 			break;
-		case 26:
+		case 22:
 			document.getElementById("intro").style.color='white';
 			document.getElementById("design").style.color='white';
 			document.getElementById("example").style.color='white';
@@ -2788,7 +2710,7 @@ function checkPageRight(){
 			break;
 	}
 
-	
+
 }
 
 
@@ -2829,7 +2751,8 @@ $("#design").click(function(e){
 
 $("#example").click(function(e){
 	e.preventDefault();
-	$('#crimson-book').turn('page', 20);
+	//$('#crimson-book').turn('page', 20);
+	document.getElementById('example1').scrollIntoView();
 	document.getElementById("intro").style.color='white';
 	document.getElementById("design").style.color='white';
 	document.getElementById("example").style.color='#FEC0F0';
@@ -2838,7 +2761,7 @@ $("#example").click(function(e){
 
 $("#recognition").click(function(e){
 	e.preventDefault();
-	$('#crimson-book').turn('page', 26);
+	$('#crimson-book').turn('page', 22);
 	document.getElementById("intro").style.color='white';
 	document.getElementById("design").style.color='white';
 	document.getElementById("example").style.color='white';
