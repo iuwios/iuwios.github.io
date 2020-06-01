@@ -231,6 +231,25 @@ document.getElementById("crimson-book").addEventListener("mousewheel", function(
 	//disableScroll();
 	event.preventDefault();
 
+	clearTimeout($.data(this, 'timer'));
+          $.data(this, 'timer', setTimeout(function() {
+            if(delta < 0){
+            //Scroll descend
+            mouseWheelBullet(1);
+            if(position > positionBasMax){
+                nouvellePosition = position-100;
+                tweenGlobale(nouvellePosition+'%');
+            }
+        }else{
+            //Scroll Monte
+            if(position < 0){
+                mouseWheelBullet(-1);
+                nouvellePosition = position-(-100);
+                tweenGlobale(nouvellePosition+'%');
+            }
+        }
+          }, 1000));
+
 	if(event.deltaY>0){
 		$('#crimson-book').turn('next');
 		checkPageRight();
