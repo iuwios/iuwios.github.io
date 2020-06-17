@@ -224,6 +224,19 @@ function left(){
 	}
 
 }*/
+
+var mql = window.matchMedia( "screen and (max-width: 1000px)" );
+mql.addListener(mediaqueryresponse);
+function mediaqueryresponse(mql){
+ if (mql.matches){ // if media query matches
+  //alert("Changed");
+  location.reload();
+ }
+ else{
+  location.reload();
+ }
+}
+
 if(window.innerWidth > 1000){
 	document.getElementById("crimson-book").addEventListener("mousewheel", function(event){
 		//disableScroll();
