@@ -18,7 +18,6 @@
 	--init-margin-left: 72;
 	--init-d2-rabbit-height: 565;
 
-
 	--rotate-x: 0deg;
 	--rotate-y: 0deg;
 	--rotate-z: 0deg;
@@ -69,7 +68,6 @@ body
 	scroll-snap-type: mandatory;
 	scroll-behavior: smooth;
 	scroll-snap-type: y mandatory;
-	
 }
 
 .contain
@@ -92,7 +90,7 @@ display: none;
 	height: calc((100vw / var(--init-width)) * 792);
 	position: absolute; 
 	/*left: 5.972vw;*/
-	scroll-snap-align: center;
+	/*scroll-snap-align: center;*/
 	top: 0;
 	margin: 0 auto;
 	
@@ -209,7 +207,7 @@ display: none;
 	width: 100%;
 	margin: 0 auto;
 	/*top: calc((100vw / 1440) * 1610);*/
-	scroll-snap-align: end;
+	/*scroll-snap-align: end;*/
 	left: 0;
 	
 }
@@ -282,7 +280,7 @@ display: none;
 	-ms-flex-align: center;
 	align-items: center;
 	/* Scroll Snap */
-  	scroll-snap-align: center;
+  	/*scroll-snap-align: center;*/
   	
 	/*border: 1px solid green;*/
 }

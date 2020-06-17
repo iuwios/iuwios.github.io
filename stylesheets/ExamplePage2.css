@@ -6,7 +6,7 @@
 	/*height: 100vh;*/
 	background-color: black;
 	left: 0;
-	top: 0;
+	top: calc((100vw / 1440) * 80);
 	
 }
 
@@ -18,7 +18,7 @@
 	height: calc((100vw / 1440) * 803);
 	background-color: black;
 	margin: 0 auto;
-	scroll-snap-align: center;
+	/*scroll-snap-align: center;*/
 	
 	
 }

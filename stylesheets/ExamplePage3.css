@@ -6,7 +6,7 @@
 	height: 100vh;
 	background-color: black;
 	left: 0;
-	top: 0;
+	top: calc((100vw / 1440) * 160);
 }
 
 .Example-left-page-3
@@ -18,7 +18,7 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-	scroll-snap-align: center;
+	/*scroll-snap-align: center;*/
 	
 	
 }

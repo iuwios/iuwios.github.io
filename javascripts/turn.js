@@ -1,5 +1,5 @@
 /**
- * turn.js 4th release
+ * turn.js 3rd release
  * turnjs.com
  * turnjs.com/license.txt
  *
