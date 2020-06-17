@@ -2690,9 +2690,7 @@ if(window.innerWidth > 1000){
 	                	const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
 						const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
 
-	                		$(me.el).turn('size', size.width, size.height);
-	                		//$(me.el).turn('size', size.width, size.height);
-	                	
+	                	$(me.el).turn('size', size.width, size.height);
 	       
 	                });
 	            }
@@ -2704,10 +2702,6 @@ if(window.innerWidth > 1000){
 
 	            var width = this.el.clientWidth,
 	                height = this.el.clientHeight;
-
-	            // set the width and height matching the aspect ratio
-	            //this.el.style.width = this.el.clientWidth + 'px';
-	            //this.el.style.height = this.el.clientHeight + 'px';
 
 	            return {
 	                width: this.el.clientWidth,
