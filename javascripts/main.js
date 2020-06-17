@@ -2563,7 +2563,6 @@ function changeNews(topic)
 		var author21 = $('#author21');
 
 		
-		var counter = 0;
 		if(header.height() < header1.height()){
 			while(header.height() < header1.height()){
 				var style = window.getComputedStyle(headers1, null).getPropertyValue('font-size');
@@ -2581,7 +2580,7 @@ function changeNews(topic)
 
 				header1.css('font-size', (fontSize * factorup) + 'px');
 				header1.css('line-height', (fontSize * 1.4) + 'px');
-				if(header.height() > header1.height()){
+				if(header.height() < header1.height()){
 					header1.css('font-size', (fontSize) + 'px');
 					header1.css('line-height', (fontSize * 1.4) + 'px');
 					break;
@@ -2595,7 +2594,7 @@ function changeNews(topic)
 				var fontSize2 = parseFloat(style2); 
 
 				header21.css('font-size', (fontSize2 * factor) + 'px');
-				header21.css('line-height', (fontSize2 * 1.4) + 'px');
+				header21.css('line-height', (fontSize2 * 1.3) + 'px');
 			}
 		}
 		else{
@@ -2603,11 +2602,13 @@ function changeNews(topic)
 				var style2 = window.getComputedStyle(headers2, null).getPropertyValue('font-size');
 				var fontSize2 = parseFloat(style2); 
 
-				header21.css('font-size', (fontSize2 * factor) + 'px');
-				header21.css('line-height', (fontSize2 * 1.4) + 'px');
-				if(header2.height() > header21.height()){
-					header2.css('font-size', (fontSize) + 'px');
-					header2.css('line-height', (fontSize * 1.4) + 'px');
+				header21.css('font-size', (fontSize2 * factorup) + 'px');
+				header21.css('line-height', (fontSize2 * 1.3) + 'px');
+				//alert(fontSize2);
+				if(header2.height() < header21.height()){
+					//alert("stop");
+					header21.css('font-size', (fontSize2) + 'px');
+					header21.css('line-height', (fontSize2 * 1.3) + 'px');
 					break;
 				}
 			}
@@ -2649,6 +2650,16 @@ send_news.onclick=function()
 	}
 }
 
+
+var reload = document.getElementById("reload");
+var tpic = ["corona", "fashion", "cheese" , "car", "halloween", "christmas" , "pet", "clothes", "donut", "asia"
+, "america", "europe", "africa", "color", "cold", "hot", "party", "food", "technology", "bill gates", "building", "fun"
+, "family", "tree"];
+reload.onclick=function()
+{
+	changeNews(tpic[Math.floor(Math.random() * tpic.length)]);
+}
+
 dragElement(document.getElementById("header-1"));
 dragElement(document.getElementById("header-2"));
 dragElement(document.getElementById("author-1"));
@@ -2656,9 +2667,6 @@ dragElement(document.getElementById("author-2"));
 dragElement(document.getElementById("snippet-1"));
 dragElement(document.getElementById("example-line-5"));
 dragElement(document.getElementById("example-line-1"));
-
-
-
 
 
 

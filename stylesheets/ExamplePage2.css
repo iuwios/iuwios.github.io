@@ -107,16 +107,18 @@
 	list-style: none;
 }
 
-.date-wrapper li
+.reload
 {
 	margin-right: calc((100vw / 1440) * 382);
+	cursor: pointer;
 }
 
 
-.date-container li:nth-of-type(3)
+/*.date-container li:nth-of-type(3)
 {
 	margin-right: 0;
-}
+}*/
+
 .e2-topic
 {
 	position: absolute;
@@ -181,8 +183,6 @@
 
 	font-style: italic;
 	text-align: center;
-	
-
 
 }
 
@@ -190,7 +190,7 @@
 {
 	font-weight: 600;
 	font-size: calc((100vw / 1440) * 48);
-	line-height: 140%;
+	line-height: 130%;
 	
 
 }
@@ -288,7 +288,7 @@
 	font-size: calc((100vw / 1440) * 10);
 
 	top: calc((100vw / 1440) * 770);
-	left: calc((100vw / 1440) * 30);
+	left: calc((100vw / 1440) * 59);
 	z-index: 11;
 }
 
@@ -298,9 +298,9 @@
 	margin: 0;
 	padding: 0;
 	width: calc((100vw / 1440) * 342.84);
-	height: calc((100vw / 1440) * 222.13);
+	height: calc((100vw / 1440) * 218);
 
-	top: calc((100vw / 1440) * 550);
+	top: calc((100vw / 1440) * 569);
 	left: calc((100vw / 1440) * 423);
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
@@ -319,7 +319,7 @@
 	height: calc((100vw / 1440) * 165);
 	width: calc((100vw / 1440) * 335);
 
-	top: calc((100vw / 1440) * 537);
+	top: calc((100vw / 1440) * 545);
 	left: calc((100vw / 1440) * 60);
 	z-index: 11;
 
@@ -332,7 +332,7 @@
 {
 	font-weight: 600;
 	font-size: calc((100vw / 1440) * 45);
-	line-height: 140%;
+	line-height: 130%;
 
 }
 /*
@@ -380,7 +380,6 @@
 
 	font-style: italic;
 	font-weight: 300;
-
 }
 
 .author21
@@ -398,7 +397,7 @@
 	height: calc((100vw / 1440) * 221);
 	width: calc((100vw / 1440) * 344);
 
-	top: calc((100vw / 1440) * 555);
+	top: calc((100vw / 1440) * 568);
 	left: calc((100vw / 1440) * 790);
 	z-index: 11;
 }
@@ -411,7 +410,7 @@
 	height: calc((100vw / 1440) * 174);
 	width: calc((100vw / 1440) * 287);
 
-	top: calc((100vw / 1440) * 600);
+	top: calc((100vw / 1440) * 613);
 	left: calc((100vw / 1440) * 820);
 	z-index: 11;
 }
@@ -424,14 +423,14 @@
 	height: calc((100vw / 1440) * 185);
 	width: calc((100vw / 1440) * 214);
 
-	top: calc((100vw / 1440) * 588);
+	top: calc((100vw / 1440) * 610);
 	left: calc((100vw / 1440) * 860);
 
 	font-style: normal;
 	text-align: center;
 	font-weight: 900;
 	font-size: calc((100vw / 1440) * 96);
-	line-height: calc((100vw / 1440) * 107);
+	line-height: calc((100vw / 1440) * 90);
 	z-index: 11;
 }
 
@@ -441,7 +440,5 @@
 	display: none;
 
 }
-
-
 
 }
