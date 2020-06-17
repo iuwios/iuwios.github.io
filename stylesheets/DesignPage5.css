@@ -622,10 +622,10 @@
 	margin-right: 0;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1000px){
 .Design-left-page-5
 {
-	display: block;
+	display: none;
 	width: 100vw;
 	left: 0;
 	right: 0;
@@ -635,7 +635,7 @@
 .Design-right-page-5
 {
 	position: absolute;
-	display: block;
+	display: none;
 	width: 100vw;
 	left:0;
 	right:0;

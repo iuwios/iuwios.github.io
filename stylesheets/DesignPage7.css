@@ -498,10 +498,10 @@
 	line-height: calc((100vw / var(--init-width)) * 30);
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1000px){
 .Design-left-page-7
 {
-	display: block;
+	display: none;
 	width: 100vw;
 	left: 0;
 	right: 0;
@@ -511,7 +511,7 @@
 .Design-right-page-7
 {
 	position: absolute;
-	display: block;
+	display: none;
 	width: 100vw;
 	left:0;
 	right:0;

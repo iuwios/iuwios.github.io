@@ -69,12 +69,22 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1000px){
 
 .Design-right-page-1
 {
 	position: absolute;
-	display: block;
+	display: none;
+	width: 100vw;
+	left:0;
+	right:0;
+	top: calc((100vw / var(--init-width)) * 792 * 3 + 30px);
+}
+
+.Design-left-page-1
+{
+	position: absolute;
+	display: none;
 	width: 100vw;
 	left:0;
 	right:0;

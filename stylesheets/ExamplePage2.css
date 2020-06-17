@@ -433,8 +433,7 @@
 	line-height: calc((100vw / 1440) * 90);
 	z-index: 11;
 }
-
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1000px){
 .Example-1
 {
 	display: none;

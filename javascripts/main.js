@@ -224,44 +224,45 @@ function left(){
 	}
 
 }*/
+if(window.innerWidth > 1000){
+	document.getElementById("crimson-book").addEventListener("mousewheel", function(event){
+		//disableScroll();
+		event.preventDefault();
 
-document.getElementById("crimson-book").addEventListener("mousewheel", function(event){
-	//disableScroll();
-	event.preventDefault();
+		clearTimeout($.data(this, 'timer'));
+	          $.data(this, 'timer', setTimeout(function() {
+	            if(delta < 0){
+	            //Scroll descend
+	            mouseWheelBullet(1);
+	            if(position > positionBasMax){
+	                nouvellePosition = position-100;
+	                tweenGlobale(nouvellePosition+'%');
+	            }
+	        }else{
+	            //Scroll Monte
+		            if(position < 0){
+	                mouseWheelBullet(-1);
+	                nouvellePosition = position-(-100);
+	                tweenGlobale(nouvellePosition+'%');
+	            }
+	        }
+	          }, 1000));
 
-	clearTimeout($.data(this, 'timer'));
-          $.data(this, 'timer', setTimeout(function() {
-            if(delta < 0){
-            //Scroll descend
-            mouseWheelBullet(1);
-            if(position > positionBasMax){
-                nouvellePosition = position-100;
-                tweenGlobale(nouvellePosition+'%');
-            }
-        }else{
-            //Scroll Monte
-            if(position < 0){
-                mouseWheelBullet(-1);
-                nouvellePosition = position-(-100);
-                tweenGlobale(nouvellePosition+'%');
-            }
-        }
-          }, 1000));
+		if(event.deltaY>0){
+			$('#crimson-book').turn('next');
+			checkPageRight();
 
-	if(event.deltaY>0){
-		$('#crimson-book').turn('next');
-		checkPageRight();
+		}
 
-	}
+		else if(event.deltaY<0){
+			$('#crimson-book').turn('previous');
+			checkPageLeft();
 
-	else if(event.deltaY<0){
-		$('#crimson-book').turn('previous');
-		checkPageLeft();
-
-	}
+		}
 
 
-});
+	});				
+}
 
 /* Intro Page 2 Left Interactions */
 
@@ -2668,88 +2669,80 @@ dragElement(document.getElementById("snippet-1"));
 dragElement(document.getElementById("example-line-5"));
 dragElement(document.getElementById("example-line-1"));
 
+if(window.innerWidth > 1000){
+	//alert("OVER");
+	(function () {
+	    'use strict';
+
+	    var module = {
+	        init: function (id) {
+	            var me = this;
+
+	            // if older browser then don't run javascript
+	            if (document.addEventListener) {
+	                this.el = document.getElementById(id);
+	                this.resize();
+	                this.plugins();
+
+	                // on window resize, update the plugin size
+	                window.addEventListener('resize', function (e) {
+	                	var size = me.resize();
+	                	const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+						const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+
+	                		$(me.el).turn('size', size.width, size.height);
+	                		//$(me.el).turn('size', size.width, size.height);
+	                	
+	       
+	                });
+	            }
+	        },
+	        resize: function () {
+	            // reset the width and height to the css defaults
+	            this.el.style.width = '';
+	            this.el.style.height = '';
+
+	            var width = this.el.clientWidth,
+	                height = this.el.clientHeight;
+
+	            // set the width and height matching the aspect ratio
+	            //this.el.style.width = this.el.clientWidth + 'px';
+	            //this.el.style.height = this.el.clientHeight + 'px';
+
+	            return {
+	                width: this.el.clientWidth,
+	                height: this.el.clientHeight
+	            };
+	        },
+	        plugins: function () {
+	            // run the plugin
+	            $(this.el).turn({
+	            	page: 2,
+	                pages: 20,
+	                acceleration: true,
+	                when: {
+					    start: function(event, pageObject, corner) {
+					       if (pageObject.next==1) 
+					         event.preventDefault();
+					    }, 
+					    turning: function(event, page, view) {
+					       if (page==1)
+					          event.preventDefault();
+					    }
+	  				}
+	            });
+
+	            // hide the body overflow
+	            document.body.className = 'hide-overflow';
+	        }
+	    };
+
+	    module.init('crimson-book');
+	}());
+}
 
 
-(function () {
-    'use strict';
 
-    var module = {
-        init: function (id) {
-            var me = this;
-
-            // if older browser then don't run javascript
-            if (document.addEventListener) {
-                this.el = document.getElementById(id);
-                this.resize();
-                this.plugins();
-
-                // on window resize, update the plugin size
-                window.addEventListener('resize', function (e) {
-                	var size = me.resize();
-                	const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-					const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
-					//alert(size.height / vh);
-					//alert(size.height / vh);
-                	/*if(size.height / vh > 0.88){
-                		
-                		var nheight = 0.88 * vh; 
-                		//alert(nheight);
-                		var nwidth = (nheight / vh) * vw;
-                		$(me.el).turn('size', nwidth, nheight);
-                		//alert(nheight);
-
-
-                	}
-                	else{*/
-                		$(me.el).turn('size', size.width, size.height);
-                		//$(me.el).turn('size', size.width, size.height);
-                	
-       
-                });
-            }
-        },
-        resize: function () {
-            // reset the width and height to the css defaults
-            this.el.style.width = '';
-            this.el.style.height = '';
-
-            var width = this.el.clientWidth,
-                height = this.el.clientHeight;
-
-            // set the width and height matching the aspect ratio
-            //this.el.style.width = this.el.clientWidth + 'px';
-            //this.el.style.height = this.el.clientHeight + 'px';
-
-            return {
-                width: this.el.clientWidth,
-                height: this.el.clientHeight
-            };
-        },
-        plugins: function () {
-            // run the plugin
-            $(this.el).turn({
-            	page: 2,
-                pages: 20,
-                acceleration: true,
-                when: {
-				    start: function(event, pageObject, corner) {
-				       if (pageObject.next==1) 
-				         event.preventDefault();
-				    }, 
-				    turning: function(event, page, view) {
-				       if (page==1)
-				          event.preventDefault();
-				    }
-  				}
-            });
-
-            // hide the body overflow
-            document.body.className = 'hide-overflow';
-        }
-    };
-
-    module.init('crimson-book');
-}());
 
 function checkPageLeft(){
 	//alert($('#crimson-book').turn('page'));

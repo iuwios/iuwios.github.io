@@ -4,7 +4,7 @@
 {
 	display: block;
 	width: 44.028vw;
-	height: calc(57.85vw * 0.95078);
+	height: calc((100vw / var(--init-width)) * 792);
 	background-color: white;
 	position: absolute;
 	right: 0;
@@ -17,7 +17,7 @@
 {
 	display: block;
 	width: 44.028vw;
-	height: calc(57.85vw * 0.95078);
+	height: calc((100vw / var(--init-width)) * 792);
 	background-color: white;
 	position: absolute;
 	left: 0;
@@ -504,11 +504,11 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1000px){
 
 .Intro-left-page-2
 {
-	display: block;
+
 	width: 100vw;
 	left: 0;
 	right: 0;
@@ -518,7 +518,7 @@
 .Intro-right-page-2
 {
 	position: absolute;
-	display: block;
+
 	width: 100vw;
 	left:0;
 	right:0;
