@@ -43,7 +43,6 @@ $(window).bind('keydown', function(e){
 
 
 
-
 /* temporary window scroll disable */
 function disableScroll() 
 { 
@@ -59,7 +58,6 @@ function enableScroll() {
 var num = 0;
 var max = document.querySelectorAll("[id='pg']").length-2;
 var elms = document.querySelectorAll("[id='pg']");
-
 
 
 
@@ -351,7 +349,6 @@ function opsz()
 var roboto_count = 0;
 
 
-	
 document.getElementById("roboto-effect").addEventListener("wheel", function(event){
 	//disableScroll();
 	event.stopPropagation();
@@ -428,9 +425,6 @@ var sliderval;
 function sliderMouseControl(sld,name,out,ch,event){
 	sliderval = parseInt(sld.value);
 	var d = document.getElementById(name);
-	//disableScroll();
-	//parseInt(sliderval);
-	//alert(sliderval +5);
 
     event.preventDefault();
     if(event.deltaY>0 && sliderval - 5 >=200){
@@ -2536,14 +2530,108 @@ function changeNews(topic)
 	  if (err !== null) {
 	    alert('Something went wrong: ' + err);
 	  } else {
-	    document.getElementById("header-1").innerHTML = data.response.docs[0].headline.main;
+
+	  	
+	  	var headers1 = document.getElementById('mainhead');
+	  	var headers2 = document.getElementById('subhead');
+	  	var snippets1 = document.getElementById('snippet');
+	  	var authors = document.getElementById('author21');
+
+	    headers1.innerHTML = data.response.docs[0].headline.main;
 	    document.getElementById("Example2-1").style.content = "url(https://www.nytimes.com/" + data.response.docs[0].multimedia[0].url + ")";
 	    document.getElementById("author-1").innerHTML = data.response.docs[0].byline.original;
-	    document.getElementById("snippet-1").innerHTML = data.response.docs[0].snippet;
+	    snippets1.innerHTML = data.response.docs[0].snippet;
 
-	    document.getElementById("header-2").innerHTML = data.response.docs[1].headline.main;
+	    headers2.innerHTML = data.response.docs[1].headline.main;
 	    document.getElementById("Example2-2").style.content = "url(https://www.nytimes.com/" + data.response.docs[1].multimedia[0].url + ")";
-	    document.getElementById("author-2").innerHTML = data.response.docs[1].byline.original;
+	    authors.innerHTML = data.response.docs[1].byline.original;
+
+
+
+	    var factor = 0.9; 
+	    var factorup = 1.1;
+		var header = $('#header-1');
+		var header1 = $('#mainhead');
+
+		var header2 = $('#header-2');
+		var header21 = $('#subhead');
+
+		var snippet = $('#snippet-1');
+		var snippet1 = $('#snippet');
+
+		var author2 = $('#author-2');
+		var author21 = $('#author21');
+
+		
+		var counter = 0;
+		if(header.height() < header1.height()){
+			while(header.height() < header1.height()){
+				var style = window.getComputedStyle(headers1, null).getPropertyValue('font-size');
+				var fontSize = parseFloat(style); 
+
+				header1.css('font-size', (fontSize * factor) + 'px');
+				header1.css('line-height', (fontSize * 1.4) + 'px');
+			}
+		}
+		else{
+			while(header.height() > header1.height()){
+				var style = window.getComputedStyle(headers1, null).getPropertyValue('font-size');
+				var fontSize = parseFloat(style); 
+
+
+				header1.css('font-size', (fontSize * factorup) + 'px');
+				header1.css('line-height', (fontSize * 1.4) + 'px');
+				if(header.height() > header1.height()){
+					header1.css('font-size', (fontSize) + 'px');
+					header1.css('line-height', (fontSize * 1.4) + 'px');
+					break;
+				}
+			}
+		}
+
+		if(header2.height() < header21.height()){
+			while(header2.height() < header21.height()){
+				var style2 = window.getComputedStyle(headers2, null).getPropertyValue('font-size');
+				var fontSize2 = parseFloat(style2); 
+
+				header21.css('font-size', (fontSize2 * factor) + 'px');
+				header21.css('line-height', (fontSize2 * 1.4) + 'px');
+			}
+		}
+		else{
+			while(header2.height() > header21.height()){
+				var style2 = window.getComputedStyle(headers2, null).getPropertyValue('font-size');
+				var fontSize2 = parseFloat(style2); 
+
+				header21.css('font-size', (fontSize2 * factor) + 'px');
+				header21.css('line-height', (fontSize2 * 1.4) + 'px');
+				if(header2.height() > header21.height()){
+					header2.css('font-size', (fontSize) + 'px');
+					header2.css('line-height', (fontSize * 1.4) + 'px');
+					break;
+				}
+			}
+		}
+		
+
+		while(snippet.height() < snippet1.height()){
+			var style = window.getComputedStyle(snippets1, null).getPropertyValue('font-size');
+			var lineHeight = window.getComputedStyle(snippets1, null).getPropertyValue('line-height');
+			var fontSize = parseFloat(style); 
+
+			snippet1.css('font-size', (fontSize * factor) + 'px');
+			snippet1.css('line-height', (fontSize * 1.4) + 'px');
+		}
+
+		while(author2.height() < author21.height()){
+			var style = window.getComputedStyle(authors, null).getPropertyValue('font-size');
+			var lineHeight = window.getComputedStyle(authors, null).getPropertyValue('line-height');
+			var fontSize = parseFloat(style); 
+
+			author21.css('font-size', (fontSize * factor) + 'px');
+			author21.css('line-height', (fontSize * 1.4) + 'px');
+		}
+		
 	  }
 	});
  
@@ -2702,7 +2790,6 @@ function checkPageRight(){
 	}*/
 
 	switch($('#crimson-book').turn('page')){
-		
 		
 		case 6:
 			document.getElementById("intro").style.color='white';

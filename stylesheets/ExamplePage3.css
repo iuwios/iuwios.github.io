@@ -709,4 +709,10 @@
 	outline: none !important;
 }
 
+@media screen and (max-width: 480px){
+.Example-2
+{
+	display: none;
+
+}
 

@@ -20,7 +20,6 @@
 	margin: 0 auto;
 	/*scroll-snap-align: center;*/
 	
-	
 }
 
 /*.Example-right-page-2
@@ -175,16 +174,24 @@
 	margin: 0;
 	padding: 0;
 	width: calc((100vw / 1440) * 336);
-	height: calc((100vw / 1440) * 90);
+	height: calc((100vw / 1440) * 130);
 	top: calc((100vw / 1440) * 168);
 	left: calc((100vw / 1440) * 780);
 	z-index: 11;
 
 	font-style: italic;
 	text-align: center;
+	
+
+
+}
+
+.header-1 .mainhead
+{
 	font-weight: 600;
 	font-size: calc((100vw / 1440) * 48);
-	line-height: calc((100vw / 1440) * 53);
+	line-height: 140%;
+	
 
 }
 
@@ -218,6 +225,7 @@
 	line-height: calc((100vw / 1440) * 30);
 	text-align: center;
 	z-index: 11;
+
 }
 
 .Example-left-page-2 .snippet-1
@@ -226,16 +234,19 @@
 	margin: 0;
 	padding: 0;
 	width: calc((100vw / 1440) * 322.58);
-	height: calc((100vw / 1440) * 94);
+	height: calc((100vw / 1440) * 120);
 
 	top: calc((100vw / 1440) * 412);
 	left: calc((100vw / 1440) * 788);
 
 	font-style: normal;
 	font-weight: 250;
-	font-size: calc((100vw / 1440) * 20);
-	line-height: calc((100vw / 1440) * 22);
 	z-index: 11;
+
+}
+.snippet{
+	font-size: calc((100vw / 1440) * 20);
+	line-height: 130%;
 
 }
 
@@ -296,6 +307,7 @@
 	background-size: contain;
 	background-repeat: no-repeat;
 	z-index: 11;
+
 }
 
 
@@ -305,7 +317,7 @@
 	margin: 0;
 	padding: 0;
 	height: calc((100vw / 1440) * 165);
-	width: calc((100vw / 1440) * 309);
+	width: calc((100vw / 1440) * 335);
 
 	top: calc((100vw / 1440) * 537);
 	left: calc((100vw / 1440) * 60);
@@ -314,9 +326,14 @@
 	text-align: center;
 
 	font-style: italic;
+}
+
+.header-2 .subhead
+{
 	font-weight: 600;
-	font-size: calc((100vw / 1440) * 48);
-	line-height: calc((100vw / 1440) * 53);
+	font-size: calc((100vw / 1440) * 45);
+	line-height: 140%;
+
 }
 /*
 .Example-left-page-2 .example-line-4
@@ -363,8 +380,14 @@
 
 	font-style: italic;
 	font-weight: 300;
+
+}
+
+.author21
+{
 	font-size: calc((100vw / 1440) * 24);
-	line-height: calc((100vw / 1440) * 42);
+	line-height: 130%;
+
 }
 
 .Example-left-page-2 .outside
@@ -392,7 +415,7 @@
 	left: calc((100vw / 1440) * 820);
 	z-index: 11;
 }
-
+	
 .Example-left-page-2 .MadTea
 {
 	position: absolute;
@@ -413,17 +436,11 @@
 }
 
 @media screen and (max-width: 480px){
-.Example-left-page-2
+.Example-1
 {
-	display: block;
-	width: 100vw;
-	left: 0;
-	right: 0;
-	top: calc((100vw / var(--init-width)) * 792 * 17 + 170px);
+	display: none;
+
 }
-
-
-
 
 
 

@@ -440,7 +440,8 @@
   padding: 0;
   width: calc((100vw / var(--init-width)) * 534);
   height: calc((100vw / var(--init-width)) * 590);
-  top: calc((100vw / var(--init-width)) * 154.35);
+  top: calc((100vw / var(--init-width)) * 120);
+  /*top: calc((100vw / var(--init-width)) * 154.35);*/
   right: calc((100vw / var(--init-width)) * var(--init-margin-left));
 }
 
