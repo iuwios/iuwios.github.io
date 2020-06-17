@@ -272,7 +272,7 @@
 	width: calc((100vw / 1440) * 703.68);
 	border: calc((100vw / 1440) * 0.5) solid #231F20;
 
-	top: calc((100vw / 1440) * 523);
+	top: calc((100vw / 1440) * 530);
 	left: calc((100vw / 1440) * 60);
 	z-index: 11;
 }
