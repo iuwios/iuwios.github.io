@@ -90,7 +90,7 @@ display: none;
 	height: calc((100vw / var(--init-width)) * 792);
 	position: absolute; 
 	/*left: 5.972vw;*/
-	/*scroll-snap-align: center;*/
+	scroll-snap-align: center;
 	top: 0;
 	margin: 0 auto;
 	
@@ -209,6 +209,7 @@ display: none;
 	/*top: calc((100vw / 1440) * 1610);*/
 	/*scroll-snap-align: end;*/
 	left: 0;
+	scroll-snap-align: end;
 	
 }
 
@@ -272,13 +273,13 @@ display: none;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	cursor: pointer;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
+
 	/* Scroll Snap */
   	/*scroll-snap-align: center;*/
   	
@@ -289,12 +290,14 @@ display: none;
 {
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+
 }
 
 .bookup 
 {
 	-webkit-transform: rotateX(var(--rotate-x)) rotateY(var(--rotate-y)) rotateZ(var(--rotate-z));
 	transform: rotateX(var(--rotate-x)) rotateY(var(--rotate-y)) rotateZ(var(--rotate-z));
+
 }
 
 .book-container 
@@ -303,6 +306,9 @@ display: none;
 	transform-style: preserve-3d;
 	-webkit-animation: 13s rotatingAnimationY linear infinite;
 	animation: 13s rotatingAnimationY linear infinite;
+	cursor: pointer;
+	scroll-snap-align: center;
+
 }
 
 .book-container > div 
@@ -414,6 +420,20 @@ display: none;
     margin-top: 0;
     margin-right: 0;
     border: none;
+    scroll-snap-align: none;
+}
+
+.book 
+{
+
+	scroll-snap-align: none;
+
+}
+
+.crimson-book
+{
+	scroll-snap-align: none;
+	
 }
 
 .Intro-right-page-1
@@ -441,6 +461,7 @@ display: none;
 	text-shadow: #000 0px 0px 1.1px,   #000 0px 0px 1.1px,   #000 0px 0px 1.1px,
              #000 0px 0px 1.1px,   #000 0px 0px 1.1px,   #000 0px 0px 1.1px;
 	-webkit-font-smoothing: antialiased;
+
 }
 
 

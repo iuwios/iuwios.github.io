@@ -237,12 +237,22 @@ function mediaqueryresponse(mql){
  }
 }
 
+function sleep(duration) {
+	console.log("sleep");
+	return new Promise(resolve => {
+		setTimeout(() => {
+			resolve()
+		}, duration * 1000)
+	})
+}
+
+var countby = 0;
 if(window.innerWidth > 1000){
 	document.getElementById("crimson-book").addEventListener("mousewheel", function(event){
 		//disableScroll();
 		event.preventDefault();
 
-		clearTimeout($.data(this, 'timer'));
+		/*clearTimeout($.data(this, 'timer'));
 	          $.data(this, 'timer', setTimeout(function() {
 	            if(delta < 0){
 	            //Scroll descend
@@ -259,19 +269,22 @@ if(window.innerWidth > 1000){
 	                tweenGlobale(nouvellePosition+'%');
 	            }
 	        }
-	          }, 1000));
+	          }, 1000));*/
 
-		if(event.deltaY>0){
+    	if(event.deltaY>0 && countby%2==0 ){
 			$('#crimson-book').turn('next');
 			checkPageRight();
 
 		}
-
-		else if(event.deltaY<0){
+		else if(event.deltaY<0  && countby%2==0){
 			$('#crimson-book').turn('previous');
 			checkPageLeft();
-
 		}
+
+		countby = countby + 1;
+
+
+		
 
 
 	});				
@@ -2668,7 +2681,7 @@ send_news.onclick=function()
 var reload = document.getElementById("reload");
 var tpic = ["corona", "fashion", "cheese" , "car", "halloween", "christmas" , "pet", "clothes", "donut", "asia"
 , "america", "europe", "africa", "color", "cold", "hot", "party", "food", "technology", "bill gates", "building", "fun"
-, "family", "tree"];
+, "family", "tree", "cook", "culture", "fishing", "android", "mobile", "weather", "nature", "global"];
 reload.onclick=function()
 {
 	changeNews(tpic[Math.floor(Math.random() * tpic.length)]);
@@ -2768,13 +2781,16 @@ function checkPageLeft(){
 			document.getElementById("example").style.color='white';
 			document.getElementById("recognition").style.color='white';	
 			break;
+
 		case 21:
-			document.getElementById('example1').scrollIntoView({behavior: 'smooth'});
 			document.getElementById("intro").style.color='white';
 			document.getElementById("design").style.color='white';
-			document.getElementById("example").style.color='#FEC0F0';
-			document.getElementById("recognition").style.color='white';
+			document.getElementById("example").style.color='white';
+			document.getElementById("recognition").style.color='#FEC0F0';
+			document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: none;");
+			document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: none;");
 			break;
+		
 	
 		default:
 			break;
@@ -2806,20 +2822,24 @@ function checkPageRight(){
 			document.getElementById("recognition").style.color='white';	
 			break;
 			//alert("found");
-			break;
 		case 20:
+			document.getElementById("intro").style.color='white';
+			document.getElementById("design").style.color='white';
+			document.getElementById("example").style.color='white';
+			document.getElementById("recognition").style.color='#FEC0F0';
+			document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: none;");
+			document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: none;");
+			break;
+		case 22:
+			document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: center;");
+			document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: center;");
 			document.getElementById('example1').scrollIntoView({behavior: 'smooth'});
 			document.getElementById("intro").style.color='white';
 			document.getElementById("design").style.color='white';
 			document.getElementById("example").style.color='#FEC0F0';
 			document.getElementById("recognition").style.color='white';
 			break;
-		case 22:
-			document.getElementById("intro").style.color='white';
-			document.getElementById("design").style.color='white';
-			document.getElementById("example").style.color='white';
-			document.getElementById("recognition").style.color='#FEC0F0';
-			break;
+		
 		default:
 			break;
 	}
@@ -2838,7 +2858,6 @@ $("#right").click(function(e){
 $("#left").click(function(e){
 	e.preventDefault();
 	$('#crimson-book').turn('previous');
-
 	checkPageLeft();
 	
 });
@@ -2848,6 +2867,8 @@ $("#intro").click(function(e){
 	e.preventDefault();
 	$('#crimson-book').turn('page', 2);
 	//alert($('#crimson-book').turn('page'));
+	document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: none;");
+	document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: none;");
 	document.getElementById("intro").style.color='#FEC0F0';
 	document.getElementById("design").style.color='white';
 	document.getElementById("example").style.color='white';
@@ -2857,6 +2878,8 @@ $("#intro").click(function(e){
 $("#design").click(function(e){
 	e.preventDefault();
 	$('#crimson-book').turn('page', 6);
+	document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: none;");
+	document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: none;");
 	document.getElementById("intro").style.color='white';
 	document.getElementById("design").style.color='#FEC0F0';
 	document.getElementById("example").style.color='white';
@@ -2865,7 +2888,9 @@ $("#design").click(function(e){
 
 $("#example").click(function(e){
 	e.preventDefault();
-	$('#crimson-book').turn('page', 20);
+	$('#crimson-book').turn('page', 22);
+	document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: center;");
+	document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: center;");
 	document.getElementById('example1').scrollIntoView({behavior: 'smooth'});
 	document.getElementById("intro").style.color='white';
 	document.getElementById("design").style.color='white';
@@ -2875,10 +2900,26 @@ $("#example").click(function(e){
 
 $("#recognition").click(function(e){
 	e.preventDefault();
-	$('#crimson-book').turn('page', 22);
+	$('#crimson-book').turn('page', 20);
+	document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: none;");
+	document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: none;");
 	document.getElementById("intro").style.color='white';
 	document.getElementById("design").style.color='white';
 	document.getElementById("example").style.color='white';
 	document.getElementById("recognition").style.color='#FEC0F0';
 });
 
+
+/*var image = document.querySelector(".Example2-1");
+image.addEventListener('mousemove', function(e){
+	var width = image.offsetWidth;
+	var height = image.offsetHeight;
+	var mouseX = e.offsetX;
+	var mouseY = e.offsetY;
+
+	var aX = (mouseX/width) * 100;
+	var aY = (mouseY/height) * 100;
+	console.log(mouseX);
+	image.style.backgroundPosition = `${aX}% ${aY}%`;
+
+});*/

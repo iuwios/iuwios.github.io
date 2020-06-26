@@ -40,7 +40,7 @@
 
   <body>
     <div class="mainContainer">
-      <section class="book" id="book" mousedown="onDocumentMouseDown">
+      <section class="book" id="book" mousedown="onDocumentMouseDown" >
         <div class="bookup" id="bookup">
           <div class="book-container" id="book-container" onclick="this.classList.toggle('paused');">
             <div class="book-front"></div>
@@ -998,12 +998,45 @@
               </div>
             </div>
 
+            <div class="Recognition-left-page-1" id="pg">
+              <h1>23</h1>
+              <div class="jacques">
+                <h5>Jacques Le Bailley</h5>
+                <p>Jacques is a senior type designer, living in The Hague. He started his own foundry Baron von Fonthausen in 2009, and has been dedicated to type design ever since. After graduating from the KABK and an apprenticeship at Linotype GmBH, he worked in Berlin and The Hague as Graphic Designer for several years, and then for many years at one of the most prestigious Dutch foundries, The Enschedé Type Foundry. He has also been a tutor at the WdKA art academy of Rotterdam and St. Joost Art Academy of Den Bosch. He mixes personal type projects with contract work for foundries like Monotype, Bold Monday and Google, and every now and then he does custom projects for several branding agencies.</p>
+              </div>
+            </div>
+
+            <div class="Recognition-right-page-1" id="pg">
+               <h2>acknowledgement</h2>
+               <div class="sebastian">
+                <h5>Sebastian Kosch</h5>
+                <p>Sebastian is a software engineer and researcher with a weakness for good typography. He currently lives in Toronto. He sketched the first version  of Crimson in 2009, before Google Fonts launched. He was a freshman engineering student at the time, and drawing letters was more fun than studying for his calculus exams.</p>
+              </div>
+              
+              <div class="container">
+                <div class="hamburger_btn">
+                  <div class="one"></div>
+                  <div class="two"></div>
+                  <div class="three"></div>
+                </div>
+
+                <div class="menu">
+                  <nav>
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Example</a></li>
+                    <li><a href="#">Recognition</a></li>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
 
            <div class="Example-left-page-1" id="pg">
           </div>
 
             <div class="Example-right-page-1" id="pg">
-              <h1>Part 2</h1>
+              <h1>Part 3</h1>
               <h2>Example</h2>
               <div class="container">
                 <div class="hamburger_btn">
@@ -1047,37 +1080,7 @@
             </div>-->
 
 
-            <div class="Recognition-left-page-1" id="pg">
-              <h1>23</h1>
-              <div class="jacques">
-                <h5>Jacques Le Bailley</h5>
-                <p>Jacques is a senior type designer, living in The Hague. He started his own foundry Baron von Fonthausen in 2009, and has been dedicated to type design ever since. After graduating from the KABK and an apprenticeship at Linotype GmBH, he worked in Berlin and The Hague as Graphic Designer for several years, and then for many years at one of the most prestigious Dutch foundries, The Enschedé Type Foundry. He has also been a tutor at the WdKA art academy of Rotterdam and St. Joost Art Academy of Den Bosch. He mixes personal type projects with contract work for foundries like Monotype, Bold Monday and Google, and every now and then he does custom projects for several branding agencies.</p>
-              </div>
-          </div>
 
-            <div class="Recognition-right-page-1" id="pg">
-               <h2>acknowledgement</h2>
-               <div class="sebastian">
-                <h5>Sebastian Kosch</h5>
-                <p>Sebastian is a software engineer and researcher with a weakness for good typography. He currently lives in Toronto. He sketched the first version  of Crimson in 2009, before Google Fonts launched. He was a freshman engineering student at the time, and drawing letters was more fun than studying for his calculus exams.</p>
-              </div>
-              <div class="container">
-                <div class="hamburger_btn">
-                  <div class="one"></div>
-                  <div class="two"></div>
-                  <div class="three"></div>
-                </div>
-
-                <div class="menu">
-                  <nav>
-                    <li><a href="#">Intro</a></li>
-                    <li><a href="#">Design</a></li>
-                    <li><a href="#">Example</a></li>
-                    <li><a href="#">Recognition</a></li>
-                  </nav>
-                </div>
-              </div>
-            </div>
           </div>
 
           <!-- Navigation -->
@@ -1087,9 +1090,9 @@
             </li>
             <li class="design" id="design" >Design</li>
             </li>
-            <li class="example" id="example" >Example</li>
+            <li class="recognition" id="recognition" >Recognition</li>
             </li>
-            <li class="recognition" id="recognition">Recognition</li>
+            <li class="example" id="example">Example</li>
             </li>
           </nav>
         </div>
@@ -1098,7 +1101,7 @@
 
       </section>
 
-      <section class="Example-1">
+      <section class="Example-1" id="Example-1">
         <div class="Example-left-page-2" id="example1">
           <input type="text" value="input new topic" class="e2-topic" id="e2-topic"style="display:none"></input>
           <dir class="input-topic" id="input-topic" style="display:none">submit</dir>
@@ -1111,8 +1114,12 @@
               <li>$0.00</li>-->
             </ul>
           </div>
-          <img src="images/Example2-1.jpg" alt="Example2-1" class="Example2-1" id="Example2-1">
-          <img src="images/Example2-2.jpg" alt="Example2-2" class="Example2-2" id="Example2-2">
+          <div class="image-wrap-1" id="wrapper">
+            <img src="images/Example2-1.jpg" alt="Example2-1" class="Example2-1" id="Example2-1">
+          </div>
+          <div class="image-wrap-2" id="wrapper">
+            <img src="images/Example2-2.jpg" alt="Example2-2" class="Example2-2" id="Example2-2">
+          </div>
           <div class="header-1" id="header-1"><span class="mainhead" id="mainhead">Genius, Genocide Denier Or Both?</span></div>
           <div class="snippet-1" id="snippet-1"><span class="snippet" id="snippet">Peter Handke, the Austrian author who was awarded this year's Nobel Prize in Literature, has been accused of falsifying history and praising war criminals.</span></div>
           <div class="author-1" id="author-1">By ALEX MARSHALL and CHRISTOPHER F. SCHUETZE</div>
@@ -1150,7 +1157,7 @@
               </div>
             </div>-->
 
-        <section class="Example-2">
+        <section class="Example-2" id="Example-2">
           <div class="Example-left-page-3" >
               <div class="title-manuscript">Type a Manuscript</div>
               <textarea class="dark-mode" id="dark-mode">*Click on the texts to tweak the story.&#10;Try out Dark Mode with Variable Fonts</textarea>
