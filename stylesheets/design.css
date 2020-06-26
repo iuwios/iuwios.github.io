@@ -362,8 +362,8 @@ display: none;
   background-position: bottom right;
   width: calc((100vw / 1440) * 400);
   height: calc((100vw / 1440) * 30);
-  -webkit-transform: translate3d(calc((100vw / 1440) * -200), calc((100vw / 1440) * -255) ,calc((100vw / 1440) * 29)) translate3d(0px, calc((100vw / 1440) * -29), calc((100vw / 1440) * -29)) rotateX(90deg);
-  transform: translate3d(calc((100vw / 1440) * -200), calc((100vw / 1440) * -255) ,calc((100vw / 1440) * 29)) translate3d(0px, calc((100vw / 1440) * -29), calc((100vw / 1440) * -29)) rotateX(90deg);
+  -webkit-transform: translate3d(calc((100vw / 1440) * -200), calc((100vw / 1440) * -255) ,calc((100vw / 1440) * 29)) translate3d(0px, calc((100vw / 1440) * -29), calc((100vw / 1440) * -29)) rotateX(-90deg);
+  transform: translate3d(calc((100vw / 1440) * -200), calc((100vw / 1440) * -255) ,calc((100vw / 1440) * 29)) translate3d(0px, calc((100vw / 1440) * -29), calc((100vw / 1440) * -29)) rotateX(-90deg);
 }
 
 .book-bottom 
