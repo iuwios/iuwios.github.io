@@ -271,21 +271,24 @@ if(window.innerWidth > 1000){
 	        }
 	          }, 1000));*/
 
-    	if(event.deltaY>0 && countby%2==0 ){
-			$('#crimson-book').turn('next');
-			checkPageRight();
+	       clearTimeout($.data(this, 'timer'));
+			$.data(this, 'timer', setTimeout(function() {
+		     //4milisecond delay
+		    	if(event.deltaY>0){
+					$('#crimson-book').turn('next');
 
-		}
-		else if(event.deltaY<0  && countby%2==0){
-			$('#crimson-book').turn('previous');
-			checkPageLeft();
-		}
+					checkPageRight();
+
+				}
+				else if(event.deltaY<0){
+					$('#crimson-book').turn('previous');
+					checkPageLeft();
+				}
+		    }, 40));
+
+    	
 
 		countby = countby + 1;
-
-
-		
-
 
 	});				
 }
@@ -2498,40 +2501,58 @@ function dragElement(elmnt) {
 	}
 }
 
-
+// book rotation
 var img = $('.book');
 var offset = img.offset();
+var bcont = document.getElementById("book-container");
 var mouseDown = false;
+var mouseMove = false;
 var f_x=0;
 var f_y=0;
 
 function mouse(evt) {
 
     if(mouseDown ==true){
-    var center_x = (f_x - evt.pageX)/2;
-    var center_y = (f_y - evt.pageY)/2;
-    var center_z = center_y + center_x;
-    var mouse_x = -center_x + 'deg';
-    var mouse_y = center_y + 'deg';
-    //var mouse_z = center_z + 'deg';
-    document.getElementById("bookup").style.setProperty('--rotate-y', mouse_x);
-    document.getElementById("bookup").style.setProperty('--rotate-x', mouse_y);
-    //document.getElementById("bookup").style.setProperty('--rotate-z', mouse_z);
+    	mouseMove = true;
+	    var center_x = (f_x - evt.pageX)/2;
+	    var center_y = (f_y - evt.pageY)/2;
+	    var center_z = center_y + center_x;
+	    var mouse_x = -center_x + 'deg';
+	    var mouse_y = center_y + 'deg';
+	    //var mouse_z = center_z + 'deg';
 
+	    console.log("Hello");
+
+	    document.getElementById("bookup").style.setProperty('--rotate-y', mouse_x);
+	    document.getElementById("bookup").style.setProperty('--rotate-x', mouse_y);
+	    //document.getElementById("bookup").style.setProperty('--rotate-z', mouse_z);
     }
+
 }
 
 img.mousedown(function (e) {
     mouseDown=true;
     f_x=e.pageX;
     f_y=e.pageY;
+    console.log("Move");
     //f_z=e.pageZ;
     //alert(f_z);
     $(document).mousemove(mouse);
 });
 $(document).mouseup(function (e) {
+	if(mouseMove == false){
+		bcont.classList.toggle('paused');
+		console.log("paused");
+	}
     mouseDown = false;
+    mouseMove = false;
+    console.log("stop");
 })
+
+
+
+
+
 
 //alert(document.getElementById("header-1").innerHTML);
 var getJSON = function(url, callback) {

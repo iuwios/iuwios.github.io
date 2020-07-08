@@ -65,7 +65,7 @@ body
 	overflow-x: hidden;
 	overflow-y: scroll; 
 	/*scroll-snap-points-y: repeat(57.85vw);*/
-	scroll-snap-type: mandatory;
+	/*scroll-snap-type: mandatory;*/
 	scroll-behavior: smooth;
 	scroll-snap-type: y mandatory;
 }
@@ -76,6 +76,7 @@ body
 	width: 100vw;
 	height: 61vw;
 	margin: 0 auto;
+
 
 }
 

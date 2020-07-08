@@ -75,7 +75,7 @@ var has3d,
 
     // Duration of transition in milliseconds
 
-    duration: 600,
+    duration: 1000,
 
     // First page
 
