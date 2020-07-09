@@ -53,6 +53,10 @@ body
 	
 }
 
+.Changes{
+	color: white;
+	z-index: 100;
+}
 
 .mainContainer
 {
@@ -177,7 +181,6 @@ display: none;
 
 
 
-
 .AG{
 	position: absolute;
 	top: 0;
@@ -187,7 +190,7 @@ display: none;
 	background: transparent;
 }
 
-h3
+.Intro-left-page-1 h3
 {
 	position: absolute;
 	width: calc((100vw / var(--init-width)) * 526.87);

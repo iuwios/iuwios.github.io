@@ -97,27 +97,40 @@
 	border-top: calc((100vw / 1440) * 0.5) solid black;
 	border-bottom: calc((100vw / 1440) * 1) solid black;
 }
+.reload
+{
+	position: absolute;
+	width: calc((100vw / 1440) * 126);
+	height: calc((100vw / 1440) * 126);
+	top: calc((100vw / 1440) * 30);
+	left: calc((100vw / 1440) * 961);
+	cursor: pointer;
+	z-index: 21;
+}
 
 .date-container .date-wrapper
 {
 	position: relative;
+	width: calc((100vw / 1440) * 1064);
 	margin: 0;
 	padding: 0;
 	display: flex;
 	list-style: none;
 }
 
-.reload
+.date-container li:nth-of-type(1)
 {
-	margin-right: calc((100vw / 1440) * 382);
-	cursor: pointer;
+	margin-right: calc((100vw / 1440) * 377);
 }
 
-
-/*.date-container li:nth-of-type(3)
+.date-container li:nth-of-type(2)
+{
+	margin-right: calc((100vw / 1440) * 400);
+}
+.date-container li:nth-of-type(3)
 {
 	margin-right: 0;
-}*/
+}
 
 .e2-topic
 {
