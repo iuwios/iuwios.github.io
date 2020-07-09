@@ -70,7 +70,7 @@
 	line-height: 130%;
 	margin: 0;
 	top: calc((100vw / 1440) * 26);
-	right: calc((100vw / 1440) * 72);
+	left: calc((100vw / 1440) * 72);
 	text-align: right;
 	text-transform: lowercase;
 }
@@ -81,7 +81,7 @@
 	width: calc((100vw / 1440) * 526);
 	height: calc((100vw / 1440) * 339);
 	top: calc((100vw / 1440) * 479);
-	left: calc((100vw / 1440) * 72);
+	right: calc((100vw / 1440) * 72);
 
 	font-style: normal;
 	font-weight: normal;

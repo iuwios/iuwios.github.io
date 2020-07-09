@@ -106,6 +106,18 @@ display: none;
 	top: 0;
 }
 
+.Intro-right-page-1
+{
+	display: block;
+	width: 50%;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
 .left-pg-number{
 	position: absolute;
 	font-family: Crimson Pro;
@@ -214,17 +226,6 @@ h4
 	font-size: calc((100vw / var(--init-width)) * 24);
 	line-height: 130%;
 	color: #231F20;
-}
-
-.Intro-right-page-1
-{
-	display: block;
-	width: 50%;
-	height: 100%;
-	background-color: white;
-	position: absolute;
-	right: 0;
-	top: 0;
 }
 
 .right-pg-number{

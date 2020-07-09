@@ -1,0 +1,149 @@
+/*Left Page*/
+.Design-left-page-2
+{
+	display: none;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
+	background-color: white;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/*Right Page*/
+.Design-right-page-2
+{
+	display: none;
+	width: 44.028vw;
+	height: calc(57.85vw * 0.95078);
+	background-color: white;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.word_inside h2
+{
+	position: absolute;
+	margin: 0;
+	color: white;
+	left: calc((100vw / var(--init-width)) * 153);
+	top: calc((100vw / var(--init-width)) * 123);
+	padding: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: calc((100vw / var(--init-width)) * 48);
+}
+.water
+{
+	position: absolute;	
+	width: calc((100vw / var(--init-width)) * 404);
+	height: calc((100vw / var(--init-width)) * 567);
+	margin: 0;
+	top: calc((100vw / var(--init-width)) * 53);
+	left: calc((100vw / var(--init-width)) * var(--init-margin-left));
+}
+
+.water .alpha-P
+{
+	position: absolute;
+	width: calc((100vw / var(--init-width)) * 404);
+	height: calc((100vw / var(--init-width)) * 567);
+	margin: 0;
+	
+}
+
+.water .box
+{
+	content: '';
+	position: absolute;	
+	width: calc((100vw / var(--init-width)) * 240);
+	height: calc((100vw / var(--init-width)) * 310);
+	border: 1px solid white;
+	margin: 0;
+	top: calc((100vw / var(--init-width)) * 20);
+	left: calc((100vw / var(--init-width)) * 110);
+	border-bottom-right-radius: calc((100vw / var(--init-width)) * 100);
+	border-top-right-radius: calc((100vw / var(--init-width)) * 60);
+
+	background-image: url(wave.png);
+	background-repeat: repeat-x;
+	background-size: calc((100vw / var(--init-width)) * 500) calc((100vw / var(--init-width)) * 310);
+	background-position: left 0px top calc((100vw / var(--init-width)) * 210);
+	-webkit-animation: wave 12s linear infinite;
+	        animation: wave 12s linear infinite;
+}
+
+/*animation for wave*/
+@-webkit-keyframes wave
+{
+	0%
+	{
+		background-position: left 0px top calc((100vw / var(--init-width)) * 280);
+
+	}
+	
+	50%
+	{
+
+		background-position: left calc((100vw / var(--init-width)) * 2760) top 0px;	
+	}
+
+}
+@keyframes wave
+{
+	0%
+	{
+		background-position: left 0px top calc((100vw / var(--init-width)) * 280);
+
+	}
+	
+	50%
+	{
+
+		background-position: left calc((100vw / var(--init-width)) * 2760) top 0px;	
+	}
+
+}
+
+
+.design-bt-line
+{
+	position: absolute;
+	margin: 0;
+	border-top: calc((100vw / var(--init-width)) * 1) solid black;
+	width: calc((100vw / var(--init-width)) * 526);
+	top: calc((100vw / var(--init-width)) * 675);
+	left: calc((100vw / var(--init-width)) * var(--init-margin-left));
+}
+
+h3
+{
+	position: absolute;
+	margin: 0;
+	height: calc((100vw / var(--init-width)) * 52);
+	width: calc((100vw / var(--init-width)) * 526);
+	top: calc((100vw / var(--init-width)) * 693);
+	left: calc((100vw / var(--init-width)) * var(--init-margin-left));
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: calc((100vw / var(--init-width)) * 24);
+	line-height: 130%;
+}
+
+
+
+.sight{
+	position: absolute;
+	margin:0;
+	width: calc((100vw / var(--init-width)) * 528);
+	height: calc((100vw / var(--init-width)) * 686);
+	top: calc((100vw / var(--init-width)) * 70);
+	left: calc((100vw / var(--init-width)) * 29);
+
+}
+
+
+
+
