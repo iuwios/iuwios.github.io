@@ -156,11 +156,11 @@ display: none;
 .btn_left
 {
 	position: relative;
+	float: left;
 	top: calc(57.85vw * 0.4856);
 	left: calc(57.85vw * 0.027083);
-	width: calc((100vw / 1440) * 11);
-	height: calc((100vw / 1440) * 18);
-	cursor: pointer;
+	text-align: center;
+	border-radius: 50px;
 }
 
 .btn_right
@@ -169,9 +169,25 @@ display: none;
 	float: right;
 	top: calc(57.85vw * 0.4856);
 	right: calc(57.85vw * 0.027083);
-	width: calc((100vw / 1440) * 11);
-	height: calc((100vw / 1440) * 18);
+	text-align: center;
+	border-radius: 50px;
+
+}
+
+.btn-center{
+	padding: calc((100vw / 1440) * 6) calc((100vw / 1440) * 10);
+	border-radius: 50px;
 	cursor: pointer;
+
+
+}
+
+.btn-center:hover{
+	background: #FEC0F0;
+
+}
+.btn-center:hover{
+	background: #FEC0F0;
 }
 
 
