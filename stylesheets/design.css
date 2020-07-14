@@ -18,6 +18,9 @@
 	--init-margin-left: 72;
 	--init-d2-rabbit-height: 565;
 
+	--init-vw: 0;
+	--init-new-vw: 300px;
+
 	--rotate-x: 0deg;
 	--rotate-y: 0deg;
 	--rotate-z: 0deg;
@@ -44,7 +47,9 @@ body
 	font-family: 'Crimson Pro', serif;
 	background-color: black;
 	margin: 0;
-	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	/*overflow: hidden;*/
 	
 }
 
@@ -62,8 +67,8 @@ body
 .mainContainer
 {
 	height: 100vh;
-	overflow-x: hidden;
-	overflow-y: scroll; 
+	/*overflow-x: hidden;*/
+	/*overflow-y: scroll; */
 	/*scroll-snap-points-y: repeat(57.85vw);*/
 	/*scroll-snap-type: mandatory;*/
 	scroll-behavior: smooth;
@@ -74,10 +79,8 @@ body
 {
 	position: relative;
 	width: 100vw;
-	height: 61vw;
+	height: 57vw;
 	margin: 0 auto;
-
-
 }
 
 .container
@@ -217,10 +220,22 @@ display: none;
 	/*top: calc((100vw / 1440) * 1610);*/
 	/*scroll-snap-align: end;*/
 	left: 0;
-	scroll-snap-align: end;
+	/*scroll-snap-align: end;*/
+	z-index: 300;
+	background: black;
+	/*display: flex;*/
 	
 }
 
+.sticky {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
 
 .nav-pages
 {
@@ -230,10 +245,9 @@ display: none;
 	height: calc(62.5vw * 0.07);
 	width: 88.028vw;
 	left: calc((100vw / 1440) * 83);
-	
 }
 
-.nav-pages li
+.nav-container li
 {
 	list-style: none;
 	font-style: normal;
@@ -253,7 +267,7 @@ display: none;
 
 }
 
-.nav-pages li:nth-of-type(1)
+.nav-container li:nth-of-type(1)
 {
 	margin-left: 0px;
 	color: #FEC0F0;
@@ -261,7 +275,7 @@ display: none;
 }
 
 
-.nav-pages li:nth-of-type(4)
+.nav-container li:nth-of-type(4)
 {
 	margin-right: 0;
 
@@ -416,26 +430,12 @@ display: none;
 	--init-d2-rabbit-height: 600;
 }
 
-.book
-{
-	display: none;
-}
-.contain
-{
-	width: 100vw;
-    top: 0;
-    left: 0;
-    margin-left: 0;
-    margin-top: 0;
-    margin-right: 0;
-    border: none;
-    scroll-snap-align: none;
-}
 
 .book 
 {
 
 	scroll-snap-align: none;
+	display: none;
 
 }
 

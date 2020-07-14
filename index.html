@@ -27,10 +27,16 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>   
     <script>
-        $(document).ready(function(){
-          $(".hamburger_btn").click(function(){
-          $(this).toggleClass("active");
-          $(".menu").toggleClass("active");
+
+      var exampleSpace = window.innerHeight;
+      var ratiohw = 1440/900;
+      var outputhw = exampleSpace * ratiohw;
+      document.documentElement.style.setProperty('--init-new-vw', outputhw+"px");
+
+      $(document).ready(function(){
+        $(".hamburger_btn").click(function(){
+        $(this).toggleClass("active");
+        $(".menu").toggleClass("active");
         });
       });
 
@@ -1085,10 +1091,13 @@
 
 
           </div>
+          
+      </section>
 
-          <!-- Navigation -->
-        <div class="nav-container">
-          <nav class="nav-pages">
+
+       <!-- Navigation -->
+        <div class="nav-container" id="nav-container">
+          <nav class="nav-pages" id="nav-pages">
             <li class="intro" id="intro" >Intro</li>
             </li>
             <li class="design" id="design" >Design</li>
@@ -1097,12 +1106,10 @@
             </li>
             <li class="example" id="example">Credit</li>
             </li>
-          </nav>
+         </nav>
         </div>
 
-
-
-      </section>
+    
 
       <section class="Example-1" id="Example-1">
         <div class="Example-left-page-2" id="example1">

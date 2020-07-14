@@ -225,6 +225,52 @@ function left(){
 
 }*/
 
+
+/*navigation scroll*/
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("nav-container");
+var crimson_top = document.getElementById("contain");
+var sticky = navbar.offsetTop + navbar.offsetHeight - window.innerHeight;
+var pgExample = navbar.offsetTop;
+var accesschange = true;
+var accessintro = false;
+
+function myFunction() {
+	//alert("Hello");
+  if (window.pageYOffset >= sticky) {
+  		navbar.classList.add("sticky");
+    	
+  } else {
+	  	/*alert(window.pageYOffset);
+	  	alert(sticky);*/
+	    navbar.classList.remove("sticky");
+	    accesschange = true;
+	    accessintro = true;
+  }
+
+	if (window.pageYOffset >= pgExample && accesschange) {
+	  	//console.log("changed");
+	    navbar.classList.add("sticky");
+		document.getElementById("intro").style.color='white';
+		document.getElementById("design").style.color='white';
+		document.getElementById("example").style.color='#FEC0F0';
+		document.getElementById("recognition").style.color='white';
+	accesschange = false;
+	}
+	else if(window.pageYOffset <= sticky && accessintro){
+		document.getElementById("intro").style.color='#FEC0F0';
+		document.getElementById("design").style.color='white';
+		document.getElementById("example").style.color='white';
+		document.getElementById("recognition").style.color='white';
+		accessintro = false;
+
+	}
+
+}
+
+
 var mql = window.matchMedia( "screen and (max-width: 1000px)" );
 mql.addListener(mediaqueryresponse);
 function mediaqueryresponse(mql){
@@ -237,39 +283,12 @@ function mediaqueryresponse(mql){
  }
 }
 
-function sleep(duration) {
-	console.log("sleep");
-	return new Promise(resolve => {
-		setTimeout(() => {
-			resolve()
-		}, duration * 1000)
-	})
-}
 
 var countby = 0;
 if(window.innerWidth > 1000){
 	document.getElementById("crimson-book").addEventListener("mousewheel", function(event){
 		//disableScroll();
 		event.preventDefault();
-
-		/*clearTimeout($.data(this, 'timer'));
-	          $.data(this, 'timer', setTimeout(function() {
-	            if(delta < 0){
-	            //Scroll descend
-	            mouseWheelBullet(1);
-	            if(position > positionBasMax){
-	                nouvellePosition = position-100;
-	                tweenGlobale(nouvellePosition+'%');
-	            }
-	        }else{
-	            //Scroll Monte
-		            if(position < 0){
-	                mouseWheelBullet(-1);
-	                nouvellePosition = position-(-100);
-	                tweenGlobale(nouvellePosition+'%');
-	            }
-	        }
-	          }, 1000));*/
 
 	       clearTimeout($.data(this, 'timer'));
 			$.data(this, 'timer', setTimeout(function() {
@@ -2521,7 +2540,7 @@ function mouse(evt) {
 	    var mouse_y = center_y + 'deg';
 	    //var mouse_z = center_z + 'deg';
 
-	    console.log("Hello");
+	    //console.log("Hello");
 
 	    document.getElementById("bookup").style.setProperty('--rotate-y', mouse_x);
 	    document.getElementById("bookup").style.setProperty('--rotate-x', mouse_y);
@@ -2534,7 +2553,7 @@ img.mousedown(function (e) {
     mouseDown=true;
     f_x=e.pageX;
     f_y=e.pageY;
-    console.log("Move");
+    //console.log("Move");
     //f_z=e.pageZ;
     //alert(f_z);
     $(document).mousemove(mouse);
@@ -2542,11 +2561,11 @@ img.mousedown(function (e) {
 $(document).mouseup(function (e) {
 	if(mouseMove == false){
 		bcont.classList.toggle('paused');
-		console.log("paused");
+		//console.log("paused");
 	}
     mouseDown = false;
     mouseMove = false;
-    console.log("stop");
+    //console.log("stop");
 })
 
 
@@ -2702,7 +2721,7 @@ send_news.onclick=function()
 var reload = document.getElementById("reload");
 var tpic = ["corona", "fashion", "cheese" , "car", "halloween", "christmas" , "pet", "clothes", "donut", "asia"
 , "america", "europe", "africa", "color", "cold", "hot", "party", "food", "technology", "bill gates", "building", "fun"
-, "family", "tree", "cook", "culture", "fishing", "android", "mobile", "weather", "nature", "global"];
+, "family", "tree", "cook", "culture", "fishing", "android", "mobile", "weather", "nature", "global", "game"];
 reload.onclick=function()
 {
 	changeNews(tpic[Math.floor(Math.random() * tpic.length)]);
@@ -2716,9 +2735,14 @@ dragElement(document.getElementById("snippet-1"));
 dragElement(document.getElementById("example-line-5"));
 dragElement(document.getElementById("example-line-1"));
 
+var exampleSpace = window.innerHeight;
+var ratiohw = 1440/900;
+var outputhw = exampleSpace * ratiohw;
+		
 if(window.innerWidth > 1000){
 	//alert("OVER");
 	(function () {
+
 	    'use strict';
 
 	    var module = {
@@ -2734,8 +2758,20 @@ if(window.innerWidth > 1000){
 	                // on window resize, update the plugin size
 	                window.addEventListener('resize', function (e) {
 	                	var size = me.resize();
+
 	                	const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
 						const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+
+						/*sticky nav bar*/
+						/*sticky = crimson_top.offsetTop + crimson_top.offsetHeight + navbar.offsetHeight;
+						pgExample = crimson_top.offsetTop + crimson_top.offsetHeight;*/
+
+						/*example page ratio*/
+						exampleSpace = window.innerHeight;
+						ratiohw = 1440/900;
+						outputhw = exampleSpace * ratiohw;
+
+						document.documentElement.style.setProperty('--init-new-vw', outputhw+"px");
 
 	                	$(me.el).turn('size', size.width, size.height);
 	       
@@ -2841,6 +2877,8 @@ function checkPageRight(){
 			document.getElementById("design").style.color='#FEC0F0';
 			document.getElementById("example").style.color='white';
 			document.getElementById("recognition").style.color='white';	
+			document.getElementById("contain").setAttribute("style", "scroll-snap-align: center;");
+			document.getElementById('contain').scrollIntoView({behavior: 'smooth'});
 			break;
 			//alert("found");
 		case 20:
@@ -2849,11 +2887,11 @@ function checkPageRight(){
 			document.getElementById("example").style.color='white';
 			document.getElementById("recognition").style.color='#FEC0F0';
 			document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: none;");
-			document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: none;");
+			//document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: none;");
 			break;
 		case 22:
 			document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: center;");
-			document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: center;");
+			//document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: center;");
 			document.getElementById('example1').scrollIntoView({behavior: 'smooth'});
 			document.getElementById("intro").style.color='white';
 			document.getElementById("design").style.color='white';
@@ -2867,6 +2905,11 @@ function checkPageRight(){
 
 
 }
+
+
+
+
+//document.documentElement.style.setProperty('--init-new-vw', outputhw);
 
 
 $("#right").click(function(e){
@@ -2887,9 +2930,10 @@ $("#left").click(function(e){
 $("#intro").click(function(e){
 	e.preventDefault();
 	$('#crimson-book').turn('page', 2);
-	//alert($('#crimson-book').turn('page'));
-	document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: none;");
-	document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: none;");
+
+	document.getElementById("contain").setAttribute("style", "scroll-snap-align: center;");
+	document.getElementById('contain').scrollIntoView({behavior: 'smooth'});
+
 	document.getElementById("intro").style.color='#FEC0F0';
 	document.getElementById("design").style.color='white';
 	document.getElementById("example").style.color='white';
@@ -2899,8 +2943,8 @@ $("#intro").click(function(e){
 $("#design").click(function(e){
 	e.preventDefault();
 	$('#crimson-book').turn('page', 6);
-	document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: none;");
-	document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: none;");
+	document.getElementById("contain").setAttribute("style", "scroll-snap-align: center;");
+	document.getElementById('contain').scrollIntoView({behavior: 'smooth'});
 	document.getElementById("intro").style.color='white';
 	document.getElementById("design").style.color='#FEC0F0';
 	document.getElementById("example").style.color='white';
@@ -2910,9 +2954,8 @@ $("#design").click(function(e){
 $("#example").click(function(e){
 	e.preventDefault();
 	$('#crimson-book').turn('page', 22);
-	document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: center;");
-	document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: center;");
-	document.getElementById('example1').scrollIntoView({behavior: 'smooth'});
+	document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: top;");
+	document.getElementById("Example-1").scrollIntoView({behavior: 'smooth'});
 	document.getElementById("intro").style.color='white';
 	document.getElementById("design").style.color='white';
 	document.getElementById("example").style.color='#FEC0F0';
@@ -2922,8 +2965,8 @@ $("#example").click(function(e){
 $("#recognition").click(function(e){
 	e.preventDefault();
 	$('#crimson-book').turn('page', 20);
-	document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: none;");
-	document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: none;");
+	document.getElementById("contain").setAttribute("style", "scroll-snap-align: center;");
+	document.getElementById('contain').scrollIntoView({behavior: 'smooth'});
 	document.getElementById("intro").style.color='white';
 	document.getElementById("design").style.color='white';
 	document.getElementById("example").style.color='white';
