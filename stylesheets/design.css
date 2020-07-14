@@ -545,6 +545,9 @@ display: none;
 	display: none;
 }
 
+.contain{
+	overflow-x: hidden;
+}
 
 .Intro-right-page-1
 {
