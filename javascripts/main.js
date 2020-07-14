@@ -2284,6 +2284,13 @@ if(window.innerWidth > 1000){
 
 	                // on window resize, update the plugin size
 	                window.addEventListener('resize', function (e) {
+
+	                	exampleSpace = window.innerHeight;
+						ratiohw = 1440/900;
+						outputhw = exampleSpace * ratiohw;
+
+						document.documentElement.style.setProperty('--init-new-vw', outputhw+"px");
+						
 	                	var size = me.resize();
 
 	                	const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
@@ -2294,11 +2301,7 @@ if(window.innerWidth > 1000){
 						pgExample = crimson_top.offsetTop + crimson_top.offsetHeight;*/
 
 						/*example page ratio*/
-						exampleSpace = window.innerHeight;
-						ratiohw = 1440/900;
-						outputhw = exampleSpace * ratiohw;
-
-						document.documentElement.style.setProperty('--init-new-vw', outputhw+"px");
+						
 
 	                	$(me.el).turn('size', size.width, size.height);
 	       
