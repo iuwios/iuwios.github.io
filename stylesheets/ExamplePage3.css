@@ -15,9 +15,10 @@
 	width: calc((var(--init-new-vw) / 1440) * 1440);
 	height: calc((var(--init-new-vw) / 1440) * 720);
 	background-color: black;
-	position: absolute;
-	left: 0;
+	position: relative;
 	top: calc((var(--init-new-vw) / 1440) * 10);
+	margin: 0 auto;
+
 	/*scroll-snap-align: center;*/
 	
 	

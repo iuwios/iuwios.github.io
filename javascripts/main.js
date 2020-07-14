@@ -247,7 +247,6 @@ function myFunction() {
 	  	alert(sticky);*/
 	    navbar.classList.remove("sticky");
 	    accesschange = true;
-	    accessintro = true;
   }
 
 	if (window.pageYOffset >= pgExample && accesschange) {
@@ -267,6 +266,7 @@ function myFunction() {
 		document.getElementById("example").style.color='white';
 		document.getElementById("recognition").style.color='white';
 		accessintro = false;
+		accessintro = true;
 
 	}
 
@@ -2962,6 +2962,7 @@ $("#example").click(function(e){
 	document.getElementById("design").style.color='white';
 	document.getElementById("example").style.color='#FEC0F0';
 	document.getElementById("recognition").style.color='white';
+	accessintro = true;
 });
 
 $("#recognition").click(function(e){
