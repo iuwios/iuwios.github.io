@@ -68,14 +68,6 @@ body
     overflow-y: hidden; 
 } 
 
-.mainContainer
-{
-	height: 100vh;
-	
-	scroll-behavior: smooth;
-	scroll-snap-type: y mandatory;
-}
-
 .contain
 {
 	position: relative;
