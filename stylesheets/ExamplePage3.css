@@ -7,17 +7,18 @@
 	background-color: black;
 	left: 0;
 	top: calc((100vw / 1440) * 80);
+	border: 1px solid blue;
 }
 
 .Example-left-page-3
 {
 	display: block;
-	width: calc((var(--init-new-vw) / 1440) * 1440)
-	height: calc((var(--init-new-vw) / 1440) * 720)
+	width: calc((var(--init-new-vw) / 1440) * 1440);
+	height: calc((var(--init-new-vw) / 1440) * 720);
 	background-color: black;
 	position: absolute;
 	left: 0;
-	top: 0;
+	top: calc((var(--init-new-vw) / 1440) * 10);
 	/*scroll-snap-align: center;*/
 	
 	
