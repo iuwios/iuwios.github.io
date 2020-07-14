@@ -239,15 +239,16 @@ var accessintro = false;
 
 function myFunction() {
 	//alert("Hello");
-  if (window.pageYOffset >= sticky) {
+    if (window.pageYOffset >= sticky) {
   		navbar.classList.add("sticky");
     	
-  } else {
+  	} 
+  	else {
 	  	/*alert(window.pageYOffset);
 	  	alert(sticky);*/
 	    navbar.classList.remove("sticky");
 	    accesschange = true;
-  }
+  	}
 
 	if (window.pageYOffset >= pgExample && accesschange) {
 	  	//console.log("changed");
@@ -258,6 +259,7 @@ function myFunction() {
 		document.getElementById("example").style.color='#FEC0F0';
 		document.getElementById("recognition").style.color='white';
 		accesschange = false;
+		accessintro = true;
 	}
 	else if(window.pageYOffset <= sticky && accessintro){
 		$('#crimson-book').turn('page', 2);
@@ -266,7 +268,6 @@ function myFunction() {
 		document.getElementById("example").style.color='white';
 		document.getElementById("recognition").style.color='white';
 		accessintro = false;
-		accessintro = true;
 
 	}
 
