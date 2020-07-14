@@ -31,7 +31,13 @@
       var exampleSpace = window.innerHeight;
       var ratiohw = 1440/900;
       var outputhw = exampleSpace * ratiohw;
-      document.documentElement.style.setProperty('--init-new-vw', outputhw+"px");
+      if(window.innerWidth>1000){
+        document.documentElement.style.setProperty('--init-new-vw', outputhw+"px");
+      }
+      else{
+        document.documentElement.style.setProperty('--init-new-vw', window.innerWidth+"px");
+      }
+      
 
       $(document).ready(function(){
         $(".hamburger_btn").click(function(){

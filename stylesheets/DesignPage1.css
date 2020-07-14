@@ -83,7 +83,7 @@
 	width: 100vw;
 	left:0;
 	right:0;
-	top: calc((var(--init-new-vw) / 1440) * 792 * 3 + 30px);
+	top: calc((100vw / 1440) * 792 * 3 + 30px);
 }
 
 .Design-left-page-1
@@ -93,7 +93,7 @@
 	width: 100vw;
 	left:0;
 	right:0;
-	top: calc((var(--init-new-vw) / 1440) * 792 * 3 + 30px);
+	top: calc((100vw / 1440) * 792 * 3 + 30px);
 }
 
 .Design-right-page-1:before

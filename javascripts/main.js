@@ -228,48 +228,53 @@ function left(){
 
 /*navigation scroll*/
 
-window.onscroll = function() {myFunction()};
+if(window.innerWidth > 1000){
+	window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("nav-container");
-var crimson_top = document.getElementById("contain");
-var sticky = navbar.offsetTop + navbar.offsetHeight - window.innerHeight;
-var pgExample = navbar.offsetTop;
-var accesschange = true;
-var accessintro = false;
 
-function myFunction() {
-	//alert("Hello");
-    if (window.pageYOffset >= sticky) {
-  		navbar.classList.add("sticky");
-    	
-  	} 
-  	else {
-	  	/*alert(window.pageYOffset);
-	  	alert(sticky);*/
-	    navbar.classList.remove("sticky");
-	    accesschange = true;
-  	}
+	var navbar = document.getElementById("nav-container");
+	var crimson_top = document.getElementById("contain");
+	var sticky = navbar.offsetTop + navbar.offsetHeight - window.innerHeight;
+	var pgExample = navbar.offsetTop;
+	var accesschange = true;
+	var accessintro = false;
 
-	if (window.pageYOffset >= pgExample && accesschange) {
-	  	//console.log("changed");
-	    navbar.classList.add("sticky");
-	    $('#crimson-book').turn('page', 22);
-		document.getElementById("intro").style.color='white';
-		document.getElementById("design").style.color='white';
-		document.getElementById("example").style.color='#FEC0F0';
-		document.getElementById("recognition").style.color='white';
-		accesschange = false;
-		accessintro = true;
+	function myFunction() {
+		//alert("Hello");
+	    if (window.pageYOffset >= sticky) {
+	  		navbar.classList.add("sticky");
+	    	
+	  	} 
+	  	else {
+		  	/*alert(window.pageYOffset);
+		  	alert(sticky);*/
+		    navbar.classList.remove("sticky");
+		    accesschange = true;
+	  	}
+
+		if (window.pageYOffset >= pgExample && accesschange) {
+		  	//console.log("changed");
+		    navbar.classList.add("sticky");
+		    $('#crimson-book').turn('page', 22);
+			document.getElementById("intro").style.color='white';
+			document.getElementById("design").style.color='white';
+			document.getElementById("example").style.color='#FEC0F0';
+			document.getElementById("recognition").style.color='white';
+			accesschange = false;
+			accessintro = true;
+		}
+		else if(window.pageYOffset <= sticky && accessintro){
+			$('#crimson-book').turn('page', 2);
+			document.getElementById("intro").style.color='#FEC0F0';
+			document.getElementById("design").style.color='white';
+			document.getElementById("example").style.color='white';
+			document.getElementById("recognition").style.color='white';
+			accessintro = false;
+
+		}
+
 	}
-	else if(window.pageYOffset <= sticky && accessintro){
-		$('#crimson-book').turn('page', 2);
-		document.getElementById("intro").style.color='#FEC0F0';
-		document.getElementById("design").style.color='white';
-		document.getElementById("example").style.color='white';
-		document.getElementById("recognition").style.color='white';
-		accessintro = false;
-
-	}
+	
 
 }
 
@@ -2290,7 +2295,7 @@ if(window.innerWidth > 1000){
 						outputhw = exampleSpace * ratiohw;
 
 						document.documentElement.style.setProperty('--init-new-vw', outputhw+"px");
-						
+
 	                	var size = me.resize();
 
 	                	const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
