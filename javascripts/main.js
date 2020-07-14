@@ -2476,6 +2476,7 @@ $("#design").click(function(e){
 	document.getElementById("design").style.color='#FEC0F0';
 	document.getElementById("example").style.color='white';
 	document.getElementById("recognition").style.color='white';
+	accessintro = false;
 });
 
 $("#example").click(function(e){
@@ -2499,6 +2500,7 @@ $("#recognition").click(function(e){
 	document.getElementById("design").style.color='white';
 	document.getElementById("example").style.color='white';
 	document.getElementById("recognition").style.color='#FEC0F0';
+	accessintro = false;
 });
 
 
