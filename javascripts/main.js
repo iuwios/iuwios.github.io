@@ -253,13 +253,15 @@ function myFunction() {
 	if (window.pageYOffset >= pgExample && accesschange) {
 	  	//console.log("changed");
 	    navbar.classList.add("sticky");
+	    $('#crimson-book').turn('page', 22);
 		document.getElementById("intro").style.color='white';
 		document.getElementById("design").style.color='white';
 		document.getElementById("example").style.color='#FEC0F0';
 		document.getElementById("recognition").style.color='white';
-	accesschange = false;
+		accesschange = false;
 	}
 	else if(window.pageYOffset <= sticky && accessintro){
+		$('#crimson-book').turn('page', 2);
 		document.getElementById("intro").style.color='#FEC0F0';
 		document.getElementById("design").style.color='white';
 		document.getElementById("example").style.color='white';
