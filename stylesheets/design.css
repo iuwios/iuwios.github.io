@@ -311,7 +311,7 @@ display: none;
 	left: 0;
 	/*scroll-snap-align: end;*/
 	z-index: 300;
-	background: transparent;
+	background: black;
 	/*display: flex;*/
 	
 }
