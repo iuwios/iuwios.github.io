@@ -481,7 +481,7 @@
   height: calc((var(--init-new-vw) / 1440) * 590);
   top: calc((var(--init-new-vw) / 1440) * 120);
   /*top: calc((var(--init-new-vw) / 1440) * 154.35);*/
-  right: calc((var(--init-new-vw) / 1440) * var(--init-margin-left));
+  left: calc((var(--init-new-vw) / 1440) * 32);
 }
 
 .p7title
