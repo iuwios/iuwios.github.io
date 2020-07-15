@@ -568,7 +568,7 @@ display: none;
 	position: absolute;
 	width: calc((100vw / var(--init-width)) * 350);
 	height: calc((100vw / var(--init-width)) * 90);
-	top: calc((100vw / var(--init-width)) * 425);
+	top: calc((100vw / var(--init-width)) * 438);
 	left: calc((100vw / var(--init-width)) * 25);
 	text-align: justify;
 	font-size: calc((100vw / var(--init-width)) * 10);

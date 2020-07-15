@@ -2266,6 +2266,7 @@ dragElement(document.getElementById("author-2"));
 dragElement(document.getElementById("snippet-1"));
 dragElement(document.getElementById("example-line-5"));
 dragElement(document.getElementById("example-line-1"));
+dragElement(document.getElementById("reload"));
 
 var exampleSpace = window.innerHeight;
 var ratiohw = 1440/900;
