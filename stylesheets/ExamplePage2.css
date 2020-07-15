@@ -180,6 +180,7 @@
 	left: calc(((100vw * var(--init-vw) + var(--init-new-vw)) / 1440) * 60);
 	overflow-y: hidden;
 	overflow-x: hidden;
+	border: calc(((100vw * var(--init-vw) + var(--init-new-vw)) / 1440) * 4) solid #00ADEE;
 	z-index: 11;
 }
 
