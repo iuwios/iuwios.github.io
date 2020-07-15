@@ -113,8 +113,20 @@
 .water .alpha-P
 {
 	position: absolute;
+	display: block;
 	width: calc((var(--init-new-vw) / 1440) * 404);
 	height: calc((var(--init-new-vw) / 1440) * 567);
+	margin: 0;
+	
+}
+
+.water .alpha-A
+{
+	position: absolute;
+	display: none;
+	width: calc((var(--init-new-vw) / 1440) * 700);
+	height: calc((var(--init-new-vw) / 1440) * 600);
+	border: 1px solid blue;
 	margin: 0;
 	
 }
@@ -218,7 +230,7 @@
 
 }
 
-.Design-right-page-3 .top-letter
+/*.Design-right-page-3 .top-letter
 {
 	width: calc((var(--init-new-vw) / 1440) * 471.98);
 	height: calc((var(--init-new-vw) / 1440) * 704);
@@ -238,15 +250,6 @@
 	right: calc((var(--init-new-vw) / 1440) * 520);
 }
 
-/*.Design-right-page-3 .bottom-letters
-{
-	position: absolute;
-	width: calc((100vw / 1440) * 457);
-	height: calc((100vw / 1440) * 15.32);
-	margin: 0;
-	top: calc((100vw / 1440) * 715);
-	right: calc((100vw / 1440) * 72);
-}*/
 
 .Design-right-page-3 .mboot
 {
@@ -306,7 +309,7 @@
 	margin: 0;
 	top: calc((var(--init-new-vw) / 1440) * 699);
 	right: calc((var(--init-new-vw) / 1440) * 71);
-}
+}*/
 
 @media screen and (max-width: 1000px){
 .Design-left-page-3

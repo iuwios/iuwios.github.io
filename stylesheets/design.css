@@ -184,7 +184,7 @@ body
 .gradient-line-l{
 	width: calc((var(--init-new-vw) / var(--init-width)) * 30);
 	height: 100%; 
-	background-image: linear-gradient(to left, #D7D7D7, #F2F2F1, transparent);
+	background-image: linear-gradient(to left, #D7D7D7, #F2F2F1, white);
 	position: absolute; 
 	text-align: center;
 	/*top: calc((var(--init-new-vw) / var(--init-width)) * 6);
@@ -199,7 +199,7 @@ body
 .gradient-line-r{
 	width: calc((var(--init-new-vw) / var(--init-width)) * 30);
 	height: 100%;  
-	background-image: linear-gradient(to right,  #D7D7D7, #F2F2F1, transparent);
+	background-image: linear-gradient(to right,  #D7D7D7, #F2F2F1, white);
 	position: absolute; 
 	text-align: center;
 	/*border-top-left-radius: calc((var(--init-new-vw) / var(--init-width)) * 5);
