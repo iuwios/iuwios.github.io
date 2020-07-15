@@ -22,14 +22,6 @@
 	top: 0;
 }
 
-.Design-right-page-4:before {
-	content: '';
-	border-left: 1px solid black;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;  
-}
 
 .Design-left-page-4 h1
 {

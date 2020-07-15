@@ -30,14 +30,8 @@
 	top: 0;
 }
 
-.Design-right-page-1:before {
-	content: '';
-	border-left: 1px solid black;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-
+.Design-left-page-1 .gradient-line-l{
+	background-image: linear-gradient(to right, #FFBFF1, #E8B1DC , #8B6984);
 }
 
 .Design-right-page-1 h1

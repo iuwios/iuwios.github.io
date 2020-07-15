@@ -30,15 +30,6 @@
 	top: 0;
 }
 
-/* RIGHT */
-.Intro-right-page-2:before {
-	 content: '';
-	 border-left: 1px solid black;
-	 height: 100%;
-	 position: absolute;
-	 top: 0;
-	 left: 0;
-}
 
 .Intro-right-page-2 h1
 {
@@ -514,7 +505,6 @@
 
 .Intro-left-page-2
 {
-
 	width: 100vw;
 	height: calc((var(--init-new-vw) / var(--init-width)) * 792);
 	left: 0;

@@ -20,13 +20,11 @@
 	top: 0;
 }
 
-.Recognition-right-page-1:before {
-	content: '';
-	border-left: 1px solid black;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
+.Recognition-right-page-1 .gradient-line-r{
+	background-image: linear-gradient(to right, #9F8265, #CFA984 , #D7B089);
+}
+.Recognition-left-page-1 .gradient-line-l{
+	background-image: linear-gradient(to left, #9F8265, #CFA984 , #D7B089);
 }
 /* Left */
 .Recognition-left-page-1 h1

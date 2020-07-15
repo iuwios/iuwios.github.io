@@ -20,15 +20,6 @@
 	top: 0;
 }
 
-.Design-right-page-6:before {
-	content: '';
-	border-left: 1px solid black;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-
-}
 
 /*Left*/
 .Design-left-page-6 h1
