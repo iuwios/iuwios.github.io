@@ -230,7 +230,7 @@
 
 }
 
-/*.Design-right-page-3 .top-letter
+.Design-right-page-3 .top-letter
 {
 	width: calc((var(--init-new-vw) / 1440) * 471.98);
 	height: calc((var(--init-new-vw) / 1440) * 704);
@@ -309,7 +309,7 @@
 	margin: 0;
 	top: calc((var(--init-new-vw) / 1440) * 699);
 	right: calc((var(--init-new-vw) / 1440) * 71);
-}*/
+}
 
 @media screen and (max-width: 1000px){
 .Design-left-page-3
