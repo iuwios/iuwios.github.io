@@ -20,6 +20,53 @@
 	top: 0;
 }
 
+/*.Design-right-page-5:before {
+	content: '';
+	position: absolute;
+	top: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	left: 0;
+	height: 98.1%;
+	width: 100%;
+	background: white;
+	border-top-left-radius: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	transform: skew(0deg, -0.5deg);
+}
+
+.Design-right-page-5:after {
+	content: '';
+	position: absolute;
+	bottom: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	left: 0;
+	height: 1.74%;
+	width: 100%;
+	background: white;
+	border-bottom-left-radius: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	transform: skew(0deg, 0.5deg);
+}
+
+.Design-left-page-5:before {
+	content: '';
+	position: absolute;
+	top: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	left: 0;
+	height: 98.1%;
+	width: 100%;
+	background: white;
+	border-top-right-radius: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	transform: skew(0deg, 0.5deg);
+}
+
+.Design-left-page-5:after {
+	content: '';
+	position: absolute;
+	bottom: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	left: 0;
+	height: 1.74%;
+	width: 100%;
+	background: white;
+	border-bottom-right-radius: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	transform: skew(0deg, -0.5deg);
+}*/
 
 .Design-left-page-5 h1
 {

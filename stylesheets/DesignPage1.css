@@ -2,7 +2,7 @@
 .Design-left-page-1
 {
 
-	background-color: #FFBFF1;;
+	background-color: #FFBFF1;
 	display: block;
 	/*width: 44.028vw;
 	height: calc(57.85vw * 0.95078);*/
@@ -17,7 +17,6 @@
 /* Design page 1 Right*/
 .Design-right-page-1
 {
-	
 	background: radial-gradient(113.79% 107.74% at 1.8% 51.22%, #000000 0%, #000000 85.19%, #FFBFF1 100%);
 	display: block;
 
@@ -29,6 +28,54 @@
 	right: 0;
 	top: 0;
 }
+
+/*.Design-right-page-1:before {
+	content: '';
+	position: absolute;
+	top: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	left: 0;
+	height: 98.1%;
+	width: 100%;
+	background: white;
+	border-top-left-radius: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	transform: skew(0deg, -0.5deg);
+}
+
+.Design-right-page-1:after {
+	content: '';
+	position: absolute;
+	bottom: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	left: 0;
+	height: 1.74%;
+	width: 100%;
+	background: white;
+	border-bottom-left-radius: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	transform: skew(0deg, 0.5deg);
+}
+
+.Design-left-page-1:before {
+	content: '';
+	position: absolute;
+	top: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	left: 0;
+	height: 98.1%;
+	width: 100%;
+	background: #FFBFF1;
+	border-top-right-radius: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	transform: skew(0deg, 0.5deg);
+}
+
+.Design-left-page-1:after {
+	content: '';
+	position: absolute;
+	bottom: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	left: 0;
+	height: 1.74%;
+	width: 100%;
+	background: #FFBFF1;
+	border-bottom-right-radius: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	transform: skew(0deg, -0.5deg);
+}*/
 
 .Design-left-page-1 .gradient-line-l{
 	background-image: linear-gradient(to right, #FFBFF1, #E8B1DC , #8B6984);

@@ -26,6 +26,55 @@
 .Recognition-left-page-1 .gradient-line-l{
 	background-image: linear-gradient(to left, #9F8265, #CFA984 , #D7B089);
 }
+
+
+/*.Recognition-right-page-1:before {
+	content: '';
+	position: absolute;
+	top: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	left: 0;
+	height: 98.1%;
+	width: 100%;
+	background: #D7B089;
+	border-top-left-radius: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	transform: skew(0deg, -0.5deg);
+}
+
+.Recognition-right-page-1:after {
+	content: '';
+	position: absolute;
+	bottom: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	left: 0;
+	height: 1.74%;
+	width: 100%;
+	background: #D7B089;
+	border-bottom-left-radius: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	transform: skew(0deg, 0.5deg);
+}
+
+.Recognition-left-page-1:before {
+	content: '';
+	position: absolute;
+	top: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	left: 0;
+	height: 98.1%;
+	width: 100%;
+	background: #D7B089;
+	border-top-right-radius: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	transform: skew(0deg, 0.5deg);
+}
+
+.Recognition-left-page-1:after {
+	content: '';
+	position: absolute;
+	bottom: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	left: 0;
+	height: 1.74%;
+	width: 100%;
+	background: #D7B089;
+	border-bottom-right-radius: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	transform: skew(0deg, -0.5deg);
+}*/
 /* Left */
 .Recognition-left-page-1 h1
 {

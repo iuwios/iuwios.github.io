@@ -106,6 +106,7 @@
 	top: calc(((100vw * var(--init-vw) + var(--init-new-vw)) / 1440) * 30);
 	left: calc(((100vw * var(--init-vw) + var(--init-new-vw)) / 1440) * 961);
 	cursor: pointer;
+	transform: rotate(-3deg);
 	z-index: 21;
 }
 
