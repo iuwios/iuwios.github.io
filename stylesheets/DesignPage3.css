@@ -105,8 +105,8 @@
 .A-counter{
 
 	--init-counter-left: 203;
-	--init-counter-top: 220;
-	--init-counter-font: 35;	
+	--init-counter-top: 230;
+	--init-counter-font: 32;	
 }
 
 .D-counter{
@@ -169,8 +169,10 @@
 {
 	position: absolute;
 	display: none;
-	width: calc((var(--init-new-vw) / 1440) * 540);
-	height: calc((var(--init-new-vw) / 1440) * 700);
+	width: calc((var(--init-new-vw) / 1440) * 404);
+	height: calc((var(--init-new-vw) / 1440) * 567);
+	font-size: calc((var(--init-new-vw) / 1440) * 960);
+	line-height: 50%;
 	margin: 0;	
 }
 
@@ -246,10 +248,10 @@
 
 
 .A-box{
-	--init-water-width: 200;
+	--init-water-width: 180;
 	--init-water-height: 310;
 	--init-water-top: 70; 
-	--init-water-left: 160;
+	--init-water-left: 165;
 	--init-bbr: 10;
 	--init-bbl: 10;
 	--init-btr: 300;
@@ -325,14 +327,14 @@
 }
 
 .pos-pr{
-	top: calc((var(--init-new-vw) / 1440) * 85);
-	left: calc((var(--init-new-vw) / 1440) * 115);
+	top: calc((var(--init-new-vw) / 1440) * 60);
+	left: calc((var(--init-new-vw) / 1440) * 140);
 
 }
 
 .pos-pl{
-	top: calc((var(--init-new-vw) / 1440) * 85);
-	left: calc((var(--init-new-vw) / 1440) * 300);
+	top: calc((var(--init-new-vw) / 1440) * 125);
+	left: calc((var(--init-new-vw) / 1440) * 120);
 }
 
 
