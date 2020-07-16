@@ -18,6 +18,8 @@
 	--init-margin-left: 72;
 	--init-d2-rabbit-height: 565;
 
+	--init-plps: black;
+
 	--init-counter-top: 123;
 	--init-counter-left: 153;
 	--init-counter-font: 48;
@@ -108,7 +110,6 @@ body
 	scroll-snap-align: center;
 	top: calc((var(--init-new-vw) / var(--init-width)) * 30); 
 	margin: 0 auto;
-	
 }
 
 .Changes{
@@ -456,9 +457,9 @@ display: none;
 .book 
 {
 	position: relative;
-	left: calc(57vw / 2);
+	/*left: calc(57vw / 2);*/
 	top: 0;
-	width: 44.028vw;
+	width: 100vw;
 	height: 100vh;
 	/*overflow: hidden;*/
 	-webkit-perspective: calc((100vw / var(--init-width)) * 1200);
@@ -472,19 +473,55 @@ display: none;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-
-	/* Scroll Snap */
-  	/*scroll-snap-align: center;*/
-  	
-	/*border: 1px solid green;*/
 }
 
 .book > div 
 {
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+}
+
+.btn-book{
+	position: absolute;
+	width: calc((100vw / var(--init-width)) * 106);
+	height: calc((100vw / var(--init-width)) * 44);
+	background: #696969;
+	left: calc((100vw / var(--init-width)) * 1285);
+	border-radius: calc((100vw / var(--init-width)) * 26.5);
+	cursor: pointer;
+}
+
+.btn-mpl{
+	top: calc((100vw / var(--init-width)) * 69);
 
 }
+
+.btn-mop{
+	top: calc((100vw / var(--init-width)) * 137);
+	font-size: calc((100vw / var(--init-width)) * 24);
+	text-align: center;
+	line-height: 180%
+}
+
+.play{
+	position: relative;
+	width: 0;
+	height: 0;
+	border-top: calc((100vw / var(--init-width)) * 12.5) solid var(--init-plps);
+    border-left: calc((100vw / var(--init-width)) * 25) solid black;
+    border-bottom: calc((100vw / var(--init-width)) * 12.5) solid var(--init-plps);
+    top: calc((100vw / var(--init-width)) * 8);
+    margin: auto;
+}
+
+.playpause{
+	--init-plps: transparent;
+}
+
+.btn-book:hover{
+	background: white;
+}
+
 
 .bookup 
 {
@@ -500,8 +537,6 @@ display: none;
 	-webkit-animation: 13s rotatingAnimationY linear infinite;
 	animation: 13s rotatingAnimationY linear infinite;
 	cursor: pointer;
-	scroll-snap-align: center;
-
 }
 
 .book-container > div 

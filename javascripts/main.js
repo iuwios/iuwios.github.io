@@ -2027,7 +2027,7 @@ var f_y=0;
 function mouse(evt) {
 
     if(mouseDown ==true){
-    	mouseMove = true;
+    	//mouseMove = true;
 	    var center_x = (f_x - evt.pageX)/2;
 	    var center_y = (f_y - evt.pageY)/2;
 	    var center_z = center_y + center_x;
@@ -2053,16 +2053,40 @@ img.mousedown(function (e) {
     //alert(f_z);
     $(document).mousemove(mouse);
 });
+
 $(document).mouseup(function (e) {
-	if(mouseMove == false){
+	/*if(mouseMove == false){
 		bcont.classList.toggle('paused');
 		//console.log("paused");
-	}
+	}*/
     mouseDown = false;
-    mouseMove = false;
-    //console.log("stop");
+    //mouseMove = false;
 })
 
+
+var play_book = document.getElementById("play-book");
+var play_pause= document.getElementById("playps");
+var open_book = document.getElementById("open-book");
+
+var plps = true;
+
+play_book.onclick = function(){
+	bcont.classList.toggle('paused');
+	if(plps==true){
+		play_pause.classList.add('playpause');
+		plps = false;
+	}
+	else{
+		play_pause.classList.remove('playpause');
+		plps = true;
+	}
+
+}
+
+open_book.onclick = function(){
+	document.getElementById("contain").setAttribute("style", "scroll-snap-align: center;");
+	document.getElementById('contain').scrollIntoView({behavior: 'smooth'});
+}
 
 
 
