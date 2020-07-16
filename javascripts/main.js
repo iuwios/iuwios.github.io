@@ -1,46 +1,5 @@
 
 "use strict";
-/*var crimson;
-$(window).ready(function(){
-	$('#crimson-book').turn({
-		page:2,
-		acceleration: 'true',
-		elevation: '50'
-	});/*
-	$('#crimson-book').bind('start', function(e, data, c) {
-        if(data.next == 2) {
-            e.preventDefault();
-        }
-    });
-    $('.p2').unbind('pressed');
-    $('.p2').unbind('pressed');
-
-
-});*/
-
-/*
-$(window).bind('keydown', function(e){
-	if(e.keyCode == 37){
-		$('crimson-book').turn('page', 4);
-	}
-	else if(e.keyCOde == 39){
-		$('crimson-book').turn('page', 4);
-	}
-});*/
-
-
-
-// on window resize, update the plugin size
-/*window.addEventListener('resize', function (e) {
-	//alert($('crimson-book').width);
-	$('#crimson-book').turn({
-		page:2,
-		acceleration: 'true',
-		elevation: '50'
-	});
-
-});*/
-
 
 
 /* temporary window scroll disable */
@@ -59,171 +18,6 @@ var num = 0;
 var max = document.querySelectorAll("[id='pg']").length-2;
 var elms = document.querySelectorAll("[id='pg']");
 
-
-
-/*
-function intro(){
-
-
-	document.getElementById("intro").style.color='#FEC0F0';
-	document.getElementById("design").style.color='white';
-	document.getElementById("example").style.color='white';
-	document.getElementById("recognition").style.color='white';
-	elms[num].style.display = 'none';
-	elms[num+1].style.display = 'none';
-	elms[0].style.display = 'block';
-	elms[1].style.display = 'block';
-	num=0;
-}
-
-function design(){
-	document.getElementById("design").style.color='#FEC0F0';
-	document.getElementById("intro").style.color='white';
-	document.getElementById("example").style.color='white';
-	document.getElementById("recognition").style.color='white';
-	elms[num].style.display = 'none';
-	elms[num+1].style.display = 'none';
-	elms[4].style.display = 'block';
-	elms[5].style.display = 'block';
-
-	num=4;
-
-}
-
-function example(){
-	document.getElementById("example").style.color='#FEC0F0';
-	document.getElementById("design").style.color='white';
-	document.getElementById("intro").style.color='white';
-	document.getElementById("recognition").style.color='white';
-	elms[num].style.display = 'none';
-	elms[num+1].style.display = 'none';
-	elms[18].style.display = 'block';
-	elms[19].style.display = 'block';
-
-	num=18;
-}
-
-function recognition(){
-	document.getElementById("recognition").style.color='#FEC0F0';
-	document.getElementById("design").style.color='white';
-	document.getElementById("example").style.color='white';
-	document.getElementById("intro").style.color='white';
-	elms[num].style.display = 'none';
-	elms[num+1].style.display = 'none';
-	elms[24].style.display = 'block';
-	elms[25].style.display = 'block';
-
-	num=24;
-}
-*/
-/*
-function right(){
-	//var elms = document.querySelectorAll("[id='pg']");
-	if(num==max){
-		return;
-	}
-	else{
-		elms[num].style.display = 'none';
-		elms[num+1].style.display = 'none';
-		elms[num+2].style.display = 'block';
-		elms[num+3].style.display = 'block';
-		num=num+2;
-	}
-
-    if(num==6){
-		document.getElementById("the-text").focus();
-	}
-	else if(num==10){
-		document.getElementById("drink-text").focus();
-	}
-	else if(num==12){
-		document.getElementById("eat-me").focus();
-	}
-	else if(num==14){
-		document.getElementById("text-nocake").focus();
-	}
-
-	switch(num){
-		case 0:
-			document.getElementById("intro").style.color='#FEC0F0';
-			document.getElementById("design").style.color='white';
-			document.getElementById("example").style.color='white';
-			document.getElementById("recognition").style.color='white';
-			break;
-		case 4:
-			document.getElementById("design").style.color='#FEC0F0';
-			document.getElementById("intro").style.color='white';
-			document.getElementById("example").style.color='white';
-			document.getElementById("recognition").style.color='white';
-			break;
-		case 18:
-			document.getElementById("example").style.color='#FEC0F0';
-			document.getElementById("design").style.color='white';
-			document.getElementById("intro").style.color='white';
-			document.getElementById("recognition").style.color='white';
-			break;
-		case 24:
-			document.getElementById("recognition").style.color='#FEC0F0';
-			document.getElementById("design").style.color='white';
-			document.getElementById("example").style.color='white';
-			document.getElementById("intro").style.color='white';
-			break;
-		default:
-			break;
-	}
-
-}
-
-function left(){
-	//var elms = document.querySelectorAll("[id='pg']");
-	if(num==0){
-		return;
-	}
-	else{
-		elms[num].style.display = 'none';
-		elms[num+1].style.display = 'none';
-		elms[num-1].style.display = 'block';
-		elms[num-2].style.display = 'block';
-		num = num - 2;
-	}
-
-	if(num==6){
-		document.getElementById("the-text").focus();
-	}
-	else if(num==10){
-		document.getElementById("drink-text").focus();
-	}
-	else if(num==12){
-		document.getElementById("eat-me").focus();
-	}
-	else if(num==14){
-		document.getElementById("text-nocake").focus();
-	}
-
-	switch(num){
-		case 2:
-			document.getElementById("intro").style.color='#FEC0F0';
-			document.getElementById("design").style.color='white';
-			document.getElementById("example").style.color='white';
-			document.getElementById("recognition").style.color='white';
-			break;
-		case 16:
-			document.getElementById("design").style.color='#FEC0F0';
-			document.getElementById("intro").style.color='white';
-			document.getElementById("example").style.color='white';
-			document.getElementById("recognition").style.color='white';
-			break;
-		case 22:
-			document.getElementById("example").style.color='#FEC0F0';
-			document.getElementById("design").style.color='white';
-			document.getElementById("intro").style.color='white';
-			document.getElementById("recognition").style.color='white';
-			break;
-		default:
-			break;
-	}
-
-}*/
 
 
 /*navigation scroll*/
@@ -672,6 +466,175 @@ function xl()
 	document.getElementById("s").style.color='black';
 }
 
+
+/* design pg 3 PA */
+
+var A_letter = document.getElementById("A-letter");
+var P_letter = document.getElementById("P-letter");
+var D_letter = document.getElementById("D-letter");
+var f_letter = document.getElementById("f-letter");
+var Ob_letter = document.getElementById("Ob-letter");
+var sh_letter = document.getElementById("sh-letter");
+var nn_letter = document.getElementById("nn-letter");
+
+var cur_alpha = "alpha-P";
+var cur_counter;
+var cur_box;
+
+var element1 = document.getElementById("box");
+var element2 = document.getElementById("P-counter");
+var element3 = document.getElementById("patch1");
+var element4 = document.getElementById("patch2");
+var element5 = document.getElementById(cur_alpha);
+
+A_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "A-counter";
+	cur_box = "A-box";
+	cur_alpha = "alpha-A";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "block";
+	element4.style.display = "block";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+
+D_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "D-counter";
+	cur_box = "D-box";
+	cur_alpha = "alpha-D";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+
+f_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "f-counter";
+	cur_box = "f-box";
+	cur_alpha = "alpha-f";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+
+Ob_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "Ob-counter";
+	cur_box = "Ob-box";
+	cur_alpha = "alpha-Ob";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+
+
+sh_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "sh-counter";
+	cur_box = "sh-box";
+	cur_alpha = "alpha-sh";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+
+nn_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "nn-counter";
+	cur_box = "nn-box";
+	cur_alpha = "alpha-nn";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+
+P_letter.onclick = function(){
+
+	var element0 = document.getElementById(cur_alpha);
+	element0.style.display = "none";
+
+	cur_alpha = "alpha-P";
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+		element3.style.display = "none";
+		element4.style.display = "none";
+		document.getElementById(cur_alpha).style.display = "block";
+
+	}
+};
+
+function myFunction() {
+  var element = document.getElementById("myDIV");
+  element.classList.add("mystyle");
+}
 
 var slider_pg3 = document.getElementById("slider-pg3");
 var cur_color = "#EB0000";

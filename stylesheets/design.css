@@ -18,6 +18,20 @@
 	--init-margin-left: 72;
 	--init-d2-rabbit-height: 565;
 
+	--init-counter-top: 123;
+	--init-counter-left: 153;
+	--init-counter-font: 48;
+
+	--init-water-width: 240;
+	--init-water-height: 310;
+	--init-water-top: 20;
+	--init-water-left: 110;
+	--init-btl: 0;
+	--init-btr: 100;
+	--init-bbl: 0;
+	--init-bbr: 100;
+
+
 	--init-vw: 0;
 	--init-new-vw: 300px;
 
