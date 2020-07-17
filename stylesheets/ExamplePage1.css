@@ -33,16 +33,16 @@
 .Example-right-page-1 h1
 {
 	position: absolute;
-	width: calc((100vw / var(--init-width)) * 60);
-	height: calc((100vw / var(--init-width)) * 22);
-	top: calc((100vw / var(--init-width)) * 314.77);
-	right: calc((100vw / var(--init-width)) * 287.86);
+	width: calc((var(--init-new-vw) / 1440) * 60);
+	height: calc((var(--init-new-vw) / 1440) * 22);
+	top: calc((var(--init-new-vw) / 1440) * 314.77);
+	right: calc((var(--init-new-vw) / 1440) * 287.86);
 	
 	font-style: normal;
 	font-weight: normal;
-	font-size: calc((100vw / var(--init-width)) * 20);
-	line-height: calc((100vw / var(--init-width)) * 22);
-	letter-spacing: calc((100vw / var(--init-width)) * -0.294);
+	font-size: calc((var(--init-new-vw) / 1440) * 20);
+	line-height: calc((var(--init-new-vw) / 1440) * 22);
+	letter-spacing: calc((var(--init-new-vw) / 1440) * -0.294);
 	margin: 0;
 	color: #3DB349;
 }
@@ -50,16 +50,16 @@
 .Example-right-page-1 h2
 {
 	position: absolute;
-	width: calc((100vw / var(--init-width)) * 185);
-	height: calc((100vw / var(--init-width)) * 53);
-	top: calc((100vw / var(--init-width)) * 342.66);
-	right: calc((100vw / var(--init-width)) * 225.86);
+	width: calc((var(--init-new-vw) / 1440) * 185);
+	height: calc((var(--init-new-vw) / 1440) * 53);
+	top: calc((var(--init-new-vw) / 1440) * 342.66);
+	right: calc((var(--init-new-vw) / 1440) * 225.86);
 	margin: 0;
 	font-style: normal;
 	font-weight: 900;
-	font-size: calc((100vw / var(--init-width)) * 48);
-	line-height: calc((100vw / var(--init-width)) * 53);
-	border-top: calc((100vw / var(--init-width)) * 1.5) solid #3DB349;
+	font-size: calc((var(--init-new-vw) / 1440) * 48);
+	line-height: calc((var(--init-new-vw) / 1440) * 53);
+	border-top: calc((var(--init-new-vw) / 1440) * 1.5) solid #3DB349;
 	color: #3DB349;
 }
 
@@ -73,7 +73,7 @@
 	width: 100vw;
 	left:0;
 	right:0;
-	top: calc((100vw / var(--init-width)) * 792 * 16 + 160px);
+	top: calc((var(--init-new-vw) / 1440) * 792 * 16 + 160px);
 }
 
 .Example-left-page-1
@@ -83,7 +83,7 @@
 	width: 100vw;
 	left:0;
 	right:0;
-	top: calc((100vw / var(--init-width)) * 792 * 16 + 160px);
+	top: calc((var(--init-new-vw) / 1440) * 792 * 16 + 160px);
 }
 
 .Example-right-page-1:before
