@@ -470,12 +470,524 @@ function xl()
 /* design pg 3 PA */
 
 var A_letter = document.getElementById("A-letter");
-var P_letter = document.getElementById("P-letter");
+
+var O_letter = document.getElementById("O-letter");
+O_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "O-counter";
+	cur_box = "O-box";
+	cur_alpha = "alpha-O";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
 var D_letter = document.getElementById("D-letter");
+var B_letter = document.getElementById("B-letter");
+B_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "B-counter";
+	cur_box = "B-box";
+	cur_alpha = "alpha-B";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+
+var C_letter = document.getElementById("C-letter");
+C_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "C-counter";
+	cur_box = "C-box";
+	cur_alpha = "alpha-C";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
 var f_letter = document.getElementById("f-letter");
+
+var N_letter = document.getElementById("N-letter");
+N_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "N-counter";
+	cur_box = "N-box";
+	cur_alpha = "alpha-N";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+var Om_letter = document.getElementById("Om-letter");
+Om_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "Om-counter";
+	cur_box = "Om-box";
+	cur_alpha = "alpha-Om";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+
 var Ob_letter = document.getElementById("Ob-letter");
+var R_letter = document.getElementById("R-letter");
+R_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "R-counter";
+	cur_box = "R-box";
+	cur_alpha = "alpha-R";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+var per_letter = document.getElementById("per-letter");
+per_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "per-counter";
+	cur_box = "per-box";
+	cur_alpha = "alpha-per";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+var Z_letter = document.getElementById("Z-letter");
+Z_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "Z-counter";
+	cur_box = "Z-box";
+	cur_alpha = "alpha-Z";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+
+var P_letter = document.getElementById("P-letter");
+var K_letter = document.getElementById("K-letter");
+K_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "K-counter";
+	cur_box = "K-box";
+	cur_alpha = "alpha-K";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+var e_letter = document.getElementById("e-letter");
+e_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "e-counter";
+	cur_box = "e-box";
+	cur_alpha = "alpha-e";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+var cn_letter = document.getElementById("cn-letter");
+cn_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "cn-counter";
+	cur_box = "cn-box";
+	cur_alpha = "alpha-cn";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+var Q_letter = document.getElementById("Q-letter");
+Q_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "Q-counter";
+	cur_box = "Q-box";
+	cur_alpha = "alpha-Q";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+
 var sh_letter = document.getElementById("sh-letter");
+var sv_letter = document.getElementById("sv-letter");
+sv_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "sv-counter";
+	cur_box = "sv-box";
+	cur_alpha = "alpha-sv";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+var qu_letter = document.getElementById("qu-letter");
+qu_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "qu-counter";
+	cur_box = "qu-box";
+	cur_alpha = "alpha-qu";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+var sx_letter = document.getElementById("sx-letter");
+sx_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "sx-counter";
+	cur_box = "sx-box";
+	cur_alpha = "alpha-sx";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+var ac_letter = document.getElementById("ac-letter");
+ac_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "ac-counter";
+	cur_box = "ac-box";
+	cur_alpha = "alpha-ac";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+var Obs_letter = document.getElementById("Obs-letter");
+Obs_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "Obs-counter";
+	cur_box = "Obs-box";
+	cur_alpha = "alpha-Obs";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+var S_letter = document.getElementById("S-letter");
+S_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "S-counter";
+	cur_box = "S-box";
+	cur_alpha = "alpha-S";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+
 var nn_letter = document.getElementById("nn-letter");
+var M_letter = document.getElementById("M-letter");
+M_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "M-counter";
+	cur_box = "M-box";
+	cur_alpha = "alpha-M";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+var Bx_letter = document.getElementById("Bx-letter");
+Bx_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "Bx-counter";
+	cur_box = "Bx-box";
+	cur_alpha = "alpha-Bx";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+var U_letter = document.getElementById("U-letter");
+U_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "U-counter";
+	cur_box = "U-box";
+	cur_alpha = "alpha-U";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+var E_letter = document.getElementById("E-letter");
+E_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "E-counter";
+	cur_box = "E-box";
+	cur_alpha = "alpha-E";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+var at_letter = document.getElementById("at-letter");
+at_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "at-counter";
+	cur_box = "at-box";
+	cur_alpha = "alpha-at";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
+
+var Ff_letter = document.getElementById("Ff-letter");
+Ff_letter.onclick = function(){
+
+	if(cur_counter!=null){
+		element1.classList.remove(cur_box);
+		element2.classList.remove(cur_counter);
+
+	}
+
+	document.getElementById(cur_alpha).style.display = "none";
+
+	cur_counter = "Ff-counter";
+	cur_box = "Ff-box";
+	cur_alpha = "alpha-Ff";
+
+	element1.classList.add(cur_box);
+	element2.classList.add(cur_counter);
+	element3.style.display = "none";
+	element4.style.display = "none";
+	document.getElementById(cur_alpha).style.display = "block";
+};
 
 var cur_alpha = "alpha-P";
 var cur_counter;
@@ -485,7 +997,7 @@ var element1 = document.getElementById("box");
 var element2 = document.getElementById("P-counter");
 var element3 = document.getElementById("patch1");
 var element4 = document.getElementById("patch2");
-var element5 = document.getElementById(cur_alpha);
+var element5 = document.getElementById("box");
 
 A_letter.onclick = function(){
 
