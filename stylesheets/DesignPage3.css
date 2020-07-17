@@ -152,6 +152,13 @@
 	--init-counter-display: block;
 }
 
+.Q-counter{
+	--init-counter-left: 150;
+	--init-counter-top: 270;
+	--init-counter-font: 55;	
+	--init-counter-display: block;
+}
+
 .f-counter{
 
 	--init-counter-left: 128;
