@@ -126,13 +126,13 @@
 	--init-counter-display: block;
 }
 .O-counter{
-	--init-counter-left: 197;
-	--init-counter-top: 375;
+	--init-counter-left: 178;
+	--init-counter-top: 330;
 	--init-counter-font: 55;	
 	--init-counter-display: block;
 }
 .Obs-counter{
-	--init-counter-left: 197;
+	--init-counter-left: 145;
 	--init-counter-top: 375;
 	--init-counter-font: 55;
 	--init-counter-display: block;
@@ -289,7 +289,7 @@
 	margin: 0;
 }
 
-
+/*test */
 /*.alphabet-size
 {
 	position: absolute;
@@ -324,9 +324,11 @@
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 925);
-	line-height: 53%;
-	left: calc((var(--init-new-vw) / 1440) * -44);
+	width: calc((var(--init-new-vw) / 1440) * 515);
+	height: calc((var(--init-new-vw) / 1440) * 620);
+	/*font-size: calc((var(--init-new-vw) / 1440) * 925);*/
+
+	left: 0;
 }
 
 .alpha-D
@@ -488,9 +490,9 @@
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 925);
-	line-height: 53%;
-	left: calc((var(--init-new-vw) / 1440) * -44);
+	font-size: calc((var(--init-new-vw) / 1440) * 955);
+	line-height: 49%;
+	left: calc((var(--init-new-vw) / 1440) * -48);
 }
 .alpha-S
 {
@@ -626,7 +628,7 @@
 .O-box{
 	--init-water-width: 380;
 	--init-water-height: 310;
-	--init-water-top: 250; 
+	--init-water-top: 200; 
 	--init-water-left: 68;
 	--init-bbr: 300;
 	--init-bbl: 300;
@@ -786,10 +788,10 @@
 
 
 .Obs-box{
-	--init-water-width: 380;
+	--init-water-width: 360;
 	--init-water-height: 310;
 	--init-water-top: 250; 
-	--init-water-left: 68;
+	--init-water-left: 40;
 	--init-bbr: 300;
 	--init-bbl: 300;
 	--init-btr: 0;
@@ -991,7 +993,6 @@
 	height: calc((var(--init-new-vw) / 1440) * 310);
 	left: calc((var(--init-new-vw) / 1440) * 270);
 	top: calc((var(--init-new-vw) / 1440) * -10);
-
 }
 
 /*.A-letter:hover{
@@ -1014,7 +1015,7 @@
 	position: absolute;
 	width: calc((var(--init-new-vw) / 1440) * 140);
 	height: calc((var(--init-new-vw) / 1440) * 135);
-	left: calc((var(--init-new-vw) / 1440) * 257);
+	left: calc((var(--init-new-vw) / 1440) * 262);
 	font-weight: 700;
 	line-height: 50%;
 	font-size: calc((var(--init-new-vw) / 1440) * 220);
@@ -1096,6 +1097,14 @@
 }
 .Ob-letter{
 	position: absolute;
+	width: calc((var(--init-new-vw) / 1440) * 75);
+	height: calc((var(--init-new-vw) / 1440) * 75);
+	left: calc((var(--init-new-vw) / 1440) * 302);
+	top: calc((var(--init-new-vw) / 1440) * 533);
+}
+/*
+.Ob-letter{
+	position: absolute;
 	width: calc((var(--init-new-vw) / 1440) * 70);
 	height: calc((var(--init-new-vw) / 1440) * 60);
 	left: calc((var(--init-new-vw) / 1440) * 302);
@@ -1103,7 +1112,7 @@
 	line-height: 90%;
 	font-size: calc((var(--init-new-vw) / 1440) * 76);
 
-}
+}*/
 .per-letter{
 	position: absolute;
 	width: calc((var(--init-new-vw) / 1440) * 70);
@@ -1274,10 +1283,10 @@
 
 .boot-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 35);
-	height: calc((var(--init-new-vw) / 1440) * 35);
-	left: calc((var(--init-new-vw) / 1440) * 162);
-	top:calc((var(--init-new-vw) / 1440) * 740)
+	width: calc((var(--init-new-vw) / 1440) * 40);
+	height: calc((var(--init-new-vw) / 1440) * 40);
+	left: calc((var(--init-new-vw) / 1440) * 160);
+	top:calc((var(--init-new-vw) / 1440) * 735)
 
 }
 
