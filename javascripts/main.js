@@ -1392,6 +1392,12 @@ sliderd4.oninput = function()
 	d_text.style.setProperty('--text-weight', this.value);
 }
 
+/* design 2 right */
+var slider_pg3 = document.getElementById("slider-pg3");
+slider_pg3.oninput = function() {
+		var d = document.getElementById("many-lines");
+		d.style.setProperty('--text-weight-small', this.value);
+}
 
 /*function myFunction() {
   var element = document.getElementById("myDIV");
