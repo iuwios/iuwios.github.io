@@ -553,10 +553,10 @@
 
 .Intro-left-page-2
 {
+	position: absolute;
 	width: 100vw;
 	height: calc((var(--init-new-vw) / var(--init-width)) * 792);
 	left: 0;
-	right: 0;
 	top: calc((var(--init-new-vw) / var(--init-width)) * 792 + 10px);
 }
 
@@ -566,7 +566,6 @@
 	height: calc((var(--init-new-vw) / var(--init-width)) * 792);
 	width: 100vw;
 	left:0;
-	right:0;
 	top: calc((var(--init-new-vw) / var(--init-width)) * 792 * 2 + 20px);
 }
 

@@ -2,8 +2,8 @@
 .Design-left-page-3
 {
 	display: block;
-	width: calc((var(--init-new-vw) / 1440) * 634);
-	height: calc((var(--init-new-vw) / 1440) * 792); 
+	width: calc((var(--init-new-vw) / var(--init-width)) * 634);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 792); 
 	background-color: white;
 	position: absolute;
 	left: 0;
@@ -14,8 +14,8 @@
 .Design-right-page-3
 {
 	display: block;
-	width: calc((var(--init-new-vw) / 1440) * 634);
-	height: calc((var(--init-new-vw) / 1440) * 792); 
+	width: calc((var(--init-new-vw) / var(--init-width)) * 634);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 792); 
 	background-color: white;
 	position: absolute;
 	right: 0;
@@ -76,13 +76,13 @@
 .Design-left-page-3 h1
 {
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 497);
-	height: calc((var(--init-new-vw) / 1440) * 25);
-	top: calc((var(--init-new-vw) / 1440) * 26);
-	left: calc((var(--init-new-vw) / 1440) * 72);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 497);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 25);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 26);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 72);
 	font-style: normal;
 	font-weight: 300;
-	font-size: calc((var(--init-new-vw) / 1440) * 16);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 16);
 	line-height: 130%;
 	text-transform: lowercase;
 	margin: 0;
@@ -94,12 +94,12 @@
 	display: var(--init-counter-display);
 	margin: 0;
 	color: white;
-	left: calc((var(--init-new-vw) / 1440) * var(--init-counter-left));
-	top: calc((var(--init-new-vw) / 1440) * var(--init-counter-top));
+	left: calc((var(--init-new-vw) / var(--init-width)) * var(--init-counter-left));
+	top: calc((var(--init-new-vw) / var(--init-width)) * var(--init-counter-top));
 	padding: 0;
 	font-style: normal;
 	font-weight: normal;
-	font-size: calc((var(--init-new-vw) / 1440) * var(--init-counter-font));
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * var(--init-counter-font));
 }
 
 
@@ -273,19 +273,19 @@
 .water
 {
 	position: absolute;	
-	width: calc((var(--init-new-vw) / 1440) * 404);
-	height: calc((var(--init-new-vw) / 1440) * 567);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 404);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 567);
 	margin: 0;
-	top: calc((var(--init-new-vw) / 1440) * 53);
-	left: calc((var(--init-new-vw) / 1440) * var(--init-margin-left));
+	top: calc((var(--init-new-vw) / var(--init-width)) * 53);
+	left: calc((var(--init-new-vw) / var(--init-width)) * var(--init-margin-left));
 }
 
 .water .alpha-P
 {
 	position: absolute;
 	display: block;
-	width: calc((var(--init-new-vw) / 1440) * 404);
-	height: calc((var(--init-new-vw) / 1440) * 567);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 404);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 567);
 	margin: 0;
 }
 
@@ -294,8 +294,8 @@
 {
 	position: absolute;
 	display: block;
-	width: calc((var(--init-new-vw) / 1440) * 404);
-	height: calc((var(--init-new-vw) / 1440) * 567);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 404);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 567);
 	line-height: 50%;
 	margin: 0;	
 	border: 1px solid blue;
@@ -305,7 +305,7 @@
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 960);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 960);
 	line-height: 50%;
 	margin: 0;	
 }
@@ -315,18 +315,18 @@
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 975);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 975);
 	line-height: 48%;
-	left: calc((var(--init-new-vw) / 1440) * -40);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -40);
 }
 
 .alpha-O
 {
 	position: absolute;
 	display: none;
-	width: calc((var(--init-new-vw) / 1440) * 515);
-	height: calc((var(--init-new-vw) / 1440) * 620);
-	/*font-size: calc((var(--init-new-vw) / 1440) * 925);*/
+	width: calc((var(--init-new-vw) / var(--init-width)) * 515);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 620);
+	/*font-size: calc((var(--init-new-vw) / var(--init-width)) * 925);*/
 
 	left: 0;
 }
@@ -335,9 +335,9 @@
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 930);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 930);
 	line-height: 54%;
-	left: calc((var(--init-new-vw) / 1440) * -40);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -40);
 }
 
 
@@ -346,34 +346,34 @@
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 959);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 959);
 	line-height: 50%;
-	left: calc((var(--init-new-vw) / 1440) * -36);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -36);
 }
 
 .alpha-C
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 945);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 945);
 	line-height: 50%;
-	left: calc((var(--init-new-vw) / 1440) * -45);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -45);
 }
 .alpha-N
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 930);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 930);
 	line-height: 54%;
-	left: calc((var(--init-new-vw) / 1440) * -40);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -40);
 }
 .alpha-Om
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 925);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 925);
 	line-height: 53%;
-	left: calc((var(--init-new-vw) / 1440) * -44);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -44);
 }
 
 
@@ -382,32 +382,32 @@
 {
 	position: absolute;
 	display: none;
-	width: calc((var(--init-new-vw) / 1440) * 500);
-	height: calc((var(--init-new-vw) / 1440) * 590);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 500);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 590);
 }
 .alpha-R
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 930);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 930);
 	line-height: 54%;
-	left: calc((var(--init-new-vw) / 1440) * -40);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -40);
 }
 .alpha-per
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 800);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 800);
 	line-height: 72%;
-	left: calc((var(--init-new-vw) / 1440) * -28);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -28);
 }
 .alpha-Z
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 963);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 963);
 	line-height: 49%;
-	left: calc((var(--init-new-vw) / 1440) * -40);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -40);
 }
 
 
@@ -416,33 +416,33 @@
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 930);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 930);
 	line-height: 54%;
-	left: calc((var(--init-new-vw) / 1440) * -40);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -40);
 }
 .alpha-e
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 945);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 945);
 	line-height: 50%;
-	left: calc((var(--init-new-vw) / 1440) * -60);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -60);
 }
 .alpha-cn
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 920);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 920);
 	line-height: 53%;
-	left: calc((var(--init-new-vw) / 1440) * -25);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -25);
 }
 .alpha-Q
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 780);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 780);
 	line-height: 50%;
-	left: calc((var(--init-new-vw) / 1440) * -39);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -39);
 }
 
 
@@ -451,56 +451,56 @@
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 944);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 944);
 	line-height: 52%;
-	left: calc((var(--init-new-vw) / 1440) * -30);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -30);
 }
 .alpha-sv
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 960);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 960);
 	line-height: 50%;
-	left: calc((var(--init-new-vw) / 1440) * -28);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -28);
 }
 .alpha-qu
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 820);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 820);
 	line-height: 68%;
-	left: calc((var(--init-new-vw) / 1440) * -10);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -10);
 }
 .alpha-sx
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 940);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 940);
 	line-height: 51%;
-	left: calc((var(--init-new-vw) / 1440) * -57);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -57);
 }
 .alpha-ac
 {
 	position: absolute;
 	display: none;
-	width: calc((var(--init-new-vw) / 1440) * 500);
-	height: calc((var(--init-new-vw) / 1440) * 565);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 500);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 565);
 }
 .alpha-Obs
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 955);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 955);
 	line-height: 49%;
-	left: calc((var(--init-new-vw) / 1440) * -48);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -48);
 }
 .alpha-S
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 940);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 940);
 	line-height: 51%;
-	left: calc((var(--init-new-vw) / 1440) * -45);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -45);
 }
 
 
@@ -509,57 +509,57 @@
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 940);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 940);
 	line-height: 49%;
-	left: calc((var(--init-new-vw) / 1440) * -50);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -50);
 }
 .alpha-M
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 700);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 700);
 	line-height: 94%;
-	left: calc((var(--init-new-vw) / 1440) * -25);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -25);
 }
 .alpha-Bx
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 830);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 830);
 	line-height: 68%;
-	left: calc((var(--init-new-vw) / 1440) * -15);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -15);
 }
 .alpha-U
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 930);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 930);
 	line-height: 52%;
-	left: calc((var(--init-new-vw) / 1440) * -40);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -40);
 }
 .alpha-E
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 960);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 960);
 	line-height: 49.5%;
-	left: calc((var(--init-new-vw) / 1440) * -40);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -40);
 }
 .alpha-Ff
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 930);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 930);
 	line-height: 54%;
-	left: calc((var(--init-new-vw) / 1440) * -40);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -40);
 }
 .alpha-at
 {
 	position: absolute;
 	display: none;
-	font-size: calc((var(--init-new-vw) / 1440) * 680);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 680);
 	line-height: 54%;
-	left: calc((var(--init-new-vw) / 1440) * -35);
+	left: calc((var(--init-new-vw) / var(--init-width)) * -35);
 }
 
 
@@ -569,22 +569,22 @@
 	content: '';
 	display: var(--init-box-display);
 	position: absolute;	
-	width: calc((var(--init-new-vw) / 1440) * var(--init-water-width));
-	height: calc((var(--init-new-vw) / 1440) * var(--init-water-height));
+	width: calc((var(--init-new-vw) / var(--init-width)) * var(--init-water-width));
+	height: calc((var(--init-new-vw) / var(--init-width)) * var(--init-water-height));
 	border: 1px solid white;
 	margin: 0;
-	top: calc((var(--init-new-vw) / 1440) * var(--init-water-top));
-	left: calc((var(--init-new-vw) / 1440) * var(--init-water-left));
+	top: calc((var(--init-new-vw) / var(--init-width)) * var(--init-water-top));
+	left: calc((var(--init-new-vw) / var(--init-width)) * var(--init-water-left));
 
-	border-bottom-right-radius: calc((var(--init-new-vw) / 1440) * var(--init-bbr));
-	border-top-right-radius: calc((var(--init-new-vw) / 1440) * var(--init-btr));
-	border-bottom-left-radius: calc((var(--init-new-vw) / 1440) * var(--init-bbl));
-	border-top-left-radius: calc((var(--init-new-vw) / 1440) * var(--init-btl));
+	border-bottom-right-radius: calc((var(--init-new-vw) / var(--init-width)) * var(--init-bbr));
+	border-top-right-radius: calc((var(--init-new-vw) / var(--init-width)) * var(--init-btr));
+	border-bottom-left-radius: calc((var(--init-new-vw) / var(--init-width)) * var(--init-bbl));
+	border-top-left-radius: calc((var(--init-new-vw) / var(--init-width)) * var(--init-btl));
 
 	background-image: url(../images/wave.png);
 	background-repeat: repeat-x;
-	background-size: calc((var(--init-new-vw) / 1440) * 500) calc((var(--init-new-vw) / 1440) * 310);
-	background-position: left 0px top calc((var(--init-new-vw) / 1440) * 210);
+	background-size: calc((var(--init-new-vw) / var(--init-width)) * 500) calc((var(--init-new-vw) / var(--init-width)) * 310);
+	background-position: left 0px top calc((var(--init-new-vw) / var(--init-width)) * 210);
 	-webkit-animation: wave 12s linear infinite;
 	        animation: wave 12s linear infinite;
 }
@@ -848,22 +848,22 @@
 
 .patch{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 100);
-	height: calc((var(--init-new-vw) / 1440) * 100);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 100);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 100);
 	border-radius: 50%;
 	background: white;
 	display: none;
 }
 
 .pos-pr{
-	top: calc((var(--init-new-vw) / 1440) * 60);
-	left: calc((var(--init-new-vw) / 1440) * 140);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 60);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 140);
 
 }
 
 .pos-pl{
-	top: calc((var(--init-new-vw) / 1440) * 125);
-	left: calc((var(--init-new-vw) / 1440) * 120);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 125);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 120);
 }
 
 
@@ -872,21 +872,21 @@
 {
 	0%
 	{
-		background-position: left 0px top calc((var(--init-new-vw) / 1440) * 280);
+		background-position: left 0px top calc((var(--init-new-vw) / var(--init-width)) * 280);
 
 	}
 	
 	50%
 	{
 
-		background-position: left calc((var(--init-new-vw) / 1440) * 2760) top 0px;	
+		background-position: left calc((var(--init-new-vw) / var(--init-width)) * 2760) top 0px;	
 	}
 
 	
 	100%
 	{
 
-		background-position: left calc((var(--init-new-vw) / 1440) * 5400) top calc((var(--init-new-vw) / 1440) * 280);
+		background-position: left calc((var(--init-new-vw) / var(--init-width)) * 5400) top calc((var(--init-new-vw) / var(--init-width)) * 280);
 	}
 
 }
@@ -894,14 +894,14 @@
 {
 	0%
 	{
-		background-position: left 0px top calc((var(--init-new-vw) / 1440) * 280);
+		background-position: left 0px top calc((var(--init-new-vw) / var(--init-width)) * 280);
 
 	}
 	
 	50%
 	{
 
-		background-position: left calc((var(--init-new-vw) / 1440) * 2760) top 0px;	
+		background-position: left calc((var(--init-new-vw) / var(--init-width)) * 2760) top 0px;	
 	}
 
 }*/
@@ -911,24 +911,24 @@
 {
 	position: absolute;
 	margin: 0;
-	border-top: calc((var(--init-new-vw) / 1440) * 1) solid black;
-	width: calc((var(--init-new-vw) / 1440) * 526);
-	top: calc((var(--init-new-vw) / 1440) * 675);
-	left: calc((var(--init-new-vw) / 1440) * var(--init-margin-left));
+	border-top: calc((var(--init-new-vw) / var(--init-width)) * 1) solid black;
+	width: calc((var(--init-new-vw) / var(--init-width)) * 526);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 675);
+	left: calc((var(--init-new-vw) / var(--init-width)) * var(--init-margin-left));
 }
 
 .Design-left-page-3 h3
 {
 	position: absolute;
 	margin: 0;
-	height: calc((var(--init-new-vw) / 1440) * 52);
-	width: calc((var(--init-new-vw) / 1440) * 526);
-	top: calc((var(--init-new-vw) / 1440) * 693);
-	left: calc((var(--init-new-vw) / 1440) * var(--init-margin-left));
+	height: calc((var(--init-new-vw) / var(--init-width)) * 52);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 526);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 693);
+	left: calc((var(--init-new-vw) / var(--init-width)) * var(--init-margin-left));
 
 	font-style: normal;
 	font-weight: normal;
-	font-size: calc((var(--init-new-vw) / 1440) * 24);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 24);
 	line-height: 130%;
 }
 
@@ -937,15 +937,15 @@
 
 .Design-right-page-3 h1
 {
-	width: calc((var(--init-new-vw) / 1440) * 526);
-	height: calc((var(--init-new-vw) / 1440) * 25);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 526);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 25);
 	position: absolute;
 	font-style: normal;
 	font-weight: 300;
-	font-size: calc((var(--init-new-vw) / 1440) * 16);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 16);
 	margin: 0;
-	top: calc((var(--init-new-vw) / 1440) * 26);
-	right: calc((var(--init-new-vw) / 1440) * 72);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 26);
+	right: calc((var(--init-new-vw) / var(--init-width)) * 72);
 	text-align: right;
 	text-transform: lowercase;
 
@@ -953,46 +953,46 @@
 
 .g-line{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 465);
-	height: calc((var(--init-new-vw) / 1440) * 10);
-	top: calc((var(--init-new-vw) / 1440) * 404);
-	left: calc((var(--init-new-vw) / 1440) * 102);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 465);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 10);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 404);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 102);
 	background: #3DB349;
 }
 
 .r-line{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 465);
-	height: calc((var(--init-new-vw) / 1440) * 10);
-	top: calc((var(--init-new-vw) / 1440) * 620);
-	left: calc((var(--init-new-vw) / 1440) * 102);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 465);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 10);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 620);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 102);
 	background: #EB0000;
 }
 
 .l-letter{
 	position: absolute;
-	font-size: calc((var(--init-new-vw) / 1440) * 16);
-	left: calc((var(--init-new-vw) / 1440) * 35.5);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 16);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 35.5);
 
 }
 
 .A-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 150);
-	height: calc((var(--init-new-vw) / 1440) * 160);
-	left: calc((var(--init-new-vw) / 1440) * 150);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 150);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 160);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 150);
 	line-height: 51%;
 	font-weight: 800;
-	font-size: calc((var(--init-new-vw) / 1440) * 260);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 260);
 	z-index: 100;
 }
 
 .mushroom-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 300);
-	height: calc((var(--init-new-vw) / 1440) * 310);
-	left: calc((var(--init-new-vw) / 1440) * 270);
-	top: calc((var(--init-new-vw) / 1440) * -10);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 300);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 310);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 270);
+	top: calc((var(--init-new-vw) / var(--init-width)) * -10);
 }
 
 /*.A-letter:hover{
@@ -1003,73 +1003,73 @@
 
 .B-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 140);
-	height: calc((var(--init-new-vw) / 1440) * 135);
-	left: calc((var(--init-new-vw) / 1440) * 113);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 140);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 135);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 113);
 	font-weight: 700;
 	line-height: 50%;
-	font-size: calc((var(--init-new-vw) / 1440) * 220);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 220);
 }
 
 .O-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 140);
-	height: calc((var(--init-new-vw) / 1440) * 135);
-	left: calc((var(--init-new-vw) / 1440) * 262);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 140);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 135);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 262);
 	font-weight: 700;
 	line-height: 50%;
-	font-size: calc((var(--init-new-vw) / 1440) * 220);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 220);
 }
 
 .D-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 140);
-	height: calc((var(--init-new-vw) / 1440) * 135);
-	left: calc((var(--init-new-vw) / 1440) * 420);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 140);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 135);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 420);
 	font-weight: 700;
 	line-height: 50%;
-	font-size: calc((var(--init-new-vw) / 1440) * 220);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 220);
 	z-index: 100;
 }
 .C-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 90);
-	height: calc((var(--init-new-vw) / 1440) * 90);
-	left: calc((var(--init-new-vw) / 1440) * 109);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 90);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 90);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 109);
 	font-weight: 700;
 	line-height: 50%;
-	font-size: calc((var(--init-new-vw) / 1440) * 140);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 140);
 }
 
 .N-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 90);
-	height: calc((var(--init-new-vw) / 1440) * 90);
-	left: calc((var(--init-new-vw) / 1440) * 231);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 90);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 90);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 231);
 	font-weight: 700;
 	line-height: 50%;
-	font-size: calc((var(--init-new-vw) / 1440) * 140);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 140);
 }
 
 .f-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 90);
-	height: calc((var(--init-new-vw) / 1440) * 90);
-	left: calc((var(--init-new-vw) / 1440) * 360);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 90);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 90);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 360);
 	font-weight: 700;
 	line-height: 50%;
-	font-size: calc((var(--init-new-vw) / 1440) * 140);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 140);
 	z-index: 100;
 }
 
 .Om-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 90);
-	height: calc((var(--init-new-vw) / 1440) * 90);
-	left: calc((var(--init-new-vw) / 1440) * 471);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 90);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 90);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 471);
 	font-weight: 700;
 	line-height: 50%;
-	font-size: calc((var(--init-new-vw) / 1440) * 140);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 140);
 }
 
 
@@ -1080,56 +1080,56 @@
 
 .R-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 70);
-	height: calc((var(--init-new-vw) / 1440) * 60);
-	left: calc((var(--init-new-vw) / 1440) * 100);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 70);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 60);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 100);
 	font-weight: 700;
 	line-height: 60%;
-	font-size: calc((var(--init-new-vw) / 1440) * 96);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 96);
 }
 .mouse-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 147);
-	height: calc((var(--init-new-vw) / 1440) * 157);
-	left: calc((var(--init-new-vw) / 1440) * 160);
-	top:calc((var(--init-new-vw) / 1440) * 498);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 147);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 157);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 160);
+	top:calc((var(--init-new-vw) / var(--init-width)) * 498);
 
 }
 .Ob-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 75);
-	height: calc((var(--init-new-vw) / 1440) * 75);
-	left: calc((var(--init-new-vw) / 1440) * 302);
-	top: calc((var(--init-new-vw) / 1440) * 533);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 75);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 75);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 302);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 533);
 }
 /*
 .Ob-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 70);
-	height: calc((var(--init-new-vw) / 1440) * 60);
-	left: calc((var(--init-new-vw) / 1440) * 302);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 70);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 60);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 302);
 	font-weight: 700;
 	line-height: 90%;
-	font-size: calc((var(--init-new-vw) / 1440) * 76);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 76);
 
 }*/
 .per-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 70);
-	height: calc((var(--init-new-vw) / 1440) * 60);
-	left: calc((var(--init-new-vw) / 1440) * 403);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 70);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 60);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 403);
 	font-weight: 700;
 	line-height: 60%;
-	font-size: calc((var(--init-new-vw) / 1440) * 96);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 96);
 }
 .Z-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 70);
-	height: calc((var(--init-new-vw) / 1440) * 60);
-	left: calc((var(--init-new-vw) / 1440) * 517);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 70);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 60);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 517);
 	font-weight: 700;
 	line-height: 60%;
-	font-size: calc((var(--init-new-vw) / 1440) * 96);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 96);
 }
 
 
@@ -1137,133 +1137,133 @@
 
 .P-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 40);
-	height: calc((var(--init-new-vw) / 1440) * 40);
-	left: calc((var(--init-new-vw) / 1440) * 100);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 40);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 40);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 100);
 	font-weight: 700;
 	line-height: 64%;
-	font-size: calc((var(--init-new-vw) / 1440) * 60);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 60);
 }
 
 .K-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 40);
-	height: calc((var(--init-new-vw) / 1440) * 40);
-	left: calc((var(--init-new-vw) / 1440) * 181);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 40);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 40);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 181);
 	font-weight: 700;
 	line-height: 64%;
-	font-size: calc((var(--init-new-vw) / 1440) * 60);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 60);
 }
 
 .e-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 40);
-	height: calc((var(--init-new-vw) / 1440) * 40);
-	left: calc((var(--init-new-vw) / 1440) * 269);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 40);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 40);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 269);
 	font-weight: 700;
 	line-height: 64%;
-	font-size: calc((var(--init-new-vw) / 1440) * 60);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 60);
 }
 
 .cn-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 40);
-	height: calc((var(--init-new-vw) / 1440) * 40);
-	left: calc((var(--init-new-vw) / 1440) * 356);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 40);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 40);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 356);
 	font-weight: 700;
 	line-height: 64%;
-	font-size: calc((var(--init-new-vw) / 1440) * 60);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 60);
 }
 
 .cake-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 50);
-	height: calc((var(--init-new-vw) / 1440) * 50);
-	left: calc((var(--init-new-vw) / 1440) * 444);
-	top:calc((var(--init-new-vw) / 1440) * 635);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 50);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 50);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 444);
+	top:calc((var(--init-new-vw) / var(--init-width)) * 635);
 }
 
 .Q-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 40);
-	height: calc((var(--init-new-vw) / 1440) * 40);
-	left: calc((var(--init-new-vw) / 1440) * 532);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 40);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 40);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 532);
 	font-weight: 700;
 	line-height: 64%;
-	font-size: calc((var(--init-new-vw) / 1440) * 60);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 60);
 }
 
 
 
 .sv-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 20);
-	height: calc((var(--init-new-vw) / 1440) * 25);
-	left: calc((var(--init-new-vw) / 1440) * 100);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 25);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 100);
 	font-weight: 700;
 	line-height: 82%;
-	font-size: calc((var(--init-new-vw) / 1440) * 34);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 34);
 }
 
 .sh-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 20);
-	height: calc((var(--init-new-vw) / 1440) * 25);
-	left: calc((var(--init-new-vw) / 1440) * 176);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 25);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 176);
 	font-weight: 700;
 	line-height: 82%;
-	font-size: calc((var(--init-new-vw) / 1440) * 34);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 34);
 }
 
 .qu-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 20);
-	height: calc((var(--init-new-vw) / 1440) * 25);
-	left: calc((var(--init-new-vw) / 1440) * 252);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 25);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 252);
 	font-weight: 700;
 	line-height: 82%;
-	font-size: calc((var(--init-new-vw) / 1440) * 34);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 34);
 }
 
 
 .sx-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 20);
-	height: calc((var(--init-new-vw) / 1440) * 25);
-	left: calc((var(--init-new-vw) / 1440) * 328);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 25);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 328);
 	font-weight: 700;
 	line-height: 82%;
-	font-size: calc((var(--init-new-vw) / 1440) * 34);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 34);
 }
 
 .ac-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 20);
-	height: calc((var(--init-new-vw) / 1440) * 25);
-	left: calc((var(--init-new-vw) / 1440) * 404);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 25);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 404);
 	font-weight: 700;
 	line-height: 110%;
-	font-size: calc((var(--init-new-vw) / 1440) * 28);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 28);
 }
 
 .Obs-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 20);
-	height: calc((var(--init-new-vw) / 1440) * 25);
-	left: calc((var(--init-new-vw) / 1440) * 480);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 25);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 480);
 	font-weight: 700;
 	line-height: 82%;
-	font-size: calc((var(--init-new-vw) / 1440) * 34);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 34);
 }
 
 .S-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 20);
-	height: calc((var(--init-new-vw) / 1440) * 25);
-	left: calc((var(--init-new-vw) / 1440) * 556);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 25);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 556);
 	font-weight: 700;
 	line-height: 82%;
-	font-size: calc((var(--init-new-vw) / 1440) * 34);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 34);
 }
 
 
@@ -1273,79 +1273,79 @@
 
 .M-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 20);
-	height: calc((var(--init-new-vw) / 1440) * 20);
-	left: calc((var(--init-new-vw) / 1440) * 100);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 100);
 	font-weight: 700;
 	line-height: 100%;
-	font-size: calc((var(--init-new-vw) / 1440) * 20);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 20);
 }
 
 .boot-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 40);
-	height: calc((var(--init-new-vw) / 1440) * 40);
-	left: calc((var(--init-new-vw) / 1440) * 160);
-	top:calc((var(--init-new-vw) / 1440) * 735)
+	width: calc((var(--init-new-vw) / var(--init-width)) * 40);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 40);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 160);
+	top:calc((var(--init-new-vw) / var(--init-width)) * 735)
 
 }
 
 .Bx-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 30);
-	height: calc((var(--init-new-vw) / 1440) * 30);
-	left: calc((var(--init-new-vw) / 1440) * 230);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 30);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 30);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 230);
 	font-weight: 700;
 	line-height: 100%;
 }
 
 .U-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 20);
-	height: calc((var(--init-new-vw) / 1440) * 20);
-	left: calc((var(--init-new-vw) / 1440) * 295);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 295);
 	font-weight: 700;
 	line-height: 100%;
-	font-size: calc((var(--init-new-vw) / 1440) * 20);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 20);
 }
 
 .E-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 20);
-	height: calc((var(--init-new-vw) / 1440) * 20);
-	left: calc((var(--init-new-vw) / 1440) * 361);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 361);
 	font-weight: 700;
 	line-height: 100%;
-	font-size: calc((var(--init-new-vw) / 1440) * 20);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 20);
 }
 
 .nn-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 20);
-	height: calc((var(--init-new-vw) / 1440) * 20);
-	left: calc((var(--init-new-vw) / 1440) * 426);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 426);
 	font-weight: 700;
 	line-height: 100%;
-	font-size: calc((var(--init-new-vw) / 1440) * 20);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 20);
 }
 .Ff-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 20);
-	height: calc((var(--init-new-vw) / 1440) * 20);
-	left: calc((var(--init-new-vw) / 1440) * 491);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 491);
 	font-weight: 700;
 	line-height: 100%;
-	font-size: calc((var(--init-new-vw) / 1440) * 20);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 20);
 }
 
 .at-letter{
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 20);
-	height: calc((var(--init-new-vw) / 1440) * 20);
-	left: calc((var(--init-new-vw) / 1440) * 556);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 20);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 556);
 	font-weight: 700;
 	line-height: 100%;
-	font-size: calc((var(--init-new-vw) / 1440) * 20);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 20);
 }
 
 
@@ -1359,128 +1359,127 @@
 
 
 .s-top{
-	top:calc((var(--init-new-vw) / 1440) * 26);
+	top:calc((var(--init-new-vw) / var(--init-width)) * 26);
 }
 .s-midt{
-	top:calc((var(--init-new-vw) / 1440) * 76.23);
+	top:calc((var(--init-new-vw) / var(--init-width)) * 76.23);
 }
 .s-midm{
-	top:calc((var(--init-new-vw) / 1440) * 252.67);
+	top:calc((var(--init-new-vw) / var(--init-width)) * 252.67);
 }
 .s-midb{
-	top:calc((var(--init-new-vw) / 1440) * 429.9);
+	top:calc((var(--init-new-vw) / var(--init-width)) * 429.9);
 }
 .s-bot{
-	top:calc((var(--init-new-vw) / 1440) * 541.67);
+	top:calc((var(--init-new-vw) / var(--init-width)) * 541.67);
 }
 .s-bott{
-	top:calc((var(--init-new-vw) / 1440) * 637.17);
+	top:calc((var(--init-new-vw) / var(--init-width)) * 637.17);
 }
 .s-botm{
-	top:calc((var(--init-new-vw) / 1440) * 697.3);
+	top:calc((var(--init-new-vw) / var(--init-width)) * 697.3);
 }
 .s-botb{
-	top:calc((var(--init-new-vw) / 1440) * 745.19);
+	top:calc((var(--init-new-vw) / var(--init-width)) * 745.19);
 }
 /*.Design-right-page-3 .top-letter
 {
-	width: calc((var(--init-new-vw) / 1440) * 471.98);
-	height: calc((var(--init-new-vw) / 1440) * 704);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 471.98);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 704);
 	position: absolute;
 	margin: 0;
-	top: calc((var(--init-new-vw) / 1440) * 13);
-	right: calc((var(--init-new-vw) / 1440) * 56);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 13);
+	right: calc((var(--init-new-vw) / var(--init-width)) * 56);
 }
 
 .Design-right-page-3 .weights
 {
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 78);
-	height: calc((var(--init-new-vw) / 1440) * 727);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 78);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 727);
 	margin: 0;
-	top: calc((var(--init-new-vw) / 1440) * 24);
-	right: calc((var(--init-new-vw) / 1440) * 520);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 24);
+	right: calc((var(--init-new-vw) / var(--init-width)) * 520);
 }
 
 
 .Design-right-page-3 .mboot
 {
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 456);
-	height: calc((var(--init-new-vw) / 1440) * 28);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 456);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 28);
 	margin: 0;
-	top: calc((var(--init-new-vw) / 1440) * 726);
-	right: calc((var(--init-new-vw) / 1440) * 65);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 726);
+	right: calc((var(--init-new-vw) / var(--init-width)) * 65);
 }
 
 .Design-right-page-3 .mouse
 {
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 90.2);
-	height: calc((var(--init-new-vw) / 1440) * 54.21);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 90.2);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 54.21);
 	margin: 0;
-	top: calc((var(--init-new-vw) / 1440) * 545);
-	right: calc((var(--init-new-vw) / 1440) * 371);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 545);
+	right: calc((var(--init-new-vw) / var(--init-width)) * 371);
 }
 
 .Design-right-page-3 .mushroom
 {
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 180);
-	height: calc((var(--init-new-vw) / 1440) * 170);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 180);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 170);
 	margin: 0;
-	top: calc((var(--init-new-vw) / 1440) * 58);
-	right: calc((var(--init-new-vw) / 1440) * 115);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 58);
+	right: calc((var(--init-new-vw) / var(--init-width)) * 115);
 }
 
 .Design-right-page-3 .dodo
 {
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 51);
-	height: calc((var(--init-new-vw) / 1440) * 54.21);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 51);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 54.21);
 	margin: 0;
-	top: calc((var(--init-new-vw) / 1440) * 712);
-	right: calc((var(--init-new-vw) / 1440) * 419);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 712);
+	right: calc((var(--init-new-vw) / var(--init-width)) * 419);
 }
 
 .Design-right-page-3 .cake1
 {
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 70);
-	height: calc((var(--init-new-vw) / 1440) * 34);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 70);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 34);
 	margin: 0;
-	top: calc((var(--init-new-vw) / 1440) * 626);
-	right: calc((var(--init-new-vw) / 1440) * 131);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 626);
+	right: calc((var(--init-new-vw) / var(--init-width)) * 131);
 }
 
 .Design-right-page-3 .bottom-letters
 {
 	position: absolute;
-	width: calc((var(--init-new-vw) / 1440) * 420);
-	height: calc((var(--init-new-vw) / 1440) * 79);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 420);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 79);
 	margin: 0;
-	top: calc((var(--init-new-vw) / 1440) * 699);
-	right: calc((var(--init-new-vw) / 1440) * 71);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 699);
+	right: calc((var(--init-new-vw) / var(--init-width)) * 71);
 }*/
 
 @media screen and (max-width: 1000px){
 .Design-left-page-3
 {
-	display: none;
+	position: absolute;
+	display: block;
 	width: 100vw;
 	left: 0;
-	right: 0;
-	top: calc((var(--init-new-vw) / 1440) * 792 * 6 + 60px);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 792 * 6 + 60px);
 }
 
 .Design-right-page-3
 {
 	position: absolute;
-	display: none;
+	display: block;
 	width: 100vw;
 	left:0;
-	right:0;
-	top: calc((var(--init-new-vw) / 1440) * 792 * 7 + 70px);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 792 * 7 + 70px);
 }
 
 .Design-right-page-3:before

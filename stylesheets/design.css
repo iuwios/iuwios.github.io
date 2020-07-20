@@ -779,6 +779,14 @@ display: none;
 	width: 200px;
 }
 
+.gradient-line-l{
+	display: none;
+}
+.gradient-line-r{
+	display: none;
+}
+
+
 .Intro-right-page-1 .hamburger_btn
 {
 	width: 18px;

@@ -3109,7 +3109,6 @@ if(window.innerWidth > 1000){
 function checkPageLeft(){
 	//alert($('#crimson-book').turn('page'));
 	switch($('#crimson-book').turn('page')){
-
 		case 5:
 			document.getElementById("intro").style.color='#FEC0F0';
 			document.getElementById("design").style.color='white';
@@ -3136,8 +3135,6 @@ function checkPageLeft(){
 			document.getElementById("contain").setAttribute("style", "scroll-snap-align: center;");
 			document.getElementById('contain').scrollIntoView({behavior: 'smooth'});
 			break;
-		
-	
 		default:
 			break;
 	}
