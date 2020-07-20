@@ -1165,6 +1165,9 @@ var grd_right = document.getElementById("grd-right");
 var circles = document.getElementsByClassName("circles");
 var d4_is_dark = false;
 
+var d = 1000;
+
+
 function d4_dark_mode(){
 	d4_is_dark = true;
 	weight_txt.style.color = "white";
@@ -1174,6 +1177,11 @@ function d4_dark_mode(){
 	pg_right.style.backgroundColor = "black";
 	d_text.style.color = 'white';
 	d_text.style.backgroundColor = 'black';
+
+
+	//pg_left.style.cssText = "background-color: " + "black";
+	//pg_right.style.cssText = "background-color: " + "black";
+
 
 	if(rom_ital == 'italic'){
 		d_I.style.backgroundColor = 'white';
@@ -1208,6 +1216,8 @@ function d4_normal_mode(){
 	d_text.style.color = curd_color;
 	d_text.style.backgroundColor = 'white';
 
+	
+
 	if(rom_ital == 'italic'){
 		d_I.style.backgroundColor = curd_color;
 		d_I.style.color = "white";
@@ -1223,8 +1233,14 @@ function d4_normal_mode(){
 	d_I.style.borderColor = 'black';
 	d_R.style.borderColor = 'black';
 
+	grd_left.style.backgroundColor = 'linear-gradient(to left, #D7D7D7, #F2F2F1, white)';
+	grd_right.style.backgroundColor = 'linear-gradient(to right, #D7D7D7, #F2F2F1, white)';
+
+	
 	grd_left.style.visibility = 'visible';
 	grd_right.style.visibility = 'visible';
+
+	
 
 	for(i=0; i<circles.length; i++){
 		circles[i].style.borderColor = 'black';

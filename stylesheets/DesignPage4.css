@@ -5,9 +5,11 @@
 	width: calc((var(--init-new-vw) / 1440) * 634);
 	height: calc((var(--init-new-vw) / 1440) * 792); 
 	background-color: white;
+	/*transition: background-color 2s;*/
 	position: absolute;
 	left: 0;
 	top: 0;
+	transition: background-color 2s;
 }
 
 /*Design Page 4 Right */
@@ -20,6 +22,7 @@
 	position: absolute;
 	right: 0;
 	top: 0;
+	transition: background-color 2s;
 }
 
 
@@ -54,6 +57,8 @@
 	color: red;
 	border: none;
 	resize: none;
+	transition: background-color 2s;
+	
 
 }
 
