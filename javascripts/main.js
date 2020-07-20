@@ -3115,13 +3115,17 @@ function checkPageLeft(){
 			document.getElementById("design").style.color='white';
 			document.getElementById("example").style.color='white';
 			document.getElementById("recognition").style.color='white';
+			document.getElementById("contain").setAttribute("style", "scroll-snap-align: center;");
+			document.getElementById('contain').scrollIntoView({behavior: 'smooth'});
 			break;
 
 		case 19:
 			document.getElementById("intro").style.color='white';
 			document.getElementById("design").style.color='#FEC0F0';
 			document.getElementById("example").style.color='white';
-			document.getElementById("recognition").style.color='white';	
+			document.getElementById("recognition").style.color='white';
+			document.getElementById("contain").setAttribute("style", "scroll-snap-align: center;");
+			document.getElementById('contain').scrollIntoView({behavior: 'smooth'});	
 			break;
 
 		case 21:
@@ -3129,8 +3133,8 @@ function checkPageLeft(){
 			document.getElementById("design").style.color='white';
 			document.getElementById("example").style.color='white';
 			document.getElementById("recognition").style.color='#FEC0F0';
-			document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: none;");
-			document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: none;");
+			document.getElementById("contain").setAttribute("style", "scroll-snap-align: center;");
+			document.getElementById('contain').scrollIntoView({behavior: 'smooth'});
 			break;
 		
 	
@@ -3171,8 +3175,8 @@ function checkPageRight(){
 			document.getElementById("design").style.color='white';
 			document.getElementById("example").style.color='white';
 			document.getElementById("recognition").style.color='#FEC0F0';
-			document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: none;");
-			//document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: none;");
+			document.getElementById("contain").setAttribute("style", "scroll-snap-align: center;");
+			document.getElementById('contain').scrollIntoView({behavior: 'smooth'});
 			break;
 		case 22:
 			document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: center;");
