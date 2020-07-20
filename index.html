@@ -416,32 +416,30 @@ O-
             
             </div>
 
-            <div class="Design-left-page-4" id="pg">
-              <div class="gradient-line-l"></div>
-              <h1>9</h1>
+            <div class="Design-left-page-4" id="pg-4-1">
+              <div class="gradient-line-l" id="grd-left"></div>
+              <div class="left-pg-number">P.14</div>
+
               <div class="drink-container">
                 <textarea class="drink-text" id="drink-text">Drink&#10;me</textarea>
-                <div class="blink"></div>
                 <ul class="color-container">
-                  <li class="circle_red" id="circle_red" onclick="color_red()" ></li>
-                  <li class="circle_yellow" id="circle_yellow" onclick="color_yellow()"></li>
-                  <li class="circle_blue" id="circle_blue" onclick="color_blue()"></li>
-                  <li class="circle_brown" id="circle_brown" onclick="color_brown()"></li>
-                  <li class="circle_pink" id="circle_pink" onclick="color_pink()"></li>
-                  <li class="circle_black" id="circle_black" onclick="color_black()"></li>
-                  <li class="circle_green" id="circle_green" onclick="color_green()"></li>
-                  <li class="circle_white" id="circle_white" onclick="color_white()"></li>
+                  <li class="circle_moon circle-size circle-m-right" id="circle_moon" onclick="color_moon()" >
+                    <img src="images/moon.svg" alt="moon" class="moon" id="moon">
+                  </li>
+                  <li class="circle_yellow circle-size circle-m-right circles" id="circle_yellow" onclick="color_yellow()"></li>
+                  <li class="circle_blue circle-size circle-m-right circles" id="circle_blue" onclick="color_blue()"></li>
+                  <li class="circle_brown circle-size circle-m-right circles" id="circle_brown" onclick="color_brown()"></li>
+                  <li class="circle_red circle-size circle-m-right circles" id="circle_red" onclick="color_red()"></li>
+                  <li class="circle_black circle-size circle-m-right circles" id="circle_black" onclick="color_black()"></li>
+                  <li class="circle_green circle-size circle-m-right circles" id="circle_green" onclick="color_green()"></li>
+                  <li class="circle_white circle-size circles" id="circle_white" onclick="color_white()"></li>
                 </ul>
-                <div class="weight-text" id="weight-text">Weight Axis</div>
+
                 <input type="range" min="200" max="900" value="900" class="design-slider" id="design-slider">
                 <ul class="container-normal-italic">
                   <li class="roman" id="roman" onclick="d4click_roman()"/>Roman</li>
                   <li class="italic" id="italic" onclick="d4click_italic()">Italic</li>
                 </ul>
-                <div class="size-text" id="size-text">Size</div>
-                <img src="images/dotted.svg" alt="dotted" class="dotted">
-                <img src="images/dotted.svg" alt="dotted2" class="dotted2">
-                <div class="horizontal-line"></div>
 
                 <ul class="triangle-container" id="triangle-containerz">
                   <li>
@@ -469,45 +467,23 @@ O-
                     <img src="images/triangle.svg" alt="triangle8" class="triangle8" id="triangle8">
                   </li>
                 </ul>
-
-                <h2 class="d-weighttxt" id="d-weighttxt">900</h2>
-                <ul class="d4-size-container" id="d4-size-containers">
-                  <li class="d4xs" id="d4_xs" onclick="d4xs()" >XS</li>
-                  <li class="d4s" id="d4_s" onclick="d4s()">S</li>
-                  <li class="d4m" id="d4_m" onclick="d4m()">M</li>
-                  <li class="d4l" id="d4_l" onclick="d4l()">L</li>
-                  <li class="d4xl" id="d4_xl" onclick="d4xl()">XL</li> 
-                </ul>
-              </div>
-
-          </div>
-
-            <div class="Design-right-page-4" id="pg">
-              <div class="gradient-line-r"></div>
-              <h1>design</h1>
-              <img src="images/aaa.svg" alt="aaa" class="aaa" id="aaa">
-              
-              <h2 id="weight-unlimited">Weight</h2>
-             
-              <h3 id="with-unlimited">With unlimited options along this axis, designers can<br>tweak Crimson Pro to get the exact look and feel they<br>want. They can create custom styles, name them, and<br>save those instances to use throughout the design. 
-              </h3>
-              <div class="container">
-                <div class="hamburger_btn">
-                  <div class="one"></div>
-                  <div class="two"></div>
-                  <div class="three"></div>
-                </div>
-
-                <div class="menu">
-                  <nav>
-                    <li><a href="#">Intro</a></li>
-                    <li><a href="#">Design</a></li>
-                    <li><a href="#">Example</a></li>
-                    <li><a href="#">Recognition</a></li>
-                  </nav>
-                </div>
               </div>
             </div>
+
+
+            <div class="Design-right-page-4" id="pg-4-2">
+              <div class="gradient-line-r" id="grd-right"></div>
+              <div class="right-pg-number">P.15</div>
+
+              <img src="images/aaa.svg" alt="aaa" class="aaa" id="aaa">
+                
+              <div class="weight-unlimited" id="weight-unlimited">Weight</div>
+             
+              <div class="with-unlimited" id="with-unlimited">With unlimited options along this axis, designers can<br>tweak Crimson Pro to get the exact look and feel they<br>want. They can create custom styles, name them, and<br>save those instances to use throughout the design. 
+              </div>
+             
+            </div>
+
 
             <div class="Design-left-page-5" id="pg">
               <div class="gradient-line-l"></div>
@@ -1222,7 +1198,7 @@ O-
         <div class="Example-left-page-2" id="example1">
           <input type="text" value="input new topic" class="e2-topic" id="e2-topic"style="display:none"></input>
           <dir class="input-topic" id="input-topic" style="display:none">submit</dir>
-          <img src="images/updatenews.svg" class="reload" id="reload">
+nav-c          <img src="images/updatenews.svg" class="reload" id="reload">
           <img src="images/newspaper.svg" alt="newspaper" class="newspaper" id="newspaper">
 
           <h1>THE CRIMSON PRO DAILY</h1>
@@ -1323,7 +1299,7 @@ O-
                     <input type="checkbox" id="e3-dark-mode" onclick="darkFunction()" >
                     <span class="checkmark" id="checkmark2"></span>
                   </label>
- calc((100vw / var(--init-width))                 <label class="color-con">
+                    <label class="color-con">
                     <input type="color" class="pick-color" id="pick-color">
                   </label>
                 

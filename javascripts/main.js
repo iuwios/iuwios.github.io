@@ -1143,7 +1143,241 @@ P_letter.onclick = function(){
 	}
 };
 
-function myFunction() {
+
+/* design page 4 */
+
+var curd_color = "red";
+var rom_ital='italic';
+var night_mode = false;
+var d_text = document.getElementById("drink-text");
+
+var cur_t = document.getElementById("triangle5");
+var d_R = document.getElementById("roman");
+var d_I = document.getElementById("italic");
+
+
+var weight_txt =document.getElementById("weight-unlimited");
+var weight_bot_txt = document.getElementById("with-unlimited");
+var pg_left =document.getElementById("pg-4-1");
+var pg_right = document.getElementById("pg-4-2");
+var grd_left =document.getElementById("grd-left");
+var grd_right = document.getElementById("grd-right");
+var circles = document.getElementsByClassName("circles");
+var d4_is_dark = false;
+
+function d4_dark_mode(){
+	d4_is_dark = true;
+	weight_txt.style.color = "white";
+	weight_txt.style.borderColor = "white";
+	weight_bot_txt.style.color = "white";
+	pg_left.style.backgroundColor = "black";
+	pg_right.style.backgroundColor = "black";
+	d_text.style.color = 'white';
+	d_text.style.backgroundColor = 'black';
+
+	if(rom_ital == 'italic'){
+		d_I.style.backgroundColor = 'white';
+		d_I.style.color = "black";
+		d_R.style.backgroundColor = 'black';
+		d_R.style.color = "white";
+	}
+	else{
+		d_I.style.backgroundColor = 'black';
+		d_I.style.color = "white";
+		d_R.style.backgroundColor = 'white';
+		d_R.style.color = "black";
+	}
+	d_I.style.borderColor = 'white';
+	d_R.style.borderColor = 'white';
+
+	grd_left.style.visibility = 'hidden';
+	grd_right.style.visibility = 'hidden';
+
+	for(i=0; i<circles.length; i++){
+		circles[i].style.borderColor = 'white';
+	}
+}
+
+function d4_normal_mode(){
+	d4_is_dark = false;
+	weight_txt.style.color = 'black';
+	weight_txt.style.borderColor = "black";
+	weight_bot_txt.style.color = "black";
+	pg_left.style.backgroundColor = "white";
+	pg_right.style.backgroundColor = "white";
+	d_text.style.color = curd_color;
+	d_text.style.backgroundColor = 'white';
+
+	if(rom_ital == 'italic'){
+		d_I.style.backgroundColor = curd_color;
+		d_I.style.color = "white";
+		d_R.style.backgroundColor = 'white';
+		d_R.style.color = "black";
+	}
+	else{
+		d_R.style.backgroundColor = curd_color;
+		d_R.style.color = "white";
+		d_I.style.backgroundColor = 'white';
+		d_I.style.color = "black";
+	}
+	d_I.style.borderColor = 'black';
+	d_R.style.borderColor = 'black';
+
+	grd_left.style.visibility = 'visible';
+	grd_right.style.visibility = 'visible';
+
+	for(i=0; i<circles.length; i++){
+		circles[i].style.borderColor = 'black';
+	}
+}
+
+function check_ItalRom(){
+	if(rom_ital == 'italic'){
+		d_I.style.backgroundColor = curd_color;
+		d_I.style.color = "white";
+	}
+	else{
+		d_R.style.backgroundColor = curd_color;
+		d_R.style.color = "white";
+	}
+}
+function color_moon(){
+	cur_t.style.visibility = 'hidden';
+	cur_t = document.getElementById("triangle1");
+	cur_t.style.visibility = 'visible';
+	d4_dark_mode();
+
+}
+
+function color_yellow(){
+	cur_t.style.visibility = 'hidden';
+	cur_t = document.getElementById("triangle2");
+	cur_t.style.visibility = 'visible';
+	curd_color = "#FFEB00";
+	d_text.style.color = curd_color;
+	check_ItalRom();
+	if(d4_is_dark){
+		d4_normal_mode();
+	}
+}
+function color_blue(){
+	cur_t.style.visibility = 'hidden';
+	cur_t = document.getElementById("triangle3");
+	cur_t.style.visibility = 'visible';
+	curd_color = "#70CCF7";
+	d_text.style.color = "#70CCF7";
+	check_ItalRom();
+	if(d4_is_dark){
+		d4_normal_mode();
+	}
+}
+function color_brown(){
+	cur_t.style.visibility = 'hidden';
+	cur_t = document.getElementById("triangle4");
+	cur_t.style.visibility = 'visible';
+	curd_color = "#D7B089";
+	d_text.style.color = "#D7B089";
+	check_ItalRom();
+	if(d4_is_dark){
+		d4_normal_mode();
+	}
+}
+function color_red(){
+	cur_t.style.visibility = 'hidden';
+	cur_t = document.getElementById("triangle5");
+	cur_t.style.visibility = 'visible';
+	curd_color = "red";
+	d_text.style.color = "red";
+	check_ItalRom();
+	if(d4_is_dark){
+		d4_normal_mode();
+	}
+}
+function color_black(){
+	cur_t.style.visibility = 'hidden';
+	cur_t = document.getElementById("triangle6");
+	cur_t.style.visibility = 'visible';
+	curd_color = "black";
+	d_text.style.color = "black";
+	check_ItalRom();
+	if(d4_is_dark){
+		d4_normal_mode();
+	}
+}
+function color_green(){
+	cur_t.style.visibility = 'hidden';
+	cur_t = document.getElementById("triangle7");
+	cur_t.style.visibility = 'visible';
+	curd_color = "#3EB449";
+	d_text.style.color = "#3EB449";
+	check_ItalRom();
+	if(d4_is_dark){
+		d4_normal_mode();
+	}
+}
+function color_white(){
+	cur_t.style.visibility = 'hidden';
+	cur_t = document.getElementById("triangle8");
+	cur_t.style.visibility = 'visible';
+	curd_color = "white";
+	d_text.style.color = "white";
+	check_ItalRom();
+	if(d4_is_dark){
+		d4_normal_mode();
+	}
+}
+
+
+function d4click_roman()
+{
+	rom_ital='roman';
+	document.getElementById("drink-text").style.fontStyle='normal';
+	if(d4_is_dark){
+		document.getElementById("roman").style.color='black';
+		document.getElementById("roman").style.backgroundColor='#FFFFFF';
+		document.getElementById("italic").style.color='white';
+		document.getElementById("italic").style.background='black';
+	}
+	else{
+		document.getElementById("roman").style.color='white';
+		document.getElementById("roman").style.backgroundColor=curd_color;
+		document.getElementById("italic").style.color='black';
+		document.getElementById("italic").style.background='white';
+	}
+
+}
+
+function d4click_italic()
+{
+	rom_ital='italic';
+	document.getElementById("drink-text").style.fontStyle='italic';
+	if(d4_is_dark){
+		document.getElementById("italic").style.color='black';
+		document.getElementById("italic").style.backgroundColor='#FFFFFF';
+		document.getElementById("roman").style.color='white';
+		document.getElementById("roman").style.background='black';
+		
+	}
+	else{
+		document.getElementById("italic").style.color='white';
+		document.getElementById("italic").style.backgroundColor=curd_color;
+		document.getElementById("roman").style.color='black';
+		document.getElementById("roman").style.background='white';
+	}
+
+}
+
+var sliderd4 = document.getElementById("design-slider");
+//var outputd4 = document.getElementById("d-weighttxt");
+
+sliderd4.oninput = function()
+{	
+	//outputd4.innerHTML = sliderd4.value;
+	d_text.style.setProperty('--text-weight', this.value);
+}
+
+
+/*function myFunction() {
   var element = document.getElementById("myDIV");
   element.classList.add("mystyle");
 }
@@ -1364,7 +1598,7 @@ function change_night()
     night_mode = false;
 
 }
-/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+
 function color_white()
 {
 	cur_color='#FFFFFF';
@@ -1693,7 +1927,7 @@ sliderd4.oninput = function()
 	outputd4.innerHTML = sliderd4.value;
 	var d = document.getElementById("drink-text");
 	d.style.setProperty('--text-weight', this.value);
-}
+}*/
 
 
 function d5italic()
