@@ -119,7 +119,6 @@
 }
 .triangle-container .triangle5
 {
-	visibility: visible;
 	margin-right: calc((var(--init-new-vw) / var(--init-width)) * 53);
 }
 .triangle-container .triangle6
@@ -129,6 +128,7 @@
 .triangle-container .triangle7
 {
 	margin-right: calc((var(--init-new-vw) / var(--init-width)) * 52);
+	visibility: visible;
 }
 .triangle-container .triangle8
 {
@@ -209,6 +209,7 @@
 	top: 0;
 	border: calc((var(--init-new-vw) / var(--init-width)) * 1) solid black;
 	cursor: pointer;
+	margin-right: 0;
 }
 
 
@@ -225,10 +226,9 @@
 .color-container .circle_white
 {
 	position: relative;
-	background-color: white;
+	background-color: #FFBFF1;
 	border-radius: 40px;
 	top: 0;
-	margin-right: 0;
 	border: calc((var(--init-new-vw) / var(--init-width)) * 1) solid black;
 	cursor: pointer;
 }

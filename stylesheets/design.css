@@ -86,7 +86,7 @@ body::-webkit-scrollbar-track {
 
 /* Handle */
 body::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.5);;
+  background: rgba(255, 255, 255, 0.5);
   border-radius: calc((var(--init-new-vw) / var(--init-width)) * 15); 
 }
 
@@ -244,10 +244,34 @@ body::-webkit-scrollbar-thumb:hover {
 	font-size: calc((var(--init-new-vw) / var(--init-width)) * 14);
 	margin-top: calc((var(--init-new-vw) / var(--init-width)) * 23);
 	margin-left: calc((var(--init-new-vw) / var(--init-width)) * 32);
-	width: calc((var(--init-new-vw) / var(--init-width)) * 20);
 	height: calc((var(--init-new-vw) / var(--init-width)) * 17);
 	z-index: 10;
 
+}
+
+.left-pg-number2{
+	position: absolute;
+	font-style: normal;
+	font-weight: 300;
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 16);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 26);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 72);
+	margin: 0;
+}
+
+.right-pg-number2{
+	width: calc((var(--init-new-vw) / var(--init-width)) * 526);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 25);
+	position: absolute;
+	font-style: normal;
+	font-weight: 300;
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 16);
+	line-height: 130%;
+	margin: 0;
+	top: calc((var(--init-new-vw) / var(--init-width)) * 26);
+	right: calc((var(--init-new-vw) / var(--init-width)) * 72);
+	text-align: right;
+	text-transform: lowercase;
 }
 
 .gradient-line-l{
@@ -447,6 +471,7 @@ display: none;
 	/*scroll-snap-align: end;*/
 	z-index: 300;
 	background: black;
+	
 	/*display: flex;*/
 	
 }

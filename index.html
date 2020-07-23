@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="stylesheets/DesignPage5.css" />
     <link rel="stylesheet" href="stylesheets/DesignPage6.css" />
     <link rel="stylesheet" href="stylesheets/DesignPage7.css" />
+    <link rel="stylesheet" href="stylesheets/DesignPage6-2.css" />
     <link rel="stylesheet" href="stylesheets/ExamplePage1.css" />
     
     <link rel="stylesheet" href="stylesheets/ExamplePage2.css" />
@@ -129,7 +130,7 @@
           <!-- Intro Page 2 Variable Font Introduction Left Page -->
           <div class="Intro-left-page-2" id="pg">
             <div class="gradient-line-l"></div>
-            <h2>1</h2>
+            <div class="left-pg-number">P.1</div>
             <h3>Benefits of <span>Variable Fonts</span></h3>
             <div class="main-circle">
               <img src="images/circle.png" alt="main-circle" class="main-circle">
@@ -151,7 +152,7 @@
             <div class="Intro-right-page-2" id="pg">
             <div class="gradient-line-r"></div>
 
-              <h1>intro</h1>
+              <div class="right-pg-number">CRIMSON PRO</div>
                 <div class="contain-0Y5" id="contain-0Y5">
                   <nav class="OY5">
                     <li class="O" id="O"><h4 class="O-text" id="OO">*</h4><input type="range" min="200" max="900" value="900" class="slider-2" id="slider-O"><h3 class="txt-bot" id="txt-OO">900</h3></li>
@@ -219,7 +220,7 @@
             <!-- Design pg 2 -->
           <div class="Design-left-page-2" id="pg">
             <div class="gradient-line-l"></div>
-            <h1>5</h1>
+            <div class="left-pg-number">P.5</div>
             <div class="text-container">
               
               <input type="text" class="the-text" id="the-text" value="Hi,">
@@ -244,10 +245,31 @@
 
             <div class="Design-right-page-2" id="pg">
               <div class="gradient-line-r"></div>
-              <h1>design</h1>
-              <h2>Weight Axis</h2>
+              <div class="right-pg-number">WEIGHT AXIS</div>
               <input type="range" min="200" max="850" value="200" class="slider-pg3" id="slider-pg3">
               <div class="many-lines" id="many-lines">
+                <div class="par">
+                  Thus grew the tale of Wonderland:<br>
+                  Thus slowly, one by one,<br>
+                  It's quaint events were hammered out -<br>
+                  And now the tail is done,<br>
+                  And home we steer, a merry chew,<br>
+                  Beneath the setting sun.<br>
+                  <br>
+                </div>
+                <div class="par-2">
+                  Alice! a childish story tale,<br>
+                  And with a gentle hand<br>
+                  Lay it where Childhood's dreams are twined<br>
+                  In Memeory's mystic band,<br>
+                  Like Pilgrim's wither'd wreath of lowers<br>
+                  Pluck'd in a far-off land.<br>
+                </div>
+              </div>
+
+              <div class="pinkflower"><img src="images/pinkflower.svg"></div>
+
+              <!--<div class="many-lines" id="many-lines">
                   <span class="first">White Rabbit with pink eyes</span><br>
                   <span class="second">White Rabbit with pink eyes</span><br>
                   <span class="third">White Rabbit with pink eyes</span><br>
@@ -260,29 +282,12 @@
                   <span class="tenth">White Rabbit with pink eyes</span><br>
                   <span class="eleventh">White Rabbit with pink eyes</span><br>
                   <span class="twelfth">White Rabbit with pink eyes</span>
-                </div>
-
-              <div class="container">
-                <div class="hamburger_btn">
-                  <div class="one"></div>
-                  <div class="two"></div>
-                  <div class="three"></div>
-                </div>
-
-                <div class="menu">
-                  <nav>
-                    <li><a href="#">Intro</a></li>
-                    <li><a href="#">Design</a></li>
-                    <li><a href="#">Example</a></li>
-                    <li><a href="#">Recognition</a></li>
-                  </nav>
-                </div>
-              </div>
+                </div>-->
             </div>
 
             <div class="Design-left-page-3" id="pg">
               <div class="gradient-line-l"></div>
-              <h1>7</h1>
+              <div class="left-pg-number">P.7</div>
               <div class ="water">
                 
                 <div class="box" id="box"></div>
@@ -353,8 +358,6 @@
             <div class="Design-right-page-3" id="pg">
               <div class="gradient-line-r"></div>
 
-              <h1>design</h1>
-
               <div class="g-line"></div>
               <div class="r-line"></div>
 
@@ -413,78 +416,11 @@
             
             </div>
 
-            <div class="Design-left-page-4" id="pg-4-1">
-              <div class="gradient-line-l" id="grd-left"></div>
-              <div class="left-pg-number">P.14</div>
-
-              <div class="drink-container">
-                <textarea class="drink-text" id="drink-text">Drink&#10;me</textarea>
-                <ul class="color-container">
-                  <li class="circle_moon circle-size circle-m-right" id="circle_moon" onclick="color_moon()" >
-                    <img src="images/moon.svg" alt="moon" class="moon" id="moon">
-                  </li>
-                  <li class="circle_yellow circle-size circle-m-right circles" id="circle_yellow" onclick="color_yellow()"></li>
-                  <li class="circle_blue circle-size circle-m-right circles" id="circle_blue" onclick="color_blue()"></li>
-                  <li class="circle_brown circle-size circle-m-right circles" id="circle_brown" onclick="color_brown()"></li>
-                  <li class="circle_red circle-size circle-m-right circles" id="circle_red" onclick="color_red()"></li>
-                  <li class="circle_black circle-size circle-m-right circles" id="circle_black" onclick="color_black()"></li>
-                  <li class="circle_green circle-size circle-m-right circles" id="circle_green" onclick="color_green()"></li>
-                  <li class="circle_white circle-size circles" id="circle_white" onclick="color_white()"></li>
-                </ul>
-
-                <input type="range" min="200" max="900" value="900" class="design-slider" id="design-slider">
-                <ul class="container-normal-italic">
-                  <li class="roman" id="roman" onclick="d4click_roman()"/>Roman</li>
-                  <li class="italic" id="italic" onclick="d4click_italic()">Italic</li>
-                </ul>
-
-                <ul class="triangle-container" id="triangle-containerz">
-                  <li>
-                    <img src="images/triangleW.svg" alt="triangle1" class="triangle1" id="triangle1">
-                  </li>
-                  <li>
-                    <img src="images/triangle.svg" alt="triangle2" class="triangle2" id="triangle2">
-                  </li>
-                  <li>
-                    <img src="images/triangle.svg" alt="triangle3" class="triangle3" id="triangle3">
-                  </li>
-                  <li>
-                    <img src="images/triangle.svg" alt="triangle4" class="triangle4" id="triangle4">
-                  </li>
-                  <li>
-                    <img src="images/triangle.svg" alt="triangle5" class="triangle5" id="triangle5">
-                  </li>
-                  <li>
-                    <img src="images/triangle.svg" alt="triangle6" class="triangle6" id="triangle6">
-                  </li>
-                  <li>
-                    <img src="images/triangle.svg" alt="triangle7" class="triangle7" id="triangle7">
-                  </li>
-                  <li>
-                    <img src="images/triangle.svg" alt="triangle8" class="triangle8" id="triangle8">
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-
-            <div class="Design-right-page-4" id="pg-4-2">
-              <div class="gradient-line-r" id="grd-right"></div>
-              <div class="right-pg-number">P.15</div>
-
-              <img src="images/aaa.svg" alt="aaa" class="aaa" id="aaa">
-                
-              <div class="weight-unlimited" id="weight-unlimited">Weight</div>
-             
-              <div class="with-unlimited" id="with-unlimited">With unlimited options along this axis, designers can<br>tweak Crimson Pro to get the exact look and feel they<br>want. They can create custom styles, name them, and<br>save those instances to use throughout the design. 
-              </div>
-             
-            </div>
 
 
             <div class="Design-left-page-5" id="pg">
               <div class="gradient-line-l"></div>
-              <h1>11</h1>
+              <div class="left-pg-number">P.9</div>
               <div class="d5-regular" id="d5-regular" onclick="d5regular()">Regular</div>
               <div class="d5-italic" id="d5-italic" onclick="d5italic()">Italic</div>
               <div class="Alphabet-Container" id="Alphabet-Container">
@@ -543,7 +479,7 @@
 
             <div class="Design-right-page-5" id="pg">
               <div class="gradient-line-r"></div>
-              <h1>uppercase</h1>
+              <div class="right-pg-number">UPPERCASE</div>
               <img src="images/cake2.svg" alt="cake" class="cake">
         
               <textarea class="eat-me" id="eat-me">"EAT ME"</textarea>
@@ -596,7 +532,7 @@
 
             <div class="Design-left-page-6" id="pg">
               <div class="gradient-line-l"></div>
-              <h1>13</h1>
+              <div class="left-pg-number">P.11</div>
               <div class="d6-regular" id="d6-regular" onclick="d6regular()">Regular</div>
               <div class="d6-italic" id="d6-italic" onclick="d6italic()">Italic</div>
               <div class="lowercase-container" id="lowercase-container">
@@ -668,7 +604,7 @@
 
             <div class="Design-right-page-6" id="pg">
               <div class="gradient-line-r"></div>
-              <h1>design</h1>
+              <div class="right-pg-number">LOWERCASE</div>
               <textarea class="text-nocake" id="text-nocake">“So she set to&#10;work, and very&#10;soon finished off&#10;the cake”</textarea>
               <img src="images/nocake.svg" alt="nocake" class="nocake">
               <div class="container">
@@ -689,11 +625,138 @@
               </div>
             </div>
 
+            <div class="Design-left-page-6-2" id="pg">
+              <div class="gradient-line-l"></div>
+              <div class="d6-center-line"></div>
+              <div class="left-pg-number2">SMALL CAPS</div>
+              <div class="left-pg-number2 d6-posbot">REGULAR CAPS</div>
+              <div class="small-caps" id="small-caps"><div></div></div>
+              <div class="regular-caps" id="regular-caps"><div></div></div>
+              
+            </div>
 
+            <div class="Design-right-page-6-2" id="pg">
+              <div class="gradient-line-r"></div>
+              <div class="right-pg-number">P.14</div>
+              <div class="smallcaps-container">
+                  <img src="images/dashedline.svg" class="caps-spotted top-firstsp">
+                  <img src="images/dashedline.svg" class="caps-spotted top-secondsp">
+                  <img src="images/dashedline.svg" class="caps-spotted top-thirdsp">
+                  <img src="images/dashedline.svg" class="caps-spotted top-fourthsp">
+                  <img src="images/dashedline.svg" class="caps-spotted top-fifthsp">
+                  <div class = "smallcaps-reg first-col first-row" id="A-d6"><div class="pnt-n">A</div></div>
+                  <div class = "smallcaps-reg first-col second-row" id="B-d6"><div class="pnt-n">B</div></div>
+                  <div class = "smallcaps-reg first-col third-row" id="C-d6"><div class="pnt-n">C</div></div>
+                  <div class = "smallcaps-reg first-col fourth-row" id="D-d6"><div class="pnt-n">D</div></div>
+                  <div class = "smallcaps-reg first-col fifth-row" id="E-d6"><div class="pnt-n">E</div></div>
+
+
+                  <div class = "smallcaps-reg second-col first-row" id="F-d6"><div class="pnt-n">F</div></div>
+                  <div class = "smallcaps-reg second-col second-row" id="G-d6"><div class="pnt-n">G</div></div>
+                  <div class = "smallcaps-reg second-col third-row" id="H-d6"><div class="pnt-n">H</div></div>
+                  <div class = "smallcaps-reg second-col fourth-row" id="I-d6"><div class="pnt-n push-left">I</div></div>
+                  <div class = "smallcaps-reg second-col fifth-row" id="J-d6"><div class="pnt-n push-left">J</div></div>
+
+                  <div class = "smallcaps-reg third-col first-row" id="K-d6"><div class="pnt-n">K</div></div>
+                  <div class = "smallcaps-reg third-col second-row" id="L-d6"><div class="pnt-n push-left-lt">L</div></div>
+                  <div class = "smallcaps-reg third-col third-row" id="M-d6"><div class="pnt-n">M</div></div>
+                  <div class = "smallcaps-reg third-col fourth-row" id="N-d6"><div class="pnt-n">N</div></div>
+                  <div class = "smallcaps-reg third-col fifth-row" id="O-d6"><div class="pnt-n">O</div></div>
+
+
+                  <div class = "smallcaps-reg fourth-col first-row" id="P-d6"><div class="pnt-n">P</div></div>
+                  <div class = "smallcaps-reg fourth-col second-row" id="Q-d6"><div class="pnt-n">Q</div></div>
+                  <div class = "smallcaps-reg fourth-col third-row" id="R-d6"><div class="pnt-n push-left">R</div></div>
+                  <div class = "smallcaps-reg fourth-col fourth-row" id="S-d6"><div class="pnt-n push-left-lt">S</div></div>
+                  <div class = "smallcaps-reg fourth-col fifth-row" id="T-d6"><div class="pnt-n">T</div></div>
+
+
+                  <div class = "smallcaps-reg fifth-col first-row" id="U-d6"><div class="pnt-n">U</div></div>
+                  <div class = "smallcaps-reg fifth-col second-row" id="V-d6"><div class="pnt-n push-left-lt">V</div></div>
+                  <div class = "smallcaps-reg fifth-col third-row" id="W-d6"><div class="pnt-n">W</div></div>
+                  <div class = "smallcaps-reg fifth-col fourth-row" id="X-d6"><div class="pnt-n">X</div></div>
+                  <div class = "smallcaps-reg fifth-col fifth-row" id="Y-d6"><div class="pnt-n">Y</div></div>
+
+
+                  <div class = "smallcaps-reg sixth-col third-row" id="Z-d6"><div class="pnt-n push-left">Z</div></div>
+              </div>
+              
+            </div>
+
+            <div class="Design-left-page-4" id="pg-4-1">
+              <div class="gradient-line-l" id="grd-left"></div>
+              <div class="left-pg-number" id="head-l">P.15</div>
+
+              <div class="drink-container">
+                <textarea class="drink-text" id="drink-text">Drink&#10;me</textarea>
+                <ul class="color-container">
+                  <li class="circle_moon circle-size circle-m-right" id="circle_moon" onclick="color_moon()" >
+                    <img src="images/moon.svg" alt="moon" class="moon" id="moon">
+                  </li>
+                  
+                  <li class="circle_blue circle-size circle-m-right circles" id="circle_blue" onclick="color_blue()"></li>
+                  <li class="circle_brown circle-size circle-m-right circles" id="circle_brown" onclick="color_brown()"></li>
+
+                  <li class="circle_yellow circle-size circle-m-right circles" id="circle_yellow" onclick="color_yellow()"></li>
+                  
+                  <li class="circle_white circle-size circles circle-m-right" id="circle_white" onclick="color_white()"></li>
+                  <li class="circle_green circle-size circle-m-right circles" id="circle_green" onclick="color_green()"></li>
+                  <li class="circle_red circle-size circle-m-right circles" id="circle_red" onclick="color_red()"></li>
+                  <li class="circle_black circle-size circles" id="circle_black" onclick="color_black()"></li>
+                </ul>
+
+                <input type="range" min="200" max="900" value="900" class="design-slider" id="design-slider">
+                <ul class="container-normal-italic">
+                  <li class="roman" id="roman" onclick="d4click_roman()"/>Roman</li>
+                  <li class="italic" id="italic" onclick="d4click_italic()">Italic</li>
+                </ul>
+
+                <ul class="triangle-container" id="triangle-containerz">
+                  <li>
+                    <img src="images/triangleW.svg" alt="triangle1" class="triangle1" id="triangle1">
+                  </li>
+                  <li>
+                    <img src="images/triangle.svg" alt="triangle2" class="triangle2" id="triangle2">
+                  </li>
+                  <li>
+                    <img src="images/triangle.svg" alt="triangle3" class="triangle3" id="triangle3">
+                  </li>
+                  <li>
+                    <img src="images/triangle.svg" alt="triangle4" class="triangle4" id="triangle4">
+                  </li>
+                  <li>
+                    <img src="images/triangle.svg" alt="triangle5" class="triangle5" id="triangle5">
+                  </li>
+                  <li>
+                    <img src="images/triangle.svg" alt="triangle6" class="triangle6" id="triangle6">
+                  </li>
+                  <li>
+                    <img src="images/triangle.svg" alt="triangle7" class="triangle7" id="triangle7">
+                  </li>
+                  <li>
+                    <img src="images/triangle.svg" alt="triangle8" class="triangle8" id="triangle8">
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+
+            <div class="Design-right-page-4" id="pg-4-2">
+              <div class="gradient-line-r" id="grd-right"></div>
+              <div class="right-pg-number" id="head-r">WEIGHT AXIS</div>
+
+              <img src="images/aaa.svg" alt="aaa" class="aaa" id="aaa">
+                
+              <div class="weight-unlimited" id="weight-unlimited">Weight</div>
+             
+              <div class="with-unlimited" id="with-unlimited">With unlimited options along this axis, designers can<br>tweak Crimson Pro to get the exact look and feel they<br>want. They can create custom styles, name them, and<br>save those instances to use throughout the design. 
+              </div>
+             
+            </div>
 
           <div class="Design-left-page-7" id="pg">
             <div class="gradient-line-l"></div>
-              <h1>15</h1>
+              <div class="left-pg-number">P.17</div>
               <h2>Looking to use <span>Crimson Pro</span><br>in your language?</h2>
           
             <div class="language-container" id="language-container">
@@ -745,7 +808,7 @@
 
             <div class="Design-right-page-7" id="pg">
               <div class="gradient-line-r"></div>
-              <h1>preview</h1>
+              <div class="right-pg-number">PREVIEW</div>
 
               <div class="d7-border" ></div>
               <div class="custom-select" >

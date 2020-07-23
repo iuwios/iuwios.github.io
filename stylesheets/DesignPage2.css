@@ -323,6 +323,14 @@
 	line-height: 120%;
 }
 
+.pinkflower{
+	position: absolute;
+	width: calc((var(--init-new-vw) / var(--init-width)) * 39);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 39);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 716.5);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 278);
+}
+
 .slider-pg3
 {
 	position: absolute;
@@ -347,8 +355,8 @@
 	-webkit-appearance: none;
 	transform: scale(1) !important;
 	appearance: none;
-	width: calc((var(--init-new-vw) / var(--init-width)) * 15);
-	height: calc((var(--init-new-vw) / var(--init-width)) * 15);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 26);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 26);
 	border-radius: 100px;
 	background: radial-gradient(139.98% 139.65% at 50% -15.59%, #FFFFFF 31.47%, #000000 90.53%);
 	border: calc((var(--init-new-vw) / var(--init-width)) * 1) solid #BBBDBF;
@@ -359,8 +367,8 @@
  {
 	-ms-appearance: none;
 	appearance: none;
-	width: calc((var(--init-new-vw) / var(--init-width)) * 15);
-	height: calc((var(--init-new-vw) / var(--init-width)) * 15);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 26);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 26);
 	border-radius: 100px;
 	background: radial-gradient(139.98% 139.65% at 50% -15.59%, #FFFFFF 31.47%, #000000 90.53%);
 	border: calc((var(--init-new-vw) / var(--init-width)) * 1) solid #BBBDBF;
@@ -372,10 +380,15 @@
 	position: absolute;
 	margin: 0;
 	width: calc((var(--init-new-vw) / var(--init-width)) * 544);
-	height: calc((var(--init-new-vw) / var(--init-width)) * var(--init-d2-rabbit-height));
+	/*height: calc((var(--init-new-vw) / var(--init-width)) * var(--init-d2-rabbit-height));*/
+	height: calc((var(--init-new-vw) / var(--init-width)) * 511);
 
-	top: calc((var(--init-new-vw) / var(--init-width)) * 112);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 163);
 	right: calc((var(--init-new-vw) / var(--init-width)) * 55);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 28);
+	text-align: center;
+	line-height: 140%;
+
 	font-weight: var(--text-weight-small);
 	font-variation-settings: "wght" var(--text-weight-small);
 	overflow: hidden;

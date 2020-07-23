@@ -1151,7 +1151,7 @@ var rom_ital='italic';
 var night_mode = false;
 var d_text = document.getElementById("drink-text");
 
-var cur_t = document.getElementById("triangle5");
+var cur_t = document.getElementById("triangle7");
 var d_R = document.getElementById("roman");
 var d_I = document.getElementById("italic");
 
@@ -1163,6 +1163,8 @@ var pg_right = document.getElementById("pg-4-2");
 var grd_left =document.getElementById("grd-left");
 var grd_right = document.getElementById("grd-right");
 var circles = document.getElementsByClassName("circles");
+var head_l = document.getElementById("head-l");
+var head_r = document.getElementById("head-r");
 var d4_is_dark = false;
 
 var d = 1000;
@@ -1177,6 +1179,8 @@ function d4_dark_mode(){
 	pg_right.style.backgroundColor = "black";
 	d_text.style.color = 'white';
 	d_text.style.backgroundColor = 'black';
+	head_l.style.color="white";
+	head_r.style.color="white";
 
 
 	//pg_left.style.cssText = "background-color: " + "black";
@@ -1216,7 +1220,8 @@ function d4_normal_mode(){
 	d_text.style.color = curd_color;
 	d_text.style.backgroundColor = 'white';
 
-	
+	head_l.style.color="black";
+	head_r.style.color="black";	
 
 	if(rom_ital == 'italic'){
 		d_I.style.backgroundColor = curd_color;
@@ -1267,7 +1272,7 @@ function color_moon(){
 
 function color_yellow(){
 	cur_t.style.visibility = 'hidden';
-	cur_t = document.getElementById("triangle2");
+	cur_t = document.getElementById("triangle4");
 	cur_t.style.visibility = 'visible';
 	curd_color = "#FFEB00";
 	d_text.style.color = curd_color;
@@ -1278,7 +1283,7 @@ function color_yellow(){
 }
 function color_blue(){
 	cur_t.style.visibility = 'hidden';
-	cur_t = document.getElementById("triangle3");
+	cur_t = document.getElementById("triangle2");
 	cur_t.style.visibility = 'visible';
 	curd_color = "#70CCF7";
 	d_text.style.color = "#70CCF7";
@@ -1289,7 +1294,7 @@ function color_blue(){
 }
 function color_brown(){
 	cur_t.style.visibility = 'hidden';
-	cur_t = document.getElementById("triangle4");
+	cur_t = document.getElementById("triangle3");
 	cur_t.style.visibility = 'visible';
 	curd_color = "#D7B089";
 	d_text.style.color = "#D7B089";
@@ -1300,7 +1305,7 @@ function color_brown(){
 }
 function color_red(){
 	cur_t.style.visibility = 'hidden';
-	cur_t = document.getElementById("triangle5");
+	cur_t = document.getElementById("triangle7");
 	cur_t.style.visibility = 'visible';
 	curd_color = "red";
 	d_text.style.color = "red";
@@ -1311,7 +1316,7 @@ function color_red(){
 }
 function color_black(){
 	cur_t.style.visibility = 'hidden';
-	cur_t = document.getElementById("triangle6");
+	cur_t = document.getElementById("triangle8");
 	cur_t.style.visibility = 'visible';
 	curd_color = "black";
 	d_text.style.color = "black";
@@ -1322,7 +1327,7 @@ function color_black(){
 }
 function color_green(){
 	cur_t.style.visibility = 'hidden';
-	cur_t = document.getElementById("triangle7");
+	cur_t = document.getElementById("triangle6");
 	cur_t.style.visibility = 'visible';
 	curd_color = "#3EB449";
 	d_text.style.color = "#3EB449";
@@ -1333,10 +1338,10 @@ function color_green(){
 }
 function color_white(){
 	cur_t.style.visibility = 'hidden';
-	cur_t = document.getElementById("triangle8");
+	cur_t = document.getElementById("triangle5");
 	cur_t.style.visibility = 'visible';
-	curd_color = "white";
-	d_text.style.color = "white";
+	curd_color = "#FFBFF1";
+	d_text.style.color = "#FFBFF1";
 	check_ItalRom();
 	if(d4_is_dark){
 		d4_normal_mode();
@@ -1951,6 +1956,332 @@ sliderd4.oninput = function()
 	d.style.setProperty('--text-weight', this.value);
 }*/
 
+
+
+/*page d6-2 CAPS PAGE */
+var A_caps = document.getElementById("A-d6");
+var B_caps = document.getElementById("B-d6");
+var C_caps = document.getElementById("C-d6");
+var D_caps = document.getElementById("D-d6");
+var E_caps = document.getElementById("E-d6");
+var F_caps = document.getElementById("F-d6");
+var G_caps = document.getElementById("G-d6");
+var H_caps = document.getElementById("H-d6");
+var I_caps = document.getElementById("I-d6");
+var J_caps = document.getElementById("J-d6");
+var K_caps = document.getElementById("K-d6");
+var L_caps = document.getElementById("L-d6");
+var M_caps = document.getElementById("M-d6");
+var N_caps = document.getElementById("N-d6");
+var O_caps = document.getElementById("O-d6");
+var P_caps = document.getElementById("P-d6");
+var Q_caps = document.getElementById("Q-d6");
+var R_caps = document.getElementById("R-d6");
+var S_caps = document.getElementById("S-d6");
+var T_caps = document.getElementById("T-d6");
+var U_caps = document.getElementById("U-d6");
+var V_caps = document.getElementById("V-d6");
+var W_caps = document.getElementById("W-d6");
+var X_caps = document.getElementById("X-d6");
+var Y_caps = document.getElementById("Y-d6");
+var Z_caps = document.getElementById("Z-d6");
+
+var small_caps = document.getElementById("small-caps");
+var regular_caps = document.getElementById("regular-caps");
+
+var current_cap;
+
+A_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "a";
+	regular_caps.children[0].innerHTML = "A";
+	A_caps.style.color = "#70CCF7";
+}
+A_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = '';
+	regular_caps.children[0].innerHTML = '';
+	A_caps.style.color = "black";
+}
+
+B_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "b";
+	regular_caps.children[0].innerHTML = "B";
+	B_caps.style.color = "#D7B089";
+}
+B_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	B_caps.style.color = "black";
+}
+
+C_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "c";
+	regular_caps.children[0].innerHTML = "C";
+	C_caps.style.color="#FFFF00";
+}
+C_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	C_caps.style.color="black";
+}
+
+
+D_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "d";
+	regular_caps.children[0].innerHTML = "D";
+	D_caps.style.color = "#FFBFF1";
+}
+D_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	D_caps.style.color = "black";
+}
+
+
+E_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "e";
+	regular_caps.children[0].innerHTML = "E";
+	E_caps.style.color ="#3EB449";
+}
+E_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	E_caps.style.color ="black";
+}
+
+
+F_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "f";
+	regular_caps.children[0].innerHTML = "F";
+	F_caps.style.color = "#DDD9D6";
+}
+F_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	F_caps.style.color = "black";
+}
+
+
+G_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "g";
+	regular_caps.children[0].innerHTML = "G";
+	G_caps.style.color="#FFBFF1";
+}
+G_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	G_caps.style.color="black";
+}
+
+
+H_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "h";
+	regular_caps.children[0].innerHTML = "H";
+	H_caps.style.color="#DDD9D6";
+}
+H_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	H_caps.style.color="black";
+}
+
+I_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "i";
+	regular_caps.children[0].innerHTML = "I";
+	I_caps.style.color="#3EB449";
+}
+I_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	I_caps.style.color="black";
+}
+
+J_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "j";
+	regular_caps.children[0].innerHTML = "J";
+	J_caps.style.color ="#FFFF00";
+}
+J_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	J_caps.style.color ="black";
+}
+
+K_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "k";
+	regular_caps.children[0].innerHTML = "K";
+	K_caps.style.color="#D7B089";
+}
+K_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	K_caps.style.color="black";
+}
+
+L_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "l";
+	regular_caps.children[0].innerHTML = "L";
+	L_caps.style.color = "#70CCF7";
+}
+L_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	L_caps.style.color = "black";
+}
+
+M_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "m";
+	regular_caps.children[0].innerHTML = "M";
+	M_caps.style.color = "#3EB449";
+}
+M_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	M_caps.style.color = "black";
+}
+
+N_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "n";
+	regular_caps.children[0].innerHTML = "N";
+	N_caps.style.color = "#DDD9D6";
+}
+N_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	N_caps.style.color = "black";
+}
+
+O_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "o";
+	regular_caps.children[0].innerHTML = "O";
+	O_caps.style.color="#FFBFF1";
+}
+O_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	O_caps.style.color="black";
+}
+
+P_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "p";
+	regular_caps.children[0].innerHTML = "P";
+	P_caps.style.color="#FFFF00";
+}
+P_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	P_caps.style.color="black";
+}
+
+Q_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "q";
+	regular_caps.children[0].innerHTML = "Q";
+	Q_caps.style.color="#DDD9D6";
+}
+Q_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	Q_caps.style.color="black";
+}
+
+R_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "r";
+	regular_caps.children[0].innerHTML = "R";
+	R_caps.style.color="#FFBFF1";
+}
+R_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	R_caps.style.color="black";
+}
+
+
+S_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "s";
+	regular_caps.children[0].innerHTML = "S";
+	S_caps.style.color="#70CCF7";
+}
+S_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	S_caps.style.color="black";
+}
+
+T_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "t";
+	regular_caps.children[0].innerHTML = "T";
+	T_caps.style.color="#3EB449";
+}
+T_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	T_caps.style.color="black";
+}
+
+U_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "u";
+	regular_caps.children[0].innerHTML = "U";
+	U_caps.style.color="#3EB449";
+}
+U_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	U_caps.style.color="black";
+}
+
+V_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "v";
+	regular_caps.children[0].innerHTML = "V";
+	V_caps.style.color="#FFBFF1";
+}
+V_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	V_caps.style.color="black";
+}
+
+W_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "w";
+	regular_caps.children[0].innerHTML = "W";
+	W_caps.style.color="#D7B089";
+}
+W_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	W_caps.style.color="black";
+}
+
+X_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "x";
+	regular_caps.children[0].innerHTML = "X";
+	X_caps.style.color="#FFFF00";
+}
+X_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	X_caps.style.color="black";
+}
+
+Y_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "y";
+	regular_caps.children[0].innerHTML = "Y";
+	Y_caps.style.color="#70CCF7";
+}
+Y_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	Y_caps.style.color="black";
+}
+
+Z_caps.onmouseover = function(){
+	small_caps.children[0].innerHTML = "z";
+	regular_caps.children[0].innerHTML = "Z";
+	Z_caps.style.color="#FFBFF1";
+}
+Z_caps.onmouseout = function(){
+	small_caps.children[0].innerHTML = "";
+	regular_caps.children[0].innerHTML = "";
+	Z_caps.style.color="black";
+}
 
 function d5italic()
 {
@@ -3133,7 +3464,7 @@ function checkPageLeft(){
 			document.getElementById('contain').scrollIntoView({behavior: 'smooth'});	
 			break;
 
-		case 21:
+		case 22:
 			document.getElementById("intro").style.color='white';
 			document.getElementById("design").style.color='white';
 			document.getElementById("example").style.color='white';
@@ -3181,7 +3512,7 @@ function checkPageRight(){
 			document.getElementById("contain").setAttribute("style", "scroll-snap-align: center;");
 			document.getElementById('contain').scrollIntoView({behavior: 'smooth'});
 			break;
-		case 22:
+		case 24:
 			document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: center;");
 			//document.getElementById("Example-2").setAttribute("style", "scroll-snap-align: center;");
 			document.getElementById('example1').scrollIntoView({behavior: 'smooth'});
@@ -3246,7 +3577,7 @@ $("#design").click(function(e){
 
 $("#example").click(function(e){
 	e.preventDefault();
-	$('#crimson-book').turn('page', 22);
+	$('#crimson-book').turn('page', 23);
 	document.getElementById("Example-1").setAttribute("style", "scroll-snap-align: top;");
 	document.getElementById("Example-1").scrollIntoView({behavior: 'smooth'});
 	document.getElementById("intro").style.color='white';
@@ -3258,7 +3589,7 @@ $("#example").click(function(e){
 
 $("#recognition").click(function(e){
 	e.preventDefault();
-	$('#crimson-book').turn('page', 20);
+	$('#crimson-book').turn('page', 22);
 	document.getElementById("contain").setAttribute("style", "scroll-snap-align: center;");
 	document.getElementById('contain').scrollIntoView({behavior: 'smooth'});
 	document.getElementById("intro").style.color='white';
