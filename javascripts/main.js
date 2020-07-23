@@ -1992,7 +1992,7 @@ var regular_caps = document.getElementById("regular-caps");
 var current_cap;
 
 A_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "a";
+	small_caps.children[0].innerHTML = "A";
 	regular_caps.children[0].innerHTML = "A";
 	A_caps.style.color = "#70CCF7";
 }
@@ -2003,7 +2003,7 @@ A_caps.onmouseout = function(){
 }
 
 B_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "b";
+	small_caps.children[0].innerHTML = "B";
 	regular_caps.children[0].innerHTML = "B";
 	B_caps.style.color = "#D7B089";
 }
@@ -2014,7 +2014,7 @@ B_caps.onmouseout = function(){
 }
 
 C_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "c";
+	small_caps.children[0].innerHTML = "C";
 	regular_caps.children[0].innerHTML = "C";
 	C_caps.style.color="#FFFF00";
 }
@@ -2026,7 +2026,7 @@ C_caps.onmouseout = function(){
 
 
 D_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "d";
+	small_caps.children[0].innerHTML = "D";
 	regular_caps.children[0].innerHTML = "D";
 	D_caps.style.color = "#FFBFF1";
 }
@@ -2038,7 +2038,7 @@ D_caps.onmouseout = function(){
 
 
 E_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "e";
+	small_caps.children[0].innerHTML = "E";
 	regular_caps.children[0].innerHTML = "E";
 	E_caps.style.color ="#3EB449";
 }
@@ -2050,7 +2050,7 @@ E_caps.onmouseout = function(){
 
 
 F_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "f";
+	small_caps.children[0].innerHTML = "F";
 	regular_caps.children[0].innerHTML = "F";
 	F_caps.style.color = "#DDD9D6";
 }
@@ -2062,7 +2062,7 @@ F_caps.onmouseout = function(){
 
 
 G_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "g";
+	small_caps.children[0].innerHTML = "G";
 	regular_caps.children[0].innerHTML = "G";
 	G_caps.style.color="#FFBFF1";
 }
@@ -2074,7 +2074,7 @@ G_caps.onmouseout = function(){
 
 
 H_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "h";
+	small_caps.children[0].innerHTML = "H";
 	regular_caps.children[0].innerHTML = "H";
 	H_caps.style.color="#DDD9D6";
 }
@@ -2085,7 +2085,7 @@ H_caps.onmouseout = function(){
 }
 
 I_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "i";
+	small_caps.children[0].innerHTML = "I";
 	regular_caps.children[0].innerHTML = "I";
 	I_caps.style.color="#3EB449";
 }
@@ -2096,7 +2096,7 @@ I_caps.onmouseout = function(){
 }
 
 J_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "j";
+	small_caps.children[0].innerHTML = "J";
 	regular_caps.children[0].innerHTML = "J";
 	J_caps.style.color ="#FFFF00";
 }
@@ -2107,7 +2107,7 @@ J_caps.onmouseout = function(){
 }
 
 K_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "k";
+	small_caps.children[0].innerHTML = "K";
 	regular_caps.children[0].innerHTML = "K";
 	K_caps.style.color="#D7B089";
 }
@@ -2118,7 +2118,7 @@ K_caps.onmouseout = function(){
 }
 
 L_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "l";
+	small_caps.children[0].innerHTML = "L";
 	regular_caps.children[0].innerHTML = "L";
 	L_caps.style.color = "#70CCF7";
 }
@@ -2129,7 +2129,7 @@ L_caps.onmouseout = function(){
 }
 
 M_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "m";
+	small_caps.children[0].innerHTML = "M";
 	regular_caps.children[0].innerHTML = "M";
 	M_caps.style.color = "#3EB449";
 }
@@ -2140,7 +2140,7 @@ M_caps.onmouseout = function(){
 }
 
 N_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "n";
+	small_caps.children[0].innerHTML = "N";
 	regular_caps.children[0].innerHTML = "N";
 	N_caps.style.color = "#DDD9D6";
 }
@@ -2151,7 +2151,7 @@ N_caps.onmouseout = function(){
 }
 
 O_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "o";
+	small_caps.children[0].innerHTML = "O";
 	regular_caps.children[0].innerHTML = "O";
 	O_caps.style.color="#FFBFF1";
 }
@@ -2162,7 +2162,7 @@ O_caps.onmouseout = function(){
 }
 
 P_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "p";
+	small_caps.children[0].innerHTML = "P";
 	regular_caps.children[0].innerHTML = "P";
 	P_caps.style.color="#FFFF00";
 }
@@ -2173,7 +2173,7 @@ P_caps.onmouseout = function(){
 }
 
 Q_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "q";
+	small_caps.children[0].innerHTML = "Q";
 	regular_caps.children[0].innerHTML = "Q";
 	Q_caps.style.color="#DDD9D6";
 }
@@ -2184,7 +2184,7 @@ Q_caps.onmouseout = function(){
 }
 
 R_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "r";
+	small_caps.children[0].innerHTML = "R";
 	regular_caps.children[0].innerHTML = "R";
 	R_caps.style.color="#FFBFF1";
 }
@@ -2196,7 +2196,7 @@ R_caps.onmouseout = function(){
 
 
 S_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "s";
+	small_caps.children[0].innerHTML = "S";
 	regular_caps.children[0].innerHTML = "S";
 	S_caps.style.color="#70CCF7";
 }
@@ -2207,7 +2207,7 @@ S_caps.onmouseout = function(){
 }
 
 T_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "t";
+	small_caps.children[0].innerHTML = "T";
 	regular_caps.children[0].innerHTML = "T";
 	T_caps.style.color="#3EB449";
 }
@@ -2218,7 +2218,7 @@ T_caps.onmouseout = function(){
 }
 
 U_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "u";
+	small_caps.children[0].innerHTML = "U";
 	regular_caps.children[0].innerHTML = "U";
 	U_caps.style.color="#3EB449";
 }
@@ -2229,7 +2229,7 @@ U_caps.onmouseout = function(){
 }
 
 V_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "v";
+	small_caps.children[0].innerHTML = "V";
 	regular_caps.children[0].innerHTML = "V";
 	V_caps.style.color="#FFBFF1";
 }
@@ -2240,7 +2240,7 @@ V_caps.onmouseout = function(){
 }
 
 W_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "w";
+	small_caps.children[0].innerHTML = "W";
 	regular_caps.children[0].innerHTML = "W";
 	W_caps.style.color="#D7B089";
 }
@@ -2251,7 +2251,7 @@ W_caps.onmouseout = function(){
 }
 
 X_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "x";
+	small_caps.children[0].innerHTML = "X";
 	regular_caps.children[0].innerHTML = "X";
 	X_caps.style.color="#FFFF00";
 }
@@ -2262,7 +2262,7 @@ X_caps.onmouseout = function(){
 }
 
 Y_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "y";
+	small_caps.children[0].innerHTML = "Y";
 	regular_caps.children[0].innerHTML = "Y";
 	Y_caps.style.color="#70CCF7";
 }
@@ -2273,7 +2273,7 @@ Y_caps.onmouseout = function(){
 }
 
 Z_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "z";
+	small_caps.children[0].innerHTML = "Z";
 	regular_caps.children[0].innerHTML = "Z";
 	Z_caps.style.color="#FFBFF1";
 }
