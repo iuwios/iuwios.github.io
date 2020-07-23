@@ -146,3 +146,29 @@
 .d6-posbot{
 	top: calc((var(--init-new-vw) / var(--init-width)) * 396);
 }
+
+@media screen and (max-width: 1000px){
+.Design-left-page-6-2
+{
+	position: absolute;
+	display: none;
+	width: 100vw;
+	left: 0;
+	top: calc((var(--init-new-vw) / var(--init-width)) * 792 * 8 + 80px);
+}
+
+.Design-right-page-6-2
+{
+	position: absolute;
+	display: none;
+	width: 100vw;
+	left:0;
+	top: calc((var(--init-new-vw) / var(--init-width)) * 792 * 9 + 90px);
+}
+
+.Design-right-page-4:before
+{
+	display: none;
+}
+
+}
