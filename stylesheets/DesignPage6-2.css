@@ -34,6 +34,7 @@
 
 .small-caps{
 	position: absolute;
+	font-variant: small-caps;
 	width: calc((var(--init-new-vw) / var(--init-width)) * 131); 
 	height: calc((var(--init-new-vw) / var(--init-width)) * 136); 
 	left: calc((var(--init-new-vw) / var(--init-width)) * 271); 

@@ -512,8 +512,6 @@ display: none;
 	margin-top: calc((100vw / var(--init-width)) * 14);
 	/*margin-right: calc((100vw / var(--init-width)) * 316);*/
 	margin-right: calc((100vw / var(--init-width)) * 321);
-
-
 }
 
 .nav-container li:nth-of-type(1)
