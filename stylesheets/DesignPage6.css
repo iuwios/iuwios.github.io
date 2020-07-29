@@ -89,18 +89,18 @@
 {
 	position: absolute;
 	margin: 0;
-	width: calc((var(--init-new-vw) / var(--init-width)) * 68);
-	height: calc((var(--init-new-vw) / var(--init-width)) * 27);
-	top: calc((var(--init-new-vw) / var(--init-width)) * 25);
-	left: calc((var(--init-new-vw) / var(--init-width)) * 406);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 85);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 32);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 14);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 400);
 
 	border: calc((var(--init-new-vw) / var(--init-width)) * 1) solid #262626;
 	border-radius: calc((var(--init-new-vw) / var(--init-width)) * 48);
 
 	font-style: normal;
 	font-weight: normal;
-	font-size: calc((var(--init-new-vw) / var(--init-width)) * 16);
-	line-height: calc((var(--init-new-vw) / var(--init-width)) * 23);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 17);
+	line-height: 170%;
 	text-align: center;
 	color: white;
 	background: black;
@@ -112,18 +112,18 @@
 {
 	position: absolute;
 	margin: 0;
-	width: calc((var(--init-new-vw) / var(--init-width)) * 68);
-	height: calc((var(--init-new-vw) / var(--init-width)) * 27);
-	top: calc((var(--init-new-vw) / var(--init-width)) * 25);
-	left: calc((var(--init-new-vw) / var(--init-width)) * 540);
+	width: calc((var(--init-new-vw) / var(--init-width)) * 85);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 32);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 14);
+	left: calc((var(--init-new-vw) / var(--init-width)) * 521);
 
 	border: calc((var(--init-new-vw) / var(--init-width)) * 1) solid #262626;
 	border-radius: calc((var(--init-new-vw) / var(--init-width)) * 48);
 
-	font-style: normal;
+	font-style: italic;
 	font-weight: normal;
-	font-size: calc((var(--init-new-vw) / var(--init-width)) * 16);
-	line-height: calc((var(--init-new-vw) / var(--init-width)) * 23);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 17);
+	line-height: 170%;
 	text-align: center;
 
 	cursor: pointer;

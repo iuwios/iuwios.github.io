@@ -29,7 +29,7 @@
 	left:calc((var(--init-new-vw) / var(--init-width)) * 72); 
 	top:calc((var(--init-new-vw) / var(--init-width)) * 363);
 	width: calc((var(--init-new-vw) / var(--init-width)) * 525.6);
-	border: calc((var(--init-new-vw) / var(--init-width)) * 1) solid black;
+	border-bottom: calc((var(--init-new-vw) / var(--init-width)) * 1) solid black;
 }
 
 .d6-div-line{
