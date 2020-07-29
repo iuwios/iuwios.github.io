@@ -18,7 +18,12 @@ var num = 0;
 var max = document.querySelectorAll("[id='pg']").length-2;
 var elms = document.querySelectorAll("[id='pg']");
 
-
+/*cursor effect 
+$(document).ready(function() {
+    setInterval ('cursorAnimation()', 600);
+    captionEl = $('#caption');
+    
+});*/
 
 /*navigation scroll*/
 
@@ -1987,299 +1992,353 @@ var Y_caps = document.getElementById("Y-d6");
 var Z_caps = document.getElementById("Z-d6");
 
 var small_caps = document.getElementById("small-caps");
+var full_caps = document.getElementById("full-caps");
 var regular_caps = document.getElementById("regular-caps");
 
 var current_cap;
 
 A_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "A";
-	regular_caps.children[0].innerHTML = "A";
+	full_caps.children[0].innerHTML = "A";
+	small_caps.children[0].innerHTML = "a";
+	regular_caps.children[0].innerHTML = "a";
 	A_caps.style.color = "#70CCF7";
+	//typeWriter("small-caps", textArray);
 }
 A_caps.onmouseout = function(){
+	full_caps.children[0].innerHTML = '';
 	small_caps.children[0].innerHTML = '';
 	regular_caps.children[0].innerHTML = '';
 	A_caps.style.color = "black";
 }
 
 B_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "B";
-	regular_caps.children[0].innerHTML = "B";
+	full_caps.children[0].innerHTML = "B";
+	small_caps.children[0].innerHTML = "b";
+	regular_caps.children[0].innerHTML = "b";
 	B_caps.style.color = "#D7B089";
 }
 B_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	B_caps.style.color = "black";
 }
 
 C_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "C";
-	regular_caps.children[0].innerHTML = "C";
+	full_caps.children[0].innerHTML = "C";
+	small_caps.children[0].innerHTML = "c";
+	regular_caps.children[0].innerHTML = "c";
 	C_caps.style.color="#FFFF00";
 }
 C_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	C_caps.style.color="black";
 }
 
 
 D_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "D";
-	regular_caps.children[0].innerHTML = "D";
+	full_caps.children[0].innerHTML = "D";
+	small_caps.children[0].innerHTML = "d";
+	regular_caps.children[0].innerHTML = "d";
 	D_caps.style.color = "#FFBFF1";
 }
 D_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	D_caps.style.color = "black";
 }
 
 
 E_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "E";
-	regular_caps.children[0].innerHTML = "E";
+	full_caps.children[0].innerHTML = "E";
+	small_caps.children[0].innerHTML = "e";
+	regular_caps.children[0].innerHTML = "e";
 	E_caps.style.color ="#3EB449";
 }
 E_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	E_caps.style.color ="black";
 }
 
 
 F_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "F";
-	regular_caps.children[0].innerHTML = "F";
+	full_caps.children[0].innerHTML = "F";
+	small_caps.children[0].innerHTML = "f";
+	regular_caps.children[0].innerHTML = "f";
 	F_caps.style.color = "#DDD9D6";
 }
 F_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	F_caps.style.color = "black";
 }
 
 
 G_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "G";
-	regular_caps.children[0].innerHTML = "G";
+	full_caps.children[0].innerHTML = "G";
+	small_caps.children[0].innerHTML = "g";
+	regular_caps.children[0].innerHTML = "g";
 	G_caps.style.color="#FFBFF1";
 }
 G_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	G_caps.style.color="black";
 }
 
 
 H_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "H";
-	regular_caps.children[0].innerHTML = "H";
+	full_caps.children[0].innerHTML = "H";
+	small_caps.children[0].innerHTML = "h";
+	regular_caps.children[0].innerHTML = "h";
 	H_caps.style.color="#DDD9D6";
 }
 H_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	H_caps.style.color="black";
 }
 
 I_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "I";
-	regular_caps.children[0].innerHTML = "I";
+	full_caps.children[0].innerHTML = "I";
+	small_caps.children[0].innerHTML = "i";
+	regular_caps.children[0].innerHTML = "i";
 	I_caps.style.color="#3EB449";
 }
 I_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	I_caps.style.color="black";
 }
 
 J_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "J";
-	regular_caps.children[0].innerHTML = "J";
+	full_caps.children[0].innerHTML = "J";
+	small_caps.children[0].innerHTML = "j";
+	regular_caps.children[0].innerHTML = "j";
 	J_caps.style.color ="#FFFF00";
 }
 J_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	J_caps.style.color ="black";
 }
 
 K_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "K";
-	regular_caps.children[0].innerHTML = "K";
+	full_caps.children[0].innerHTML = "K";
+	small_caps.children[0].innerHTML = "k";
+	regular_caps.children[0].innerHTML = "k";
 	K_caps.style.color="#D7B089";
 }
 K_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	K_caps.style.color="black";
 }
 
 L_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "L";
-	regular_caps.children[0].innerHTML = "L";
+	full_caps.children[0].innerHTML = "L";
+	small_caps.children[0].innerHTML = "l";
+	regular_caps.children[0].innerHTML = "l";
 	L_caps.style.color = "#70CCF7";
 }
 L_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	L_caps.style.color = "black";
 }
 
 M_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "M";
-	regular_caps.children[0].innerHTML = "M";
+	full_caps.children[0].innerHTML = "M";
+	small_caps.children[0].innerHTML = "m";
+	regular_caps.children[0].innerHTML = "m";
 	M_caps.style.color = "#3EB449";
 }
 M_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	M_caps.style.color = "black";
 }
 
 N_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "N";
-	regular_caps.children[0].innerHTML = "N";
+	full_caps.children[0].innerHTML = "N";
+	small_caps.children[0].innerHTML = "n";
+	regular_caps.children[0].innerHTML = "n";
 	N_caps.style.color = "#DDD9D6";
 }
 N_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	N_caps.style.color = "black";
 }
 
 O_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "O";
-	regular_caps.children[0].innerHTML = "O";
+	full_caps.children[0].innerHTML = "O";
+	small_caps.children[0].innerHTML = "o";
+	regular_caps.children[0].innerHTML = "o";
 	O_caps.style.color="#FFBFF1";
 }
 O_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	O_caps.style.color="black";
 }
 
 P_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "P";
-	regular_caps.children[0].innerHTML = "P";
+	full_caps.children[0].innerHTML = "P";
+	small_caps.children[0].innerHTML = "p";
+	regular_caps.children[0].innerHTML = "p";
 	P_caps.style.color="#FFFF00";
 }
 P_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	P_caps.style.color="black";
 }
 
 Q_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "Q";
-	regular_caps.children[0].innerHTML = "Q";
+	full_caps.children[0].innerHTML = "Q";
+	small_caps.children[0].innerHTML = "q";
+	regular_caps.children[0].innerHTML = "q";
 	Q_caps.style.color="#DDD9D6";
 }
 Q_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	Q_caps.style.color="black";
 }
 
 R_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "R";
-	regular_caps.children[0].innerHTML = "R";
+	full_caps.children[0].innerHTML = "R";
+	small_caps.children[0].innerHTML = "r";
+	regular_caps.children[0].innerHTML = "r";
 	R_caps.style.color="#FFBFF1";
 }
 R_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	R_caps.style.color="black";
 }
 
 
 S_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "S";
-	regular_caps.children[0].innerHTML = "S";
+	full_caps.children[0].innerHTML = "S";
+	small_caps.children[0].innerHTML = "s";
+	regular_caps.children[0].innerHTML = "s";
 	S_caps.style.color="#70CCF7";
 }
 S_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	S_caps.style.color="black";
 }
 
 T_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "T";
-	regular_caps.children[0].innerHTML = "T";
+	full_caps.children[0].innerHTML = "T";
+	small_caps.children[0].innerHTML = "t";
+	regular_caps.children[0].innerHTML = "t";
 	T_caps.style.color="#3EB449";
 }
 T_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	T_caps.style.color="black";
 }
 
 U_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "U";
-	regular_caps.children[0].innerHTML = "U";
+	full_caps.children[0].innerHTML = "U";
+	small_caps.children[0].innerHTML = "u";
+	regular_caps.children[0].innerHTML = "u";
 	U_caps.style.color="#3EB449";
 }
 U_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	U_caps.style.color="black";
 }
 
 V_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "V";
-	regular_caps.children[0].innerHTML = "V";
+	full_caps.children[0].innerHTML = "V";
+	small_caps.children[0].innerHTML = "v";
+	regular_caps.children[0].innerHTML = "v";
 	V_caps.style.color="#FFBFF1";
 }
 V_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	V_caps.style.color="black";
 }
 
 W_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "W";
-	regular_caps.children[0].innerHTML = "W";
+	full_caps.children[0].innerHTML = "W";
+	small_caps.children[0].innerHTML = "w";
+	regular_caps.children[0].innerHTML = "w";
 	W_caps.style.color="#D7B089";
 }
 W_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	W_caps.style.color="black";
 }
 
 X_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "X";
-	regular_caps.children[0].innerHTML = "X";
+	full_caps.children[0].innerHTML = "X";
+	small_caps.children[0].innerHTML = "x";
+	regular_caps.children[0].innerHTML = "x";
 	X_caps.style.color="#FFFF00";
 }
 X_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	X_caps.style.color="black";
 }
 
 Y_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "Y";
-	regular_caps.children[0].innerHTML = "Y";
+	full_caps.children[0].innerHTML = "Y";
+	small_caps.children[0].innerHTML = "y";
+	regular_caps.children[0].innerHTML = "y";
 	Y_caps.style.color="#70CCF7";
 }
 Y_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	Y_caps.style.color="black";
 }
 
 Z_caps.onmouseover = function(){
-	small_caps.children[0].innerHTML = "Z";
-	regular_caps.children[0].innerHTML = "Z";
+	full_caps.children[0].innerHTML = "Z";
+	small_caps.children[0].innerHTML = "z";
+	regular_caps.children[0].innerHTML = "z";
 	Z_caps.style.color="#FFBFF1";
 }
 Z_caps.onmouseout = function(){
 	small_caps.children[0].innerHTML = "";
 	regular_caps.children[0].innerHTML = "";
+	full_caps.children[0].innerHTML = '';
 	Z_caps.style.color="black";
 }
 
@@ -3222,6 +3281,8 @@ function changeNews(topic)
 	  	var snippets1 = document.getElementById('snippet');
 	  	var authors = document.getElementById('author21');
 
+	  	console.log(data.response);
+
 	    headers1.innerHTML = data.response.docs[0].headline.main;
 	    document.getElementById("Example2-1").style.content = "url(https://www.nytimes.com/" + data.response.docs[0].multimedia[0].url + ")";
 	    document.getElementById("author-1").innerHTML = data.response.docs[0].byline.original;
@@ -3445,6 +3506,8 @@ if(window.innerWidth > 1000){
 
 function checkPageLeft(){
 	//alert($('#crimson-book').turn('page'));
+
+	//document.getElementById("drink-text").focus();
 	switch($('#crimson-book').turn('page')){
 		case 5:
 			document.getElementById("intro").style.color='#FEC0F0';
@@ -3491,6 +3554,22 @@ function checkPageRight(){
 	}
 	else if(num==14){
 		document.getElementById("text-nocake").focus();
+
+
+		clearTimeout($.data(this, 'timer'));
+			$.data(this, 'timer', setTimeout(function() {
+		     //4milisecond delay
+		    	if(event.deltaY>0){
+					$('#crimson-book').turn('next');
+
+					checkPageRight();
+
+				}
+				else if(event.deltaY<0){
+					$('#crimson-book').turn('previous');
+					checkPageLeft();
+				}
+		    }, 40));
 	}*/
 
 	switch($('#crimson-book').turn('page')){
@@ -3525,6 +3604,7 @@ function checkPageRight(){
 		default:
 			break;
 	}
+
 
 
 }
@@ -4100,4 +4180,91 @@ function dragElement(elmnt) {
 	document.onmouseup = null;
 	document.onmousemove = null;
 	}
+}
+
+
+/* Typing Effect */
+
+var i = 0,
+    a = 0,
+    isBackspacing = false,
+    isParagraph = false,
+    speedForward = 200,
+    speedBetweenLines=100,
+    speedWait = 100,
+    speedBackspace=100;
+
+// Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
+var textArray = [
+  "Aaaaaaaa",
+  "Bbbbbbbb"
+];
+
+function typeWriter(id, ar) {
+  var element = $("#" + id),
+      aString = ar[a],
+      eHeader = element, //Header element
+      eParagraph = element; //Subheader element
+  
+  // Determine if animation should be typing or backspacing
+  if (!isBackspacing) {
+    
+    // If full string hasn't yet been typed out, continue typing
+    if (i < aString.length) {
+      
+      // If character about to be typed is a pipe, switch to second line and continue.
+      if (aString.charAt(i) == "|") {
+        isParagraph = true;
+        //eHeader.removeClass("cursor");
+        //eParagraph.addClass("cursor");
+        i++;
+        setTimeout(function(){ typeWriter(id, ar); }, speedBetweenLines);
+        
+      // If character isn't a pipe, continue typing.
+      } else {
+        // Type header or subheader depending on whether pipe has been detected
+        if (!isParagraph) {
+          eHeader.text(eHeader.text() + aString.charAt(i));
+        } else {
+          eParagraph.text(eParagraph.text() + aString.charAt(i));
+        }
+        i++;
+        setTimeout(function(){ typeWriter(id, ar); }, speedForward);
+      }
+      
+    // If full string has been typed, switch to backspace mode.
+    } else if (i == aString.length) {
+      
+      isBackspacing = true;
+      setTimeout(function(){ typeWriter(id, ar); }, speedWait);
+      
+    }
+    
+  // If backspacing is enabled
+  } else {
+    
+    // If either the header or the paragraph still has text, continue backspacing
+    if (eHeader.text().length > 0 || eParagraph.text().length > 0) {
+      
+      // If paragraph still has text, continue erasing, otherwise switch to the header.
+      if (eParagraph.text().length > 0) {
+        eParagraph.text(eParagraph.text().substring(0, eParagraph.text().length - 1));
+      } else if (eHeader.text().length > 0) {
+        eParagraph.removeClass("cursor");
+        eHeader.addClass("cursor");
+        eHeader.text(eHeader.text().substring(0, eHeader.text().length - 1));
+      }
+      setTimeout(function(){ typeWriter(id, ar); }, speedBackspace);
+    
+    // If neither head or paragraph still has text, switch to next quote in array and start typing.
+    } else { 
+      
+      isBackspacing = false;
+      i = 0;
+      isParagraph = false;
+      a = (a + 1) % ar.length; //Moves to next position in array, always looping back to 0
+      setTimeout(function(){ typeWriter(id, ar); }, 50);
+      
+    }
+  }
 }
