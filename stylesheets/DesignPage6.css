@@ -142,16 +142,17 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: calc((var(--init-new-vw) / var(--init-width)) * 92);
+
 }
 
 .lowercase-container .abcd01
 {
-	position: absolute;
+	position: relative;
 	margin: 0;
 	padding: 0;
 	width: calc((var(--init-new-vw) / var(--init-width)) * 508.68);
-	height: calc((var(--init-new-vw) / var(--init-width)) * 76);
-	top: calc((var(--init-new-vw) / var(--init-width)) * 4);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 83.5);
+	
 	left: 0;
 	line-height: calc((var(--init-new-vw) / var(--init-width)) * 88);
 
@@ -177,12 +178,11 @@
 
 .lowercase-container .efgh23
 {
-	position: absolute;
+	position: relative;
 	margin: 0;
 	padding: 0;
 	width: calc((var(--init-new-vw) / var(--init-width)) * 508.68);
-	height: calc((var(--init-new-vw) / var(--init-width)) * 76);
-	top: calc((var(--init-new-vw) / var(--init-width)) * 80);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 83.5);
 	left: 0;
 	line-height: calc((var(--init-new-vw) / var(--init-width)) * 88);
 
@@ -227,15 +227,14 @@
 
 .lowercase-container .ijk45
 {
-	position: absolute;
+	position: relative;
 	margin: 0;
 	padding: 0;
 	width: calc((var(--init-new-vw) / var(--init-width)) * 508.68);
-	height: calc((var(--init-new-vw) / var(--init-width)) * 76);
-	top: calc((var(--init-new-vw) / var(--init-width)) * 154);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 83.5);
 	left: 0;
 	line-height: calc((var(--init-new-vw) / var(--init-width)) * 88);
-
+	top:0;
 	display: flex;
 	list-style: none;
 }
@@ -271,12 +270,12 @@
 
 .lowercase-container .lmn67
 {
-	position: absolute;
+	position: relative;
 	margin: 0;
 	padding: 0;
 	width: calc((var(--init-new-vw) / var(--init-width)) * 508.68);
-	height: calc((var(--init-new-vw) / var(--init-width)) * 76);
-	top: calc((var(--init-new-vw) / var(--init-width)) * 228);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 83.5);
+	top:0;
 	left: 0;
 	line-height: calc((var(--init-new-vw) / var(--init-width)) * 88);
 
@@ -317,12 +316,12 @@
 
 .lowercase-container .opqr89
 {
-	position: absolute;
+	position: relative;
 	margin: 0;
 	padding: 0;
 	width: calc((var(--init-new-vw) / var(--init-width)) * 508.68);
-	height: calc((var(--init-new-vw) / var(--init-width)) * 76);
-	top: calc((var(--init-new-vw) / var(--init-width)) * 302);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 83.5);
+	
 	left: 0;
 	line-height: calc((var(--init-new-vw) / var(--init-width)) * 88);
 
@@ -368,12 +367,11 @@
 
 .lowercase-container .st
 {
-	position: absolute;
+	position: relative;
 	margin: 0;
 	padding: 0;
 	width: calc((var(--init-new-vw) / var(--init-width)) * 508.68);
-	height: calc((var(--init-new-vw) / var(--init-width)) * 76);
-	top: calc((var(--init-new-vw) / var(--init-width)) * 376);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 83.5);
 	left: 0;
 	line-height: calc((var(--init-new-vw) / var(--init-width)) * 88);
 
@@ -400,12 +398,12 @@
 
 .lowercase-container .uvw
 {
-	position: absolute;
+	position: relative;
 	margin: 0;
 	padding: 0;
 	width: calc((var(--init-new-vw) / var(--init-width)) * 508.68);
-	height: calc((var(--init-new-vw) / var(--init-width)) * 76);
-	top: calc((var(--init-new-vw) / var(--init-width)) * 450);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 83.5);
+	
 	left: 0;
 	line-height: calc((var(--init-new-vw) / var(--init-width)) * 88);
 
@@ -434,12 +432,11 @@
 
 .lowercase-container .xyz
 {
-	position: absolute;
+	position: relative;
 	margin: 0;
 	padding: 0;
 	width: calc((var(--init-new-vw) / var(--init-width)) * 508.68);
-	height: calc((var(--init-new-vw) / var(--init-width)) * 76);
-	top: calc((var(--init-new-vw) / var(--init-width)) * 524);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 83.5);
 	left: 0;
 	line-height: calc((var(--init-new-vw) / var(--init-width)) * 88);
 
