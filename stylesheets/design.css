@@ -915,7 +915,7 @@ display: none;
 
 
 .Intro-right-page-1 .hamburger_btn.active{
-	trasform: rotate(90deg);
+	transform: rotate(90deg);
 }
 
 .Intro-right-page-1 .hamburger_btn.active .one{
