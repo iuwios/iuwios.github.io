@@ -58,7 +58,7 @@
       <section class="book" id="book" >
         <div class="btn-book btn-mpl" id="play-book"><div class="play" id="playps"></div></div>
         <div class="btn-book btn-mop" id="open-book">OPEN</div>
-        <a href="New/index.html" class="Changes">Book Design Changes</a>
+        <!--<a href="New/index.html" class="Changes">Book Design Changes</a>-->
         <div class="bookup" id="bookup">
           <div class="book-container" id="book-container" >
             <div class="book-front"></div>
@@ -75,6 +75,8 @@
 
       <!--Crimson Pro Book Open, Turn Pages-->
       <section class="contain" id="contain">
+        <img src="images/bookcol.png" class="book-col">
+
         <div class="btn_left" id="left" >
           <img src="images/VectorL.svg" alt="left" class="btn-center"></div>
         <div class="btn_right" id="right" >
@@ -82,8 +84,6 @@
 
         <div class="crimson-book" id="crimson-book">
           <div></div>
-
-
           <div class="Intro-left-page-1" id="pg" >
             <div class="gradient-line-l"></div>
             <!--<div class="Ag-container">
@@ -607,7 +607,6 @@
               <div class="right-pg-number">LOWERCASE</div>
               <textarea class="text-nocake" id="text-nocake">“So she set to&#10;work, and very&#10;soon finished off&#10;the cake”</textarea>
               <img src="images/nocake.svg" alt="nocake" class="nocake">
-
             </div>
 
             <div class="Design-left-page-6-2" id="pg">
@@ -1176,7 +1175,7 @@
                <h2>acknowledgement</h2>
                <div class="sebastian">
                 <h5>Sebastian Kosch</h5>
-                <p>Sebastian is a software engineer and researcher with a weakness for good typography. He currently lives in Toronto. He sketched the first version  of Crimson in 2009, before Google Fonts launched. He was a freshman engineering student at the time, and drawing letters was more fun than studying for his calculus exams.</p>
+                <p>Sebastian is a software engineer and researcher with a weakness for good typography. He currently lives in Toronto. He sketched the first version of Crimson in 2009, before Google Fonts launched. He was a freshman engineering student at the time, and drawing letters was more fun than studying for his calculus exams.</p>
               </div>
               
               <div class="container">
@@ -1245,8 +1244,8 @@
       <section class="Example-1" id="Example-1">
         <div class="Example-left-page-2" id="example1">
           <input type="text" value="input new topic" class="e2-topic" id="e2-topic"style="display:none"></input>
-          <dir class="input-topic" id="input-topic" style="display:none">submit</dir>
-nav-c          <img src="images/updatenews.svg" class="reload" id="reload">
+          <div class="input-topic" id="input-topic" style="display:none">submit</div>
+          <img src="images/updatenews.svg" class="reload" id="reload">
           <img src="images/newspaper.svg" alt="newspaper" class="newspaper" id="newspaper">
 
           <h1>THE CRIMSON PRO DAILY</h1>
@@ -1284,76 +1283,117 @@ nav-c          <img src="images/updatenews.svg" class="reload" id="reload">
       </section>
 
         <section class="Example-2" id="Example-2">
+          <div class="top-menu">
+            <div class="circ c-l-1"></div>
+            <div class="circ c-l-2"></div>
+            <div class="circ c-l-3"></div>
+          </div>
+
           <div class="Example-left-page-3" >
-              <div class="title-manuscript">Type a Manuscript</div>
-              <textarea class="dark-mode" id="dark-mode">*Click on the texts to tweak the story.&#10;Try out Dark Mode with Variable Fonts</textarea>
-              <div class="LastPage" id="LastPage">
-                <div class="Example3-line1" id="Example3-line1"></div>
-                <div class="Example3-line2" id="Example3-line2"></div>
-                <div class="Example3-line3" id="Example3-line3"></div>
-                <div class="Example3-line4" id="Example3-line4"></div>
-                <div class="book-title">BOOK TITLE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</div>
-                <div class="book-overview">OVERVIEW &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
-                <div class="book-characters">CHARACATERS :</div>
-                <div class="book-story">STORY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
-                <textarea class="h-1" id="book-title">Dog's Adventure in vortex</textarea>
-                <textarea class="h-2" id="book-overview">This is a book about a dog and her ball, who get stuck in a mystical vortex full of daemons and panthers.</textarea>
-                <textarea class="h-3" id="book-character-1">Dog</textarea>
-                <textarea class="h-4" id="book-character-2">Ballerina</textarea>
-                <textarea class="h-5" id="book-character-1-txt">Spunky, pixie dream girl. Loves to bark orders.</textarea>
-                <textarea class="h-6" id="book-character-2-txt">Born a basketball, dreams of becoming a wrecking ball</textarea>
-                <textarea class="h-7" id="book-chapter">Chapter-1</textarea>
-                <textarea class="h-8" id="book-chapter-txt">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</textarea>
-                <div class="h-9">Manuscript</div>
-              </div>
+            <div class="h-1-container">
+              <textarea class="h-1 h-beg" id="h-1">Avante-Garde</textarea>
+              <textarea class="h-1 h-cent" id="h-2">Orchestral</textarea>
+              <textarea class="h-1 h-cent" id="h-3">Baroque</textarea>
+              <textarea class="h-1 h-cent" id="h-4">Opera</textarea>
+              <textarea class="h-1 h-cent" id="h-5">Minimalism</textarea>
+              <textarea class="h-1 h-end" id="h-6">Impressionist</textarea>
+            </div>
+            <textarea class="h-main" id="h-main">CRIMSON MUSIC</textarea>
+
+            <div class="perform-container">
+              <textarea class="p-1">Performers</textarea>
+              <textarea class="p-1 p-mid">Address of concerts</textarea>
+              <textarea class="p-1 p-end">Time</textarea>
+              <div class="e-line-f e-line-top-1 e-border"></div>
+              <div class="e-line-f e-line-top-2 e-border"></div>
+              <div class="e-line-f e-line-top-3 e-border"></div>
+              <div class="e-line-f e-line-top-4 e-border"></div>
+              <div class="e-line-f e-line-top-5 e-border"></div>
+
+              <div class="e-line-s e-line-top-1 e-border"></div>
+              <div class="e-line-s e-line-top-2 e-border"></div>
+              <div class="e-line-s e-line-top-3 e-border"></div>
+              <div class="e-line-s e-line-top-4 e-border"></div>
+              <div class="e-line-s e-line-top-5 e-border"></div>
+
+              <div class="e-line-s-2 e-line-top-1 e-border"></div>
+              <div class="e-line-s-2 e-line-top-2 e-border"></div>
+              <div class="e-line-s-2 e-line-top-3 e-border"></div>
+              <div class="e-line-s-2 e-line-top-4 e-border"></div>
+              <div class="e-line-s-2 e-line-top-5 e-border"></div>
+
+              <div class="e-line-t e-line-top-1 e-border"></div>
+              <div class="e-line-t e-line-top-2 e-border"></div>
+              <div class="e-line-t e-line-top-3 e-border"></div>
+              <div class="e-line-t e-line-top-4 e-border"></div>
+              <div class="e-line-t e-line-top-5 e-border"></div>
+
+              <div class="e-line-m e-line-top-1 e-border"></div>
+              <div class="e-line-m e-line-top-2 e-border"></div>
+              <div class="e-line-m e-line-top-3 e-border"></div>
+              <div class="e-line-m e-line-top-4 e-border"></div>
+              <div class="e-line-m e-line-top-5 e-border"></div>
+
+              <div class="e-line-l e-line-top-1 e-border"></div>
+              <div class="e-line-l e-line-top-2 e-border"></div>
+              <div class="e-line-l e-line-top-3 e-border"></div>
+              <div class="e-line-l e-line-top-4 e-border"></div>
+              <div class="e-line-l e-line-top-5 e-border"></div>
+
+              <textarea class="pf e-line-top-1" id="pf-1">Frédéric Chopin</textarea>
+              <textarea class="pf e-line-top-2" id="pf-2">Igor Stravinsky</textarea>
+              <textarea class="pf e-line-top-3" id="pf-3">Giuseppe Verdi</textarea>
+              <textarea class="pf e-line-top-4" id="pf-4">Niccolò Paganini</textarea>
+
+              <textarea class="and e-line-top-1" id="and-1">&</textarea>
+              <textarea class="and e-line-top-2" id="and-1">&</textarea>
+              <textarea class="and e-line-top-3" id="and-1">&</textarea>
+              <textarea class="and e-line-top-4" id="and-1">&</textarea>
+
+              <textarea class="colon e-line-top-1" id="and-1">:</textarea>
+              <textarea class="colon e-line-top-2" id="and-1">:</textarea>
+              <textarea class="colon e-line-top-3" id="and-1">:</textarea>
+              <textarea class="colon e-line-top-4" id="and-1">:</textarea>
+
+              <textarea class="pf-2 e-line-top-1" id="pf-1">Robert Schumann</textarea>
+              <textarea class="pf-2 e-line-top-2" id="pf-2">Gustav Mahler</textarea>
+              <textarea class="pf-2 e-line-top-3" id="pf-3">Johannes Brahms</textarea>
+              <textarea class="pf-2 e-line-top-4" id="pf-4">Claude Debussy</textarea>
+
+              <textarea class="pl e-line-top-1" id="pf-1">9799 Riverview St. Brooklyn, NY 11237</textarea>
+              <textarea class="pl e-line-top-2" id="pf-2">9503 6th St. Brooklyn, NY 11228</textarea>
+              <textarea class="pl e-line-top-3" id="pf-3">178 W. Vine Rd. New York, NY 10023</textarea>
+              <textarea class="pl e-line-top-4" id="pf-4">8723 Olive St. Buffalo, NY 14221</textarea>
+
+              <textarea class="tm e-line-top-1" id="pf-1">7 PM-10 PM</textarea>
+              <textarea class="tm e-line-top-2" id="pf-2">8 PM-10 PM</textarea>
+              <textarea class="tm e-line-top-3" id="pf-3">7 PM-10 PM</textarea>
+              <textarea class="tm e-line-top-4" id="pf-4">9 PM-11 PM</textarea>
+
+            </div>
+
+            <div class="about-container">
+              <textarea class="e-ab" id="pf-4">ABOUT</textarea>
+              <textarea class="e-ab-tx" id="pf-4">Crimson Music is an online music streaming service which focus on classical music. It started as an interactive website to place a higher value in music rather than the monetary value of it. This value of music is shown through the problems people would have to overcome in</textarea>
+              <textarea class="e-ab-tx e-ab-tx-l" id="pf-4">order to listen to each song on the website. Since 2020, Amiri 4 styles built an unique archive; featuring over 5,000 performances, by more that 3,000 composers and artists, enabling everyone regardless of where they live.</textarea>
+            </div>
+
+            <div class="th-info">
+              <textarea class="e-dc">DISTRIBUTION</textarea>
+              <textarea class="e-dc e-dc-l">COMMISIONS</textarea>
+              <textarea class="e-d-txt">Buttercup Theatre &#10;7838 East Highland Road Brooklyn, NY 11219</textarea>
+              <textarea class="e-d-txt e-dc-l">Amiri LLC. &#10;80 Winding Way St. &#10;North Tonawanda, NY 14120</textarea>
+            </div>
+
+            <div class="e-ds">
+              <img src="images/epic.png" class="e-pic">
+            </div>
+
             
-              <div class="tweak-box-container" id="tweak-box-container">
-                <div class="tweak-box-containerheader" id="tweak-box-containerheader"></div>
-                <h1>Type Playground</h1>
-                <div class="text-weight-container" id="text-weight-container">
-                  <h2>Weight Axis</h2>
-                  <h3>This axis changes the thickness of the text by<br>increasing or decreasing the boldness</h3>
-                </div>
-                
-                <div class="weight-val"></div>
-                <div class="size-val"></div>
-
-                <div class="weight-slider-container">
-                  <div class="value_text" id="e3-value-weight">400</div>
-                  <div class="slider-elements">Weight : </div>
-                  <input type="range" min="200" max="900" value="400" class="slider-changes" id="e3-example-slider-weight">
-                </div>
-
-                <div class="size-slider-container">
-                  <div class="value_text" id="e3-value-size">20</div>
-                  <div class="slider-elements">Size : </div>
-                  <input type="range" min="1" max="200" value="20" class="slider-changes" id="e3-example-slider-size">
-                </div>
-
-                <div class="lineheight-slider-container">
-                  <div class="value_text" id="e3-value-lineheight">28</div>
-                  <div class="slider-elements">Line Height : </div>
-                  <input type="range" min="1" max="200" value="28" class="slider-changes" id="e3-example-slider-lineheight">
-                </div>
-                
-           
-                <div class="checkbox-container">
-                  
-                  <label class="box-container">Italics
-                    <input type="checkbox" id="checkbox_ital" checked="checked">
-                    <span class="checkmark" id="checkmark1"></span>
-                  </label>
-                  <label class="box-container">Dark Mode
-                    <input type="checkbox" id="e3-dark-mode" onclick="darkFunction()" >
-                    <span class="checkmark" id="checkmark2"></span>
-                  </label>
-                    <label class="color-con">
-                    <input type="color" class="pick-color" id="pick-color">
-                  </label>
-                
-                </div>  
-
-              </div>
+          </div>
+            
+          <div class="Example-right-page-3" >
+              
           </div>
 
 

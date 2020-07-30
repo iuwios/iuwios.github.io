@@ -11,6 +11,13 @@
 {
 	box-sizing: border-box;
 	-webkit-font-smoothing: antialiased;
+	font-family: 'Crimson Pro', serif;
+}
+textarea{
+	border: none;
+	resize: none;
+	overflow: hidden;
+	background: transparent;
 }
 
 :root {
@@ -57,7 +64,8 @@
 	--astr-margin-right: -25;
 	--astr-margin-top: -73;
 
-	--e3-text-weight: 402;
+	--e3-text-weight: 400;
+	--e3-text-main: 800;
 	--e3-text-size: 16;
 	--e3-text-lineheight: 18;
 }
@@ -73,6 +81,7 @@ body
 	/*overflow: hidden;*/
 	
 }
+
 
 /* width */
 body::-webkit-scrollbar {
@@ -134,9 +143,23 @@ body::-webkit-scrollbar-thumb:hover {
 	height: calc((100vw / var(var(--init-width))) * 792);*/
 	position: absolute; 
 	/*left: 5.972vw;*/
-	scroll-snap-align: center;
+	
 	top: calc((var(--init-new-vw) / var(--init-width)) * 30); 
 	margin: 0 auto;
+	z-index: 10;
+}
+
+.book-col{
+	width: calc((var(--init-new-vw) / var(--init-width)) * 1300);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 793); 
+	margin: 0 auto;
+	z-index: 1;
+	position: absolute;
+	top:calc((var(--init-new-vw) / var(--init-width)) * 30); 
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto; 
 }
 
 .Changes{

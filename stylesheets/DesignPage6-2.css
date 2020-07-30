@@ -56,7 +56,9 @@
 
 }
 
-
+.Design-left-page-6-2 .left-pg-number2{
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 14);
+}
 .regular-caps{
 	position: absolute;
 	

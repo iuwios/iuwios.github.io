@@ -3698,7 +3698,7 @@ image.addEventListener('mousemove', function(e){
 
 
 
-/* example 3 */
+/* example 3 
 
 const slider_e3_weight = document.getElementById("e3-example-slider-weight");
 const output_e3_weight = document.getElementById("e3-value-weight");
@@ -4140,6 +4140,7 @@ dark_mode.onclick = function()
 
 // Make the DIV element draggable:
 dragElement(document.getElementById("tweak-box-container"));
+*/
 
 function dragElement(elmnt) {
 	var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
