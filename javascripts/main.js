@@ -3704,9 +3704,27 @@ var tswap = 0;
 
 var tk_out = document.getElementById("tk-output");
 var tk_slide = document.getElementById("slider-tk");
+var e3_h1 = document.getElementById("h-1-container");
+var e3_main = document.getElementById("h-main");
+var e3_perform = document.getElementById("perform-container");
+var e3_about = document.getElementById("about-container");
+var e3_th = document.getElementById("th-info");
+var e3_right = document.getElementById("Example-right-page-3");
 
 tk_slide.addEventListener("input", function(){
 	tk_out.innerHTML = tk_slide.value;
+
+	var a = Math.floor((tk_slide.value/100) * 300);
+	var b = Math.floor((tk_slide.value/100) * 100);
+	var mn = Math.floor(((tk_slide.value)/100) * 100);
+
+	e3_h1.style.setProperty('--e3-text-weight', a+400);
+	e3_perform.style.setProperty('--e3-text-weight', b+400);
+	e3_about.style.setProperty('--e3-text-weight', b+400);
+	e3_th.style.setProperty('--e3-text-weight', b+400);
+	e3_right.style.setProperty('--e3-text-weight', b+400);
+	e3_main.style.setProperty('--e3-text-main', mn+ 800);
+	console.log(a+400);
 });
 
 tk_box.addEventListener("click", function(){

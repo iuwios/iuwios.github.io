@@ -68,6 +68,7 @@ textarea{
 	--e3-text-main: 800;
 	--e3-text-size: 16;
 	--e3-text-lineheight: 18;
+	--e3-weight-multiplier: 1;
 
 
 	--init-tk-width: 92;
