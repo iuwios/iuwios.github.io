@@ -45,8 +45,8 @@ if(window.innerWidth > 1000){
 	var accessintro = false;
 
 	function myFunction() {
-		console.log(navbar2.offsetTop);
-		console.log("Window: " + window.pageYOffset);
+		//console.log(navbar2.offsetTop);
+		//console.log("Window: " + window.pageYOffset);
 
 	    if (window.pageYOffset >= sticky && window.pageYOffset <navbar2.offsetTop) {
 			  //navbar.classList.add("sticky");
@@ -57,14 +57,14 @@ if(window.innerWidth > 1000){
 			navbar.style.setProperty('--sticky-2', navbar2.offsetTop+navbar2.offsetHeight - navbar.offsetHeight + "px");
 			navbar.style.position="absolute";
 			accesschange = false;
-			console.log("mid");
+			//console.log("mid");
 		}   
 		else{
 			//navbar.classList.remove("sticky");
 			navbar.style.position="absolute";
 			navbar.style.setProperty('--sticky-2', navbar3.offsetTop + navbar3.offsetHeight + "px");
 			accesschange = true;
-			console.log("remove");
+			//console.log("remove");
 		}
 
 		if (window.pageYOffset >= pgExample && accesschange) {
@@ -3712,7 +3712,7 @@ tk_slide.addEventListener("input", function(){
 tk_box.addEventListener("click", function(){
 	if(tswap == 0){
 		tk_box.style.setProperty('--init-tk-width', 563); 
-		tk_box.style.setProperty('--init-tk-left', 828);
+		//tk_box.style.setProperty('--init-tk-left', 828);
 		tk_disp.style.display = 'block';
 		//tk_disp.style.pointerEvents = 'none';
 		//tk_circ.style.pointerEvents = 'auto';
