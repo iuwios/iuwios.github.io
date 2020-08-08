@@ -3716,13 +3716,14 @@ tk_slide.addEventListener("input", function(){
 
 	var a = Math.floor((tk_slide.value/100) * 300);
 	var b = Math.floor((tk_slide.value/100) * 100);
+	var c = Math.floor((tk_slide.value/100) * 200);
 	var mn = Math.floor(((tk_slide.value)/100) * 100);
 
 	e3_h1.style.setProperty('--e3-text-weight', a+400);
 	e3_perform.style.setProperty('--e3-text-weight', b+400);
 	e3_about.style.setProperty('--e3-text-weight', b+400);
 	e3_th.style.setProperty('--e3-text-weight', b+400);
-	e3_right.style.setProperty('--e3-text-weight', b+400);
+	e3_right.style.setProperty('--e3-text-weight', c+400);
 	e3_main.style.setProperty('--e3-text-main', mn+ 800);
 	console.log(a+400);
 });
