@@ -53,6 +53,8 @@
 	border-radius: calc((var(--init-new-vw) / 1440) * 27);
 	background: #696969;
 	transition: 1s;
+	pointer-events: auto;
+	z-index: 1;
 }
 .tk-disp{
 	position: absolute;
@@ -61,6 +63,8 @@
 	height: calc((var(--init-new-vw) / 1440) * 92);
 	left: 0;
 	top: 0;
+	pointer-events: none;
+	z-index: 2;
 }
 .tk-moon{
 	position: absolute;

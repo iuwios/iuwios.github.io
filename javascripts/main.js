@@ -3710,23 +3710,30 @@ tk_slide.addEventListener("input", function(){
 });
 
 tk_box.addEventListener("click", function(){
-	if(tswap == 0){
+	//if(tk_box.style.pointerEvents=='auto' || tk_box.style.pointerEvents==''){
+		
 		tk_box.style.setProperty('--init-tk-width', 563); 
-		//tk_box.style.setProperty('--init-tk-left', 828);
 		tk_disp.style.display = 'block';
-		//tk_disp.style.pointerEvents = 'none';
-		//tk_circ.style.pointerEvents = 'auto';
-		tswap = 1;
-	}
+
+		tk_box.style.pointerEvents = "none";
+		tk_disp.style.pointerEvents = 'auto';
+		//console.log("TK-DISP: " + tk_disp.style.pointerEvents);
+		//console.log("TK-BOX: " + tk_box.style.pointerEvents);
+		//tswap = 1;
+	//}
+	
 });
 
 tk_circ.addEventListener("click", function(){
-	tk_box.style.setProperty('--init-tk-width', 92); 
+	event.stopPropagation();
+
+	tk_box.style.setProperty('--init-tk-width', 92);  
 	tk_disp.style.display = 'none';
-	console.log("clicked");
-	//tk_disp.style.pointerEvents = 'auto';
-	//tk_circ.style.pointerEvents = 'none';
-	tswap = 0;
+
+	tk_box.style.pointerEvents = 'auto';
+	tk_disp.style.pointerEvents = 'none';
+	//console.log("TK-DISP: " + tk_disp.style.pointerEvents);
+	//console.log("TK-BOX: " + tk_box.style.pointerEvents);
 });
 
 
