@@ -9,6 +9,15 @@
 	top: calc((100vw / 1440) * 80);
 }
 
+.Example3-container{
+	position: relative;
+	width: calc((var(--init-new-vw) / 1440) * 1274);
+	height: calc((var(--init-new-vw) / 1440) * 762);
+	top: calc((var(--init-new-vw) / 1440) * 31);
+	margin: 0 auto;
+
+}
+
 .Example-left-page-3
 {
 	display: block;
@@ -16,9 +25,8 @@
 	height: calc((var(--init-new-vw) / 1440) * 596.23);
 	background-color: #FEFEFE;
 	position: absolute;
-	top: calc((var(--init-new-vw) / 1440) * 192);
-	left: calc((var(--init-new-vw) / 1440) * 94);
-	margin: 0 auto;
+	top: calc((var(--init-new-vw) / 1440) * 160);
+	left: 0;
 }
 
 .Example-right-page-3
@@ -28,25 +36,116 @@
 	height: calc((var(--init-new-vw) / 1440) * 548);
 	background-color: #FFFFFF;
 	position: absolute;
-	top: calc((var(--init-new-vw) / 1440) * 228);
-	left: calc((var(--init-new-vw) / 1440) * 1080);
-	margin: 0 auto;
-
-	
+	top: calc((var(--init-new-vw) / 1440) * 197);
+	left: calc((var(--init-new-vw) / 1440) * 980);
 	border-radius: calc((var(--init-new-vw) / 1440) * 10);
 	box-shadow: 0 0 0 .6em lightgrey;
-	
-
 }
 
 /*left*/
+
+.tweak-bx{
+	position: absolute;
+	width: calc((var(--init-new-vw) / 1440) * var(--init-tk-width));
+	height: calc((var(--init-new-vw) / 1440) * 92);
+	right: 0;
+	top: calc((var(--init-new-vw) / 1440) * 11);
+	border-radius: calc((var(--init-new-vw) / 1440) * 27);
+	background: #696969;
+	transition: 1s;
+}
+.tk-disp{
+	position: absolute;
+	display: none;
+	width: calc((var(--init-new-vw) / 1440) * var(--init-tk-width));
+	height: calc((var(--init-new-vw) / 1440) * 92);
+	left: 0;
+	top: 0;
+}
+.tk-moon{
+	position: absolute;
+	width: calc((var(--init-new-vw) / 1440) * 41);
+	height: calc((var(--init-new-vw) / 1440) * 41);
+	top: calc((var(--init-new-vw) / 1440) * 26);
+	z-index: 100;
+}
+
+.slider-tk{
+	position: absolute;
+	width: calc((var(--init-new-vw) / 1440) * 331);
+	height: calc((var(--init-new-vw) / 1440) * 1.5);
+	left: calc((var(--init-new-vw) / 1440) * 25);
+	top: calc((var(--init-new-vw) / 1440) * 50);
+
+	-webkit-appearance: none;  /* 13 */
+	-ms-appearance:none;
+  	-moz-appearance: none;
+	     appearance: none;
+  	background: black;
+  	outline: none !important;
+}
+
+.slider-tk::before{
+	content: "";
+	position: absolute;
+	height: calc((var(--init-new-vw) / 1440) * 7);
+	top: calc((var(--init-new-vw) / 1440) * -3);
+	left:0;
+	border-left: calc((var(--init-new-vw) / 1440) * 1.5) solid black;
+}
+.slider-tk::after{
+	content: "";
+	position: absolute;
+	height: calc((var(--init-new-vw) / 1440) * 7);
+	top: calc((var(--init-new-vw) / 1440) * -3);
+	right:0;
+	border-right: calc((var(--init-new-vw) / 1440) * 1.5) solid black;
+}
+
+.slider-tk::-webkit-slider-thumb
+ {
+	-webkit-appearance: none;
+	transform: scale(1) !important;
+	appearance: none;
+	width: calc((var(--init-new-vw) / var(--init-width)) * 15.5);
+	height: calc((var(--init-new-vw) / var(--init-width)) * 15.5);
+	border-radius: 100px;
+	background: black;
+	outline: none !important;
+}
+
+.tk-txt{
+	position: absolute;
+	left: calc((var(--init-new-vw) / var(--init-width)) * 25);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 15);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 15);
+}
+
+.tk-output{
+	position: absolute;
+	left: calc((var(--init-new-vw) / var(--init-width)) * 77);
+	top: calc((var(--init-new-vw) / var(--init-width)) * 15);
+	font-size: calc((var(--init-new-vw) / var(--init-width)) * 15);
+}
+
+.tk-r-m{
+	right: calc((var(--init-new-vw) / 1440) * 92);
+}
+.tk-r-c{
+	right: calc((var(--init-new-vw) / 1440) * 25);
+	background: #000000;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+
 .top-menu{
 	position: absolute;
 	width: calc((var(--init-new-vw) / 1440) * 953.96);
 	height: calc((var(--init-new-vw) / 1440) * 40.8);
 	background-color: #4D4D4D;
-	top: calc((var(--init-new-vw) / 1440) * 175.5);
-	left: calc((var(--init-new-vw) / 1440) * 94);
+	top: calc((var(--init-new-vw) / 1440) * 144);
+	left: 0;
 	margin: 0 auto;
 	z-index: 100;
 	border-top-left-radius: calc((var(--init-new-vw) / 1440) * 9);
@@ -498,6 +597,8 @@
 	top: calc((var(--init-new-vw) / 1440) * 107);
 	width: calc((var(--init-new-vw) / 1440) * 278.82);
 }
+
+
 
 @media screen and (max-width: 1000px){
 .Example-2

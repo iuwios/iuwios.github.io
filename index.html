@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="stylesheets/ExamplePage2.css" />
     <link rel="stylesheet" href="stylesheets/ExamplePage3.css" />
     <link rel="stylesheet" href="stylesheets/RecognitionPage1.css" />
+    <link rel="stylesheet" href="stylesheets/CreditPage.css" />
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>   
     <script>
@@ -1283,140 +1284,170 @@
       </section>
 
         <section class="Example-2" id="Example-2">
-          <div class="top-menu">
-            <div class="circ c-l-1"></div>
-            <div class="circ c-l-2"></div>
-            <div class="circ c-l-3"></div>
-          </div>
-
-          <div class="Example-left-page-3" >
-            <div class="h-1-container">
-              <textarea class="h-1 h-beg" id="h-1">Avante-Garde</textarea>
-              <textarea class="h-1 h-cent" id="h-2">Orchestral</textarea>
-              <textarea class="h-1 h-cent" id="h-3">Baroque</textarea>
-              <textarea class="h-1 h-cent" id="h-4">Opera</textarea>
-              <textarea class="h-1 h-cent" id="h-5">Minimalism</textarea>
-              <textarea class="h-1 h-end" id="h-6">Impressionist</textarea>
-            </div>
-            <textarea class="h-main" id="h-main">CRIMSON MUSIC</textarea>
-
-            <div class="perform-container">
-              <textarea class="p-1">Performers</textarea>
-              <textarea class="p-1 p-mid">Address of concerts</textarea>
-              <textarea class="p-1 p-end">Time</textarea>
-              <div class="e-line-f e-line-top-1 e-border"></div>
-              <div class="e-line-f e-line-top-2 e-border"></div>
-              <div class="e-line-f e-line-top-3 e-border"></div>
-              <div class="e-line-f e-line-top-4 e-border"></div>
-              <div class="e-line-f e-line-top-5 e-border"></div>
-
-              <div class="e-line-s e-line-top-1 e-border"></div>
-              <div class="e-line-s e-line-top-2 e-border"></div>
-              <div class="e-line-s e-line-top-3 e-border"></div>
-              <div class="e-line-s e-line-top-4 e-border"></div>
-              <div class="e-line-s e-line-top-5 e-border"></div>
-
-              <div class="e-line-s-2 e-line-top-1 e-border"></div>
-              <div class="e-line-s-2 e-line-top-2 e-border"></div>
-              <div class="e-line-s-2 e-line-top-3 e-border"></div>
-              <div class="e-line-s-2 e-line-top-4 e-border"></div>
-              <div class="e-line-s-2 e-line-top-5 e-border"></div>
-
-              <div class="e-line-t e-line-top-1 e-border"></div>
-              <div class="e-line-t e-line-top-2 e-border"></div>
-              <div class="e-line-t e-line-top-3 e-border"></div>
-              <div class="e-line-t e-line-top-4 e-border"></div>
-              <div class="e-line-t e-line-top-5 e-border"></div>
-
-              <div class="e-line-m e-line-top-1 e-border"></div>
-              <div class="e-line-m e-line-top-2 e-border"></div>
-              <div class="e-line-m e-line-top-3 e-border"></div>
-              <div class="e-line-m e-line-top-4 e-border"></div>
-              <div class="e-line-m e-line-top-5 e-border"></div>
-
-              <div class="e-line-l e-line-top-1 e-border"></div>
-              <div class="e-line-l e-line-top-2 e-border"></div>
-              <div class="e-line-l e-line-top-3 e-border"></div>
-              <div class="e-line-l e-line-top-4 e-border"></div>
-              <div class="e-line-l e-line-top-5 e-border"></div>
-
-              <textarea class="pf e-line-top-1" id="pf-1">Frédéric Chopin</textarea>
-              <textarea class="pf e-line-top-2" id="pf-2">Igor Stravinsky</textarea>
-              <textarea class="pf e-line-top-3" id="pf-3">Giuseppe Verdi</textarea>
-              <textarea class="pf e-line-top-4" id="pf-4">Niccolò Paganini</textarea>
-
-              <textarea class="and e-line-top-1" id="and-1">&</textarea>
-              <textarea class="and e-line-top-2" id="and-1">&</textarea>
-              <textarea class="and e-line-top-3" id="and-1">&</textarea>
-              <textarea class="and e-line-top-4" id="and-1">&</textarea>
-
-              <textarea class="colon e-line-top-1" id="and-1">:</textarea>
-              <textarea class="colon e-line-top-2" id="and-1">:</textarea>
-              <textarea class="colon e-line-top-3" id="and-1">:</textarea>
-              <textarea class="colon e-line-top-4" id="and-1">:</textarea>
-
-              <textarea class="pf-2 e-line-top-1" id="pf-1">Robert Schumann</textarea>
-              <textarea class="pf-2 e-line-top-2" id="pf-2">Gustav Mahler</textarea>
-              <textarea class="pf-2 e-line-top-3" id="pf-3">Johannes Brahms</textarea>
-              <textarea class="pf-2 e-line-top-4" id="pf-4">Claude Debussy</textarea>
-
-              <textarea class="pl e-line-top-1" id="pf-1">9799 Riverview St. Brooklyn, NY 11237</textarea>
-              <textarea class="pl e-line-top-2" id="pf-2">9503 6th St. Brooklyn, NY 11228</textarea>
-              <textarea class="pl e-line-top-3" id="pf-3">178 W. Vine Rd. New York, NY 10023</textarea>
-              <textarea class="pl e-line-top-4" id="pf-4">8723 Olive St. Buffalo, NY 14221</textarea>
-
-              <textarea class="tm e-line-top-1" id="pf-1">7 PM-10 PM</textarea>
-              <textarea class="tm e-line-top-2" id="pf-2">8 PM-10 PM</textarea>
-              <textarea class="tm e-line-top-3" id="pf-3">7 PM-10 PM</textarea>
-              <textarea class="tm e-line-top-4" id="pf-4">9 PM-11 PM</textarea>
+          <div class="Example3-container">
+            <div class="tweak-bx" id="tweak-bx">
+              <div class="tk-disp" id="tk-disp">
+                <div class="tk-txt" id="tk-txt">Weight :</div>
+                <div class="tk-output" id="tk-output">400</div>
+                <div class="tk-moon tk-r-c" id="tk-circ"></div>
+                <img src="images/moon.svg" alt="moon" class="tk-moon tk-r-m" id="tk-moon">
+                <input type="range" min="200" max="900" value="500" class="slider-tk" id="slider-tk">
+              </div>
+              
+              
+              
 
             </div>
-
-            <div class="about-container">
-              <textarea class="e-ab" id="pf-4">ABOUT</textarea>
-              <textarea class="e-ab-tx" id="pf-4">Crimson Music is an online music streaming service which focus on classical music. It started as an interactive website to place a higher value in music rather than the monetary value of it. This value of music is shown through the problems people would have to overcome in</textarea>
-              <textarea class="e-ab-tx e-ab-tx-l" id="pf-4">order to listen to each song on the website. Since 2020, Amiri 4 styles built an unique archive; featuring over 5,000 performances, by more than 3,000 composers and artists, enabling everyone regardless of where they live.</textarea>
+            <div class="top-menu">
+              <div class="circ c-l-1"></div>
+              <div class="circ c-l-2"></div>
+              <div class="circ c-l-3"></div>
             </div>
 
-            <div class="th-info">
-              <textarea class="e-dc">DISTRIBUTION</textarea>
-              <textarea class="e-dc e-dc-l">COMMISIONS</textarea>
-              <textarea class="e-d-txt">Buttercup Theatre &#10;7838 East Highland Road Brooklyn, NY 11219</textarea>
-              <textarea class="e-d-txt e-dc-l">Amiri LLC. &#10;80 Winding Way St. &#10;North Tonawanda, NY 14120</textarea>
-            </div>
+            <div class="Example-left-page-3" >
 
-            <div class="e-ds">
-              <img src="images/epic.png" class="e-pic">
-            </div>
+              <div class="h-1-container">
+                <textarea class="h-1 h-beg" id="h-1">Avante-Garde</textarea>
+                <textarea class="h-1 h-cent" id="h-2">Orchestral</textarea>
+                <textarea class="h-1 h-cent" id="h-3">Baroque</textarea>
+                <textarea class="h-1 h-cent" id="h-4">Opera</textarea>
+                <textarea class="h-1 h-cent" id="h-5">Minimalism</textarea>
+                <textarea class="h-1 h-end" id="h-6">Impressionist</textarea>
+              </div>
+              <textarea class="h-main" id="h-main">CRIMSON MUSIC</textarea>
 
-            
-          </div>
-            
-          <div class="Example-right-page-3" >
-            
-            <img src="images/exfill.png" class="e-fill">
-            <div class = "e-r-l-s-container">
-              <div class="e-r-l-s e-r-t"></div>
-              <div class="e-r-l-s e-r-m"></div>
-              <div class="e-r-l-s e-r-b"></div>
-            </div>
-            
-            <textarea class="e-r-out">Outline</textarea>
-            <textarea class="e-r-out e-r-list-t">List of Movements</textarea>
+              <div class="perform-container">
+                <textarea class="p-1">Performers</textarea>
+                <textarea class="p-1 p-mid">Address of concerts</textarea>
+                <textarea class="p-1 p-end">Time</textarea>
+                <div class="e-line-f e-line-top-1 e-border"></div>
+                <div class="e-line-f e-line-top-2 e-border"></div>
+                <div class="e-line-f e-line-top-3 e-border"></div>
+                <div class="e-line-f e-line-top-4 e-border"></div>
+                <div class="e-line-f e-line-top-5 e-border"></div>
 
-            <textarea class="e-r-txt">Born on March 4, 1678, in Venice, Italy, Antonio Vivaldi was appointed as a priest, though he instead chose to follow his passion for music. An inventive composer who created hundreds of compositions, he became renowned for his concertos in Baroque style, as a highly influential innovator in form and pattern.</textarea>
-            <textarea class="e-r-la">II. La primavera</textarea> 
-            <textarea class="e-r-al">1.      Allegro non molto</textarea> 
-            <textarea class="e-r-al e-r-al-m">2.     Largo e pianissimo sempre </textarea> 
-            <textarea class="e-r-al e-r-al-b">3.     Allegro pastorale</textarea> 
+                <div class="e-line-s e-line-top-1 e-border"></div>
+                <div class="e-line-s e-line-top-2 e-border"></div>
+                <div class="e-line-s e-line-top-3 e-border"></div>
+                <div class="e-line-s e-line-top-4 e-border"></div>
+                <div class="e-line-s e-line-top-5 e-border"></div>
 
-            <textarea class="e-r-av">Antonio Vivaldi</textarea> 
-            <textarea class="e-r-pe">Priest, Educator, Composer (1678-1741)</textarea>
-          </div>
+                <div class="e-line-s-2 e-line-top-1 e-border"></div>
+                <div class="e-line-s-2 e-line-top-2 e-border"></div>
+                <div class="e-line-s-2 e-line-top-3 e-border"></div>
+                <div class="e-line-s-2 e-line-top-4 e-border"></div>
+                <div class="e-line-s-2 e-line-top-5 e-border"></div>
 
+                <div class="e-line-t e-line-top-1 e-border"></div>
+                <div class="e-line-t e-line-top-2 e-border"></div>
+                <div class="e-line-t e-line-top-3 e-border"></div>
+                <div class="e-line-t e-line-top-4 e-border"></div>
+                <div class="e-line-t e-line-top-5 e-border"></div>
+
+                <div class="e-line-m e-line-top-1 e-border"></div>
+                <div class="e-line-m e-line-top-2 e-border"></div>
+                <div class="e-line-m e-line-top-3 e-border"></div>
+                <div class="e-line-m e-line-top-4 e-border"></div>
+                <div class="e-line-m e-line-top-5 e-border"></div>
+
+                <div class="e-line-l e-line-top-1 e-border"></div>
+                <div class="e-line-l e-line-top-2 e-border"></div>
+                <div class="e-line-l e-line-top-3 e-border"></div>
+                <div class="e-line-l e-line-top-4 e-border"></div>
+                <div class="e-line-l e-line-top-5 e-border"></div>
+
+                <textarea class="pf e-line-top-1" id="pf-1">Frédéric Chopin</textarea>
+                <textarea class="pf e-line-top-2" id="pf-2">Igor Stravinsky</textarea>
+                <textarea class="pf e-line-top-3" id="pf-3">Giuseppe Verdi</textarea>
+                <textarea class="pf e-line-top-4" id="pf-4">Niccolò Paganini</textarea>
+
+                <textarea class="and e-line-top-1" id="and-1">&</textarea>
+                <textarea class="and e-line-top-2" id="and-1">&</textarea>
+                <textarea class="and e-line-top-3" id="and-1">&</textarea>
+                <textarea class="and e-line-top-4" id="and-1">&</textarea>
+
+                <textarea class="colon e-line-top-1" id="and-1">:</textarea>
+                <textarea class="colon e-line-top-2" id="and-1">:</textarea>
+                <textarea class="colon e-line-top-3" id="and-1">:</textarea>
+                <textarea class="colon e-line-top-4" id="and-1">:</textarea>
+
+                <textarea class="pf-2 e-line-top-1" id="pf-1">Robert Schumann</textarea>
+                <textarea class="pf-2 e-line-top-2" id="pf-2">Gustav Mahler</textarea>
+                <textarea class="pf-2 e-line-top-3" id="pf-3">Johannes Brahms</textarea>
+                <textarea class="pf-2 e-line-top-4" id="pf-4">Claude Debussy</textarea>
+
+                <textarea class="pl e-line-top-1" id="pf-1">9799 Riverview St. Brooklyn, NY 11237</textarea>
+                <textarea class="pl e-line-top-2" id="pf-2">9503 6th St. Brooklyn, NY 11228</textarea>
+                <textarea class="pl e-line-top-3" id="pf-3">178 W. Vine Rd. New York, NY 10023</textarea>
+                <textarea class="pl e-line-top-4" id="pf-4">8723 Olive St. Buffalo, NY 14221</textarea>
+
+                <textarea class="tm e-line-top-1" id="pf-1">7 PM-10 PM</textarea>
+                <textarea class="tm e-line-top-2" id="pf-2">8 PM-10 PM</textarea>
+                <textarea class="tm e-line-top-3" id="pf-3">7 PM-10 PM</textarea>
+                <textarea class="tm e-line-top-4" id="pf-4">9 PM-11 PM</textarea>
+
+              </div>
+
+              <div class="about-container">
+                <textarea class="e-ab" id="pf-4">ABOUT</textarea>
+                <textarea class="e-ab-tx" id="pf-4">Crimson Music is an online music streaming service which focus on classical music. It started as an interactive website to place a higher value in music rather than the monetary value of it. This value of music is shown through the problems people would have to overcome in</textarea>
+                <textarea class="e-ab-tx e-ab-tx-l" id="pf-4">order to listen to each song on the website. Since 2020, Amiri 4 styles built an unique archive; featuring over 5,000 performances, by more than 3,000 composers and artists, enabling everyone regardless of where they live.</textarea>
+              </div>
+
+              <div class="th-info">
+                <textarea class="e-dc">DISTRIBUTION</textarea>
+                <textarea class="e-dc e-dc-l">COMMISIONS</textarea>
+                <textarea class="e-d-txt">Buttercup Theatre &#10;7838 East Highland Road Brooklyn, NY 11219</textarea>
+                <textarea class="e-d-txt e-dc-l">Amiri LLC. &#10;80 Winding Way St. &#10;North Tonawanda, NY 14120</textarea>
+              </div>
+
+              <div class="e-ds">
+                <img src="images/epic.png" class="e-pic">
+              </div>
 
               
-        </section>
+            </div>
+              
+            <div class="Example-right-page-3" id="Example-right-page-3">
+              
+              <img src="images/exfill.png" class="e-fill">
+              <div class = "e-r-l-s-container">
+                <div class="e-r-l-s e-r-t"></div>
+                <div class="e-r-l-s e-r-m"></div>
+                <div class="e-r-l-s e-r-b"></div>
+              </div>
+              
+              <textarea class="e-r-out">Outline</textarea>
+              <textarea class="e-r-out e-r-list-t">List of Movements</textarea>
+
+              <textarea class="e-r-txt">Born on March 4, 1678, in Venice, Italy, Antonio Vivaldi was appointed as a priest, though he instead chose to follow his passion for music. An inventive composer who created hundreds of compositions, he became renowned for his concertos in Baroque style, as a highly influential innovator in form and pattern.</textarea>
+              <textarea class="e-r-la">II. La primavera</textarea> 
+              <textarea class="e-r-al">1.      Allegro non molto</textarea> 
+              <textarea class="e-r-al e-r-al-m">2.     Largo e pianissimo sempre </textarea> 
+              <textarea class="e-r-al e-r-al-b">3.     Allegro pastorale</textarea> 
+
+              <textarea class="e-r-av">Antonio Vivaldi</textarea> 
+              <textarea class="e-r-pe">Priest, Educator, Composer (1678-1741)</textarea>
+            </div>
+        </div>
+      </section>
+
+      <section class="CreditPage" id="CreditPage">
+        <div class="credit-container">
+          <div class="made cr-left-1">Made by Friends of</div>
+          <div class="google cr-left-1">Google Fonts</div>
+          <div class="made cr-left-2">+ Download Crimson Pro</div>
+          
+          <div class="made cr-left-3">Made by Friends of Google Fonts</div>
+          <div class="made1 cr-left-3">Irin Kim</div>
+          <div class="made2 cr-left-3">Daniel Choi</div>
+          <div class="made3 cr-left-3">David(Dawit) Jeon</div>
+
+          <div class="made cr-left-4">twitter.com/googlefonts</div>
+          <div class="made4 cr-left-5">github.com/googlefonts</div>
+        </div>
+
+      </section>
 
        
 
