@@ -166,6 +166,7 @@ body::-webkit-scrollbar-thumb:hover {
 	right: 0; 
 	margin-left: auto; 
 	margin-right: auto; 
+	display: block;
 }
 
 .Changes{
@@ -747,6 +748,10 @@ display: none;
 	--init-d2-rabbit-height: 600;
 	/*--init-new-vw: 100vw;*/
 }
+.book-col{
+	display: none;
+}
+
 .nav-container
 {
 	display: none;
